@@ -1,0 +1,38 @@
+#include "ryouou_gakuen_toolkit.h"
+
+#define UNION_PATH "assets\\union.cpk"
+#define PNG_PATH "assets\\2531_1.png"
+#define IMAGE_ID 2531
+#define IMAGE_INDEX 1
+#define OUT_PATH "results\\2531_1.png"
+
+int
+main(void)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_arena arena = {0};
+	rgt_u8_array union_file = {0};
+	rgt_image image = {0};
+	rgt_cpk union_cpk = {0};
+	rgt_u8_array rgo_image_file = {0};
+	rgt_rgo_image_array rgo_images = {0};
+	rgt_color_array palette = {0};
+
+	RGT_CALL(rgt_create_arena(RGT_GIGABYTE(2), &arena));
+	RGT_CALL(rgt_load_file(&arena, UNION_PATH, &union_file));
+	RGT_CALL(rgt_load_png(&arena, PNG_PATH, &image));
+
+	RGT_CALL(rgt_parse_cpk(&arena, union_file, &union_cpk));
+	RGT_CALL(rgt_get_cpk_file(union_cpk, IMAGE_ID, &rgo_image_file));
+	RGT_CALL(rgt_parse_rgo_image_file(&arena, rgo_image_file, &rgo_images));
+
+	palette = rgo_images.elems[IMAGE_INDEX].palette.colors;
+	rgt_comform_to_palette(image, palette);
+	RGT_CALL(rgt_save_png(&arena, image, 6, OUT_PATH));
+
+finish:
+
+	rgt_destroy_arena(&arena);
+
+	return 0;
+}
