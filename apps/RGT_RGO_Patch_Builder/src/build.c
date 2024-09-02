@@ -36,6 +36,7 @@ const texture_region_info_array *g_texture_regions_to_update[] =
 const single_instruction_patch_array *g_single_instruction_patches[] =
 {
 	&g_union_2521_1_instruction_patches,
+	&g_union_2530_1_instruction_patches,
 	&g_union_2533_5_instruction_patches
 };
 
@@ -116,6 +117,14 @@ update_eboot_patch_image
 			multi_image_size_table_offset, multi_image_index_start,
 			multi_image_index_end, id, size_2KB, eboot
 		);
+
+		/* 2530 is counted as having one more image than it really has
+		 * due to one image having two palettes, so don't update the
+		 * offset for the nonexistent image. */
+		if (id == 2530)
+		{
+			--rgo_images.length;
+		}
 
 		for (u64 i = index + 1; i < rgo_images.length; ++i)
 		{

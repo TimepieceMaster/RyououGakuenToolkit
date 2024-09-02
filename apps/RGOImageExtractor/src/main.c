@@ -4,14 +4,14 @@
 rgt_result
 extract_nonstandard_image_uncompressed
 (
-	rgt_arena *arena, rgt_u8_array in, 
-	u64 palette_offset, u64 num_colors, 
+	rgt_arena *arena, rgt_u8_array in,
+	u64 palette_offset, u64 num_colors,
 	u64 pixel_offset, u32 width, u32 height,
 	const char *out_path
 )
 {
 	rgt_result result = RGT_SUCCESS;
-	
+
 	u64 pos = palette_offset;
 
 	rgt_rgo_color_palette palette = {0};
@@ -56,8 +56,8 @@ finish:
 rgt_result
 extract_nonstandard_image_compressed
 (
-	rgt_arena *arena, rgt_u8_array in, 
-	u64 palette_offset, u64 num_colors, 
+	rgt_arena *arena, rgt_u8_array in,
+	u64 palette_offset, u64 num_colors,
 	u64 pixel_offset, u32 width,
 	const char *out_path
 )
