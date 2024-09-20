@@ -2,6 +2,7 @@
 #include "image_info/union_2530_1.h"
 #include "image_info/union_2531_1.h"
 #include "image_info/union_2533_5.h"
+#include "image_info/union_2533_10.h"
 
 #include "ryouou_gakuen_toolkit.h"
 #include <stdlib.h>
@@ -20,6 +21,7 @@ const image_replace_info g_images_to_replace[] =
 	{ "resources\\images\\2531_1.png", 2531, 1 },
 	{ "resources\\images\\2532_1.png", 2532, 1 },
 	{ "resources\\images\\2533_5.png", 2533, 5 },
+	{ "resources\\images\\2533_10.png", 2533, 10 },
 	{ "resources\\images\\2533_14.png", 2533, 14 },
 	{ "resources\\images\\2533_15.png", 2533, 15 },
 	{ "resources\\images\\2533_16.png", 2533, 16 },
@@ -30,7 +32,8 @@ const texture_region_info_array *g_texture_regions_to_update[] =
 {
 	&g_union_2530_1_regions,
 	&g_union_2521_1_regions,
-	&g_union_2531_1_regions
+	&g_union_2531_1_regions,
+	&g_union_2533_10_regions,
 };
 
 const single_instruction_patch_array *g_single_instruction_patches[] =

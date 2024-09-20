@@ -26,6 +26,7 @@
     <ClInclude Include="hdr\image_info\union_2528_1.h" />
     <ClInclude Include="hdr\image_info\union_2530_1.h" />
     <ClInclude Include="hdr\image_info\union_2531_1.h" />
+    <ClInclude Include="hdr\image_info\union_2533_10.h" />
     <ClInclude Include="hdr\image_info\union_2533_5.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

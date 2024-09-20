@@ -35,5 +35,8 @@
     <ClInclude Include="hdr\image_info\union_2530_1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="hdr\image_info\union_2533_10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
