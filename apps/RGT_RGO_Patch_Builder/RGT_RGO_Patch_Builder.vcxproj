@@ -29,6 +29,8 @@
     <ClInclude Include="hdr\image_info\union_2533_10.h" />
     <ClInclude Include="hdr\image_info\union_2533_5.h" />
     <ClInclude Include="hdr\image_info\union_2533_7.h" />
+    <ClInclude Include="hdr\image_info\union_2533_8.h" />
+    <ClInclude Include="hdr\image_info\union_2533_9.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -41,5 +41,11 @@
     <ClInclude Include="hdr\image_info\union_2533_7.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="hdr\image_info\union_2533_8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\image_info\union_2533_9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
