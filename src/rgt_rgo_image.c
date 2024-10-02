@@ -443,7 +443,7 @@ s_decompress_subimages
 		rgt_rgo_subimage *subimage = &subimages.elems[i];
 		RGT_CREATE_ARRAY
 		(
-			arena, subimage->uncompressed_size * 2, &decompressed.elems[i]
+			arena, subimage->uncompressed_size, &decompressed.elems[i]
 		);
 		RGT_CALL(rgt_decompress_gzip(subimage->data, decompressed.elems[i]));
 	}
