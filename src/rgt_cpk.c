@@ -10,7 +10,7 @@
 #define ITOC_MAGIC 0x434F5449 /* "ITOC" */
 #define FLAGS_STORAGE_MASK 0xF0
 #define FLAGS_TYPE_MASK 0x0F
-#define DATA_L_FILE_MAX_SIZE 0x10000 
+#define DATA_L_FILE_MAX_SIZE 0xFFFF
 
 static void
 s_encrypt_decrypt_utf_packet(rgt_u8_array in)
@@ -907,7 +907,6 @@ s_data_utf_insert(rgt_arena *arena, rgt_cpk *cpk, u16 id, rgt_u8_array file)
 
 	utf->table_size += utf->row_length;
 	utf->strings_offset += utf->row_length;
-	utf->table_name_offset += utf->row_length;
 
 finish:
 
@@ -1106,7 +1105,6 @@ s_data_utf_remove(rgt_arena *arena, rgt_cpk *cpk, u16 id, bool found_l)
 
 	utf->table_size -= utf->row_length;
 	utf->strings_offset -= utf->row_length;
-	utf->table_name_offset -= utf->row_length;
 
 finish:
 
