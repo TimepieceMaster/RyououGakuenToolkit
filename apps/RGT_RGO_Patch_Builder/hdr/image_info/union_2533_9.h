@@ -1225,7 +1225,7 @@ static texture_region_info s_union_2533_9_regions_data[] =
 		.write_size = {60, 18}
 	},
 
-	/* St. Fiorina Uniform */
+	/* St. Firiona Uniform */
 	{
 		.read_top_left_offset = 0xFFB14 + 0x1D8,
 		.read_top_left = {0, 234},

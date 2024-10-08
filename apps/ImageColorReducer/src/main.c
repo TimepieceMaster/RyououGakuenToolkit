@@ -1,10 +1,10 @@
 #include "ryouou_gakuen_toolkit.h"
 
 #define UNION_PATH "assets\\union.cpk"
-#define PNG_PATH "assets\\2531_1.png"
-#define IMAGE_ID 2531
-#define IMAGE_INDEX 1
-#define OUT_PATH "results\\2531_1.png"
+#define PNG_PATH "assets\\2533_13.png"
+#define IMAGE_ID 2533
+#define IMAGE_INDEX 13
+#define OUT_PATH "results\\2533_13.png"
 
 int
 main(void)
@@ -34,5 +34,5 @@ finish:
 
 	rgt_destroy_arena(&arena);
 
-	return 0;
+	return result;
 }

@@ -19,6 +19,69 @@ typedef struct _image_replace_info
 
 const image_replace_info g_images_to_replace[] =
 {
+	/* Trading Cards */
+	{ "resources\\images\\1477_0.png", 1477, 0 },
+	{ "resources\\images\\1478_0.png", 1478, 0 },
+	{ "resources\\images\\1479_0.png", 1479, 0 },
+	{ "resources\\images\\1480_0.png", 1480, 0 },
+	{ "resources\\images\\1481_0.png", 1481, 0 },
+
+	{ "resources\\images\\1482_0.png", 1482, 0 },
+	{ "resources\\images\\1483_0.png", 1483, 0 },
+	{ "resources\\images\\1484_0.png", 1484, 0 },
+	{ "resources\\images\\1485_0.png", 1485, 0 },
+	{ "resources\\images\\1486_0.png", 1486, 0 },
+
+	{ "resources\\images\\1487_0.png", 1487, 0 },
+	{ "resources\\images\\1488_0.png", 1488, 0 },
+	{ "resources\\images\\1489_0.png", 1489, 0 },
+	{ "resources\\images\\1490_0.png", 1490, 0 },
+	{ "resources\\images\\1491_0.png", 1491, 0 },
+
+	{ "resources\\images\\1492_0.png", 1492, 0 },
+	{ "resources\\images\\1493_0.png", 1493, 0 },
+	{ "resources\\images\\1494_0.png", 1494, 0 },
+	{ "resources\\images\\1495_0.png", 1495, 0 },
+	{ "resources\\images\\1496_0.png", 1496, 0 },
+
+	{ "resources\\images\\1497_0.png", 1497, 0 },
+	{ "resources\\images\\1498_0.png", 1498, 0 },
+	{ "resources\\images\\1499_0.png", 1499, 0 },
+	{ "resources\\images\\1500_0.png", 1500, 0 },
+	{ "resources\\images\\1501_0.png", 1501, 0 },
+
+	{ "resources\\images\\1502_0.png", 1502, 0 },
+	{ "resources\\images\\1503_0.png", 1503, 0 },
+	{ "resources\\images\\1504_0.png", 1504, 0 },
+	{ "resources\\images\\1505_0.png", 1505, 0 },
+	{ "resources\\images\\1506_0.png", 1506, 0 },
+
+	{ "resources\\images\\1507_0.png", 1507, 0 },
+	{ "resources\\images\\1508_0.png", 1508, 0 },
+	{ "resources\\images\\1509_0.png", 1509, 0 },
+	{ "resources\\images\\1510_0.png", 1510, 0 },
+	{ "resources\\images\\1511_0.png", 1511, 0 },
+
+	{ "resources\\images\\1512_0.png", 1512, 0 },
+	{ "resources\\images\\1513_0.png", 1513, 0 },
+	{ "resources\\images\\1514_0.png", 1514, 0 },
+	{ "resources\\images\\1515_0.png", 1515, 0 },
+	{ "resources\\images\\1516_0.png", 1516, 0 },
+
+	{ "resources\\images\\1517_0.png", 1517, 0 },
+	{ "resources\\images\\1518_0.png", 1518, 0 },
+	{ "resources\\images\\1519_0.png", 1519, 0 },
+	{ "resources\\images\\1520_0.png", 1520, 0 },
+	{ "resources\\images\\1521_0.png", 1521, 0 },
+
+	{ "resources\\images\\1522_0.png", 1522, 0 },
+	{ "resources\\images\\1523_0.png", 1523, 0 },
+	{ "resources\\images\\1524_0.png", 1524, 0 },
+	{ "resources\\images\\1525_0.png", 1525, 0 },
+	{ "resources\\images\\1526_0.png", 1526, 0 },
+
+	/* Menus */
+
 	{ "resources\\images\\2528_1.png", 2528, 1 },
 	{ "resources\\images\\2529_0.png", 2529, 0 },
 	{ "resources\\images\\2530_0.png", 2530, 0 },
@@ -38,10 +101,12 @@ const image_replace_info g_images_to_replace[] =
 	{ "resources\\images\\2538_1.png", 2538, 1 },
 	{ "resources\\images\\2533_10.png", 2533, 10 },
 	{ "resources\\images\\2533_11.png", 2533, 11 },
+	{ "resources\\images\\2533_12.png", 2533, 12 },
+	{ "resources\\images\\2533_13.png", 2533, 13 },
 	{ "resources\\images\\2533_14.png", 2533, 14 },
 	{ "resources\\images\\2533_15.png", 2533, 15 },
 	{ "resources\\images\\2533_16.png", 2533, 16 },
-	{ "resources\\images\\2533_17.png", 2533, 17 },
+	{ "resources\\images\\2533_17.png", 2533, 17 }
 };
 
 const texture_region_info_array *g_texture_regions_to_update[] =
