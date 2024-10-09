@@ -1102,3 +1102,97 @@ finish:
 
 	return result;
 }
+
+rgt_result
+rgt_replace_rgo_pr_image
+(
+	rgt_arena *arena, rgt_rgo_image *pr_image,
+	bool preserve_palette, bool is_compressed, rgt_image image
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_u8_array image_indices = {0};
+	rgt_u8_array image_tiled = {0};
+
+	if (!preserve_palette)
+	{
+		RGT_CALL
+		(
+			rgt_get_image_color_palette
+			(
+				arena, image,
+				pr_image->palette.colors.length,
+				&pr_image->palette.colors
+			)
+		);
+	}
+	RGT_CALL
+	(
+		rgt_get_image_palette_indexes
+		(
+			arena, image, pr_image->palette.colors, &image_indices
+		)
+	);
+
+	u32 pitch = image.width;
+	if (pr_image->palette.colors.length == 16)
+	{
+		pitch /= 2;
+	}
+	RGT_CALL(s_tile_image(arena, image_indices, pitch, &image_tiled));
+	if (is_compressed)
+	{
+		RGT_CALL
+		(
+			s_generate_subimages
+			(
+				arena, image_tiled, 
+				pr_image->subimages, 
+				&pr_image->subimages
+			)
+		);
+		s_update_subimage_offsets
+		(
+			pr_image->subimages, 
+			&pr_image->header
+		);
+	}
+	else
+	{
+		RGT_CREATE_ARRAY(arena, 1, &pr_image->subimages);
+		pr_image->subimages.elems[0].data = image_tiled;
+	}
+
+finish:
+
+	return result;
+}
+
+rgt_result
+rgt_overwrite_pr_image
+(
+	rgt_u8_array pr_file, rgt_rgo_image pr_image, 
+	u64 pixel_offset, bool is_compressed
+)
+{
+	rgt_result result = RGT_SUCCESS;
+
+	if (is_compressed)
+	{
+		RGT_CALL(s_write_image_header_and_subimages(pr_image, pr_file));
+		s_write_image_checksum(pr_image, pr_file);
+	}
+	else
+	{
+		memcpy
+		(
+			&pr_file.elems[pixel_offset], 
+			pr_image.subimages.elems[0].data.elems, 
+			pr_image.subimages.elems[0].data.length
+		);
+	}
+
+finish:
+
+	return result;
+}

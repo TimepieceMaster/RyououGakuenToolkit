@@ -8,6 +8,7 @@
 #include "image_info/union_2533_10.h"
 
 #include "ryouou_gakuen_toolkit.h"
+#include "rgo_pr_image_info.h"
 #include <stdlib.h>
 
 typedef struct _image_replace_info
@@ -111,7 +112,10 @@ const image_replace_info g_union_images_to_replace[] =
 
 const image_replace_info g_pr_images_to_replace[] =
 {
-	{0}
+	{ "resources\\images\\pr_0.png", 0, 0 },
+	{ "resources\\images\\pr_1.png", 0, 1 },
+	{ "resources\\images\\pr_3.png", 0, 3 },
+	{ "resources\\images\\pr_4.png", 0, 4 }
 };
 
 const texture_region_info_array *g_texture_regions_to_update[] =
@@ -301,13 +305,29 @@ finish:
 rgt_result
 patch_pr_image
 (
-	rgt_arena *pr_arena, const char *png_path,
-	u16 replace_id, u64 replace_index, rgt_u8_array eboot
+	rgt_arena *pr_arena, const char *png_path, 
+	bool is_compressed, rgt_rgo_image *pr_image
 )
 {
 	rgt_result result = RGT_SUCCESS;
 
+	rgt_arena arena = {0};
+	rgt_image image = {0};
+
+	RGT_CALL(rgt_create_arena(RGT_MEGABYTE(2), &arena));
+	RGT_CALL(rgt_load_png(&arena, png_path, &image));
+
+	RGT_CALL
+	(
+		rgt_replace_rgo_pr_image
+		(
+			pr_arena, pr_image, true, is_compressed, image
+		)
+	);
+
 finish:
+
+	rgt_destroy_arena(&arena);
 
 	return result;
 }
@@ -357,15 +377,17 @@ finish:
 }
 
 rgt_result
-patch_pr(rgt_u8_array eboot)
+patch_pr(void)
 {
 	rgt_result result = RGT_SUCCESS;
 
 	rgt_arena arena = {0};
 	rgt_u8_array pr_file = {0};
+	rgt_rgo_image_array pr_images = {0};
 
 	RGT_CALL(rgt_create_arena(RGT_MEGABYTE(2), &arena));
 	RGT_CALL(rgt_load_file(&arena, "assets\\pr\\pr.bin", &pr_file));
+	RGT_CALL(rgt_parse_rgo_pr_file(&arena, pr_file, g_rgo_pr_image_infos, &pr_images));
 
 	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_pr_images_to_replace); ++i)
 	{
@@ -374,13 +396,29 @@ patch_pr(rgt_u8_array eboot)
 			patch_pr_image
 			(
 				&arena,
-				g_union_images_to_replace[i].path,
-				g_union_images_to_replace[i].replace_id,
-				g_union_images_to_replace[i].replace_index,
-				eboot
+				g_pr_images_to_replace[i].path,
+				g_rgo_pr_image_infos.elems[i].is_compressed,
+				&pr_images.elems[g_pr_images_to_replace[i].replace_index]
 			)
 		);
 	}
+
+	for (u64 i = 0; i < g_rgo_pr_image_infos.length; ++i)
+	{
+		RGT_CALL
+		(
+			rgt_overwrite_pr_image
+			(
+				pr_file, pr_images.elems[i], 
+				g_rgo_pr_image_infos.elems[i].pixel_offset,
+				g_rgo_pr_image_infos.elems[i].is_compressed
+			)
+		);
+	}
+
+	rgt_add_checksum_whole_file(pr_file);
+
+	RGT_CALL(rgt_save_file(pr_file, "results\\pr.bin"));
 
 finish:
 
@@ -503,6 +541,7 @@ main(void)
 	RGT_CALL(rgt_load_file(&arena, "assets\\eboot\\EBOOT.bin", &eboot));
 
 	RGT_CALL(patch_union(eboot));
+	RGT_CALL(patch_pr());
 	patch_image_regions(eboot);
 	apply_single_instruction_patches(eboot);
 
@@ -519,6 +558,12 @@ main(void)
 		"UMD-replace.exe "
 		"results\\rgopsp.iso "
 		"PSP_GAME/USRDIR/DATA/union.cpk results\\union.cpk"
+	);
+	system
+	(
+		"UMD-replace.exe "
+		"results\\rgopsp.iso "
+		"PSP_GAME/USRDIR/DATA/pr.bin results\\pr.bin"
 	);
 	system
 	(

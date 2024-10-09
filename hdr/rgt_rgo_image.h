@@ -92,4 +92,18 @@ rgt_replace_rgo_image
 	bool preserve_palette, rgt_image image
 );
 
+rgt_result
+rgt_replace_rgo_pr_image
+(
+	rgt_arena *arena, rgt_rgo_image *pr_image,
+	bool preserve_palette, bool is_compressed, rgt_image image
+);
+
+rgt_result
+rgt_overwrite_pr_image
+(
+	rgt_u8_array pr_file, rgt_rgo_image pr_image, 
+	u64 pixel_offset, bool is_compressed
+);
+
 #endif
