@@ -425,6 +425,134 @@ finish:
 	return result;
 }
 
+static rgt_result
+s_parse_pr_image_compressed
+(
+	rgt_arena *arena, rgt_u8_array in,
+	u64 palette_offset, u64 num_colors,
+	u64 pixel_offset, u32 width,
+	rgt_rgo_image *create
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_rgo_image rgo_image = {0};
+
+	RGT_CALL
+	(
+		rgt_parse_rgo_image_manual
+		(
+			arena, in, palette_offset, num_colors, pixel_offset, &rgo_image
+		)
+	);
+
+finish:
+
+	if (result == RGT_SUCCESS)
+	{
+		*create = rgo_image;
+	}
+
+	return result;
+}
+
+static rgt_result
+s_parse_pr_image_uncompressed
+(
+	rgt_arena *arena, rgt_u8_array in,
+	u64 palette_offset, u64 num_colors,
+	u64 pixel_offset, u32 width, u32 height,
+	rgt_rgo_image *create
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_rgo_image rgo_image = {0};
+
+	u64 pos = palette_offset;
+
+	rgt_rgo_color_palette palette = {0};
+	palette.offset = pos;
+	RGT_CREATE_ARRAY(arena, num_colors, &palette.colors);
+	RGT_CALL(rgt_read_bytes(in, &pos, num_colors * 4, palette.colors.elems));
+
+	pos = pixel_offset;
+
+	rgt_rgo_subimage subimage = {0};
+
+	if (num_colors == 16)
+	{
+		RGT_CREATE_ARRAY(arena, width/2 * height, &subimage.data);
+	}
+	else
+	{
+		RGT_CREATE_ARRAY(arena, width * height, &subimage.data);
+	}
+	RGT_CALL
+	(
+		rgt_read_bytes(in, &pos, subimage.data.length, subimage.data.elems)
+	);
+
+	rgo_image.palette = palette;
+	RGT_APPEND_ARRAY(arena, &subimage, &rgo_image.subimages);
+
+finish:
+
+	if (result == RGT_SUCCESS)
+	{
+		*create = rgo_image;
+	}
+
+	return result;
+}
+
+rgt_result
+rgt_parse_rgo_pr_file
+(
+	rgt_arena *arena, rgt_u8_array in,
+	rgt_rgo_pr_image_info_array image_infos, rgt_rgo_image_array *create
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_rgo_image_array images = {0};
+
+	for (u64 i = 0; i < image_infos.length; ++i)
+	{
+		rgt_rgo_image cur_image = {0};
+		rgt_rgo_pr_image_info info = image_infos.elems[i];
+		if (image_infos.elems[i].is_compressed)
+		{
+			RGT_CALL
+			(
+				s_parse_pr_image_compressed
+				(
+					arena, in, info.palette_offset, info.num_colors,
+					info.pixel_offset, info.width, &cur_image
+				)
+			);
+		}
+		else
+		{
+			RGT_CALL
+			(
+				s_parse_pr_image_uncompressed
+				(
+					arena, in, info.palette_offset, info.num_colors,
+					info.pixel_offset, info.width, info.height, &cur_image
+				)
+			);
+		}
+		RGT_APPEND_ARRAY(arena, &cur_image, &images);
+	}
+
+finish:
+
+	if (result == RGT_SUCCESS)
+	{
+		*create = images;
+	}
+
+	return result;
+}
+
 RGT_DECLARE_ARRAY_TYPE(rgt_u8_array, decompressed_subimages)
 
 static rgt_result

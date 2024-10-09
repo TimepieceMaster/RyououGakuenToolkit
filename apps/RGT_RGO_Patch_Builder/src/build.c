@@ -17,7 +17,7 @@ typedef struct _image_replace_info
 	u64 replace_index;
 } image_replace_info;
 
-const image_replace_info g_images_to_replace[] =
+const image_replace_info g_union_images_to_replace[] =
 {
 	/* Trading Cards */
 	{ "resources\\images\\1477_0.png", 1477, 0 },
@@ -107,6 +107,11 @@ const image_replace_info g_images_to_replace[] =
 	{ "resources\\images\\2533_15.png", 2533, 15 },
 	{ "resources\\images\\2533_16.png", 2533, 16 },
 	{ "resources\\images\\2533_17.png", 2533, 17 }
+};
+
+const image_replace_info g_pr_images_to_replace[] =
+{
+	{0}
 };
 
 const texture_region_info_array *g_texture_regions_to_update[] =
@@ -293,6 +298,20 @@ finish:
 	return result;
 }
 
+rgt_result
+patch_pr_image
+(
+	rgt_arena *pr_arena, const char *png_path,
+	u16 replace_id, u64 replace_index, rgt_u8_array eboot
+)
+{
+	rgt_result result = RGT_SUCCESS;
+
+finish:
+
+	return result;
+}
+
 rgt_result 
 patch_union(rgt_u8_array eboot)
 {
@@ -311,16 +330,16 @@ patch_union(rgt_u8_array eboot)
 	);
 	RGT_CALL(rgt_parse_cpk(&arena, union_file, &union_cpk));
 
-	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_images_to_replace); ++i)
+	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_union_images_to_replace); ++i)
 	{
 		RGT_CALL
 		(
 			patch_union_image
 			(
-				&arena, 
-				g_images_to_replace[i].path, 
-				g_images_to_replace[i].replace_id,
-				g_images_to_replace[i].replace_index, 
+				&arena,
+				g_union_images_to_replace[i].path,
+				g_union_images_to_replace[i].replace_id,
+				g_union_images_to_replace[i].replace_index,
 				&union_cpk,
 				eboot
 			)
@@ -329,6 +348,39 @@ patch_union(rgt_u8_array eboot)
 
 	RGT_CALL(rgt_build_cpk(&arena, union_cpk, &new_union_file));
 	RGT_CALL(rgt_save_file(new_union_file, "results\\union.cpk"));
+
+finish:
+
+	rgt_destroy_arena(&arena);
+
+	return result;
+}
+
+rgt_result
+patch_pr(rgt_u8_array eboot)
+{
+	rgt_result result = RGT_SUCCESS;
+
+	rgt_arena arena = {0};
+	rgt_u8_array pr_file = {0};
+
+	RGT_CALL(rgt_create_arena(RGT_MEGABYTE(2), &arena));
+	RGT_CALL(rgt_load_file(&arena, "assets\\pr\\pr.bin", &pr_file));
+
+	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_pr_images_to_replace); ++i)
+	{
+		RGT_CALL
+		(
+			patch_pr_image
+			(
+				&arena,
+				g_union_images_to_replace[i].path,
+				g_union_images_to_replace[i].replace_id,
+				g_union_images_to_replace[i].replace_index,
+				eboot
+			)
+		);
+	}
 
 finish:
 

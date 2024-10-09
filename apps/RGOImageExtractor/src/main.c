@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "ryouou_gakuen_toolkit.h"
+#include "rgo_pr_image_info.h"
 
 rgt_result
 extract_nonstandard_image_uncompressed
@@ -54,138 +55,34 @@ finish:
 }
 
 rgt_result
-extract_nonstandard_image_compressed
-(
-	rgt_arena *arena, rgt_u8_array in,
-	u64 palette_offset, u64 num_colors,
-	u64 pixel_offset, u32 width,
-	const char *out_path
-)
-{
-	rgt_result result = {0};
-
-	rgt_rgo_image rgo_image = {0};
-	RGT_CALL
-	(
-		rgt_parse_rgo_image_manual
-		(
-			arena, in, palette_offset, num_colors, pixel_offset, &rgo_image
-		)
-	);
-
-	rgt_image image = {0};
-	RGT_CALL
-	(
-		rgt_rgo_image_to_image(arena, rgo_image, width, true, true, &image)
-	);
-
-	RGT_CALL(rgt_save_png(arena, image, 6, out_path));
-
-
-finish:
-
-	return result;
-}
-
-rgt_result
 extract_pr_bin(rgt_arena *arena)
 {
 	rgt_result result = RGT_SUCCESS;
-	rgt_arena file_arena = {0};
-	rgt_arena work_arena = {0};
 
 	rgt_u8_array pr_file = {0};
+	rgt_rgo_image_array rgo_images = {0};
+
 	RGT_CALL(rgt_load_file(arena, "assets\\pr.bin", &pr_file));
+	RGT_CALL(rgt_parse_rgo_pr_file(arena, pr_file, g_rgo_pr_image_infos, &rgo_images));
 
-	RGT_CALL
-	(
-		extract_nonstandard_image_uncompressed
+	for (u64 i = 0; i < rgo_images.length; ++i)
+	{
+		rgt_image image = {0};
+		RGT_CALL
 		(
-			arena, pr_file, 
-			0x39C00, 16, 0, 512, 256, "results\\pr_0.png"
-		)
-	);
+			rgt_rgo_image_to_image
+			(
+				arena, rgo_images.elems[i], 
+				g_rgo_pr_image_infos.elems[i].width, 
+				g_rgo_pr_image_infos.elems[i].is_compressed, 
+				true, &image
+			)
+		);
 
-	RGT_CALL
-	(
-		extract_nonstandard_image_uncompressed
-		(
-			arena, pr_file,
-			0x39D00, 256, 0x10000, 256, 160, "results\\pr_1.png"
-		)
-	);
-
-	RGT_CALL
-	(
-		extract_nonstandard_image_compressed
-		(
-			arena, pr_file,
-			0x3A500, 16, 0x1A000, 256, "results\\pr_2.png"
-		)
-	);
-
-	RGT_CALL
-	(
-		extract_nonstandard_image_compressed
-		(
-			arena, pr_file, 
-			0x3A900, 256, 0x1B000, 256, "results\\pr_3.png"
-		)
-	);
-
-	RGT_CALL
-	(
-		extract_nonstandard_image_compressed
-		(
-			arena, pr_file, 
-			0x39800, 256, 0x1E800, 256, "results\\pr_4.png"
-		)
-	);
-
-	RGT_CALL
-	(
-		extract_nonstandard_image_uncompressed
-		(
-			arena, pr_file,
-			0x3A100, 256, 0x20000, 256, 128, "results\\pr_5.png"
-		)
-	);
-
-	RGT_CALL
-	(
-		extract_nonstandard_image_uncompressed
-		(
-			arena, pr_file,
-			0x3A500, 16, 0x28000, 256, 256, "results\\pr_6.png"
-		)
-	);
-
-	RGT_CALL
-	(
-		extract_nonstandard_image_uncompressed
-		(
-			arena, pr_file,
-			0x3A500, 16, 0x30000, 256, 272, "results\\pr_7.png"
-		)
-	);
-
-	RGT_CALL
-	(
-		extract_nonstandard_image_compressed
-		(
-			arena, pr_file, 
-			0x3A700, 16, 0x38800, 128, "results\\pr_8.png"
-		)
-	);
-
-	RGT_CALL
-	(
-		extract_nonstandard_image_compressed
-		(
-			arena, pr_file, 
-			0x3A800, 16, 0x39000, 128, "results\\pr_9.png"
-		)
-	);
+		char out_path[1024] = {0};
+		sprintf(out_path, "results\\pr_%llu.png", i);
+		RGT_CALL(rgt_save_png(arena, image, 6, out_path));
+	}
 
 finish:
 

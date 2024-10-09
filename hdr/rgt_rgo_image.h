@@ -37,8 +37,19 @@ typedef struct _rgt_rgo_image
 	rgt_subimage_array subimages;
 } rgt_rgo_image;
 
+typedef struct _rgt_rgo_pr_image_info
+{
+	u64 palette_offset;
+	u64 num_colors;
+	u64 pixel_offset;
+	u32 width;
+	u32 height;
+	bool is_compressed;
+} rgt_rgo_pr_image_info;
+
 RGT_DECLARE_ARRAY_TYPE(rgt_rgo_color_palette, rgt_rgo_color_palette_array)
 RGT_DECLARE_ARRAY_TYPE(rgt_rgo_image, rgt_rgo_image_array)
+RGT_DECLARE_ARRAY_TYPE(rgt_rgo_pr_image_info, rgt_rgo_pr_image_info_array)
 
 rgt_result
 rgt_parse_rgo_image_file
@@ -52,6 +63,13 @@ rgt_parse_rgo_image_manual
 	rgt_arena *arena, rgt_u8_array in, 
 	u64 palette_offset, u64 num_palette_colors, u64 header_offset,
 	rgt_rgo_image *create
+);
+
+rgt_result
+rgt_parse_rgo_pr_file
+(
+	rgt_arena *arena, rgt_u8_array in,
+	rgt_rgo_pr_image_info_array image_infos, rgt_rgo_image_array *create
 );
 
 rgt_result

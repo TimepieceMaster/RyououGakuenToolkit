@@ -34,6 +34,7 @@
     <ClCompile Include="src\rgt_utf8.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hdr\rgo_pr_image_info.h" />
     <ClInclude Include="hdr\rgt_arena.h" />
     <ClInclude Include="hdr\rgt_array.h" />
     <ClInclude Include="hdr\rgt_assert.h" />

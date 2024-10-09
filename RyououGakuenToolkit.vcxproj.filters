@@ -107,5 +107,8 @@
     <ClInclude Include="hdr\rgt_arena.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="hdr\rgo_pr_image_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
