@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hdr\eboot_patch_structures.h" />
+    <ClInclude Include="hdr\image_info\pr_0.h" />
     <ClInclude Include="hdr\image_info\union_2528_1.h" />
     <ClInclude Include="hdr\image_info\union_2530_1.h" />
     <ClInclude Include="hdr\image_info\union_2531_1.h" />

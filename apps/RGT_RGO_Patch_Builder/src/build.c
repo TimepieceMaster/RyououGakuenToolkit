@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include "image_info/union_2528_1.h"
 #include "image_info/union_2530_1.h"
 #include "image_info/union_2531_1.h"
@@ -6,6 +8,7 @@
 #include "image_info/union_2533_8.h"
 #include "image_info/union_2533_9.h"
 #include "image_info/union_2533_10.h"
+#include "image_info/pr_0.h"
 
 #include "ryouou_gakuen_toolkit.h"
 #include "rgo_pr_image_info.h"
@@ -112,10 +115,7 @@ const image_replace_info g_union_images_to_replace[] =
 
 const image_replace_info g_pr_images_to_replace[] =
 {
-	{ "resources\\images\\pr_0.png", 0, 0 },
-	{ "resources\\images\\pr_1.png", 0, 1 },
-	{ "resources\\images\\pr_3.png", 0, 3 },
-	{ "resources\\images\\pr_4.png", 0, 4 }
+	{ "resources\\images\\pr_0.png", 0, 0 }
 };
 
 const texture_region_info_array *g_texture_regions_to_update[] =
@@ -126,14 +126,21 @@ const texture_region_info_array *g_texture_regions_to_update[] =
 	&g_union_2533_7_regions,
 	&g_union_2533_8_regions,
 	&g_union_2533_9_regions,
-	&g_union_2533_10_regions
+	&g_union_2533_10_regions,
+	&g_pr_0_regions
 };
 
 const single_instruction_patch_array *g_single_instruction_patches[] =
 {
 	&g_union_2521_1_instruction_patches,
 	&g_union_2530_1_instruction_patches,
-	&g_union_2533_5_instruction_patches
+	&g_union_2533_5_instruction_patches,
+	&g_pr_0_single_instruction_patches
+};
+
+const byte_sequence_patch_array *g_byte_sequence_patches[] =
+{
+	&g_pr_byte_sequence_patches
 };
 
 void
@@ -516,7 +523,8 @@ void patch_image_regions(rgt_u8_array eboot)
 	}
 }
 
-void apply_single_instruction_patches(rgt_u8_array eboot)
+void 
+apply_single_instruction_patches(rgt_u8_array eboot)
 {
 	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_single_instruction_patches); ++i)
 	{
@@ -526,6 +534,21 @@ void apply_single_instruction_patches(rgt_u8_array eboot)
 				g_single_instruction_patches[i]->elems[j];
 
 			memcpy(&eboot.elems[patch.offset], &patch.value, 4);
+		}
+	}
+}
+
+void 
+apply_byte_sequence_patches(rgt_u8_array eboot)
+{
+	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_byte_sequence_patches); ++i)
+	{
+		for (u64 j = 0; j < g_byte_sequence_patches[i]->length; ++j)
+		{
+			byte_sequence_patch patch =
+				g_byte_sequence_patches[i]->elems[j];
+
+			memcpy(&eboot.elems[patch.offset], patch.bytes, patch.length);
 		}
 	}
 }
@@ -544,6 +567,7 @@ main(void)
 	RGT_CALL(patch_pr());
 	patch_image_regions(eboot);
 	apply_single_instruction_patches(eboot);
+	apply_byte_sequence_patches(eboot);
 
 	RGT_CALL(rgt_save_file(eboot, "results\\EBOOT.bin"));
 

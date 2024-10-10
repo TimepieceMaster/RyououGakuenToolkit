@@ -43,4 +43,16 @@ typedef struct _single_instruction_patch
 
 RGT_DECLARE_ARRAY_TYPE(single_instruction_patch, single_instruction_patch_array)
 
+typedef struct _byte_sequence_patch
+{
+	u64 offset;
+	u64 length;
+	const char* bytes;
+} byte_sequence_patch;
+
+RGT_DECLARE_ARRAY_TYPE(byte_sequence_patch, byte_sequence_patch_array)
+
+#define BUILD_BYTE_SEQUENCE_PATCH(off, data) \
+{off, sizeof(data) - 1, data}
+
 #endif
