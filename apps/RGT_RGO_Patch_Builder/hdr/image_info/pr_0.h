@@ -8,7 +8,7 @@ static texture_region_info s_pr_0_regions_data[] =
 	/* YES (index 0x1) */
 	{
 		.read_top_left_offset = 0x101EA4,
-		.read_top_left = { 0, 16 },
+		.read_top_left = { 326, 0 },
 		.read_size_offset = 0x101C40,
 		.read_size = { 20, 16 },
 		.write_size_offset = 0x101C44,
@@ -18,7 +18,7 @@ static texture_region_info s_pr_0_regions_data[] =
 	/* NO (index 0x2) */
 	{
 		.read_top_left_offset = 0x101EA8,
-		.read_top_left = { 20, 16 },
+		.read_top_left = { 346, 0 },
 		.read_size_offset = 0x101C48,
 		.read_size = { 15, 16 },
 		.write_size_offset = 0x101C4C,
@@ -85,6 +85,18 @@ static texture_region_info s_pr_0_regions_data[] =
 		.write_size = { 82, 16 }
 	},
 
+	/* Save and exit the game? (index 0x9) */
+	{
+		.write_top_left_offset = 0x102378,
+		.write_top_left = { 170, 114 },
+		.read_top_left_offset = 0x101EC4,
+		.read_top_left = { 361, 0 },
+		.read_size_offset = 0x101C80,
+		.read_size = { 139, 16 },
+		.write_size_offset = 0x101C84,
+		.write_size = { 139, 16 }
+	},
+
 	/* Please enter a name (index 0xC) */
 	{
 		.write_top_left_offset = 0x1023E8,
@@ -121,6 +133,42 @@ static texture_region_info s_pr_0_regions_data[] =
 		.write_size = { 139, 16 }
 	},
 
+	/* Quick Save set. (index 0x10) */
+	{
+		.write_top_left_offset = 0x102B20,
+		.write_top_left = { 196, 128 },
+		.read_top_left_offset = 0x101EE0,
+		.read_top_left = { 0, 16 },
+		.read_size_offset = 0x101CB8,
+		.read_size = { 88, 16 },
+		.write_size_offset = 0x101CBC,
+		.write_size = { 88, 16 }
+	},
+
+	/* Overwrite existing save data? (index 0x20) */
+	{
+		.write_top_left_offset = 0x102538,
+		.write_top_left = { 150, 114 },
+		.read_top_left_offset = 0x101F20,
+		.read_top_left = { 0, 32 },
+		.read_size_offset = 0x101D38,
+		.read_size = { 180, 16 },
+		.write_size_offset = 0x101D3C,
+		.write_size = { 180, 16 }
+	},
+
+	/* Load this file? (index 0x21) */
+	{
+		.write_top_left_offset = 0x1025e0,
+		.write_top_left = { 198, 114 },
+		.read_top_left_offset = 0x101F24,
+		.read_top_left = { 88, 16 },
+		.read_size_offset = 0x101D40,
+		.read_size = { 83, 16 },
+		.write_size_offset = 0x101D44,
+		.write_size = { 83, 16 }
+	},
+
 	/* Save Episode+ progress? (index 0x28) */
 	{
 		.write_top_left_offset = 0x1028B8,
@@ -131,6 +179,16 @@ static texture_region_info s_pr_0_regions_data[] =
 		.read_size = { 148, 16 },
 		.write_size_offset = 0x101D7C,
 		.write_size = { 148, 16 }
+	},
+
+	/* Unsaved data will be lost. (index 0x39) */
+	{
+		.read_top_left_offset = 0x101F84,
+		.read_top_left = { 148, 64 },
+		.read_size_offset = 0x101E00,
+		.read_size = { 144, 16 },
+		.write_size_offset = 0x101E04,
+		.write_size = { 144, 16 }
 	}
 };
 
@@ -143,6 +201,14 @@ static single_instruction_patch s_pr_0_single_instruction_patches[] =
 	{ 0x3BD1C, 0x340400B3 },
 	{ 0x3BC64, 0x2624004C },
 	{ 0x3BC74, 0x2624FFEB },
+	{ 0x3BF7C, 0x340400B6 },
+
+	/* "Unsaved data will be lost" 
+	 * Line placement. Removal of third line. */
+	{ 0x3BF98, 0x341000A8 },
+	{ 0x3BFA0, 0x34040080 },
+	{ 0x3BFC8, 0x34040000 },
+	{ 0x3BFD0, 0x34040000 }
 };
 
 static byte_sequence_patch s_pr_0_byte_sequence_patches_data[] =
@@ -161,6 +227,20 @@ static byte_sequence_patch s_pr_0_byte_sequence_patches_data[] =
 		"\x30\x00\x30\x00\x27\x00\x1B\x00\x16\x00"
 	),
 
+	/* Load this file? (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x1025E4,
+		"\x21\x00\x4D\x00\x4D\x00"
+	),
+
+	/* Save and exit the game? (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x10237C,
+		"\x09\x00\x4D\x00"
+	),
+
 	/* Is this a good name? (region indices) */
 	BUILD_BYTE_SEQUENCE_PATCH
 	(
@@ -172,7 +252,14 @@ static byte_sequence_patch s_pr_0_byte_sequence_patches_data[] =
 	BUILD_BYTE_SEQUENCE_PATCH
 	(
 		0x1023B4,
-		"\x0D\x00\x4d\x00"
+		"\x0D\x00\x4D\x00"
+	),
+
+	/* Quick Save set. (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x102B24,
+		"\x10\x00\x4D\x00\x4D\x00"
 	),
 
 	/* Save Episode+ progress? (region indices) */
@@ -180,6 +267,14 @@ static byte_sequence_patch s_pr_0_byte_sequence_patches_data[] =
 	(
 		0x1028BC,
 		"\x28\x00\x4D\x00\x4D\x00\x4D\x00\x4D\x00"
+	),
+
+	/* Return to title screen? Unsaved data will be lost.
+	 * (x coordinate + region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x1028F0,
+		"\xAA\x00\x6A\x00\x0D\x00\x4D\x00\x4D\x00"
 	)
 };
 
