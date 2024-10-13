@@ -97,16 +97,16 @@ static texture_region_info s_pr_0_regions_data[] =
 		.write_size = { 139, 16 }
 	},
 
-	/* Please enter a name (index 0xC) */
+	/* Loading... (index 0xA) */
 	{
-		.write_top_left_offset = 0x1023E8,
-		.write_top_left = { 181, 129 },
-		.read_top_left_offset = 0x101ED0,
-		.read_top_left = { 0, 48 },
-		.read_size_offset = 0x101C98,
-		.read_size = { 117, 16 },
-		.write_size_offset = 0x101C9C,
-		.write_size = { 117, 16 }
+		.write_top_left_offset = 0x1025A8,
+		.write_top_left = { 130, 109 },
+		.read_top_left_offset = 0x101EC8,
+		.read_top_left = { 171, 16 },
+		.read_size_offset = 0x101C88,
+		.read_size = { 53, 16 },
+		.write_size_offset = 0x101C8C,
+		.write_size = { 53, 16 }
 	},
 
 	/* Is this a good name? (index 0xB) */
@@ -121,6 +121,18 @@ static texture_region_info s_pr_0_regions_data[] =
 		.write_size = { 113, 16 }
 	},
 
+	/* Please enter a name (index 0xC) */
+	{
+		.write_top_left_offset = 0x1023E8,
+		.write_top_left = { 181, 129 },
+		.read_top_left_offset = 0x101ED0,
+		.read_top_left = { 0, 48 },
+		.read_size_offset = 0x101C98,
+		.read_size = { 117, 16 },
+		.write_size_offset = 0x101C9C,
+		.write_size = { 117, 16 }
+	},
+
 	/* Return to title screen? (index 0xD) */
 	{
 		.write_top_left_offset = 0x1023B0,
@@ -133,6 +145,30 @@ static texture_region_info s_pr_0_regions_data[] =
 		.write_size = { 139, 16 }
 	},
 
+	/* Load complete. (index 0xE) */
+	{
+		.write_top_left_offset = 0x102650,
+		.write_top_left = { 197, 128 },
+		.read_top_left_offset = 0x101ED8,
+		.read_top_left = { 130, 112 },
+		.read_size_offset = 0x101CA8,
+		.read_size = { 85, 16 },
+		.write_size_offset = 0x101CAC,
+		.write_size = { 85, 16 }
+	},
+
+	/* Saving... (index 0xF) */
+	{
+		.write_top_left_offset = 0x1024C8,
+		.write_top_left = { 134, 109 },
+		.read_top_left_offset = 0x101EDC,
+		.read_top_left = { 0, 96 },
+		.read_size_offset = 0x101CB0,
+		.read_size = { 47, 16 },
+		.write_size_offset = 0x101CB4,
+		.write_size = { 47, 16 }
+	},
+
 	/* Quick Save set. (index 0x10) */
 	{
 		.write_top_left_offset = 0x102B20,
@@ -143,6 +179,30 @@ static texture_region_info s_pr_0_regions_data[] =
 		.read_size = { 88, 16 },
 		.write_size_offset = 0x101CBC,
 		.write_size = { 88, 16 }
+	},
+
+	/* Save complete. (index 0x11) */
+	{
+		.write_top_left_offset = 0x102570,
+		.write_top_left = { 197, 128 },
+		.read_top_left_offset = 0x101EE4,
+		.read_top_left = { 47, 96 },
+		.read_size_offset = 0x101CC0,
+		.read_size = { 86, 16 },
+		.write_size_offset = 0x101CC4,
+		.write_size = { 86, 16 }
+	},
+
+	/* Checking Memory Stick TM... (index 0x1B) */
+	{
+		.write_top_left_offset = 0x102490,
+		.write_top_left = { 161, 109 },
+		.read_top_left_offset = 0x101F0C,
+		.read_top_left = { 335, 208 },
+		.read_size_offset = 0x101D10,
+		.read_size = { 158, 16 },
+		.write_size_offset = 0x101D14,
+		.write_size = { 158, 16 }
 	},
 
 	/* Overwrite existing save data? (index 0x20) */
@@ -159,7 +219,7 @@ static texture_region_info s_pr_0_regions_data[] =
 
 	/* Load this file? (index 0x21) */
 	{
-		.write_top_left_offset = 0x1025e0,
+		.write_top_left_offset = 0x1025E0,
 		.write_top_left = { 198, 114 },
 		.read_top_left_offset = 0x101F24,
 		.read_top_left = { 88, 16 },
@@ -167,6 +227,30 @@ static texture_region_info s_pr_0_regions_data[] =
 		.read_size = { 83, 16 },
 		.write_size_offset = 0x101D44,
 		.write_size = { 83, 16 }
+	},
+
+	/* No save data found. (index 0x22) */
+	{
+		.write_top_left_offset = 0x102688,
+		.write_top_left = { 182, 128 },
+		.read_top_left_offset = 0x101F28,
+		.read_top_left = { 0, 144 },
+		.read_size_offset = 0x101D48,
+		.read_size = { 115, 16 },
+		.write_size_offset = 0x101D4C,
+		.write_size = { 115, 16 }
+	},
+
+	/* Save data is corrupted. (index 0x24) */
+	{
+		.write_top_left_offset = 0x1026C0,
+		.write_top_left = { 171, 128 },
+		.read_top_left_offset = 0x101F30,
+		.read_top_left = { 0, 160 },
+		.read_size_offset = 0x101D58,
+		.read_size = { 138, 16 },
+		.write_size_offset = 0x101D5C,
+		.write_size = { 138, 16 }
 	},
 
 	/* Save Episode+ progress? (index 0x28) */
@@ -181,15 +265,71 @@ static texture_region_info s_pr_0_regions_data[] =
 		.write_size = { 148, 16 }
 	},
 
+	/* Do not remove the Memory Stick TM (index 0x2B) */
+	{
+		.read_top_left_offset = 0x101F4C,
+		.read_top_left = { 291, 64 },
+		.read_size_offset = 0x101D90,
+		.read_size = { 201, 16 },
+		.write_size_offset = 0x101D94,
+		.write_size = { 201, 16 }
+	},
+
+	/* or turn off the power. (index 0x2C) */
+	{
+		.read_top_left_offset = 0x101F50,
+		.read_top_left = { 0, 112 },
+		.read_size_offset = 0x101D98,
+		.read_size = { 130, 16 },
+		.write_size_offset = 0x101D9C,
+		.write_size = { 130, 16 }
+	},
+
+	/* Quit checking for save data? (index 0x38) */
+	{
+		.write_top_left_offset = 0x1027D8,
+		.write_top_left = { 154, 114 },
+		.read_top_left_offset = 0x101F80,
+		.read_top_left = { 138, 160 },
+		.read_size_offset = 0x101DF8,
+		.read_size = { 170, 16 },
+		.write_size_offset = 0x101DFC,
+		.write_size = { 170, 16 }
+	},
+
 	/* Unsaved data will be lost. (index 0x39) */
 	{
 		.read_top_left_offset = 0x101F84,
 		.read_top_left = { 148, 64 },
 		.read_size_offset = 0x101E00,
-		.read_size = { 144, 16 },
+		.read_size = { 143, 16 },
 		.write_size_offset = 0x101E04,
-		.write_size = { 144, 16 }
-	}
+		.write_size = { 143, 16 }
+	},
+
+	/* Leave the shop? (index 0x4B) */
+	{
+		.write_top_left_offset = 0x102B90,
+		.write_top_left = { 168, 114 },
+		.read_top_left_offset = 0x101FCC,
+		.read_top_left = { 395, 48 },
+		.read_size_offset = 0x101E90,
+		.read_size = { 96, 16 },
+		.write_size_offset = 0x101E94,
+		.write_size = { 96, 16 }
+	},
+
+	/* CARD GET! (index 0x4C) */
+	{
+		.write_top_left_offset = 0x102BC8,
+		.write_top_left = { 211, 128 },
+		.read_top_left_offset = 0x101FD0,
+		.read_top_left = { 338, 48 },
+		.read_size_offset = 0x101E98,
+		.read_size = { 57, 16 },
+		.write_size_offset = 0x101E9C,
+		.write_size = { 57, 16 }
+	},
 };
 
 static single_instruction_patch s_pr_0_single_instruction_patches[] =
@@ -208,7 +348,17 @@ static single_instruction_patch s_pr_0_single_instruction_patches[] =
 	{ 0x3BF98, 0x341000A8 },
 	{ 0x3BFA0, 0x34040080 },
 	{ 0x3BFC8, 0x34040000 },
-	{ 0x3BFD0, 0x34040000 }
+	{ 0x3BFD0, 0x34040000 },
+
+	/* Do not remove the Memory Stick TM
+	 * or turn off the power.
+	 * Region indices and line placement. */
+	{ 0x3BA5C, 0x34040000 },
+	{ 0x3BA68, 0x24A5FFDC },
+	{ 0x3BA7C, 0x24840013 },
+	{ 0x3BD58, 0x340400AF },
+	{ 0x3BD60, 0x34050080 }
+
 };
 
 static byte_sequence_patch s_pr_0_byte_sequence_patches_data[] =
@@ -241,6 +391,13 @@ static byte_sequence_patch s_pr_0_byte_sequence_patches_data[] =
 		"\x09\x00\x4D\x00"
 	),
 
+	/* Loading... (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x1025AC,
+		"\x0A\x00\x4D\x00"
+	),
+
 	/* Is this a good name? (region indices) */
 	BUILD_BYTE_SEQUENCE_PATCH
 	(
@@ -255,11 +412,39 @@ static byte_sequence_patch s_pr_0_byte_sequence_patches_data[] =
 		"\x0D\x00\x4D\x00"
 	),
 
+	/* Load complete. (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x102654,
+		"\x0E\x00\x4D\x00"
+	),
+
+	/* Saving... (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x1024CC,
+		"\x0F\x00\x4D\x00"
+	),
+
 	/* Quick Save set. (region indices) */
 	BUILD_BYTE_SEQUENCE_PATCH
 	(
 		0x102B24,
 		"\x10\x00\x4D\x00\x4D\x00"
+	),
+
+	/* Save complete (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x102574,
+		"\x11\x00\x4D\x00"
+	),
+
+	/* Checking Memory Stick TM... (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x102494,
+		"\x1B\x00\x4D\x00\x4D\x00"
 	),
 
 	/* Save Episode+ progress? (region indices) */
@@ -269,12 +454,26 @@ static byte_sequence_patch s_pr_0_byte_sequence_patches_data[] =
 		"\x28\x00\x4D\x00\x4D\x00\x4D\x00\x4D\x00"
 	),
 
+	/* Quit checking for save data? (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x1027DC,
+		"\x38\x00\x4D\x00\x4D\x00\x4D\x00"
+	),
+
 	/* Return to title screen? Unsaved data will be lost.
 	 * (x coordinate + region indices) */
 	BUILD_BYTE_SEQUENCE_PATCH
 	(
 		0x1028F0,
 		"\xAA\x00\x6A\x00\x0D\x00\x4D\x00\x4D\x00"
+	),
+
+	/* Leave the shop? (region indices) */
+	BUILD_BYTE_SEQUENCE_PATCH
+	(
+		0x102B94,
+		"\x4B\x00\x4D\x00"
 	)
 };
 
