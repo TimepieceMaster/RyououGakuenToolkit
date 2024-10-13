@@ -9,6 +9,7 @@
 #include "image_info/union_2533_9.h"
 #include "image_info/union_2533_10.h"
 #include "image_info/pr_0.h"
+#include "image_info/pr_4.h"
 
 #include "ryouou_gakuen_toolkit.h"
 #include "rgo_pr_image_info.h"
@@ -117,7 +118,9 @@ const image_replace_info g_union_images_to_replace[] =
 const image_replace_info g_pr_images_to_replace[] =
 {
 	{ "resources\\images\\pr_0.png", 0, 0 },
+	{ "resources\\images\\pr_1.png", 0, 1 },
 	{ "resources\\images\\pr_3.png", 0, 3 },
+	{ "resources\\images\\pr_4.png", 0, 4 }
 };
 
 const texture_region_info_array *g_texture_regions_to_update[] =
@@ -129,7 +132,8 @@ const texture_region_info_array *g_texture_regions_to_update[] =
 	&g_union_2533_8_regions,
 	&g_union_2533_9_regions,
 	&g_union_2533_10_regions,
-	&g_pr_0_regions
+	&g_pr_0_regions,
+	&g_pr_4_regions
 };
 
 const single_instruction_patch_array *g_single_instruction_patches[] =
@@ -137,7 +141,8 @@ const single_instruction_patch_array *g_single_instruction_patches[] =
 	&g_union_2521_1_instruction_patches,
 	&g_union_2530_1_instruction_patches,
 	&g_union_2533_5_instruction_patches,
-	&g_pr_0_single_instruction_patches
+	&g_pr_0_single_instruction_patches,
+	&g_pr_4_single_instruction_patches
 };
 
 const byte_sequence_patch_array *g_byte_sequence_patches[] =

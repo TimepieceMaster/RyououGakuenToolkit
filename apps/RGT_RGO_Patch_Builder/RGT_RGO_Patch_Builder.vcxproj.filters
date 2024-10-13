@@ -50,5 +50,8 @@
     <ClInclude Include="hdr\image_info\pr_0.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="hdr\image_info\pr_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
