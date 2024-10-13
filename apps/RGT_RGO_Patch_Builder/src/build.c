@@ -88,6 +88,7 @@ const image_replace_info g_union_images_to_replace[] =
 
 	{ "resources\\images\\2528_1.png", 2528, 1 },
 	{ "resources\\images\\2529_0.png", 2529, 0 },
+	{ "resources\\images\\2529_1.png", 2529, 1 },
 	{ "resources\\images\\2530_0.png", 2530, 0 },
 	{ "resources\\images\\2530_1.png", 2530, 1 },
 	{ "resources\\images\\2531_0.png", 2531, 0 },
@@ -115,7 +116,8 @@ const image_replace_info g_union_images_to_replace[] =
 
 const image_replace_info g_pr_images_to_replace[] =
 {
-	{ "resources\\images\\pr_0.png", 0, 0 }
+	{ "resources\\images\\pr_0.png", 0, 0 },
+	{ "resources\\images\\pr_3.png", 0, 3 },
 };
 
 const texture_region_info_array *g_texture_regions_to_update[] =
@@ -398,14 +400,16 @@ patch_pr(void)
 
 	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_pr_images_to_replace); ++i)
 	{
+		u64 replace_index = g_pr_images_to_replace[i].replace_index;
+
 		RGT_CALL
 		(
 			patch_pr_image
 			(
 				&arena,
 				g_pr_images_to_replace[i].path,
-				g_rgo_pr_image_infos.elems[i].is_compressed,
-				&pr_images.elems[g_pr_images_to_replace[i].replace_index]
+				g_rgo_pr_image_infos.elems[replace_index].is_compressed,
+				&pr_images.elems[replace_index]
 			)
 		);
 	}
