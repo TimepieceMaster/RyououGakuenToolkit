@@ -87,6 +87,7 @@ const image_replace_info g_union_images_to_replace[] =
 
 	/* Menus */
 
+	{ "resources\\images\\1701_0.png", 1701, 0 },
 	{ "resources\\images\\2528_1.png", 2528, 1 },
 	{ "resources\\images\\2529_0.png", 2529, 0 },
 	{ "resources\\images\\2529_1.png", 2529, 1 },
