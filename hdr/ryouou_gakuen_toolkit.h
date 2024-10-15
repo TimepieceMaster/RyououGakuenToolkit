@@ -14,6 +14,7 @@
 #include "rgt_rgo_checksum.h"
 #include "rgt_rgo_font.h"
 #include "rgt_rgo_image.h"
+#include "rgt_rgo_script.h"
 #include "rgt_sized_int.h"
 #include "rgt_string.h"
 #include "rgt_utf8.h"

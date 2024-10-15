@@ -1,0 +1,67 @@
+#ifndef RGT_RGO_SCRIPT_H
+#define RGT_RGO_SCRIPT_H
+
+#define RGT_RGO_SCRIPT_MAX_CHOICES 7
+
+typedef struct _rgt_rgo_script_dialog
+{
+	u32 offset;
+	u16 id;
+	rgt_u16_array speaker_font_indices;
+	rgt_u16_array message_font_indices;
+} rgt_rgo_script_dialog;
+
+RGT_DECLARE_ARRAY_TYPE(rgt_rgo_script_dialog, rgt_rgo_script_dialog_array)
+
+typedef struct _rgt_rgo_script_choice
+{
+	u32 offset;
+	rgt_u16_array font_indices;
+} rgt_rgo_script_choice;
+
+typedef struct _rgt_rgo_script_choice_group
+{
+	u32 jump_id;
+	rgt_rgo_script_choice choices[RGT_RGO_SCRIPT_MAX_CHOICES];
+} rgt_rgo_script_choice_group;
+
+RGT_DECLARE_ARRAY_TYPE
+(
+	rgt_rgo_script_choice_group, rgt_rgo_script_choice_group_array
+)
+
+typedef struct _rgt_rgo_script_command_section
+{
+	u32 offset;
+	rgt_u16_array commands; 
+} rgt_rgo_script_command_section;
+
+RGT_DECLARE_ARRAY_TYPE
+(
+	rgt_rgo_script_command_section, rgt_rgo_script_command_section_array
+)
+
+typedef struct _rgt_rgo_script
+{
+	u16 magic;
+	u32 dialog_offset_table_offset;
+	u32 choice_group_offset_table_offset;
+	rgt_rgo_script_dialog_array dialogs;
+	rgt_rgo_script_choice_group_array choice_groups;
+	rgt_u32_array jumps;
+	rgt_rgo_script_command_section_array command_sections;
+} rgt_rgo_script;
+
+rgt_result
+rgt_parse_rgo_script
+(
+	rgt_arena *arena, rgt_u8_array in, rgt_rgo_script *create
+);
+
+rgt_result
+rgt_build_rgo_script
+(
+	rgt_arena *arena, rgt_rgo_script script, rgt_u8_array *create
+);
+
+#endif

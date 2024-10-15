@@ -30,6 +30,9 @@ rgt_result
 rgt_write_u8(rgt_u8_array out, u64 *pos, u8 in);
 
 rgt_result
+rgt_write_u16(rgt_u8_array out, u64 *pos, u16 in);
+
+rgt_result
 rgt_write_u32(rgt_u8_array out, u64 *pos, u32 in);
 
 rgt_result

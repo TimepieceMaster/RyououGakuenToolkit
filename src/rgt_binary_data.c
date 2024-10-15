@@ -130,6 +130,19 @@ finish:
 }
 
 rgt_result
+rgt_write_u16(rgt_u8_array out, u64 *pos, u16 in)
+{
+	rgt_result result = RGT_SUCCESS;
+	RGT_ASSERT(*pos + 2 <= out.length, RGT_OUT_OF_BOUNDS_ERROR);
+	memcpy(&out.elems[*pos], &in, 2);
+	*pos += 2;
+
+finish:
+
+	return result;
+}
+
+rgt_result
 rgt_write_u32(rgt_u8_array out, u64 *pos, u32 in)
 {
 	rgt_result result = RGT_SUCCESS;

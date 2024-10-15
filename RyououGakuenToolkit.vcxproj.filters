@@ -54,6 +54,9 @@
     <ClCompile Include="src\rgt_array.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\rgt_rgo_script.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hdr\rgt_load_save_png.h">
@@ -108,6 +111,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="hdr\rgo_pr_image_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\rgt_rgo_script.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
