@@ -64,8 +64,8 @@ typedef enum _rgt_rgo_script_element_type
 
 typedef struct _rgt_rgo_script_element_dialog
 {
-	const char *speaker;
-	const char *message;
+	char *speaker;
+	char *message;
 } rgt_rgo_script_element_dialog;
 
 typedef struct _rgt_rgo_script_element_choice

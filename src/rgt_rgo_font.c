@@ -337,19 +337,19 @@ rgt_glyph_indices_to_utf8
 		switch(glyph_indices.elems[i])
 		{
 		case GLYPH_NEWLINE:
-			character.elems[0] = '\\';
+			character.elems[0] = '/';
 			RGT_APPEND_ARRAY(arena, &character, &utf8);
 			character.elems[0] = 'n';
 			RGT_APPEND_ARRAY(arena, &character, &utf8);
 			break;
 		case GLYPH_PROTAGONIST_FIRST_NAME:
-			character.elems[0] = '\\';
+			character.elems[0] = '/';
 			RGT_APPEND_ARRAY(arena, &character, &utf8);
 			character.elems[0] = 'f';
 			RGT_APPEND_ARRAY(arena, &character, &utf8);
 			break;
 		case GLYPH_PROTAGONIST_LAST_NAME:
-			character.elems[0] = '\\';
+			character.elems[0] = '/';
 			RGT_APPEND_ARRAY(arena, &character, &utf8);
 			character.elems[0] = 'l';
 			RGT_APPEND_ARRAY(arena, &character, &utf8);

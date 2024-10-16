@@ -403,7 +403,7 @@ s_write_sub_command_section
 	RGT_FPRINTF
 	(
 		out_commands,
-		"s_commands_%llu_%llu_data =\n"
+		"static u16 s_commands_%llu_%llu_data[] =\n"
 		"{\n"
 		"\t",
 		section, sub_section
@@ -620,7 +620,7 @@ s_write_dialog
 	RGT_FPRINTF
 	(
 		out_text,
-		"s_dialogs_%llu_speaker_data = \n",
+		"static char s_dialogs_%llu_speaker_data[] = \n",
 		index
 	);
 	RGT_CALL(s_write_utf8_string(speaker, out_text));
@@ -629,7 +629,7 @@ s_write_dialog
 	(
 		out_text,
 		";\n"
-		"s_dialogs_%llu_message_data = \n",
+		"static char s_dialogs_%llu_message_data[] = \n",
 		index
 	);
 	RGT_CALL(s_write_utf8_string(message, out_text));
@@ -660,7 +660,10 @@ s_write_choice
 		"\t\t.type = RGT_RGO_SCRIPT_CHOICE,\n"
 		"\t\t.content =\n"
 		"\t\t{\n"
-		"\t\t\t.text = s_choices_%llu_%llu_data\n"
+		"\t\t\t.choice =\n"
+		"\t\t\t{\n"
+		"\t\t\t\t.text = s_choices_%llu_%llu_data\n"
+		"\t\t\t}\n"
 		"\t\t}\n"
 		"\t},\n",
 		group, choice
@@ -680,7 +683,7 @@ s_write_choice
 	RGT_FPRINTF
 	(
 		out_text,
-		"s_choices_%llu_%llu_data = \n",
+		"static char s_choices_%llu_%llu_data[] = \n",
 		group, choice
 	);
 	RGT_CALL(s_write_utf8_string(text, out_text));
@@ -706,7 +709,7 @@ s_write_choice_group
 	(
 		out_structure,
 		"\t{\n"
-		"\t\t.type = RGT_RGO_CHOICE_GROUP_BEGIN\n"
+		"\t\t.type = RGT_RGO_SCRIPT_CHOICE_GROUP_BEGIN\n"
 		"\t},\n"
 	);
 
@@ -738,7 +741,7 @@ s_write_choice_group
 	(
 		out_structure,
 		"\t{\n"
-		"\t\t.type = RGT_RGO_CHOICE_GROUP_END\n"
+		"\t\t.type = RGT_RGO_SCRIPT_CHOICE_GROUP_END\n"
 		"\t},\n"
 	);
 
@@ -775,6 +778,7 @@ rgt_rgo_script_to_headers
 		"\n"
 		"#include \"%s\"\n"
 		"#include \"%s\"\n"
+		"#include \"ryouou_gakuen_toolkit.h\"\n"
 		"\n"
 		"static rgt_rgo_script_element s_script_%llu_elements_data[] =\n"
 		"{\n",
@@ -787,6 +791,8 @@ rgt_rgo_script_to_headers
 		out_commands, 
 		"#ifndef RGT_RGO_SCRIPT_%llu_COMMANDS_H\n"
 		"#define RGT_RGO_SCRIPT_%llu_COMMANDS_H\n"
+		"\n"
+		"#include \"ryouou_gakuen_toolkit.h\"\n"
 		"\n",
 		id, id
 	);
@@ -796,6 +802,8 @@ rgt_rgo_script_to_headers
 		out_text, 
 		"#ifndef RGT_RGO_SCRIPT_%llu_TEXT_H\n"
 		"#define RGT_RGO_SCRIPT_%llu_TEXT_H\n"
+		"\n"
+		"#include \"ryouou_gakuen_toolkit.h\"\n"
 		"\n",
 		id, id
 	);
@@ -848,10 +856,10 @@ rgt_rgo_script_to_headers
 		"\n"
 		"rgt_rgo_script_element_array g_script_%llu_elements =\n"
 		"{\n"
-		"\t.elems = s_script_elements_data,\n"
+		"\t.elems = s_script_%llu_elements_data,\n"
 		"\t.length = RGT_C_ARRAY_SIZE(s_script_%llu_elements_data)\n"
 		"};\n",
-		id, id
+		id, id, id
 	);
 
 	RGT_FPRINTF(out_structure, "#endif");
