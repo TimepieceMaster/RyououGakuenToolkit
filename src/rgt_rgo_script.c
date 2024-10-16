@@ -553,7 +553,7 @@ s_write_utf8_string(rgt_utf8_string utf8, FILE *out_text)
 			i != 0 && 
 			i != utf8.length - 1 &&
 			utf8.elems[i].elems[0] == 'n' && 
-			utf8.elems[i-1].elems[0] == '\\'
+			utf8.elems[i-1].elems[0] == '/'
 		)
 		{
 			RGT_FPRINTF
