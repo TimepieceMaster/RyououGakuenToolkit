@@ -17,6 +17,7 @@ typedef struct _##name                     \
 RGT_DECLARE_ARRAY_TYPE(u8, rgt_u8_array)
 RGT_DECLARE_ARRAY_TYPE(u16, rgt_u16_array)
 RGT_DECLARE_ARRAY_TYPE(u32, rgt_u32_array)
+RGT_DECLARE_ARRAY_TYPE(char, rgt_char_array)
 
 rgt_result 
 rgt_create_array

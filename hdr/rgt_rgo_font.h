@@ -49,6 +49,13 @@ rgt_utf8_to_glyph_indices
 	rgt_utf8_string_array glyph_strings, rgt_u16_array *out
 );
 
+rgt_result
+rgt_glyph_indices_to_utf8
+(
+	rgt_arena *arena, rgt_u16_array glyph_indices,
+	rgt_utf8_string_array glyph_strings, rgt_utf8_string *out
+);
+
 u32
 rgt_get_glyph_width(rgt_image glyph_image);
 

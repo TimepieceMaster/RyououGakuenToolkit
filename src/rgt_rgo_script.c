@@ -74,7 +74,9 @@ rgt_parse_rgo_script
 
 	pos = JUMP_TABLE_OFFSET;
 	RGT_CALL(rgt_read_bytes(in, &pos, 4, &script.jumps.length));
-	script.jumps.length = (script.jumps.length - 1) / 4;
+	pos -= 4;
+
+	script.jumps.length = script.jumps.length / 4;
 	RGT_CREATE_ARRAY(arena, script.jumps.length, &script.jumps);
 	for (u64 i = 0; i < script.jumps.length; ++i)
 	{
@@ -135,7 +137,7 @@ rgt_parse_rgo_script
 		}
 	}
 
-	pos = JUMP_TABLE_OFFSET + (script.jumps.length * 4) + 4;
+	pos = JUMP_TABLE_OFFSET + (script.jumps.length * 4);
 	for (u64 i = 0; i < script.dialogs.length; ++i)
 	{
 		rgt_rgo_script_command_section cur = {0};
@@ -275,7 +277,7 @@ rgt_build_rgo_script
 	}
 
 	pos = JUMP_TABLE_OFFSET;
-	RGT_CALL(rgt_write_u32(out, &pos, (script.jumps.length + 1) * 4));
+	RGT_CALL(rgt_write_u32(out, &pos, ((u32)script.jumps.length + 1) * 4));
 	for (u64 i = 0; i < script.jumps.length; ++i)
 	{
 		RGT_CALL(rgt_write_u32(out, &pos, script.jumps.elems[i]));
@@ -344,6 +346,519 @@ finish:
 	{
 		*create = out;
 	}
+
+	return result;
+}
+
+static int
+s_compare_jumps(const void *a, const void *b)
+{
+	rgt_rgo_script_element_jump arg1 = 
+		*(const rgt_rgo_script_element_jump*)a;
+
+	rgt_rgo_script_element_jump arg2 =
+		*(const rgt_rgo_script_element_jump*)b;
+
+	if (arg1.offset < arg2.offset)
+	{
+		return -1;
+	}
+	if (arg1.offset > arg2.offset)
+	{
+		return 1;
+	}
+	return 0;
+}
+
+static rgt_result
+s_write_sub_command_section
+(
+	FILE *out_structure, FILE *out_commands, u64 section, u64 sub_section,
+	rgt_u16_array commands, u32 start_offset, u32 length
+)
+{
+	rgt_result result = RGT_SUCCESS;
+
+	RGT_FPRINTF
+	(
+		out_structure, 
+		"\t{\n"
+		"\t\t.type = RGT_RGO_SCRIPT_COMMAND_SECTION,\n"
+		"\t\t.content =\n"
+		"\t\t{\n"
+		"\t\t\t.command_section =\n"
+		"\t\t\t{\n"
+		"\t\t\t\t.commands =\n"
+		"\t\t\t\t{\n"
+		"\t\t\t\t\t.elems = s_commands_%llu_%llu_data,\n"
+		"\t\t\t\t\t.length = RGT_C_ARRAY_SIZE(s_commands_%llu_%llu_data)\n"
+		"\t\t\t\t}\n"
+		"\t\t\t}\n"
+		"\t\t}\n"
+		"\t},\n",
+		section, sub_section,
+		section, sub_section
+	);
+
+	RGT_FPRINTF
+	(
+		out_commands,
+		"s_commands_%llu_%llu_data =\n"
+		"{\n"
+		"\t",
+		section, sub_section
+	);
+
+	for (u64 i = 0; i < length; ++i)
+	{
+		RGT_FPRINTF
+		(
+			out_commands, "0x%04hX, ",
+			commands.elems[start_offset + i]
+		);
+		if ((i % 8 == 7) && i != length - 1)
+		{
+			RGT_FPRINTF
+			(
+				out_commands, "\n\t"
+			);
+		}
+	}
+	RGT_FPRINTF(out_commands, "\n};\n");
+
+finish:
+
+	return result;
+}
+
+static rgt_result
+s_write_jump(FILE *out_structure, rgt_rgo_script_element_jump jump)
+{
+	rgt_result result = RGT_SUCCESS;
+
+	RGT_FPRINTF
+	(
+		out_structure,
+		"\t{\n"
+		"\t\t.type = RGT_RGO_SCRIPT_JUMP,\n"
+		"\t\t.content =\n"
+		"\t\t{\n"
+		"\t\t\t.jump =\n"
+		"\t\t\t{\n"
+		"\t\t\t\t.id = %u\n"
+		"\t\t\t}\n"
+		"\t\t}\n"
+		"\t},\n",
+		jump.id
+	);
+
+finish:
+
+	return result;
+}
+
+static rgt_result
+s_write_command_section
+(
+	rgt_arena *arena, rgt_rgo_script script, u64 index, 
+	FILE *out_structure, FILE *out_commands
+)
+{
+	RGT_DECLARE_ARRAY_TYPE
+	(
+		rgt_rgo_script_element_jump, rgt_rgo_script_element_jump_array
+	);
+
+	rgt_result result = RGT_SUCCESS;
+
+	rgt_rgo_script_element_jump_array jumps = {0};
+	u32 start_offset = script.command_sections.elems[index].offset;
+	u32 end_offset = 
+		start_offset 
+		+ (u32)script.command_sections.elems[index].commands.length * 2;
+
+	for (u64 i = 0; i < script.jumps.length; ++i)
+	{
+		if 
+		(
+			script.jumps.elems[i] >= start_offset &&
+			script.jumps.elems[i] <= end_offset
+		)
+		{
+			rgt_rgo_script_element_jump jmp = 
+			{ 
+				.id = (u32)i, .offset = script.jumps.elems[i] 
+			};
+			RGT_APPEND_ARRAY(arena, &jmp, &jumps);
+		}
+	}
+	qsort(jumps.elems, jumps.length, sizeof(jumps.elems[0]), s_compare_jumps);
+
+	u32 sub_start_offset = start_offset;
+	u32 subsection = 0;
+	for (u64 i = 0; i < jumps.length; ++i)
+	{
+		u32 sub_end_offset = jumps.elems[i].offset;
+		u32 sub_size = sub_end_offset - sub_start_offset;
+		if (sub_size)
+		{
+			RGT_CALL
+			(
+				s_write_sub_command_section
+				(
+					out_structure, out_commands, index, subsection,
+					script.command_sections.elems[index].commands, 
+					(sub_start_offset - start_offset) / 2,
+					sub_size / 2
+				)
+			);
+			++subsection;
+		}
+		RGT_CALL(s_write_jump(out_structure, jumps.elems[i]));
+		sub_start_offset = sub_end_offset;
+	}
+	if (sub_start_offset != end_offset)
+	{
+		RGT_CALL
+		(
+			s_write_sub_command_section
+			(
+				out_structure, out_commands, index, subsection,
+				script.command_sections.elems[index].commands,
+				(sub_start_offset - start_offset) / 2,
+				(end_offset - sub_start_offset) / 2
+			)
+		);
+	}
+
+finish:
+
+	return result;
+}
+
+static rgt_result
+s_write_utf8_string(rgt_utf8_string utf8, FILE *out_text)
+{
+	rgt_result result = RGT_SUCCESS;
+
+	RGT_FPRINTF(out_text, "\t\"");
+	for (u64 i = 0; i < utf8.length; ++i)
+	{
+		RGT_FPRINTF
+		(
+			out_text, "%.*s", (int)utf8.elems[i].length, utf8.elems[i].elems
+		);
+		if 
+		(
+			i != 0 && 
+			i != utf8.length - 1 &&
+			utf8.elems[i].elems[0] == 'n' && 
+			utf8.elems[i-1].elems[0] == '\\'
+		)
+		{
+			RGT_FPRINTF
+			(
+				out_text, 
+				"\"\n"
+				"\t\""
+			);
+		}
+	}
+	RGT_FPRINTF(out_text, "\"");
+
+finish:
+
+	return result;
+}
+
+static rgt_result
+s_write_dialog
+(
+	rgt_arena *arena, rgt_rgo_script script, u64 index,
+	rgt_utf8_string_array glyph_strings,
+	FILE *out_structure, FILE *out_text
+)
+{
+	rgt_result result = RGT_SUCCESS;
+
+	RGT_FPRINTF
+	(
+		out_structure, 
+		"\t{\n"
+		"\t\t.type = RGT_RGO_SCRIPT_DIALOG,\n"
+		"\t\t.content =\n"
+		"\t\t{\n"
+		"\t\t\t.dialog =\n"
+		"\t\t\t{\n"
+		"\t\t\t\t.speaker = s_dialogs_%llu_speaker_data,\n"
+		"\t\t\t\t.message = s_dialogs_%llu_message_data\n"
+		"\t\t\t}\n"
+		"\t\t}\n"
+		"\t},\n",
+		index, index
+	);
+
+	rgt_utf8_string speaker = {0};
+	rgt_utf8_string message = {0};
+	RGT_CALL
+	(
+		rgt_glyph_indices_to_utf8
+		(
+			arena, script.dialogs.elems[index].speaker_font_indices,
+			glyph_strings, &speaker
+		)
+	);
+	RGT_CALL
+	(
+		rgt_glyph_indices_to_utf8
+		(
+			arena, script.dialogs.elems[index].message_font_indices,
+			glyph_strings, &message
+		)
+	);
+
+	RGT_FPRINTF
+	(
+		out_text,
+		"s_dialogs_%llu_speaker_data = \n",
+		index
+	);
+	RGT_CALL(s_write_utf8_string(speaker, out_text));
+
+	RGT_FPRINTF
+	(
+		out_text,
+		";\n"
+		"s_dialogs_%llu_message_data = \n",
+		index
+	);
+	RGT_CALL(s_write_utf8_string(message, out_text));
+
+	RGT_FPRINTF(out_text, ";\n\n");
+	
+
+finish:
+
+	return result;
+}
+
+static rgt_result
+s_write_choice
+(
+	rgt_arena *arena, rgt_rgo_script script, 
+	u64 group, u64 choice,
+	rgt_utf8_string_array glyph_strings,
+	FILE *out_structure, FILE *out_text
+)
+{
+	rgt_result result = RGT_SUCCESS;
+
+	RGT_FPRINTF
+	(
+		out_structure, 
+		"\t{\n"
+		"\t\t.type = RGT_RGO_SCRIPT_CHOICE,\n"
+		"\t\t.content =\n"
+		"\t\t{\n"
+		"\t\t\t.text = s_choices_%llu_%llu_data\n"
+		"\t\t}\n"
+		"\t},\n",
+		group, choice
+	);
+
+	rgt_utf8_string text = {0};
+	RGT_CALL
+	(
+		rgt_glyph_indices_to_utf8
+		(
+			arena, 
+			script.choice_groups.elems[group].choices[choice].font_indices,
+			glyph_strings, &text
+		)
+	);
+
+	RGT_FPRINTF
+	(
+		out_text,
+		"s_choices_%llu_%llu_data = \n",
+		group, choice
+	);
+	RGT_CALL(s_write_utf8_string(text, out_text));
+	RGT_FPRINTF(out_text, ";\n");
+
+finish:
+
+	return result;
+}
+
+rgt_result
+s_write_choice_group
+(
+	rgt_arena *arena, rgt_rgo_script script, u64 id,
+	rgt_utf8_string_array glyph_strings,
+	u64 *command_section,
+	FILE *out_structure, FILE* out_commands, FILE *out_text
+)
+{
+	rgt_result result = RGT_SUCCESS;
+
+	RGT_FPRINTF
+	(
+		out_structure,
+		"\t{\n"
+		"\t\t.type = RGT_RGO_CHOICE_GROUP_BEGIN\n"
+		"\t},\n"
+	);
+
+	for (u64 i = 0; i < RGT_RGO_SCRIPT_MAX_CHOICES; ++i)
+	{
+		if (!script.choice_groups.elems[id].choices[i].offset)
+		{
+			break;
+		}
+		RGT_CALL
+		(
+			s_write_choice
+			(
+				arena, script, id, i, glyph_strings, out_structure, out_text
+			)
+		);
+		RGT_CALL
+		(
+			s_write_command_section
+			(
+				arena, script, *command_section, out_structure, out_commands
+			)
+		);
+		++(*command_section);
+	}
+
+	RGT_FPRINTF(out_text, "\n");
+	RGT_FPRINTF
+	(
+		out_structure,
+		"\t{\n"
+		"\t\t.type = RGT_RGO_CHOICE_GROUP_END\n"
+		"\t},\n"
+	);
+
+finish:
+
+	return result;
+}
+
+rgt_result
+rgt_rgo_script_to_headers
+(
+	rgt_arena *arena, rgt_rgo_script script, u64 id,
+	rgt_utf8_string_array glyph_strings,
+	const char *out_path_structure, const char *out_path_commands, 
+	const char *out_path_text
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	FILE *out_structure = 0;
+	FILE *out_commands = 0;
+	FILE *out_text = 0;
+
+	u64 command_section = 0;
+
+	RGT_FOPEN(out_structure, out_path_structure, "wb");
+	RGT_FOPEN(out_commands, out_path_commands, "wb");
+	RGT_FOPEN(out_text, out_path_text, "wb");
+
+	RGT_FPRINTF
+	(
+		out_structure, 
+		"#ifndef RGT_RGO_SCRIPT_%llu_STRUCTURE_H\n"
+		"#define RGT_RGO_SCRIPT_%llu_STRUCTURE_H\n"
+		"\n"
+		"#include \"%s\"\n"
+		"#include \"%s\"\n"
+		"\n"
+		"static rgt_rgo_script_element s_script_%llu_elements_data[] =\n"
+		"{\n",
+		id, id,
+		out_path_commands, out_path_text, id
+	);
+
+	RGT_FPRINTF
+	(
+		out_commands, 
+		"#ifndef RGT_RGO_SCRIPT_%llu_COMMANDS_H\n"
+		"#define RGT_RGO_SCRIPT_%llu_COMMANDS_H\n"
+		"\n",
+		id, id
+	);
+
+	RGT_FPRINTF
+	(
+		out_text, 
+		"#ifndef RGT_RGO_SCRIPT_%llu_TEXT_H\n"
+		"#define RGT_RGO_SCRIPT_%llu_TEXT_H\n"
+		"\n",
+		id, id
+	);
+
+	for (u64 i = 0; i < script.dialogs.length; ++i)
+	{
+		RGT_CALL
+		(
+			s_write_command_section
+			(
+				arena, script, command_section, out_structure, out_commands
+			)
+		);
+		++command_section;
+
+		RGT_CALL
+		(
+			s_write_dialog
+			(
+				arena, script, i, glyph_strings, out_structure, out_text
+			)
+		);
+	}
+
+	RGT_CALL
+	(
+		s_write_command_section
+		(
+			arena, script, command_section, out_structure, out_commands
+		)
+	);
+	++command_section;
+
+	for (u64 i = 0; i < script.choice_groups.length; ++i)
+	{
+		RGT_CALL
+		(
+			s_write_choice_group
+			(
+				arena, script, i, glyph_strings, &command_section,
+				out_structure, out_commands, out_text
+			)
+		);
+	}
+
+	RGT_FPRINTF
+	(
+		out_structure,
+		"};\n"
+		"\n"
+		"rgt_rgo_script_element_array g_script_%llu_elements =\n"
+		"{\n"
+		"\t.elems = s_script_elements_data,\n"
+		"\t.length = RGT_C_ARRAY_SIZE(s_script_%llu_elements_data)\n"
+		"};\n",
+		id, id
+	);
+
+	RGT_FPRINTF(out_structure, "#endif");
+	RGT_FPRINTF(out_commands, "#endif");
+	RGT_FPRINTF(out_text, "#endif");
+
+finish:
 
 	return result;
 }

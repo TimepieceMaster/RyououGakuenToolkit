@@ -66,4 +66,10 @@ do                                                                        \
     RGT_ASSERT(fwrite(buffer, size, 1, file) == 1, RGT_FILE_WRITE_ERROR); \
 } while(0)
 
+#define RGT_FPRINTF(...)                                         \
+do                                                               \
+{                                                                \
+    RGT_ASSERT(fprintf(__VA_ARGS__) >= 0, RGT_FILE_WRITE_ERROR); \
+} while(0)                                                       \
+
 #endif

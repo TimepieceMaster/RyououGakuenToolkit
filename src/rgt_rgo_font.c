@@ -15,6 +15,10 @@
 #define COMPOSITE_FILL ((rgt_color){ .rgba = 0xFFFF00FF})
 #define FILE_ALIGNMENT 2048
 
+#define GLYPH_NEWLINE 0xFFFE
+#define GLYPH_PROTAGONIST_FIRST_NAME 0xFFE7
+#define GLYPH_PROTAGONIST_LAST_NAME 0xFFE6
+
 static void 
 s_glyph_to_image(const uint8_t *glyph_data, rgt_image *populate)
 {
@@ -310,6 +314,68 @@ finish:
 	if (result == RGT_SUCCESS)
 	{
 		*out = indices;
+	}
+
+	return result;
+}
+
+rgt_result
+rgt_glyph_indices_to_utf8
+(
+	rgt_arena *arena, rgt_u16_array glyph_indices,
+	rgt_utf8_string_array glyph_strings, rgt_utf8_string *out
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_utf8_string utf8 = {0};
+
+	for (u64 i = 0; i < glyph_indices.length; ++i)
+	{
+		rgt_utf8_char character = {0};
+		character.length = 1;
+
+		switch(glyph_indices.elems[i])
+		{
+		case GLYPH_NEWLINE:
+			character.elems[0] = '\\';
+			RGT_APPEND_ARRAY(arena, &character, &utf8);
+			character.elems[0] = 'n';
+			RGT_APPEND_ARRAY(arena, &character, &utf8);
+			break;
+		case GLYPH_PROTAGONIST_FIRST_NAME:
+			character.elems[0] = '\\';
+			RGT_APPEND_ARRAY(arena, &character, &utf8);
+			character.elems[0] = 'f';
+			RGT_APPEND_ARRAY(arena, &character, &utf8);
+			break;
+		case GLYPH_PROTAGONIST_LAST_NAME:
+			character.elems[0] = '\\';
+			RGT_APPEND_ARRAY(arena, &character, &utf8);
+			character.elems[0] = 'l';
+			RGT_APPEND_ARRAY(arena, &character, &utf8);
+			break;
+		default:
+		{
+			RGT_ASSERT
+			(
+				glyph_indices.elems[i] < glyph_strings.length, RGT_OUT_OF_BOUNDS_ERROR
+			);
+			rgt_utf8_string string = glyph_strings.elems[glyph_indices.elems[i]];
+
+			for (u64 j = 0; j < string.length; ++j)
+			{
+				RGT_APPEND_ARRAY(arena, &string.elems[j], &utf8);
+			}
+		}
+		break;
+		}
+	}
+
+finish:
+
+	if (result == RGT_SUCCESS)
+	{
+		*out = utf8;
 	}
 
 	return result;

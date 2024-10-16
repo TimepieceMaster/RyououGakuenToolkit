@@ -1,4 +1,4 @@
-#ifndef RGT_RGO_SCRIPT_H
+﻿#ifndef RGT_RGO_SCRIPT_H
 #define RGT_RGO_SCRIPT_H
 
 #define RGT_RGO_SCRIPT_MAX_CHOICES 7
@@ -52,6 +52,54 @@ typedef struct _rgt_rgo_script
 	rgt_rgo_script_command_section_array command_sections;
 } rgt_rgo_script;
 
+typedef enum _rgt_rgo_script_element_type
+{
+	RGT_RGO_SCRIPT_DIALOG,
+	RGT_RGO_SCRIPT_CHOICE,
+	RGT_RGO_SCRIPT_CHOICE_GROUP_BEGIN,
+	RGT_RGO_SCRIPT_CHOICE_GROUP_END,
+	RGT_RGO_SCRIPT_COMMAND_SECTION,
+	RGT_RGO_SCRIPT_JUMP
+} rgt_rgo_script_element_type;
+
+typedef struct _rgt_rgo_script_element_dialog
+{
+	const char *speaker;
+	const char *message;
+} rgt_rgo_script_element_dialog;
+
+typedef struct _rgt_rgo_script_element_choice
+{
+	const char *text;
+} rgt_rgo_script_element_choice;
+
+typedef struct _rgt_rgo_script_element_command_section
+{
+	rgt_u16_array commands;
+} rgt_rgo_script_element_command_section;
+
+typedef struct _rgt_rgo_script_element_jump
+{
+	u32 id;
+	u32 offset;
+} rgt_rgo_script_element_jump;
+
+typedef union _rgt_rgo_script_element_content
+{
+	rgt_rgo_script_element_dialog dialog;
+	rgt_rgo_script_element_choice choice;
+	rgt_rgo_script_element_command_section command_section;
+	rgt_rgo_script_element_jump jump;
+} rgt_rgo_script_element_content;
+
+typedef struct _rgt_rgo_script_element
+{
+	rgt_rgo_script_element_type type;
+	rgt_rgo_script_element_content content;
+} rgt_rgo_script_element;
+
+RGT_DECLARE_ARRAY_TYPE(rgt_rgo_script_element, rgt_rgo_script_element_array)
+
 rgt_result
 rgt_parse_rgo_script
 (
@@ -62,6 +110,15 @@ rgt_result
 rgt_build_rgo_script
 (
 	rgt_arena *arena, rgt_rgo_script script, rgt_u8_array *create
+);
+
+rgt_result
+rgt_rgo_script_to_headers
+(
+	rgt_arena *arena, rgt_rgo_script script, u64 id,
+	rgt_utf8_string_array glyph_strings,
+	const char *out_path_structure, const char *out_path_commands, 
+	const char *out_path_text
 );
 
 #endif
