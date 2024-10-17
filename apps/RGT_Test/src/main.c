@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "ryouou_gakuen_toolkit.h"
+#include "../assets/script/script_0_structure.h"
 #include <stdio.h>
 
 rgt_result
@@ -339,6 +340,61 @@ finish:
 	return result;
 }
 
+rgt_result
+header_to_script_test(void)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_arena arena = {0};
+
+	rgt_u8_array font_strings_file = {0};
+	rgt_string_array font_strings = {0};
+	rgt_utf8_string_array font_strings_utf8 = {0};
+	rgt_rgo_script script = {0};
+	rgt_u8_array script_file = {0};
+
+	RGT_CALL(rgt_create_arena(RGT_MEGABYTE(128), &arena));
+
+	RGT_CALL
+	(
+		rgt_load_file
+		(
+			&arena, "assets/script/rgoFontStrings.txt", &font_strings_file
+		)
+	);
+
+	RGT_CALL(rgt_text_to_lines(&arena, font_strings_file, &font_strings));
+	RGT_CREATE_ARRAY(&arena, font_strings.length, &font_strings_utf8);
+	for (u64 i = 0; i < font_strings.length; ++i)
+	{
+		u64 pos = 0;
+		RGT_CALL
+		(
+			rgt_read_utf8_string
+			(
+				&arena, font_strings.elems[i],
+				&pos, &font_strings_utf8.elems[i]
+			)
+		);
+	}
+
+	RGT_CALL
+	(
+		rgt_rgo_script_elements_to_script
+		(
+			&arena, g_script_0_elements, font_strings_utf8, &script
+		)
+	);
+
+	RGT_CALL(rgt_build_rgo_script(&arena, script, &script_file));
+	RGT_CALL(rgt_save_file(script_file, "assets/script/script2.bin"));
+
+finish:
+
+	rgt_destroy_arena(&arena);
+
+	return result;
+}
+
 int 
 main(void)
 {
@@ -352,6 +408,7 @@ main(void)
 	RGT_CALL(rgo_image_extract_test());
 	RGT_CALL(rgo_image_build_test());
 	RGT_CALL(rgo_image_replace_test());
+	RGT_CALL(header_to_script_test());
 
 finish:
 

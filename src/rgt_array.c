@@ -66,3 +66,46 @@ finish:
 
 	return result;
 }
+
+rgt_result
+rgt_resize_array
+(
+	rgt_arena *arena, u64 new_length, u64 element_size, 
+	void* array_resize 
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_generic_array *arr = array_resize;
+
+	if (arr->capacity == 0)
+	{
+		RGT_CALL
+		(
+			rgt_arena_calloc(arena, new_length * element_size, &arr->elems)
+		);
+		arr->length = new_length;
+		arr->capacity = new_length;
+	}
+	else if (arr->capacity >= new_length)
+	{
+		arr->length = new_length;
+	}
+	else
+	{
+		void * old_ptr = arr->elems;
+		RGT_CALL
+		(
+			rgt_arena_calloc
+			(
+				arena, new_length * element_size, &arr->elems
+			)
+		);
+		memcpy(arr->elems, old_ptr, arr->length * element_size);
+		arr->length = new_length;
+		arr->capacity = new_length;
+	}
+
+finish:
+
+	return result;
+}

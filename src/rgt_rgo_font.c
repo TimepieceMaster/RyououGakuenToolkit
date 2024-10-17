@@ -293,6 +293,51 @@ rgt_utf8_to_glyph_indices
 
 	for (u64 i = 0; i < utf8.length; ++i)
 	{
+		if (i != utf8.length - 1 && utf8.elems[i].elems[0] == '/')
+		{
+			bool escape_code_found = true;
+
+			switch(utf8.elems[i + 1].elems[0])
+			{
+			case 'n':
+			{
+				++i;
+				u16 newline = GLYPH_NEWLINE;
+				RGT_APPEND_ARRAY(arena, &newline, &indices);
+				break;
+			}
+			case 'f':
+			{
+				++i;
+				u16 first_name = GLYPH_PROTAGONIST_FIRST_NAME;
+				RGT_APPEND_ARRAY(arena, &first_name, &indices);
+				break;
+			}
+			case 'l':
+			{
+				++i;
+				u16 last_name = GLYPH_PROTAGONIST_LAST_NAME;
+				RGT_APPEND_ARRAY(arena, &last_name, &indices);
+				break;
+			}
+			case '/':
+			{
+				/* ignore first / and treat second / as a normal character */
+				++i;
+				escape_code_found = false;
+				break;
+			}
+			default:
+				escape_code_found = false;
+				break;
+			}
+
+			if (escape_code_found)
+			{
+				continue;
+			}
+		}
+
 		for (u64 j = 0; j < glyph_strings.length; ++j)
 		{
 			if 

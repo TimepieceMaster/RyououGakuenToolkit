@@ -56,7 +56,7 @@ rgt_parse_rgo_script
 			rgt_read_bytes
 			(
 				in, &pos, 4, &script.choice_groups.elems[i].jump_id
-			);
+			)
 		);
 
 		for (u64 j = 0; j < RGT_RGO_SCRIPT_MAX_CHOICES; ++j)
@@ -95,7 +95,7 @@ rgt_parse_rgo_script
 		{
 			RGT_APPEND_ARRAY
 			(
-				arena, &cur, &script.dialogs.elems[i].speaker_font_indices
+				arena, &cur, &script.dialogs.elems[i].speaker_glyph_indices
 			);
 			RGT_CALL(rgt_read_bytes(in, &pos, 2, &cur));
 		}
@@ -105,7 +105,7 @@ rgt_parse_rgo_script
 		{
 			RGT_APPEND_ARRAY
 			(
-				arena, &cur, &script.dialogs.elems[i].message_font_indices
+				arena, &cur, &script.dialogs.elems[i].message_glyph_indices
 			);
 			RGT_CALL(rgt_read_bytes(in, &pos, 2, &cur));
 		}
@@ -130,7 +130,7 @@ rgt_parse_rgo_script
 				RGT_APPEND_ARRAY
 				(
 					arena, &cur, 
-					&script.choice_groups.elems[i].choices[j].font_indices
+					&script.choice_groups.elems[i].choices[j].glyph_indices
 				);
 				RGT_CALL(rgt_read_bytes(in, &pos, 2, &cur));
 			}
@@ -153,8 +153,8 @@ rgt_parse_rgo_script
 		RGT_APPEND_ARRAY(arena, &cur, &script.command_sections);
 
 		pos += 6;
-		pos += script.dialogs.elems[i].speaker_font_indices.length * 2;
-		pos += script.dialogs.elems[i].message_font_indices.length * 2;
+		pos += script.dialogs.elems[i].speaker_glyph_indices.length * 2;
+		pos += script.dialogs.elems[i].message_glyph_indices.length * 2;
 	}
 
 	for (u64 i = 0; i < script.choice_groups.length; ++i)
@@ -182,7 +182,7 @@ rgt_parse_rgo_script
 			RGT_APPEND_ARRAY(arena, &cur, &script.command_sections);
 
 			pos += 
-				script.choice_groups.elems[i].choices[j].font_indices.length
+				script.choice_groups.elems[i].choices[j].glyph_indices.length
 				* 2;
 		}
 	}
@@ -277,7 +277,6 @@ rgt_build_rgo_script
 	}
 
 	pos = JUMP_TABLE_OFFSET;
-	RGT_CALL(rgt_write_u32(out, &pos, ((u32)script.jumps.length + 1) * 4));
 	for (u64 i = 0; i < script.jumps.length; ++i)
 	{
 		RGT_CALL(rgt_write_u32(out, &pos, script.jumps.elems[i]));
@@ -290,19 +289,19 @@ rgt_build_rgo_script
 		pos = cur.offset + JUMP_TABLE_OFFSET;
 		RGT_CALL(rgt_write_u16(out, &pos, DIALOG_START));
 		RGT_CALL(rgt_write_u16(out, &pos, cur.id));
-		for (u64 j = 0; j < cur.speaker_font_indices.length; ++j)
+		for (u64 j = 0; j < cur.speaker_glyph_indices.length; ++j)
 		{
 			RGT_CALL
 			(
-				rgt_write_u16(out, &pos, cur.speaker_font_indices.elems[j])
+				rgt_write_u16(out, &pos, cur.speaker_glyph_indices.elems[j])
 			);
 		}
 		RGT_CALL(rgt_write_u16(out, &pos, SPEAKER_END));
-		for (u64 j = 0; j < cur.message_font_indices.length; ++j)
+		for (u64 j = 0; j < cur.message_glyph_indices.length; ++j)
 		{
 			RGT_CALL
 			(
-				rgt_write_u16(out, &pos, cur.message_font_indices.elems[j])
+				rgt_write_u16(out, &pos, cur.message_glyph_indices.elems[j])
 			);
 		}
 	}
@@ -316,13 +315,13 @@ rgt_build_rgo_script
 				break;
 			}
 			pos = cur.choices[j].offset + JUMP_TABLE_OFFSET;
-			for (u64 k = 0; k < cur.choices[j].font_indices.length; ++k)
+			for (u64 k = 0; k < cur.choices[j].glyph_indices.length; ++k)
 			{
 				RGT_CALL
 				(
 					rgt_write_u16
 					(
-						out, &pos, cur.choices[j].font_indices.elems[k]
+						out, &pos, cur.choices[j].glyph_indices.elems[k]
 					)
 				);
 			}
@@ -604,7 +603,7 @@ s_write_dialog
 	(
 		rgt_glyph_indices_to_utf8
 		(
-			arena, script.dialogs.elems[index].speaker_font_indices,
+			arena, script.dialogs.elems[index].speaker_glyph_indices,
 			glyph_strings, &speaker
 		)
 	);
@@ -612,7 +611,7 @@ s_write_dialog
 	(
 		rgt_glyph_indices_to_utf8
 		(
-			arena, script.dialogs.elems[index].message_font_indices,
+			arena, script.dialogs.elems[index].message_glyph_indices,
 			glyph_strings, &message
 		)
 	);
@@ -675,7 +674,7 @@ s_write_choice
 		rgt_glyph_indices_to_utf8
 		(
 			arena, 
-			script.choice_groups.elems[group].choices[choice].font_indices,
+			script.choice_groups.elems[group].choices[choice].glyph_indices,
 			glyph_strings, &text
 		)
 	);
@@ -709,8 +708,16 @@ s_write_choice_group
 	(
 		out_structure,
 		"\t{\n"
-		"\t\t.type = RGT_RGO_SCRIPT_CHOICE_GROUP_BEGIN\n"
-		"\t},\n"
+		"\t\t.type = RGT_RGO_SCRIPT_CHOICE_GROUP,\n"
+		"\t\t.content =\n"
+		"\t\t{\n"
+		"\t\t\t.choice_group =\n"
+		"\t\t\t{\n"
+		"\t\t\t\t.jump_id = %u\n"
+		"\t\t\t}\n"
+		"\t\t}\n"
+		"\t},\n",
+		script.choice_groups.elems[id].jump_id
 	);
 
 	for (u64 i = 0; i < RGT_RGO_SCRIPT_MAX_CHOICES; ++i)
@@ -737,13 +744,6 @@ s_write_choice_group
 	}
 
 	RGT_FPRINTF(out_text, "\n");
-	RGT_FPRINTF
-	(
-		out_structure,
-		"\t{\n"
-		"\t\t.type = RGT_RGO_SCRIPT_CHOICE_GROUP_END\n"
-		"\t},\n"
-	);
 
 finish:
 
@@ -781,9 +781,18 @@ rgt_rgo_script_to_headers
 		"#include \"ryouou_gakuen_toolkit.h\"\n"
 		"\n"
 		"static rgt_rgo_script_element s_script_%llu_elements_data[] =\n"
-		"{\n",
-		id, id,
-		out_path_commands, out_path_text, id
+		"{\n"
+		"\t{\n"
+		"\t\t.type = RGT_RGO_SCRIPT_MAGIC,\n"
+		"\t\t.content =\n"
+		"\t\t{\n"
+		"\t\t\t.magic =\n"
+		"\t\t\t{\n"
+		"\t\t\t\t.value = 0x%hX\n"
+		"\t\t\t}\n"
+		"\t\t}\n"
+		"\t},\n",
+		id, id, out_path_commands, out_path_text, id, script.magic
 	);
 
 	RGT_FPRINTF
@@ -867,6 +876,208 @@ rgt_rgo_script_to_headers
 	RGT_FPRINTF(out_text, "#endif");
 
 finish:
+
+	return result;
+}
+
+rgt_result
+s_c_string_to_glyph_indices
+(
+	rgt_arena *arena, const char *str, 
+	rgt_utf8_string_array glyph_strings, rgt_u16_array *create
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_u16_array glyph_indices = {0};
+
+	rgt_u8_array str_arr = {0};
+	rgt_utf8_string utf8 = {0};
+	u64 pos_zero = 0;
+
+	str_arr.elems = (u8*)str;
+	str_arr.length = strlen(str);
+	RGT_CALL(rgt_read_utf8_string(arena, str_arr, &pos_zero, &utf8));
+	RGT_CALL
+	(
+		rgt_utf8_to_glyph_indices(arena, utf8, glyph_strings, &glyph_indices)
+	);
+
+finish:
+
+	if (result == RGT_SUCCESS)
+	{
+		*create = glyph_indices;
+	}
+
+	return result;
+}
+
+rgt_result
+rgt_rgo_script_elements_to_script
+(
+	rgt_arena *arena, rgt_rgo_script_element_array elements,
+	rgt_utf8_string_array glyph_strings, rgt_rgo_script *create
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_rgo_script script = {0};
+	u32 pos = 0;
+	u64 choice_id = 0;
+	u64 max_jump_id = UINT64_MAX;
+
+	for (u64 i = 0; i < elements.length; ++i)
+	{
+		switch(elements.elems[i].type)
+		{
+		case RGT_RGO_SCRIPT_MAGIC:
+			script.magic = elements.elems[i].content.magic.value;
+			break;
+		case RGT_RGO_SCRIPT_DIALOG:
+		{
+			rgt_rgo_script_dialog dialog = {0};
+			dialog.offset = pos;
+			dialog.id = (u16)script.dialogs.length;
+			RGT_CALL
+			(
+				s_c_string_to_glyph_indices
+				(
+					arena, elements.elems[i].content.dialog.speaker,
+					glyph_strings, &dialog.speaker_glyph_indices
+				)
+			);
+			RGT_CALL
+			(
+				s_c_string_to_glyph_indices
+				(
+					arena, elements.elems[i].content.dialog.message,
+					glyph_strings, &dialog.message_glyph_indices
+				)
+			);
+			pos += 6;
+			pos += (u32)dialog.speaker_glyph_indices.length * 2;
+			pos += (u32)dialog.message_glyph_indices.length * 2;
+			RGT_APPEND_ARRAY(arena, &dialog, &script.dialogs);
+			break;
+		}
+		case RGT_RGO_SCRIPT_CHOICE:
+		{
+			RGT_ASSERT(script.choice_groups.length, RGT_OUT_OF_BOUNDS_ERROR);
+			RGT_ASSERT
+			(
+				choice_id < RGT_RGO_SCRIPT_MAX_CHOICES, 
+				RGT_OUT_OF_BOUNDS_ERROR
+			);
+
+			u64 group_id = script.choice_groups.length - 1;
+			rgt_rgo_script_choice choice = {0};
+			choice.offset = pos;
+			RGT_CALL
+			(
+				s_c_string_to_glyph_indices
+				(
+					arena, elements.elems[i].content.choice.text,
+					glyph_strings, &choice.glyph_indices
+				)
+			);
+			pos += (u32)choice.glyph_indices.length * 2;
+			script.choice_groups.elems[group_id].choices[choice_id] = choice;
+			++choice_id;
+			break;
+		}
+		case RGT_RGO_SCRIPT_CHOICE_GROUP:
+		{
+			rgt_rgo_script_choice_group choice_group = {0};
+			choice_id = 0;
+
+			choice_group.jump_id = 
+				elements.elems[i].content.choice_group.jump_id;
+			RGT_APPEND_ARRAY(arena, &choice_group, &script.choice_groups);
+			break;
+		}
+		case RGT_RGO_SCRIPT_COMMAND_SECTION:
+		{
+			rgt_rgo_script_command_section command_section = {0};
+			command_section.offset = pos;
+			command_section.commands = 
+				elements.elems[i].content.command_section.commands;
+			RGT_APPEND_ARRAY
+			(
+				arena, &command_section, &script.command_sections
+			);
+			pos += (u32)command_section.commands.length * 2;
+			break;
+		}
+		case RGT_RGO_SCRIPT_JUMP:
+		{
+			rgt_rgo_script_element_jump jump = elements.elems[i].content.jump;
+			jump.offset = pos;
+
+			if (script.jumps.length < jump.id + 1)
+			{
+				RGT_RESIZE_ARRAY
+				(
+					arena, 
+					max(jump.id + 1, script.jumps.length * 2), 
+					&script.jumps
+				);
+			}
+			script.jumps.elems[jump.id] = jump.offset;
+
+			if (max_jump_id == UINT64_MAX || max_jump_id < jump.id)
+			{
+				max_jump_id = jump.id;
+			}
+			break;
+		}
+		default:
+			/* do nothing */
+			break;
+		}
+	}
+
+	if (max_jump_id != UINT64_MAX)
+	{
+		script.jumps.length = max_jump_id + 1;
+	}
+	if (script.dialogs.length)
+	{
+		script.dialog_offset_table_offset = 0x10;
+	}
+	script.choice_group_offset_table_offset = 
+		(u32)rgt_align(0x10 + script.dialogs.length * 4, 0x10);
+
+	for (u64 i = 0; i < script.dialogs.length; ++i)
+	{
+		script.dialogs.elems[i].offset += (u32)script.jumps.length * 4;
+	}
+	for (u64 i = 0; i < script.choice_groups.length; ++i)
+	{
+		for (u64 j = 0; j < RGT_RGO_SCRIPT_MAX_CHOICES; ++j)
+		{
+			if (!script.choice_groups.elems[i].choices[j].offset)
+			{
+				break;
+			}
+			script.choice_groups.elems[i].choices[j].offset += 
+				(u32)script.jumps.length * 4;
+		}
+	}
+	for (u64 i = 0; i < script.command_sections.length; ++i)
+	{
+		script.command_sections.elems[i].offset += 
+			(u32)script.jumps.length * 4;
+	}
+	for (u64 i = 0; i < script.jumps.length; ++i)
+	{
+		script.jumps.elems[i] += (u32)script.jumps.length * 4;
+	}
+
+finish:
+
+	if (result == RGT_SUCCESS)
+	{
+		*create = script;
+	}
 
 	return result;
 }

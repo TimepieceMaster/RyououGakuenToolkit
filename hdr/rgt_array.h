@@ -33,6 +33,13 @@ rgt_append_array
 	void *array_append
 );
 
+rgt_result
+rgt_resize_array
+(
+	rgt_arena *arena, u64 new_length, u64 element_size, 
+	void* array_resize 
+);
+
 #define RGT_CREATE_ARRAY(arena, length, arr)                               \
 do                                                                         \
 {                                                                          \
@@ -46,6 +53,15 @@ do                                                                       \
 	(                                                                    \
 		rgt_append_array(arena, element, sizeof((*(arr)).elems[0]), arr) \
 	);                                                                   \
+} while(0);
+
+#define RGT_RESIZE_ARRAY(arena, new_length, arr)                            \
+do                                                                          \
+{                                                                           \
+	RGT_CALL                                                                \
+	(                                                                       \
+		rgt_resize_array(arena, new_length, sizeof((*(arr)).elems[0]), arr) \
+	);                                                                      \
 } while(0);
 
 #define RGT_ARRAY_SIZE(arr) \

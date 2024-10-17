@@ -7,8 +7,8 @@ typedef struct _rgt_rgo_script_dialog
 {
 	u32 offset;
 	u16 id;
-	rgt_u16_array speaker_font_indices;
-	rgt_u16_array message_font_indices;
+	rgt_u16_array speaker_glyph_indices;
+	rgt_u16_array message_glyph_indices;
 } rgt_rgo_script_dialog;
 
 RGT_DECLARE_ARRAY_TYPE(rgt_rgo_script_dialog, rgt_rgo_script_dialog_array)
@@ -16,7 +16,7 @@ RGT_DECLARE_ARRAY_TYPE(rgt_rgo_script_dialog, rgt_rgo_script_dialog_array)
 typedef struct _rgt_rgo_script_choice
 {
 	u32 offset;
-	rgt_u16_array font_indices;
+	rgt_u16_array glyph_indices;
 } rgt_rgo_script_choice;
 
 typedef struct _rgt_rgo_script_choice_group
@@ -54,13 +54,18 @@ typedef struct _rgt_rgo_script
 
 typedef enum _rgt_rgo_script_element_type
 {
+	RGT_RGO_SCRIPT_MAGIC,
 	RGT_RGO_SCRIPT_DIALOG,
 	RGT_RGO_SCRIPT_CHOICE,
-	RGT_RGO_SCRIPT_CHOICE_GROUP_BEGIN,
-	RGT_RGO_SCRIPT_CHOICE_GROUP_END,
+	RGT_RGO_SCRIPT_CHOICE_GROUP,
 	RGT_RGO_SCRIPT_COMMAND_SECTION,
 	RGT_RGO_SCRIPT_JUMP
 } rgt_rgo_script_element_type;
+
+typedef struct _rgt_rgo_script_element_magic
+{
+	u16 value;
+} rgt_rgo_script_element_magic;
 
 typedef struct _rgt_rgo_script_element_dialog
 {
@@ -72,6 +77,11 @@ typedef struct _rgt_rgo_script_element_choice
 {
 	const char *text;
 } rgt_rgo_script_element_choice;
+
+typedef struct _rgt_rgo_script_element_choice_group
+{
+	u32 jump_id;
+} rgt_rgo_script_element_choice_group;
 
 typedef struct _rgt_rgo_script_element_command_section
 {
@@ -86,8 +96,10 @@ typedef struct _rgt_rgo_script_element_jump
 
 typedef union _rgt_rgo_script_element_content
 {
+	rgt_rgo_script_element_magic magic;
 	rgt_rgo_script_element_dialog dialog;
 	rgt_rgo_script_element_choice choice;
+	rgt_rgo_script_element_choice_group choice_group;
 	rgt_rgo_script_element_command_section command_section;
 	rgt_rgo_script_element_jump jump;
 } rgt_rgo_script_element_content;
@@ -119,6 +131,13 @@ rgt_rgo_script_to_headers
 	rgt_utf8_string_array glyph_strings,
 	const char *out_path_structure, const char *out_path_commands, 
 	const char *out_path_text
+);
+
+rgt_result
+rgt_rgo_script_elements_to_script
+(
+	rgt_arena *arena, rgt_rgo_script_element_array elements,
+	rgt_utf8_string_array glyph_strings, rgt_rgo_script *create
 );
 
 #endif
