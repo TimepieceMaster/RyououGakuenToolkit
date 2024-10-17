@@ -1,7 +1,7 @@
 #include "ryouou_gakuen_toolkit.h"
 
 #define CPK_PATH "assets/sc.cpk"
-#define FONT_STRINGS_PATH "resources/rgoFontStrings.txt"
+#define FONT_STRINGS_PATH "resources/rgo_font_strings.txt"
 #define SCRIPT_ID 0
 #define OUT_PATH_STRUCTURE "results/script_0_structure.h"
 #define OUT_PATH_COMMANDS "results/script_0_commands.h"
