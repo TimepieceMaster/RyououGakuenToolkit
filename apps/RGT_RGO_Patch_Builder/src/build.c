@@ -29,11 +29,6 @@ typedef struct _script_replace_info
 	u16 replace_id;
 } script_replace_info;
 
-const script_replace_info g_scripts_to_replace[] =
-{
-	{ &g_script_0_elements, 0 }
-};
-
 const image_replace_info g_union_images_to_replace[] =
 {
 	/* Trading Cards */
@@ -136,6 +131,11 @@ const image_replace_info g_pr_images_to_replace[] =
 	{ "resources\\images\\pr_4.png", 0, 4 }
 };
 
+const script_replace_info g_scripts_to_replace[] =
+{
+	{ &g_script_0_elements, 0 }
+};
+
 const texture_region_info_array *g_texture_regions_to_update[] =
 {
 	&g_union_2530_1_regions,
@@ -163,75 +163,8 @@ const byte_sequence_patch_array *g_byte_sequence_patches[] =
 	&g_pr_byte_sequence_patches
 };
 
-rgt_result 
-patch_scripts()
-{
-	rgt_result result = RGT_SUCCESS;
-	rgt_arena arena = {0};
-	rgt_u8_array font_strings_file = {0};
-	rgt_string_array font_strings = {0};
-	rgt_utf8_string_array font_strings_utf8 = {0};
-
-	rgt_u8_array cpk_file = {0};
-	rgt_cpk cpk = {0};
-	rgt_u8_array new_cpk_file = {0};
-
-	RGT_CALL(rgt_create_arena(RGT_GIGABYTE(1), &arena));
-
-	RGT_CALL
-	(
-		rgt_load_file
-		(
-			&arena, "resources/font/rgo_font_strings.txt", &font_strings_file
-		)
-	);
-	RGT_CALL(rgt_text_to_lines(&arena, font_strings_file, &font_strings));
-	RGT_CREATE_ARRAY(&arena, font_strings.length, &font_strings_utf8);
-	for (u64 i = 0; i < font_strings.length; ++i)
-	{
-		u64 pos = 0;
-		RGT_CALL
-		(
-			rgt_read_utf8_string
-			(
-				&arena, font_strings.elems[i], &pos, &font_strings_utf8.elems[i]
-			)
-		);
-	}
-
-	RGT_CALL(rgt_load_file(&arena, "assets/cpk/sc.cpk", &cpk_file));
-	RGT_CALL(rgt_parse_cpk(&arena, cpk_file, &cpk));
-
-	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_scripts_to_replace); ++i)
-	{
-		rgt_rgo_script script = {0};
-		rgt_u8_array script_file = {0};
-		u16 id = g_scripts_to_replace[i].replace_id;
-		RGT_CALL
-		(
-			rgt_rgo_script_elements_to_script
-			(
-				&arena, *g_scripts_to_replace[i].script_elements,
-				font_strings_utf8, &script
-			)
-		);
-		RGT_CALL(rgt_build_rgo_script(&arena, script, &script_file));
-		RGT_CALL(rgt_remove_cpk_file(&arena, &cpk, id));
-		RGT_CALL(rgt_add_cpk_file(&arena, &cpk, id, script_file));
-	}
-
-	RGT_CALL(rgt_build_cpk(&arena, cpk, &new_cpk_file));
-	RGT_CALL(rgt_save_file(new_cpk_file, "results/sc.cpk"));
-
-finish:
-
-	rgt_destroy_arena(&arena);
-
-	return result;
-}
-
 void
-update_eboot_image_size_table
+update_eboot_file_size_table
 (
 	u64 table_offset, u64 index_start, u64 index_end,
 	u64 id, u16 new_size, rgt_u8_array eboot
@@ -294,7 +227,7 @@ update_eboot_patch_image
 
 	if (id < multi_image_index_start)
 	{
-		update_eboot_image_size_table
+		update_eboot_file_size_table
 		(
 			single_image_size_table_offset, single_image_index_start, 
 			single_image_index_end, id, size_2KB, eboot
@@ -302,7 +235,7 @@ update_eboot_patch_image
 	}
 	else
 	{
-		update_eboot_image_size_table
+		update_eboot_file_size_table
 		(
 			multi_image_size_table_offset, multi_image_index_start,
 			multi_image_index_end, id, size_2KB, eboot
@@ -612,6 +545,102 @@ void patch_image_regions(rgt_u8_array eboot)
 	}
 }
 
+rgt_result 
+patch_scripts(rgt_u8_array eboot)
+{
+	const heap_size_high_addr = 0x15B54;
+	const heap_size_low_addr = 0x15B58;
+
+	rgt_result result = RGT_SUCCESS;
+	rgt_arena arena = {0};
+	rgt_u8_array font_strings_file = {0};
+	rgt_string_array font_strings = {0};
+	rgt_utf8_string_array font_strings_utf8 = {0};
+
+	rgt_u8_array cpk_file = {0};
+	rgt_cpk cpk = {0};
+	rgt_u8_array new_cpk_file = {0};
+
+	u32 script_heap_size = {0};
+
+	{
+		u16 heap_size_low = 0;
+		u16 heap_size_high = 0;
+
+		memcpy(&heap_size_low, &eboot.elems[heap_size_low_addr], 2);
+		memcpy(&heap_size_high, &eboot.elems[heap_size_high_addr], 2);
+		script_heap_size = (u32)(heap_size_high << 16) | (u32)heap_size_low;
+	}
+
+	RGT_CALL(rgt_create_arena(RGT_GIGABYTE(1), &arena));
+
+	RGT_CALL
+	(
+		rgt_load_file
+		(
+			&arena, "resources/font/rgo_font_strings.txt", &font_strings_file
+		)
+	);
+	RGT_CALL(rgt_text_to_lines(&arena, font_strings_file, &font_strings));
+	RGT_CREATE_ARRAY(&arena, font_strings.length, &font_strings_utf8);
+	for (u64 i = 0; i < font_strings.length; ++i)
+	{
+		u64 pos = 0;
+		RGT_CALL
+		(
+			rgt_read_utf8_string
+			(
+				&arena, font_strings.elems[i], &pos, &font_strings_utf8.elems[i]
+			)
+		);
+	}
+
+	RGT_CALL(rgt_load_file(&arena, "assets/cpk/sc.cpk", &cpk_file));
+	RGT_CALL(rgt_parse_cpk(&arena, cpk_file, &cpk));
+
+	for (u64 i = 0; i < RGT_C_ARRAY_SIZE(g_scripts_to_replace); ++i)
+	{
+		rgt_rgo_script script = {0};
+		rgt_u8_array script_file = {0};
+		u16 id = g_scripts_to_replace[i].replace_id;
+		RGT_CALL
+		(
+			rgt_rgo_script_elements_to_script
+			(
+				&arena, *g_scripts_to_replace[i].script_elements,
+				font_strings_utf8, &script
+			)
+		);
+		RGT_CALL(rgt_build_rgo_script(&arena, script, &script_file));
+		RGT_CALL(rgt_remove_cpk_file(&arena, &cpk, id));
+		RGT_CALL(rgt_add_cpk_file(&arena, &cpk, id, script_file));
+		update_eboot_file_size_table
+		(
+			0x10319E, 0, 11, 0, 
+			(u16)(script_file.length / RGT_KILOBYTE(2)), eboot
+		);
+		if (script_file.length > script_heap_size)
+		{
+			u16 length_low = (u16)(script_file.length & 0xFFFF);
+			u16 length_high = (u16)((script_file.length & 0xFFFF0000) >> 16);
+			++length_high;
+
+			memcpy(&eboot.elems[heap_size_low_addr], &length_low, 2);
+			memcpy(&eboot.elems[heap_size_high_addr], &length_high, 2);
+			script_heap_size = (u32)script_file.length;
+		}
+	}
+
+	RGT_CALL(rgt_build_cpk(&arena, cpk, &new_cpk_file));
+	RGT_CALL(rgt_save_file(new_cpk_file, "results/sc.cpk"));
+
+finish:
+
+	rgt_destroy_arena(&arena);
+
+	return result;
+}
+
 void 
 apply_single_instruction_patches(rgt_u8_array eboot)
 {
@@ -652,9 +681,9 @@ main(void)
 	rgt_create_arena(RGT_MEGABYTE(4), &arena);
 	RGT_CALL(rgt_load_file(&arena, "assets\\eboot\\EBOOT.bin", &eboot));
 
-	RGT_CALL(patch_scripts());
 	RGT_CALL(patch_union(eboot));
 	RGT_CALL(patch_pr());
+	RGT_CALL(patch_scripts(eboot));
 	patch_image_regions(eboot);
 	apply_single_instruction_patches(eboot);
 	apply_byte_sequence_patches(eboot);
