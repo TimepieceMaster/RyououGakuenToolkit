@@ -443,3 +443,50 @@ rgt_get_glyph_width(rgt_image glyph_image)
 	}
 	return width;
 }
+
+rgt_result
+rgt_create_multi_glyph_image
+(
+	rgt_arena *arena,  rgt_image_array base_glyph_images,
+	rgt_utf8_string_array base_glyph_strings, rgt_u32_array base_glyph_widths,
+	rgt_utf8_string multi_glyph_string, u32* out_width, rgt_image *populate
+)
+{
+	rgt_result result = RGT_SUCCESS;
+	rgt_image img = {0};
+	rgt_u16_array glyph_indices = {0};
+	u32 curX = 0;
+	
+	RGT_CALL(rgt_create_image(arena, GLYPH_WIDTH, GLYPH_HEIGHT, &img));
+	rgt_fill_image_region
+	(
+		img, 0, 0, img.width, img.height, (rgt_color){.rgba = 0xFF000000}
+	);
+
+	RGT_CALL
+	(
+		rgt_utf8_to_glyph_indices
+		(
+			arena, multi_glyph_string, base_glyph_strings, &glyph_indices
+		)
+	);
+	for (u64 i = 0; i < glyph_indices.length; ++i)
+	{
+		rgt_image src = base_glyph_images.elems[glyph_indices.elems[i]];
+		u32 width = base_glyph_widths.elems[glyph_indices.elems[i]];
+		RGT_ASSERT(curX + width <= img.width, RGT_OUT_OF_BOUNDS_ERROR);
+
+		rgt_copy_image_region(src, img, 0, 0, curX, 0, width, src.height);
+		curX += width;
+	}
+
+finish:
+
+	if (result == RGT_SUCCESS)
+	{
+		*out_width = curX;
+		*populate = img;
+	}
+
+	return result;
+}

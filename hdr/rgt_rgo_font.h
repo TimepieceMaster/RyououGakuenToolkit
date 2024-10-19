@@ -59,4 +59,12 @@ rgt_glyph_indices_to_utf8
 u32
 rgt_get_glyph_width(rgt_image glyph_image);
 
+rgt_result
+rgt_create_multi_glyph_image
+(
+	rgt_arena *arena,  rgt_image_array base_glyph_images,
+	rgt_utf8_string_array base_glyph_strings, rgt_u32_array base_glyph_widths,
+	rgt_utf8_string multi_glyph_string, u32* out_width, rgt_image *populate
+);
+
 #endif
