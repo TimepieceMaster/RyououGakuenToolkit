@@ -578,7 +578,8 @@ patch_scripts(rgt_u8_array eboot)
 	(
 		rgt_load_file
 		(
-			&arena, "resources/font/rgo_font_strings.txt", &font_strings_file
+			&arena, "resources/font/english_font_strings.txt", 
+			&font_strings_file
 		)
 	);
 	RGT_CALL(rgt_text_to_lines(&arena, font_strings_file, &font_strings));
@@ -695,6 +696,12 @@ main(void)
 	(
 		"UMD-replace.exe results\\rgopsp.iso "
 		"PSP_GAME/PARAM.SFO resources\\param\\PARAM.SFO"
+	);
+	system
+	(
+		"UMD-replace.exe "
+		"results\\rgopsp.iso "
+		"PSP_GAME/USRDIR/DATA/lt.bin resources\\font\\lt.bin"
 	);
 	system
 	(

@@ -109,6 +109,24 @@ rgt_utf8_char_equals(rgt_utf8_char lhs, rgt_utf8_char rhs)
 	return true;
 }
 
+bool
+rgt_utf8_string_equals(rgt_utf8_string lhs, rgt_utf8_string rhs)
+{
+	if (lhs.length != rhs.length)
+	{
+		return false;
+	}
+	for (u64 i = 0; i < lhs.length; ++i)
+	{
+		if (!rgt_utf8_char_equals(lhs.elems[i], rhs.elems[i]))
+		{
+			return false;
+		}
+	}
+	return true;
+}
+
+
 rgt_result
 rgt_read_utf8_string
 (

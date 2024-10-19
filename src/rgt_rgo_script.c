@@ -536,16 +536,22 @@ finish:
 }
 
 static rgt_result
-s_write_utf8_string(rgt_utf8_string utf8, FILE *out_text)
+s_write_utf8_string(rgt_utf8_string utf8, FILE *out_text, bool no_text)
 {
 	rgt_result result = RGT_SUCCESS;
 
 	RGT_FPRINTF(out_text, "\t\"");
+	if (no_text)
+	{
+		RGT_FPRINTF(out_text, "NULL\"");
+		RGT_EARLY_RETURN;
+	}
 	for (u64 i = 0; i < utf8.length; ++i)
 	{
 		RGT_FPRINTF
 		(
-			out_text, "%.*s", (int)utf8.elems[i].length, utf8.elems[i].elems
+			out_text, "%.*s", 
+			(int)utf8.elems[i].length, utf8.elems[i].elems
 		);
 		if 
 		(
@@ -575,7 +581,7 @@ s_write_dialog
 (
 	rgt_arena *arena, rgt_rgo_script script, u64 index,
 	rgt_utf8_string_array glyph_strings,
-	FILE *out_structure, FILE *out_text
+	FILE *out_structure, FILE *out_text, bool no_text
 )
 {
 	rgt_result result = RGT_SUCCESS;
@@ -622,7 +628,7 @@ s_write_dialog
 		"static char s_dialogs_%llu_speaker_data[] = \n",
 		index
 	);
-	RGT_CALL(s_write_utf8_string(speaker, out_text));
+	RGT_CALL(s_write_utf8_string(speaker, out_text, no_text));
 
 	RGT_FPRINTF
 	(
@@ -631,7 +637,7 @@ s_write_dialog
 		"static char s_dialogs_%llu_message_data[] = \n",
 		index
 	);
-	RGT_CALL(s_write_utf8_string(message, out_text));
+	RGT_CALL(s_write_utf8_string(message, out_text, no_text));
 
 	RGT_FPRINTF(out_text, ";\n\n");
 	
@@ -647,7 +653,7 @@ s_write_choice
 	rgt_arena *arena, rgt_rgo_script script, 
 	u64 group, u64 choice,
 	rgt_utf8_string_array glyph_strings,
-	FILE *out_structure, FILE *out_text
+	FILE *out_structure, FILE *out_text, bool no_text
 )
 {
 	rgt_result result = RGT_SUCCESS;
@@ -685,7 +691,7 @@ s_write_choice
 		"static char s_choices_%llu_%llu_data[] = \n",
 		group, choice
 	);
-	RGT_CALL(s_write_utf8_string(text, out_text));
+	RGT_CALL(s_write_utf8_string(text, out_text, no_text));
 	RGT_FPRINTF(out_text, ";\n");
 
 finish:
@@ -699,7 +705,7 @@ s_write_choice_group
 	rgt_arena *arena, rgt_rgo_script script, u64 id,
 	rgt_utf8_string_array glyph_strings,
 	u64 *command_section,
-	FILE *out_structure, FILE* out_commands, FILE *out_text
+	FILE *out_structure, FILE* out_commands, FILE *out_text, bool no_text
 )
 {
 	rgt_result result = RGT_SUCCESS;
@@ -730,7 +736,8 @@ s_write_choice_group
 		(
 			s_write_choice
 			(
-				arena, script, id, i, glyph_strings, out_structure, out_text
+				arena, script, id, i, glyph_strings, 
+				out_structure, out_text, no_text
 			)
 		);
 		RGT_CALL
@@ -756,7 +763,7 @@ rgt_rgo_script_to_headers
 	rgt_arena *arena, rgt_rgo_script script, u64 id,
 	rgt_utf8_string_array glyph_strings,
 	const char *out_path_structure, const char *out_path_commands, 
-	const char *out_path_text
+	const char *out_path_text, bool no_text
 )
 {
 	rgt_result result = RGT_SUCCESS;
@@ -832,7 +839,8 @@ rgt_rgo_script_to_headers
 		(
 			s_write_dialog
 			(
-				arena, script, i, glyph_strings, out_structure, out_text
+				arena, script, i, glyph_strings, 
+				out_structure, out_text, no_text
 			)
 		);
 	}
@@ -853,7 +861,7 @@ rgt_rgo_script_to_headers
 			s_write_choice_group
 			(
 				arena, script, i, glyph_strings, &command_section,
-				out_structure, out_commands, out_text
+				out_structure, out_commands, out_text, no_text
 			)
 		);
 	}

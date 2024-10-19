@@ -143,6 +143,7 @@ main(void)
 		u64 off = (base_glyphs.length + i) * GLYPH_SIZE + GLYPH_WIDTH_OFFSET;
 		memcpy(&all_glyphs_font.elems[off], &width, 2);
 	}
+	rgt_add_checksum_whole_file(all_glyphs_font);
 
 	RGT_CALL(rgt_save_file(all_glyphs_font, OUT_PATH_FONT));
 	RGT_CALL(rgt_save_png(&arena, all_glyphs_composite, 6, OUT_PATH_COMPOSITE));

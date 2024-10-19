@@ -130,7 +130,7 @@ rgt_rgo_script_to_headers
 	rgt_arena *arena, rgt_rgo_script script, u64 id,
 	rgt_utf8_string_array glyph_strings,
 	const char *out_path_structure, const char *out_path_commands, 
-	const char *out_path_text
+	const char *out_path_text, bool no_text
 );
 
 rgt_result

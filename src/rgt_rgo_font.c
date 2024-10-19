@@ -338,19 +338,32 @@ rgt_utf8_to_glyph_indices
 			}
 		}
 
+		u64 best_length_found = 0;
+		u16 best_index = 0;
 		for (u64 j = 0; j < glyph_strings.length; ++j)
 		{
-			if 
+			rgt_utf8_string substr = {0};
+			substr.elems = &utf8.elems[i];
+			substr.length = glyph_strings.elems[j].length;
+			if
 			(
-				rgt_utf8_char_equals
-				(
-					utf8.elems[i], glyph_strings.elems[j].elems[0]
-				)
+				best_length_found >= substr.length ||
+				i + substr.length > utf8.length
 			)
 			{
-				RGT_APPEND_ARRAY(arena, &j, &indices);
-				break;
+				continue;
 			}
+
+			if (rgt_utf8_string_equals(substr, glyph_strings.elems[j]))
+			{
+				best_length_found = substr.length;
+				best_index = (u16)j;
+			}
+		}
+		if (best_length_found)
+		{
+			i += best_length_found - 1;
+			RGT_APPEND_ARRAY(arena, &best_index, &indices);
 		}
 	}
 

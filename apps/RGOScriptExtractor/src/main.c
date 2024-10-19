@@ -6,6 +6,7 @@
 #define OUT_PATH_STRUCTURE "results/script_0_structure.h"
 #define OUT_PATH_COMMANDS "results/script_0_commands.h"
 #define OUT_PATH_TEXT "results/script_0_text.h"
+#define NO_TEXT false
 
 int 
 main(void)
@@ -51,7 +52,7 @@ main(void)
 		rgt_rgo_script_to_headers
 		(
 			&arena, script, SCRIPT_ID, font_strings_utf8,
-			OUT_PATH_STRUCTURE, OUT_PATH_COMMANDS, OUT_PATH_TEXT
+			OUT_PATH_STRUCTURE, OUT_PATH_COMMANDS, OUT_PATH_TEXT, NO_TEXT
 		)
 	);
 

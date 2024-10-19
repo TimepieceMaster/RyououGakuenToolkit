@@ -23,6 +23,9 @@ rgt_utf8_strlen(rgt_u8_array string, u64 pos, u64 *out);
 bool
 rgt_utf8_char_equals(rgt_utf8_char lhs, rgt_utf8_char rhs);
 
+bool
+rgt_utf8_string_equals(rgt_utf8_string lhs, rgt_utf8_string rhs);
+
 rgt_result
 rgt_read_utf8_string
 (
