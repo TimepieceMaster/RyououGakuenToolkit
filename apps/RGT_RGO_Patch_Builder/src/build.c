@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include "image_info/union_2528_1.h"
+#include "image_info/union_2529_0.h"
 #include "image_info/union_2530_1.h"
 #include "image_info/union_2531_1.h"
 #include "image_info/union_2533_5.h"
@@ -152,6 +153,7 @@ const texture_region_info_array *g_texture_regions_to_update[] =
 
 const single_instruction_patch_array *g_single_instruction_patches[] =
 {
+	&g_union_2529_0_instruction_patches,
 	&g_union_2521_1_instruction_patches,
 	&g_union_2530_1_instruction_patches,
 	&g_union_2533_5_instruction_patches,
@@ -162,6 +164,7 @@ const single_instruction_patch_array *g_single_instruction_patches[] =
 
 const byte_sequence_patch_array *g_byte_sequence_patches[] =
 {
+	&g_union_2529_0_byte_sequence_patches,
 	&g_pr_byte_sequence_patches
 };
 

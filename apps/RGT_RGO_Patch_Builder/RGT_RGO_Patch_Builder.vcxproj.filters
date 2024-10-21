@@ -53,5 +53,20 @@
     <ClInclude Include="hdr\image_info\pr_4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="hdr\scripts\script_0_commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\scripts\script_0_structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\scripts\script_0_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\scripts\variable_width_font_patches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\image_info\union_2529_0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
