@@ -92,7 +92,6 @@ static single_instruction_patch s_variable_width_font_patch_data[] =
 	{ 0x3AC84, 0x10000012 },
 
 	/* Draw in textbox in consistent position */
-	{ 0x4F98, 0x3405007D },
 	{ 0x4D98, 0x3405007D },
 
 	/* Center speaker field */
