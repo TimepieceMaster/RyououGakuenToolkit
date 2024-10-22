@@ -126644,379 +126644,439 @@ static char s_dialogs_25327_message_data[] =
 	"NULL";
 
 static char s_dialogs_25328_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25328_message_data[] = 
-	"NULL";
+	"I'll make you into an ace!/n"
+	"I'll make you into a real ace!";
 
 static char s_dialogs_25329_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25329_message_data[] = 
-	"NULL";
+	"I look forward to working with you, Coach!";
 
 static char s_dialogs_25330_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25330_message_data[] = 
-	"NULL";
+	"You're naive!  Too naive!";
 
 static char s_dialogs_25331_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25331_message_data[] = 
-	"NULL";
+	"You really think that'll be enough training/n"
+	"to block my special \"Panther Shot\" technique!?";
 
 static char s_dialogs_25332_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25332_message_data[] = 
-	"NULL";
+	"W-Well...";
 
 static char s_dialogs_25333_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25333_message_data[] = 
-	"NULL";
+	"But even still...  I want to.";
 
 static char s_dialogs_25334_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25334_message_data[] = 
-	"NULL";
+	"Coach, I don't want to play/n"
+	"baseball, volleyball, or soccer./n"
+	"I want to play basketball...!";
 
 static char s_dialogs_25335_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25335_message_data[] = 
-	"NULL";
+	"Well put!/n"
+	"If you give up, that's when the game is over!";
 
 static char s_dialogs_25336_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25336_message_data[] = 
-	"NULL";
+	"Y-Yes, Sir!  I will do my best!/n"
+	"After all... I'm a genius!";
 
 static char s_dialogs_25337_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25337_message_data[] = 
-	"NULL";
+	"That line--I like it!/n"
+	"Tsukasa, you sure know your stuff ♪";
 
 static char s_dialogs_25338_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25338_message_data[] = 
-	"NULL";
+	"I-I do?  Eheheheh ♪";
 
 static char s_dialogs_25339_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25339_message_data[] = 
-	"NULL";
+	"Alright!  Things have gotten exciting!/n"
+	"Miyuki-san, our special training begins!";
 
 static char s_dialogs_25340_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25340_message_data[] = 
-	"NULL";
+	"That sounds nice, but.../n"
+	"there's something that's/n"
+	"not quite right, isn't there?";
 
 static char s_dialogs_25341_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25341_message_data[] = 
-	"NULL";
+	"What's that?";
 
 static char s_dialogs_25342_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25342_message_data[] = 
-	"NULL";
+	"Well, it's what one would call the \"direction\"./n"
+	"Or put another way, everything...";
 
 static char s_dialogs_25343_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25343_message_data[] = 
-	"NULL";
+	"Ugh...  everything...?";
 
 static char s_dialogs_25344_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25344_message_data[] = 
-	"NULL";
+	"Ah!  I understand!/n"
+	"Sorry about that, Miyuki-san!/n"
+	"Man, and that's such a basic thing, y'know?";
 
 static char s_dialogs_25345_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25345_message_data[] = 
-	"NULL";
+	"Indeed!/n"
+	"So now let's--";
 
 static char s_dialogs_25346_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25346_message_data[] = 
-	"NULL";
+	"You're wanting an exciting event/n"
+	"that isn't a traditional sport!";
 
 static char s_dialogs_25347_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25347_message_data[] = 
-	"NULL";
+	"Huh?  An event...?";
 
 static char s_dialogs_25348_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25348_message_data[] = 
-	"NULL";
+	"I know just the thing!/n"
+	"Nothing says \"exciting event\" quite like--";
 
 static char s_dialogs_25349_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25349_message_data[] = 
-	"NULL";
+	"Let's go!  Chicken fight!";
 
 static char s_dialogs_25350_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25350_message_data[] = 
-	"NULL";
+	"Eeeeeeeh!?/n"
+	"I told you, this is the wrong direction!";
 
 static char s_dialogs_25351_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25351_message_data[] = 
-	"NULL";
+	"Seriously, Konata,/n"
+	"what's all this about!?";
 
 static char s_dialogs_25352_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25352_message_data[] = 
-	"NULL";
+	"I am not Konata!  I am a dullahan!/n"
+	"A headed horseman riding upon a jet-black steed!";
 
 static char s_dialogs_25353_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25353_message_data[] = 
-	"NULL";
+	"Dullahan are headless, though...";
 
 static char s_dialogs_25354_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25354_message_data[] = 
-	"NULL";
+	"I'd die without a head, okay!?/n"
+	"I'm not some monster, y'know!";
 
 static char s_dialogs_25355_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25355_message_data[] = 
-	"NULL";
+	"But you're a dullahan, right!?/n"
+	"So you are a monster, Kona-chan!";
 
 static char s_dialogs_25356_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25356_message_data[] = 
-	"NULL";
+	"Wrong!  I am a fallen angel of love!/n"
+	"Now, my fellow horsemen,/n"
+	"lead me into the queen's battle!";
 
 static char s_dialogs_25357_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25357_message_data[] = 
-	"NULL";
+	"Ngyah!?";
 
 static char s_dialogs_25358_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25358_message_data[] = 
-	"NULL";
+	"Ow ow ow ow...  That hurrrrt...";
 
 static char s_dialogs_25359_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25359_message_data[] = 
-	"NULL";
+	"You've been shouting/n"
+	"a bunch of nonsense for some time now!";
 
 static char s_dialogs_25360_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25360_message_data[] = 
-	"NULL";
+	"Come on, it's chicken fighting!/n"
+	"Isn't it the star event of any sports festival?";
 
 static char s_dialogs_25361_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25361_message_data[] = 
-	"NULL";
+	"Fugyah!?";
 
 static char s_dialogs_25362_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25362_message_data[] = 
-	"NULL";
+	"Oh my god...  What did you just say?/n"
+	"What are you calling it the star of?";
 
 static char s_dialogs_25363_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25363_message_data[] = 
-	"NULL";
+	"Sports festivals of course!  (Heh!)";
 
 static char s_dialogs_25364_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25364_message_data[] = 
-	"NULL";
+	"Don't give me that smirk!/n"
+	"We're trying to decide on an event/n"
+	"for the Outou Festival right now!";
 
 static char s_dialogs_25365_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25365_message_data[] = 
-	"NULL";
+	"...Eh?";
 
 static char s_dialogs_25366_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25366_message_data[] = 
-	"NULL";
+	"Were you listening to our discussion earlier?/n"
+	"We have to come up with an event/n"
+	"to do for the Outou Festival, remember?";
 
 static char s_dialogs_25367_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25367_message_data[] = 
-	"NULL";
+	"Ah...";
 
 static char s_dialogs_25368_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25368_message_data[] = 
-	"NULL";
+	"The sports festival already happened, and...";
 
 static char s_dialogs_25369_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25369_message_data[] = 
-	"NULL";
+	"Really, I just don't think chicken fighting/n"
+	"aligns with our goals for the Outou Festival...";
 
 static char s_dialogs_25370_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25370_message_data[] = 
-	"NULL";
+	"Uuh...";
 
 static char s_dialogs_25371_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25371_message_data[] = 
-	"NULL";
+	"Kona-chan, let's take a moment to cool our heads./n"
+	"Would you like something cold?/n"
+	"I'll go and buy it for you, okay?";
 
 static char s_dialogs_25372_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25372_message_data[] = 
-	"NULL";
+	"Uuugh...";
 
 static char s_dialogs_25373_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25373_message_data[] = 
-	"NULL";
+	"It's okay.  Nobody's mad at you.";
 
 static char s_dialogs_25374_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25374_message_data[] = 
-	"NULL";
+	"It was fun cosplaying,/n"
+	"and it had been a while since we last linked up/n"
+	"into a chicken fight formation...  y'know?";
 
 static char s_dialogs_25375_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25375_message_data[] = 
-	"NULL";
+	"Uuugh...  waaaaah...";
 
 static char s_dialogs_25376_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25376_message_data[] = 
-	"NULL";
+	"Kona-chan, what's wrong?/n"
+	"What kind of juice would you like?";
 
 static char s_dialogs_25377_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25377_message_data[] = 
-	"NULL";
+	"AAAHHH STOOOOOOOP!/n"
+	"Don't be nice to me!/n"
+	"I'll zap you with a copper wire!";
 
 static char s_dialogs_25378_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25378_message_data[] = 
-	"NULL";
+	"Yeah, yeah./n"
+	"Anyway, we've seriously got to think of/n"
+	"an event to do for the Outou Festival.";
 
 static char s_dialogs_25379_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25379_message_data[] = 
-	"NULL";
+	"Indeed...";
 
 static char s_dialogs_25380_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25380_message_data[] = 
-	"NULL";
+	"*sigh*...  What do you think would be good?/n"
+	"A play?  A cafe?  Or maybe something else?";
 
 static char s_dialogs_25381_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25381_message_data[] = 
-	"NULL";
+	"They all sound interesting./n"
+	"Can't we just do everything?";
 
 static char s_dialogs_25382_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25382_message_data[] = 
-	"NULL";
+	"If only we could clone ourselves/n"
+	"or we had infinite time, huh?";
 
 static char s_dialogs_25383_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25383_message_data[] = 
-	"NULL";
+	"I know, right?/n"
+	"Hmm...  this is tough.";
 
 static char s_dialogs_25384_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25384_message_data[] = 
-	"NULL";
+	"First, let's narrow it down to one thing./n"
+	"We'll work out the details after that.";
 
 static char s_dialogs_25385_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25385_message_data[] = 
-	"NULL";
+	"UAAAAAAAAAAH!  Spirits of the stars!/n"
+	"Stars of the twelve signs of the zodiac!/n"
+	"Lend me your power!!";
 
 static char s_dialogs_25386_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25386_message_data[] = 
-	"NULL";
+	"Shut up!  Don't shout!/n"
+	"What, do you think you've got/n"
+	"magic powers or something!?";
 
 static char s_dialogs_25387_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25387_message_data[] = 
-	"NULL";
+	"I DO I DO I DO I DO I DOOOOO!/n"
+	"Now for my special technique!/n"
+	"Uryaryah!  FRIZZ CRACKER!";
 
 static char s_dialogs_25388_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25388_message_data[] = 
-	"NULL";
+	"Ah!  A shooting star!!";
 
 static char s_dialogs_25389_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25389_message_data[] = 
-	"NULL";
+	"I did it!  The power of the star spirits!/n"
+	"I truly do have magic powers!";
 
 static char s_dialogs_25390_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25390_message_data[] = 
-	"NULL";
+	"Get real...  It was just a coincidence.";
 
 static char s_dialogs_25391_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25391_message_data[] = 
-	"NULL";
+	"Come on, hurry up and make a wish!/n"
+	"Let's see.../n"
+	"I wish that the Outou Festival goes well!";
 
 static char s_dialogs_25392_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25392_message_data[] = 
-	"NULL";
+	"I wish that we come up with ideas for the event.";
 
 static char s_dialogs_25393_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25393_message_data[] = 
-	"NULL";
+	"I wish that I obtain rare items.";
 
 static char s_dialogs_25394_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25394_message_data[] = 
-	"NULL";
+	"I wish that you will listen to my song.";
 
 static char s_dialogs_25395_speaker_data[] = 
-	"NULL";
+	"Everyone";
 static char s_dialogs_25395_message_data[] = 
-	"NULL";
+	"Eh?  What did you just--";
 
 static char s_dialogs_25396_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25396_message_data[] = 
-	"NULL";
+	"N-No!/n"
+	"Another person to help with the Outou Festival,/n"
+	"that is my wish!";
 
 static char s_dialogs_25397_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_25397_message_data[] = 
-	"NULL";
+	"Ah!  It shined!  The star shined!/n"
+	"Now our wishes will definitely come true!";
 
 static char s_dialogs_25398_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25398_message_data[] = 
-	"NULL";
+	"I hope so, but.../n"
+	"Anyway, let's hurry up and decide on something!";
 
 static char s_dialogs_25399_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_25399_message_data[] = 
-	"NULL";
+	"Indeed.  So, any ideas...?";
 
 static char s_dialogs_25400_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25400_message_data[] = 
-	"NULL";
+	"Yeah, I've got one!  An epic showdown between/n"
+	"baseball, soccer, basketball, volleyball,/n"
+	"and chicken fighting athletes!";
 
 static char s_dialogs_25401_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_25401_message_data[] = 
-	"NULL";
+	"Off to the stars with you!";
 
 static char s_dialogs_25402_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_25402_message_data[] = 
-	"NULL";
+	"GYAAAAAAAAH!?";
 
 static char s_dialogs_25403_speaker_data[] = 
 	"NULL";
