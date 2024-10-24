@@ -1276,72 +1276,84 @@ static char s_dialogs_247_message_data[] =
 	"NULL";
 
 static char s_dialogs_248_speaker_data[] = 
-	"NULL";
+	"???";
 static char s_dialogs_248_message_data[] = 
-	"NULL";
+	"--W-What!?";
 
 static char s_dialogs_249_speaker_data[] = 
-	"NULL";
+	"???";
 static char s_dialogs_249_message_data[] = 
-	"NULL";
+	"--No!  It can't take any more of this!";
 
 static char s_dialogs_250_speaker_data[] = 
-	"NULL";
+	"???";
 static char s_dialogs_250_message_data[] = 
-	"NULL";
+	"Below is...  I have to do something!";
 
 static char s_dialogs_251_speaker_data[] = 
-	"NULL";
+	"???";
 static char s_dialogs_251_message_data[] = 
-	"NULL";
+	"There's no other way,/n"
+	"start the emergency intervention system!";
 
 static char s_dialogs_252_speaker_data[] = 
-	"NULL";
+	"???";
 static char s_dialogs_252_message_data[] = 
-	"NULL";
+	"Now's no time to be saying that!/n"
+	"The supplement to clause #436 of/n"
+	"the treaty states--";
 
 static char s_dialogs_253_speaker_data[] = 
-	"NULL";
+	"???";
 static char s_dialogs_253_message_data[] = 
-	"NULL";
+	"\"This shall not include cases in which a visit/n"
+	"to a planet not party to the treaty would cause/n"
+	"considerable damage to their civilization\"!";
 
 static char s_dialogs_254_speaker_data[] = 
-	"NULL";
+	"???";
 static char s_dialogs_254_message_data[] = 
-	"NULL";
+	"Release lock #1!  Release lock #2!/n"
+	"Release lock...  Augh, hurry up already!";
 
 static char s_dialogs_255_speaker_data[] = 
-	"NULL";
+	"???";
 static char s_dialogs_255_message_data[] = 
-	"NULL";
+	"...Crap!  Am I already too late!?";
 
 static char s_dialogs_256_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_256_message_data[] = 
-	"NULL";
+	"Come on!  THAT'S where it ends!?";
 
 static char s_dialogs_257_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_257_message_data[] = 
-	"NULL";
+	"...It's gone to commercials./n"
+	"Man, this anime always ends/n"
+	"when it's getting good.";
 
 static char s_dialogs_258_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_258_message_data[] = 
-	"NULL";
+	"--Well, I guess all shows are like that./n"
+	"Still, I wanna know what happens next!";
 
 static char s_dialogs_259_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_259_message_data[] = 
-	"NULL";
+	"While muttering such things,/n"
+	"I stretch and let out a yawn.";
 
 static char s_dialogs_260_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_260_message_data[] = 
-	"NULL";
+	"*yawn*.../n"
+	"Well, today's my first day at this new school./n"
+	"Will I be able to make the transition successfully?";
 
 static char s_dialogs_261_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_261_message_data[] = 
 	"NULL";
 
@@ -1921,664 +1933,786 @@ static char s_dialogs_376_message_data[] =
 	"NULL";
 
 static char s_dialogs_377_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_377_message_data[] = 
-	"NULL";
+	"Yep, I just moved to this town yesterday/n"
+	"and now I'll be attending my new school/n"
+	"for the first time.";
 
 static char s_dialogs_378_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_378_message_data[] = 
-	"NULL";
+	"Honestly, I was anxious./n"
+	"It was only natural--this was the first time/n"
+	"I had ever transferred schools.";
 
 static char s_dialogs_379_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_379_message_data[] = 
-	"NULL";
+	"It's said the first day is vital when transferring/n"
+	"schools, but hey, I'm sure it'll be fine./n"
+	"I'll manage...  probably.";
 
 static char s_dialogs_380_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_380_message_data[] = 
-	"NULL";
+	"Clear weather today?  Thank goodness./n"
+	"If it had rained on my first day,/n"
+	"that would've been unbear--";
 
 static char s_dialogs_381_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_381_message_data[] = 
-	"NULL";
+	"Uh...  Wait, wait, wait just a second!/n"
+	"How could it be that time already!?";
 
 static char s_dialogs_382_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_382_message_data[] = 
-	"NULL";
+	"8:20!?  But the anime I just watched,/n"
+	"I was sure it ran from 7:00 to 7:30--";
 
 static char s_dialogs_383_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_383_message_data[] = 
-	"NULL";
+	"This isn't funny!/n"
+	"Don't go changing the schedule willy-nilly!!";
 
 static char s_dialogs_384_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_384_message_data[] = 
-	"NULL";
+	"No no, I need to calm down./n"
+	"It's times like these when one must calmly/n"
+	"analyze the situation they've been placed in--";
 
 static char s_dialogs_385_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_385_message_data[] = 
-	"NULL";
+	"Shoot!/n"
+	"No matter how you slice it, this is incredibly bad!";
 
 static char s_dialogs_386_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_386_message_data[] = 
-	"NULL";
+	"What do I do?/n"
+	"What SHOULD I do!?/n"
+	"I'll avoid being late if I--";
 
 static char s_dialogs_387_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_387_message_data[] = 
-	"NULL";
+	"...Yeah, even if I rush, it won't be worth it.";
 
 static char s_dialogs_388_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_388_message_data[] = 
-	"NULL";
+	"It's not that it's too late for it to matter./n"
+	"However, nothing good will come from rushing./n"
+	"Isn't there the saying, \"more haste, less speed\"?";
 
 static char s_dialogs_389_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_389_message_data[] = 
-	"NULL";
+	"...And thinking about it the other way around,/n"
+	"I'm a transfer and it's my first day, so I can't help/n"
+	"but be late.  I'm sure everyone will overlook it.";
 
 static char s_dialogs_390_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_390_message_data[] = 
-	"NULL";
+	"...Probably.";
 
 static char s_dialogs_391_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_391_message_data[] = 
-	"NULL";
+	"I'm sure the school's within walking distance,/n"
+	"so I'll start by grabbing my phone, then I should/n"
+	"only need my wallet and bag after that...";
 
 static char s_dialogs_392_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_392_message_data[] = 
-	"NULL";
+	"I pull out my uniform and put it on/n"
+	"before calmly checking myself in the mirror./n"
+	"--Guess I'm ready.";
 
 static char s_dialogs_393_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_393_message_data[] = 
-	"NULL";
+	"Alright, let's get going!";
 
 static char s_dialogs_394_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_394_message_data[] = 
-	"NULL";
+	"...And before I knew it, I was lost.";
 
 static char s_dialogs_395_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_395_message_data[] = 
-	"NULL";
+	"It's been ten minutes since I left the house./n"
+	"Sure, I didn't look up where the school was,/n"
+	"but I didn't think I'd get lost this easily...";
 
 static char s_dialogs_396_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_396_message_data[] = 
-	"NULL";
+	"I'd say I should try/n"
+	"asking someone for directions, but...";
 
 static char s_dialogs_397_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_397_message_data[] = 
-	"NULL";
+	"I guess it's past peak commute time for/n"
+	"school and work, huh?  There's nobody around.";
 
 static char s_dialogs_398_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_398_message_data[] = 
-	"NULL";
+	"If I listen carefully though,/n"
+	"I can faintly hear the sound of a crowd of people.";
 
 static char s_dialogs_399_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_399_message_data[] = 
-	"NULL";
+	"That noise.../n"
+	"Could it be that the school is over that way?";
 
 static char s_dialogs_400_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_400_message_data[] = 
-	"NULL";
+	"DING DING DING!";
 
 static char s_dialogs_401_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_401_message_data[] = 
-	"NULL";
+	"Hey, this is no time to pat myself on the back!/n"
+	"Was that the warning bell?/n"
+	"Or was it the start of class bell!?";
 
 static char s_dialogs_402_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_402_message_data[] = 
-	"NULL";
+	"While saying this, I break into a run./n"
+	"Now I generally knew where my destination was,/n"
+	"all that's left is to get there!  I just need to run!!";
 
 static char s_dialogs_403_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_403_message_data[] = 
-	"NULL";
+	"Ow!";
 
 static char s_dialogs_404_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_404_message_data[] = 
-	"NULL";
+	"...Agggh./n"
+	"Ugh, what kinda event is this?";
 
 static char s_dialogs_405_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_405_message_data[] = 
-	"NULL";
+	"I-I'm so sorry!/n"
+	"I was in a hurry, so...";
 
 static char s_dialogs_406_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_406_message_data[] = 
-	"NULL";
+	"...You're good./n"
+	"I was running really fast too.";
 
 static char s_dialogs_407_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_407_message_data[] = 
-	"NULL";
+	"Where did you get hit?/n"
+	"Are you okay?";
 
 static char s_dialogs_408_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_408_message_data[] = 
-	"NULL";
+	"Like my head and my butt,/n"
+	"in the ways you'd expect.";
 
 static char s_dialogs_409_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_409_message_data[] = 
-	"NULL";
+	"Though if I must say, it is unfortunate that/n"
+	"I didn't have a piece of toast in my mouth.";
 
 static char s_dialogs_410_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_410_message_data[] = 
-	"NULL";
+	"Toast???";
 
 static char s_dialogs_411_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_411_message_data[] = 
-	"NULL";
+	"...I wouldn't have minded an event/n"
+	"like this occurring, but things/n"
+	"don't always work out so nicely.";
 
 static char s_dialogs_412_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_412_message_data[] = 
-	"NULL";
+	"Event?/n"
+	"Is this a hidden camera prank or something???";
 
 static char s_dialogs_413_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_413_message_data[] = 
-	"NULL";
+	"Nah, this is about beating the route./n"
+	"Could this have unexpectedly/n"
+	"set a flag just now?";
 
 static char s_dialogs_414_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_414_message_data[] = 
-	"NULL";
+	"Uhh...  what on earth is that supposed to mean?";
 
 static char s_dialogs_415_speaker_data[] = 
-	"NULL";
+	"Konata Izumi";
 static char s_dialogs_415_message_data[] = 
-	"NULL";
+	"Hmm, I'll tell you some other time./n"
+	"Sorry, but I'm almost gonna be late!";
 
 static char s_dialogs_416_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_416_message_data[] = 
-	"NULL";
+	"Huh...  ah!/n"
+	"Hold on a second!";
 
 static char s_dialogs_417_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_417_message_data[] = 
-	"NULL";
+	"If she's hurrying because she's \"almost late\",/n"
+	"she must be attending a school near here./n"
+	"There's a good chance it's the one I'm looking for.";
 
 static char s_dialogs_418_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_418_message_data[] = 
-	"NULL";
+	"So with that, I'm running too!!";
 
 static char s_dialogs_419_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_419_message_data[] = 
-	"NULL";
+	"She has long hair that sways back and forth/n"
+	"as she disappears into an alleyway./n"
+	"However, her figure is way too petite.";
 
 static char s_dialogs_420_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_420_message_data[] = 
-	"NULL";
+	"Is she even a high school student like me?/n"
+	"I'll toss that question aside for now./n"
+	"But even if I do that...";
 
 static char s_dialogs_421_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_421_message_data[] = 
-	"NULL";
+	"How is she so fast!?/n"
+	"If I don't stay focused, I'll lose sight of her!";
 
 static char s_dialogs_422_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_422_message_data[] = 
-	"NULL";
+	"After a frantic chase,/n"
+	"the place I ended up was--";
 
 static char s_dialogs_423_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_423_message_data[] = 
-	"NULL";
+	"Ryouou High School--";
 
 static char s_dialogs_424_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_424_message_data[] = 
-	"NULL";
+	"This is the school I'm transferring to, right?/n"
+	"Talk about getting lucky...";
 
 static char s_dialogs_425_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_425_message_data[] = 
-	"NULL";
+	"The girl was already gone./n"
+	"I wish I could've thanked her, but if we go to the/n"
+	"same school, I'm sure I'll see her again.";
 
 static char s_dialogs_426_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_426_message_data[] = 
-	"NULL";
+	"Shoot!/n"
+	"Could that be the--";
 
 static char s_dialogs_427_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_427_message_data[] = 
-	"NULL";
+	"I'm sure it's not the warning bell./n"
+	"Hopefully it's just the start of class bell,/n"
+	"but what if first period is already over!?";
 
 static char s_dialogs_428_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_428_message_data[] = 
-	"NULL";
+	"I have to get to the staff room, and fast!";
 
 static char s_dialogs_429_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_429_message_data[] = 
-	"NULL";
+	"...I guess that's all I can do!";
 
 static char s_dialogs_430_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_430_message_data[] = 
-	"NULL";
+	"I take out my uniform and put it on,/n"
+	"then I frantically stuff my things into my bag.";
 
 static char s_dialogs_431_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_431_message_data[] = 
-	"NULL";
+	"Here I go!!";
 
 static char s_dialogs_432_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_432_message_data[] = 
-	"NULL";
+	"With no time to spare, all I can do/n"
+	"is run with all my might!  The more I run,/n"
+	"the shorter the distance becomes.";
 
 static char s_dialogs_433_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_433_message_data[] = 
-	"NULL";
+	"...The distance to where, you ask?/n"
+	"That's obvious--the school of course!/n";
 
 static char s_dialogs_434_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_434_message_data[] = 
-	"NULL";
+	"...But, did I ever learn where it was?";
 
 static char s_dialogs_435_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_435_message_data[] = 
-	"NULL";
+	"I had forgotten./n"
+	"I have no clue how to get to the school, don't I...?";
 
 static char s_dialogs_436_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_436_message_data[] = 
-	"NULL";
+	"I figured I'd have time to look it up on/n"
+	"the Internet or whatever just before leaving,/n"
+	"so I decided to watch anime instead.";
 
 static char s_dialogs_437_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_437_message_data[] = 
-	"NULL";
+	"Checking the time,/n"
+	"it's almost time for school to start./n"
+	"The bell should be ringing any minute now.";
 
 static char s_dialogs_438_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_438_message_data[] = 
-	"NULL";
+	"What do I do?/n"
+	"Come on, me, what do I do!?";
 
 static char s_dialogs_439_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_439_message_data[] = 
-	"NULL";
+	"...I can't use any of these!!";
 
 static char s_dialogs_440_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_440_message_data[] = 
-	"NULL";
+	"...Um...  is something the matter?";
 
 static char s_dialogs_441_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_441_message_data[] = 
-	"NULL";
+	"Huh?";
 
 static char s_dialogs_442_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_442_message_data[] = 
-	"NULL";
+	"...You're from Ryouou High School, right?/n"
+	"Are you not feeling well?";
 
 static char s_dialogs_443_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_443_message_data[] = 
-	"NULL";
+	"No, it's just.../n"
+	"I don't know where the school is, and...";
 
 static char s_dialogs_444_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_444_message_data[] = 
-	"NULL";
+	"That is troubling, isn't it?/n"
+	"Is it some form of amnesia, perhaps?";
 
 static char s_dialogs_445_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_445_message_data[] = 
-	"NULL";
+	"No, nothing like that!/n"
+	"I'm transferring there today,/n"
+	"so I'm just lost is all...";
 
 static char s_dialogs_446_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_446_message_data[] = 
-	"NULL";
+	"Oh, you're a transfer student?/n"
+	"From where?";
 
 static char s_dialogs_447_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_447_message_data[] = 
-	"NULL";
+	"Kanagawa...";
 
 static char s_dialogs_448_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_448_message_data[] = 
-	"NULL";
+	"Is that so?/n"
+	"I guess that's not too far from here, right?";
 
 static char s_dialogs_449_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_449_message_data[] = 
-	"NULL";
+	"Y-Yeah...";
 
 static char s_dialogs_450_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_450_message_data[] = 
-	"NULL";
+	"But still, it can't be easy/n"
+	"transferring at this time of year...";
 
 static char s_dialogs_451_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_451_message_data[] = 
-	"NULL";
+	"Um...  I hate to end the conversation midway,/n"
+	"but aren't we short on time right now?";
 
 static char s_dialogs_452_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_452_message_data[] = 
-	"NULL";
+	"Oh my, where did the time go!?";
 
 static char s_dialogs_453_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_453_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_454_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_454_message_data[] = 
-	"NULL";
+	"...We made it./n"
+	"You haven't been assigned a shoe locker yet,/n"
+	"so you can use one of the guest ones.";
 
 static char s_dialogs_455_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_455_message_data[] = 
-	"NULL";
+	"Thanks for everything./n"
+	"You saved me big time!";
 
 static char s_dialogs_456_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_456_message_data[] = 
-	"NULL";
+	"You're welcome./n"
+	"I'm happy I was able to help.";
 
 static char s_dialogs_457_speaker_data[] = 
-	"NULL";
+	"Miyuki Takara";
 static char s_dialogs_457_message_data[] = 
-	"NULL";
+	"Ahh, is that the bell!?/n"
+	"Sorry, if you'll excuse me!";
 
 static char s_dialogs_458_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_458_message_data[] = 
-	"NULL";
+	"I better hurry over to the staff room myself./n"
+	"Oh, I forgot to ask that girl for her name...";
 
 static char s_dialogs_459_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_459_message_data[] = 
-	"NULL";
+	"Oh well.  We go to the same school,/n"
+	"so I'm sure I'll see her again.";
 
 static char s_dialogs_460_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_460_message_data[] = 
-	"NULL";
+	"...Of course!/n"
+	"I'll look up where the school is online!";
 
 static char s_dialogs_461_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_461_message_data[] = 
-	"NULL";
+	"If I look up the school's address and find/n"
+	"the quickest route, I just might make it in time!";
 
 static char s_dialogs_462_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_462_message_data[] = 
-	"NULL";
+	"I'll turn on the computer!";
 
 static char s_dialogs_463_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_463_message_data[] = 
-	"NULL";
+	"Alright, power's on./n"
+	"...Please boot up quickly.";
 
 static char s_dialogs_464_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_464_message_data[] = 
-	"NULL";
+	"A startup error!?/n"
+	"Give me a break!  Now's not the time for this!";
 
 static char s_dialogs_465_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_465_message_data[] = 
-	"NULL";
+	"Come on, come on...";
 
 static char s_dialogs_466_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_466_message_data[] = 
-	"NULL";
+	"Again!?/n"
+	"What on earth's going on!?";
 
 static char s_dialogs_467_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_467_message_data[] = 
-	"NULL";
+	"I got the computer to successfully boot up/n"
+	"on the fifth try, but even though/n"
+	"I now knew the shortest route to the school--";
 
 static char s_dialogs_468_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_468_message_data[] = 
-	"NULL";
+	"It's ten minutes by walking!/n"
+	"I only have five minutes!/n"
+	"So basically, this is gonna suck!";
 
 static char s_dialogs_469_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_469_message_data[] = 
-	"NULL";
+	"But at least I knew where the school was./n"
+	"Now I just had to hurry--I just had to run!";
 
 static char s_dialogs_470_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_470_message_data[] = 
-	"NULL";
+	"OUTTA MY WAY!";
 
 static char s_dialogs_471_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_471_message_data[] = 
-	"NULL";
+	"W-Wha!?";
 
 static char s_dialogs_472_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_472_message_data[] = 
-	"NULL";
+	"Onee-chan, wait for me!";
 
 static char s_dialogs_473_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_473_message_data[] = 
-	"NULL";
+	"I'm not waiting, hurry up!";
 
 static char s_dialogs_474_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_474_message_data[] = 
-	"NULL";
+	"I-I can't!  I'll trip and fall!";
 
 static char s_dialogs_475_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_475_message_data[] = 
-	"NULL";
+	"So you're just gonna be late!?/n"
+	"C'mon, hurry up and run!";
 
 static char s_dialogs_476_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_476_message_data[] = 
-	"NULL";
+	"I know, but--AHH!";
 
 static char s_dialogs_477_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_477_message_data[] = 
-	"NULL";
+	"Woah, are you okay?";
 
 static char s_dialogs_478_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_478_message_data[] = 
-	"NULL";
+	"Ugh...  owww...";
 
 static char s_dialogs_479_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_479_message_data[] = 
-	"NULL";
+	"Gosh, what are you doing!?/n"
+	"Ack, you skinned your knee./n"
+	"Did I bring any band-aids...?";
 
 static char s_dialogs_480_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_480_message_data[] = 
-	"NULL";
+	"Um...  you can use these if you'd like.";
 
 static char s_dialogs_481_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_481_message_data[] = 
-	"NULL";
+	"Ever since I was a kid, I've basically always/n"
+	"had a fresh wound of some sort, so I always/n"
+	"keep band-aids in my wallet.";
 
 static char s_dialogs_482_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_482_message_data[] = 
-	"NULL";
+	"Can I really?";
 
 static char s_dialogs_483_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_483_message_data[] = 
-	"NULL";
+	"Hold still./n"
+	"...There, all better!";
 
 static char s_dialogs_484_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_484_message_data[] = 
-	"NULL";
+	"Um...  thank you./n";
 
 static char s_dialogs_485_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_485_message_data[] = 
-	"NULL";
+	"No, not \"thank you\"./n"
+	"Why were you so quick to stick a band-aid on her?";
 
 static char s_dialogs_486_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_486_message_data[] = 
-	"NULL";
+	"Huh...?";
 
 static char s_dialogs_487_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_487_message_data[] = 
-	"NULL";
+	"I realized it when she said it./n"
+	"I was in too much of a hurry, and went for the/n"
+	"girl's leg without giving her any warning...";
 
 static char s_dialogs_488_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_488_message_data[] = 
-	"NULL";
+	"AAAAH...  S-Sorry!/n"
+	"I didn't have any weird intentions, though!/n"
+	"I swear I didn't!";
 
 static char s_dialogs_489_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_489_message_data[] = 
-	"NULL";
+	"The fact you have to emphasize that/n"
+	"just makes you even more suspicious...";
 
 static char s_dialogs_490_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_490_message_data[] = 
-	"NULL";
+	"Onee-chan, don't be so paranoid./n"
+	"He did help me, didn't he?";
 
 static char s_dialogs_491_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_491_message_data[] = 
-	"NULL";
+	"Well, sure, but...";
 
 static char s_dialogs_492_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_492_message_data[] = 
-	"NULL";
+	"Yeah, I should be more grateful./n"
+	"Thanks for helping my little sister.";
 
 static char s_dialogs_493_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_493_message_data[] = 
-	"NULL";
+	"So you're sisters./n"
+	"...Wait, are you twins?";
 
 static char s_dialogs_494_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_494_message_data[] = 
-	"NULL";
+	"Well, yeah./n"
+	"We're really not very similar, though.";
 
 static char s_dialogs_495_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_495_message_data[] = 
-	"NULL";
+	"I'm the younger sister,/n"
+	"while Onee-chan's the older sister.";
 
 static char s_dialogs_496_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_496_message_data[] = 
-	"NULL";
+	"Huh?  Ah... so you're the boke?";
 
 static char s_dialogs_497_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_497_message_data[] = 
-	"NULL";
+	"Sorry, don't mind her./n"
+	"She's...  like this sometimes.";
 
 static char s_dialogs_498_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_498_message_data[] = 
-	"NULL";
+	"Huh?  Wha?  Did I say something weird?";
 
 static char s_dialogs_499_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_499_message_data[] = 
-	"NULL";
+	"Crap!  Isn't that the warning bell!?";
 
 static char s_dialogs_500_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_500_message_data[] = 
-	"NULL";
+	"Onee-chan, let's hurry!/n"
+	"Otherwise we're gonna be late!";
 
 static char s_dialogs_501_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_501_message_data[] = 
-	"NULL";
+	"H-Hey, wait!/n"
+	"...I guess there's no time for that./n"
+	"I also have to hurry!!";
 
 static char s_dialogs_502_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_502_message_data[] = 
-	"NULL";
+	"Haah, phew...  my chest hurts...";
 
 static char s_dialogs_503_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_503_message_data[] = 
-	"NULL";
+	"Mine does too, but I'm glad we made it.";
 
 static char s_dialogs_504_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_504_message_data[] = 
-	"NULL";
+	"Yeah.";
 
 static char s_dialogs_505_speaker_data[] = 
-	"NULL";
+	"Kagami Hiiragi";
 static char s_dialogs_505_message_data[] = 
-	"NULL";
+	"We can't relax yet!/n"
+	"We'll be late for homeroom/n"
+	"if we don't keep hurrying!";
 
 static char s_dialogs_506_speaker_data[] = 
-	"NULL";
+	"Tsukasa Hiiragi";
 static char s_dialogs_506_message_data[] = 
-	"NULL";
+	"Hwah!?  Onee-chan, wait for meeeeee!";
 
 static char s_dialogs_507_speaker_data[] = 
-	"NULL";
+	"/l /f";
 static char s_dialogs_507_message_data[] = 
-	"NULL";
+	"I better hurry over to the staff room myself./n"
+	"Oh, I forgot to ask those girls for their names...";
 
 static char s_dialogs_508_speaker_data[] = 
-	"NULL";
+	"";
 static char s_dialogs_508_message_data[] = 
-	"NULL";
+	"Oh well.  We go to the same school,/n"
+	"so I'm sure I'll see them again.";
 
 static char s_dialogs_509_speaker_data[] = 
 	"NULL";
@@ -126724,7 +126858,7 @@ static char s_dialogs_25336_speaker_data[] =
 	"Tsukasa Hiiragi";
 static char s_dialogs_25336_message_data[] = 
 	"Y-Yes, Sir!  I will do my best!/n"
-	"After all... I'm a genius!";
+	"After all...  I'm a genius!";
 
 static char s_dialogs_25337_speaker_data[] = 
 	"Konata Izumi";
@@ -126856,7 +126990,7 @@ static char s_dialogs_25358_message_data[] =
 static char s_dialogs_25359_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_25359_message_data[] = 
-	"You've been shouting a bunch of nonsense\n"
+	"You've been shouting a bunch of nonsense/n"
 	"for some time now!";
 
 static char s_dialogs_25360_speaker_data[] = 
@@ -130651,11 +130785,11 @@ static char s_dialogs_26110_message_data[] =
 	"NULL";
 
 static char s_choices_0_0_data[] = 
-	"NULL";
+	"Stay calm and take my time";
 static char s_choices_0_1_data[] = 
-	"NULL";
+	"Run as fast as I can";
 static char s_choices_0_2_data[] = 
-	"NULL";
+	"Look up the school online";
 
 static char s_choices_1_0_data[] = 
 	"NULL";
