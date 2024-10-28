@@ -1,21 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 
-#include "image_info/union_2528_1.h"
-#include "image_info/union_2529_0.h"
-#include "image_info/union_2530_1.h"
-#include "image_info/union_2531_1.h"
-#include "image_info/union_2533_5.h"
-#include "image_info/union_2533_7.h"
-#include "image_info/union_2533_8.h"
-#include "image_info/union_2533_9.h"
-#include "image_info/union_2533_10.h"
-#include "image_info/pr_0.h"
-#include "image_info/pr_4.h"
-#include "scripts/variable_width_font_patches.h"
+#include "header_data.h"
 
 #include "ryouou_gakuen_toolkit.h"
-#include "rgo_pr_image_info.h"
-#include "scripts/script_0_structure.h"
 #include <stdlib.h>
 
 typedef struct _image_replace_info

@@ -18,6 +18,9 @@
     <ClCompile Include="src\build.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\header_data_implementation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hdr\image_info\union_2528_1.h">
@@ -66,6 +69,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="hdr\image_info\union_2529_0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\header_data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
