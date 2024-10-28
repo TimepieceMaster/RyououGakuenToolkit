@@ -18,34 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\build.c" />
-    <ClCompile Include="src\header_data_implementation.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="hdr\eboot_patch_structures.h" />
-    <ClInclude Include="hdr\header_data.h" />
-    <ClInclude Include="hdr\image_info\pr_0.h" />
-    <ClInclude Include="hdr\image_info\pr_4.h" />
-    <ClInclude Include="hdr\image_info\union_2528_1.h" />
-    <ClInclude Include="hdr\image_info\union_2529_0.h" />
-    <ClInclude Include="hdr\image_info\union_2530_1.h" />
-    <ClInclude Include="hdr\image_info\union_2531_1.h" />
-    <ClInclude Include="hdr\image_info\union_2533_10.h" />
-    <ClInclude Include="hdr\image_info\union_2533_5.h" />
-    <ClInclude Include="hdr\image_info\union_2533_7.h" />
-    <ClInclude Include="hdr\image_info\union_2533_8.h" />
-    <ClInclude Include="hdr\image_info\union_2533_9.h" />
-    <ClInclude Include="hdr\scripts\script_0_commands.h" />
-    <ClInclude Include="hdr\scripts\script_0_structure.h" />
-    <ClInclude Include="hdr\scripts\script_0_text.h" />
-    <ClInclude Include="hdr\scripts\variable_width_font_patches.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7533b739-f276-4a88-bb01-3194dc329e30}</ProjectGuid>
-    <RootNamespace>RGTRGOPatchBuilder</RootNamespace>
+    <ProjectGuid>{181fa732-7f5f-47c4-a998-22d565fd889a}</ProjectGuid>
+    <RootNamespace>AutoTranslateSpeaker</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -99,13 +76,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)/hdr;$(ProjectDir)/hdr</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/hdr</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)/x64/Debug;$(SolutionDir)/lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);RyououGakuenToolkit.lib;libpng-d.lib;zlib-d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)/x64/Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);RyououGakuenToolkit.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -130,13 +107,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)/hdr;$(ProjectDir)/hdr</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/hdr</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)/x64/Debug;$(SolutionDir)/lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);RyououGakuenToolkit.lib;libpng-d.lib;zlib-d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)/x64/Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);RyououGakuenToolkit.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -155,6 +132,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

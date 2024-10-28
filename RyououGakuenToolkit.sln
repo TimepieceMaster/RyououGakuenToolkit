@@ -40,6 +40,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RGOFontGenerator", "apps\RG
 		{A7910C72-CED2-44E6-93ED-5033DD24CEC8} = {A7910C72-CED2-44E6-93ED-5033DD24CEC8}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoTranslateSpeaker", "apps\AutoTranslateSpeaker\AutoTranslateSpeaker.vcxproj", "{181FA732-7F5F-47C4-A998-22D565FD889A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7910C72-CED2-44E6-93ED-5033DD24CEC8} = {A7910C72-CED2-44E6-93ED-5033DD24CEC8}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -112,6 +117,14 @@ Global
 		{CC83A97E-196A-4A4C-892A-3A4FB26DE6EA}.Release|x64.Build.0 = Release|x64
 		{CC83A97E-196A-4A4C-892A-3A4FB26DE6EA}.Release|x86.ActiveCfg = Release|Win32
 		{CC83A97E-196A-4A4C-892A-3A4FB26DE6EA}.Release|x86.Build.0 = Release|Win32
+		{181FA732-7F5F-47C4-A998-22D565FD889A}.Debug|x64.ActiveCfg = Debug|x64
+		{181FA732-7F5F-47C4-A998-22D565FD889A}.Debug|x64.Build.0 = Debug|x64
+		{181FA732-7F5F-47C4-A998-22D565FD889A}.Debug|x86.ActiveCfg = Debug|Win32
+		{181FA732-7F5F-47C4-A998-22D565FD889A}.Debug|x86.Build.0 = Debug|Win32
+		{181FA732-7F5F-47C4-A998-22D565FD889A}.Release|x64.ActiveCfg = Release|x64
+		{181FA732-7F5F-47C4-A998-22D565FD889A}.Release|x64.Build.0 = Release|x64
+		{181FA732-7F5F-47C4-A998-22D565FD889A}.Release|x86.ActiveCfg = Release|Win32
+		{181FA732-7F5F-47C4-A998-22D565FD889A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
