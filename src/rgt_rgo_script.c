@@ -548,6 +548,12 @@ s_write_utf8_string(rgt_utf8_string utf8, FILE *out_text, bool no_text)
 	}
 	for (u64 i = 0; i < utf8.length; ++i)
 	{
+		if (utf8.elems[i].elems[0] == '"')
+		{
+			RGT_FPRINTF(out_text, "\\\"");
+			continue;
+		}
+
 		RGT_FPRINTF
 		(
 			out_text, "%.*s", 
