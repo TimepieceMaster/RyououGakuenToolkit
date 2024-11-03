@@ -95063,1077 +95063,1176 @@ static char s_dialogs_17773_message_data[] =
 static char s_dialogs_17774_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17774_message_data[] = 
-	"NULL";
+	"Wow, Miyuki-san, you sure are good at poker.";
 
 static char s_dialogs_17775_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17775_message_data[] = 
-	"NULL";
+	"Oh no, I'm really not.../n"
+	"I just play it on the computer at home sometimes.";
 
 static char s_dialogs_17776_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17776_message_data[] = 
-	"NULL";
+	"I see. But still, aren't you pretty good/n"
+	"for someone who only plays sometimes?";
 
 static char s_dialogs_17777_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17777_message_data[] = 
-	"NULL";
+	"Not at all. You see,/n"
+	"I still only win about 90% of the time...";
 
 static char s_dialogs_17778_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17778_message_data[] = 
-	"NULL";
+	"You win... 90% of the time!?";
 
 static char s_dialogs_17779_speaker_data[] = 
 	"";
 static char s_dialogs_17779_message_data[] = 
-	"NULL";
+	"I see... so Konata-san never stood a chance.";
 
 static char s_dialogs_17780_speaker_data[] = 
 	"";
 static char s_dialogs_17780_message_data[] = 
-	"NULL";
+	"Miyuki-san, you may not realize it,/n"
+	"but the gambling gods must love you so much...";
 
 static char s_dialogs_17781_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17781_message_data[] = 
-	"NULL";
+	"Anyway, back to what I'd like to talk about...";
 
 static char s_dialogs_17782_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17782_message_data[] = 
-	"NULL";
+	"Huh? R-Right.";
 
 static char s_dialogs_17783_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17783_message_data[] = 
-	"NULL";
+	"I'd like for you to reserve a classroom/n"
+	"that we can use after school.";
 
 static char s_dialogs_17784_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17784_message_data[] = 
-	"NULL";
+	"Reserve a classroom? Why?";
 
 static char s_dialogs_17785_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17785_message_data[] = 
-	"NULL";
+	"For that one thing.";
 
 static char s_dialogs_17786_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17786_message_data[] = 
-	"NULL";
+	"That one thing?";
 
 static char s_dialogs_17787_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17787_message_data[] = 
-	"NULL";
+	"You know, the contest./n"
+	"I'll be taking measurements for the outfits/n"
+	"after school today.";
 
 static char s_dialogs_17788_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17788_message_data[] = 
-	"NULL";
+	"Uhh, so when you say \"measurements\",/n"
+	"you mean body measurements, right?";
 
 static char s_dialogs_17789_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17789_message_data[] = 
-	"NULL";
+	"Correct. When taking measurements,/n"
+	"we'll obviously have to undress, so...";
 
 static char s_dialogs_17790_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17790_message_data[] = 
-	"NULL";
+	"Ah, so that's why you need to reserve a room./n"
+	"Alright, I get you.";
 
 static char s_dialogs_17791_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17791_message_data[] = 
-	"NULL";
+	"But, you want it for after school today, right?/n"
+	"Shouldn't that have been reserved already?/n"
+	"Leaving it to the last minute is kinda...";
 
 static char s_dialogs_17792_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17792_message_data[] = 
-	"NULL";
+	"Yes... but I've just been so busy,/n"
+	"I completely forgot about it.";
 
 static char s_dialogs_17793_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17793_message_data[] = 
-	"NULL";
+	"I see... alright then./n"
+	"I'll try asking sensei now.";
 
 static char s_dialogs_17794_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17794_message_data[] = 
-	"NULL";
+	"Sorry that I have to trouble you like this...";
 
 static char s_dialogs_17795_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17795_message_data[] = 
-	"NULL";
+	"It's okay./n"
+	"I know you're very busy, Miyuki-san.";
 
 static char s_dialogs_17796_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17796_message_data[] = 
-	"NULL";
+	"Sorry. I'm counting on you./n"
+	"See you later...";
 
 static char s_dialogs_17797_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17797_message_data[] = 
-	"NULL";
+	"...So, is there any clubroom we could use?";
 
 static char s_dialogs_17798_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17798_message_data[] = 
-	"NULL";
+	"Well, there is the classroom that the/n"
+	"calligraphy club uses.";
 
 static char s_dialogs_17799_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17799_message_data[] = 
-	"NULL";
+	"Calligraphy club? But won't they have/n"
+	"club activities after school?";
 
 static char s_dialogs_17800_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17800_message_data[] = 
-	"NULL";
+	"Ah, don't worry 'bout that./n"
+	"Its got no members, so it's inactive.";
 
 static char s_dialogs_17801_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17801_message_data[] = 
-	"NULL";
+	"...I see. Well that's rather convenient.";
 
 static char s_dialogs_17802_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17802_message_data[] = 
-	"NULL";
+	"Just ask that club's advisor for the key./n"
+	"Well, I'll see you after school./n"
+	"I'm counting on ya!";
 
 static char s_dialogs_17803_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17803_message_data[] = 
-	"NULL";
+	"Huh? What do you mean/n"
+	"\"you'll see me after school\"?";
 
 static char s_dialogs_17804_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17804_message_data[] = 
-	"NULL";
+	"Oh well. So I'll have to ask the/n"
+	"calligraphy club's advisor for the key.../n"
+	"who would that be?";
 
 static char s_dialogs_17805_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17805_message_data[] = 
-	"NULL";
+	"...Yoshi-san, about that thing/n"
+	"I asked you to do, how did it go?";
 
 static char s_dialogs_17806_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17806_message_data[] = 
-	"NULL";
+	"We lucked out, I managed to get an emtpy room./n"
+	"The calligraphy club has no members right now,/n"
+	"so the room reserved for them isn't being used.";
 
 static char s_dialogs_17807_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_17807_message_data[] = 
-	"NULL";
+	"Yuki-chan, Yoshi-kun,/n"
+	"sounds like you had some trouble.";
 
 static char s_dialogs_17808_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_17808_message_data[] = 
-	"NULL";
+	"I heard from Kuroi-sensei/n"
+	"that you borrowed the key to the/n"
+	"calligraphy club's classroom, isn't that right?";
 
 static char s_dialogs_17809_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_17809_message_data[] = 
-	"NULL";
+	"Between us and the teachers,/n"
+	"I don't think anyone knows who advises the/n"
+	"inactive clubs.";
 
 static char s_dialogs_17810_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17810_message_data[] = 
-	"NULL";
+	"Not even Kuroi-sensei could recall anything,/n"
+	"and she's the one who suggested it...";
 
 static char s_dialogs_17811_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_17811_message_data[] = 
-	"NULL";
+	"I've only just learned all the teacher's names/n"
+	"myself...";
 
 static char s_dialogs_17812_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17812_message_data[] = 
-	"NULL";
+	"Even given that, a transfer like me/n"
+	"wouldn't have been able to recognize them.";
 
 static char s_dialogs_17813_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_17813_message_data[] = 
-	"NULL";
+	"But with a sketch and explanation from me,/n"
+	"you'd finally be able to find them!";
 
 static char s_dialogs_17814_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17814_message_data[] = 
-	"NULL";
+	"I think it'd have taken me longer/n"
+	"if I had to go off of one of your sketches...";
 
 static char s_dialogs_17815_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_17815_message_data[] = 
-	"NULL";
+	"Grr...";
 
 static char s_dialogs_17816_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17816_message_data[] = 
-	"NULL";
+	"Oh dear... that... must've been rather tough...";
 
 static char s_dialogs_17817_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17817_message_data[] = 
-	"NULL";
+	"Well anyway, here's the key.";
 
 static char s_dialogs_17818_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17818_message_data[] = 
-	"NULL";
+	"Ah, thank you so much./n"
+	"Also, if you don't mind, could you come with me?";
 
 static char s_dialogs_17819_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17819_message_data[] = 
-	"NULL";
+	"...Right now?";
 
 static char s_dialogs_17820_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17820_message_data[] = 
-	"NULL";
+	"There's something over there/n"
+	"I'd like you to help with...";
 
 static char s_dialogs_17821_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17821_message_data[] = 
-	"NULL";
+	"Sure thing. I can come along if you need me./n"
+	"I guess we better get going then.";
 
 static char s_dialogs_17822_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_17822_message_data[] = 
-	"NULL";
+	"You sure are popular, Yoshi-kun.";
 
 static char s_dialogs_17823_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_17823_message_data[] = 
-	"NULL";
+	"See you guys later! Good luck!";
 
 static char s_dialogs_17824_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17824_message_data[] = 
-	"NULL";
+	"Ah, Miyuki! Just who I wanted to see!";
 
 static char s_dialogs_17825_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17825_message_data[] = 
-	"NULL";
+	"Indeed. We were just about to go/n"
+	"meet up with you.";
 
 static char s_dialogs_17826_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17826_message_data[] = 
-	"NULL";
+	"Ahaha, sorry about that./n"
+	"Yeah... homeroom, y'know? It ran long.";
 
 static char s_dialogs_17827_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17827_message_data[] = 
-	"NULL";
+	"That's okay. Let's just get going.";
 
 static char s_dialogs_17828_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17828_message_data[] = 
-	"NULL";
+	"Yeah, let's get going.";
 
 static char s_dialogs_17829_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17829_message_data[] = 
-	"NULL";
+	"Um, I think I'm out of the loop here./n"
+	"Why is Kagami-san coming with us?";
 
 static char s_dialogs_17830_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17830_message_data[] = 
-	"NULL";
+	"Huh!? W-Well, um...";
 
 static char s_dialogs_17831_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17831_message_data[] = 
-	"NULL";
+	"Kagami-san's getting her measurements/n"
+	"taken as well.";
 
 static char s_dialogs_17832_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17832_message_data[] = 
-	"NULL";
+	"Ah, I see... so... does that mean Kagami-san's/n"
+	"competing in the beauty contest too!?";
 
 static char s_dialogs_17833_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17833_message_data[] = 
-	"NULL";
+	"S-Shut up!! Don't say it so loud!/n"
+	"What am I gonna do if Konata finds out!?";
 
 static char s_dialogs_17834_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17834_message_data[] = 
-	"NULL";
+	"Um... you're being rather loud too, Kagami-san.";
 
 static char s_dialogs_17835_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17835_message_data[] = 
-	"NULL";
+	"Uwah!?";
 
 static char s_dialogs_17836_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17836_message_data[] = 
-	"NULL";
+	"I must say, I'm surprised you're/n"
+	"participating, Kagami-san.";
 
 static char s_dialogs_17837_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17837_message_data[] = 
-	"NULL";
+	"What, you've got a problem with it!?/n"
+	"Is it really so weird that I'd be in a/n"
+	"beauty contest!?";
 
 static char s_dialogs_17838_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17838_message_data[] = 
-	"NULL";
+	"No... it's just.../n"
+	"I thought you were the type who'd/n"
+	"hate these things more than anyone...";
 
 static char s_dialogs_17839_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17839_message_data[] = 
-	"NULL";
+	"Well, obviously I am!";
 
 static char s_dialogs_17840_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17840_message_data[] = 
-	"NULL";
+	"It's not like I enjoy taking part in this!";
 
 static char s_dialogs_17841_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17841_message_data[] = 
-	"NULL";
+	"It's just how things ended up! That's all!";
 
 static char s_dialogs_17842_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17842_message_data[] = 
-	"NULL";
+	"W-What exactly happened...?";
 
 static char s_dialogs_17843_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17843_message_data[] = 
-	"NULL";
+	"What's it to you!?";
 
 static char s_dialogs_17844_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17844_message_data[] = 
-	"NULL";
+	"Don't stick your nose where it doesn't belong!/n"
+	"Okay? You've got that!?";
 
 static char s_dialogs_17845_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17845_message_data[] = 
-	"NULL";
+	"...Understood.";
 
 static char s_dialogs_17846_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17846_message_data[] = 
-	"NULL";
+	"Alright then, let's get going!/n"
+	"The faster we go, the sooner it'll be done.";
 
 static char s_dialogs_17847_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17847_message_data[] = 
-	"NULL";
+	"Indeed. Let's go.";
 
 static char s_dialogs_17848_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17848_message_data[] = 
-	"NULL";
+	"Let's see... it's this classroom, I think?";
 
 static char s_dialogs_17849_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17849_message_data[] = 
-	"NULL";
+	"Alright, let me get the key, and...";
 
 static char s_dialogs_17850_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17850_message_data[] = 
-	"NULL";
+	"Well, let's get to it!/n"
+	"Yoshi-kun, we'll need you to tidy the place up.";
 
 static char s_dialogs_17851_speaker_data[] = 
 	"";
 static char s_dialogs_17851_message_data[] = 
-	"NULL";
+	"...I see. So this is why I was brought along.";
 
 static char s_dialogs_17852_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17852_message_data[] = 
-	"NULL";
+	"Ah, of course, we'll do our best to help too.";
 
 static char s_dialogs_17853_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17853_message_data[] = 
-	"NULL";
+	"It's just, with you being a guy,/n"
+	"physical labor is more your thing, y'know?";
 
 static char s_dialogs_17854_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17854_message_data[] = 
-	"NULL";
+	"Ahaha, sure.";
 
 static char s_dialogs_17855_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17855_message_data[] = 
-	"NULL";
+	"Yeah, moving those desks is tough for us,/n"
+	"but you'll get it done real good, kiddo.";
 
 static char s_dialogs_17856_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17856_message_data[] = 
-	"NULL";
+	"Yeah, I'll do my best.../n"
+	"Wait, why are you here, sensei?";
 
 static char s_dialogs_17857_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17857_message_data[] = 
-	"NULL";
+	"Huh? Why am I here...?/n"
+	"Well because I'm in it too.";
 
 static char s_dialogs_17858_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17858_message_data[] = 
-	"NULL";
+	"What are you \"in\", exactly?";
 
 static char s_dialogs_17859_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17859_message_data[] = 
-	"NULL";
+	"The beauty contest.";
 
 static char s_dialogs_17860_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17860_message_data[] = 
-	"NULL";
+	"...Again, I ask. Why?";
 
 static char s_dialogs_17861_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17861_message_data[] = 
-	"NULL";
+	"'Cause I thought it'd be fun.";
 
 static char s_dialogs_17862_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17862_message_data[] = 
-	"NULL";
+	"I... see...";
 
 static char s_dialogs_17863_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17863_message_data[] = 
-	"NULL";
+	"*Phew*... that should be good enough.";
 
 static char s_dialogs_17864_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17864_message_data[] = 
-	"NULL";
+	"Yeah, great work y'all!";
 
 static char s_dialogs_17865_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17865_message_data[] = 
-	"NULL";
+	"It's not much, but it should work/n"
+	"as a dressing room.";
 
 static char s_dialogs_17866_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17866_message_data[] = 
-	"NULL";
+	"Yeah. Alright, Yoshi-kun,/n"
+	"you need to step out now.";
 
 static char s_dialogs_17867_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17867_message_data[] = 
-	"NULL";
+	"Ah, of course.";
 
 static char s_dialogs_17868_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17868_message_data[] = 
-	"NULL";
+	"We'll need you to help put things back/n"
+	"when we're done, so just wait there, okay?";
 
 static char s_dialogs_17869_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17869_message_data[] = 
-	"NULL";
+	"Got it.";
 
 static char s_dialogs_17870_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17870_message_data[] = 
-	"NULL";
+	"Ah, that reminds me,/n"
+	"lemme just make this clear...";
 
 static char s_dialogs_17871_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17871_message_data[] = 
-	"NULL";
+	"...If ya peek, I'll kill ya.";
 
 static char s_dialogs_17872_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17872_message_data[] = 
-	"NULL";
+	"...It's not like I'm interested anyway.";
 
 static char s_dialogs_17873_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17873_message_data[] = 
-	"NULL";
+	"Mm?";
 
 static char s_dialogs_17874_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17874_message_data[] = 
-	"NULL";
+	"The way you said that really pisses me off...";
 
 static char s_dialogs_17875_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17875_message_data[] = 
-	"NULL";
+	"Ahaha... well anyway,/n"
+	"see you later, Yoshi-kun.";
 
 static char s_dialogs_17876_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17876_message_data[] = 
-	"NULL";
+	"Yeah, see you later.";
 
 static char s_dialogs_17877_speaker_data[] = 
 	"";
 static char s_dialogs_17877_message_data[] = 
-	"NULL";
+	"And now, we wait.";
 
 static char s_dialogs_17878_speaker_data[] = 
 	"";
 static char s_dialogs_17878_message_data[] = 
-	"NULL";
+	"It's just the three of them they have to take/n"
+	"measurements for, so it shouldn't take too long.";
 
 static char s_dialogs_17879_speaker_data[] = 
 	"Everyone";
 static char s_dialogs_17879_message_data[] = 
-	"NULL";
+	"GYAAAAAAAAAAH!!";
 
 static char s_dialogs_17880_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17880_message_data[] = 
-	"NULL";
+	"W-What was that!?";
 
 static char s_dialogs_17881_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17881_message_data[] = 
-	"NULL";
+	"Hey, what's wrong!? Are you okay!?";
 
 static char s_dialogs_17882_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17882_message_data[] = 
-	"NULL";
+	"Aaa............!?";
 
 static char s_dialogs_17883_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17883_message_data[] = 
-	"NULL";
+	"Iii............!?";
 
 static char s_dialogs_17884_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17884_message_data[] = 
-	"NULL";
+	"Uuu...........!?";
 
 static char s_dialogs_17885_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17885_message_data[] = 
-	"NULL";
+	"Eee............!?";
 
 static char s_dialogs_17886_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17886_message_data[] = 
-	"NULL";
+	"U-Uuuum...";
 
 static char s_dialogs_17887_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17887_message_data[] = 
-	"NULL";
+	"\"Ooo\" comes next, right...?";
 
 static char s_dialogs_17888_speaker_data[] = 
 	"Everyone";
 static char s_dialogs_17888_message_data[] = 
-	"NULL";
+	"GYAAAAAAAAAAAAH!!";
 
 static char s_dialogs_17889_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17889_message_data[] = 
-	"NULL";
+	"I'm so sorry!/n"
+	"I-I didn't mean for this to happen....!!";
 
 static char s_dialogs_17890_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17890_message_data[] = 
-	"NULL";
+	"It's just, uh, I heard a loud scream,/n"
+	"and I thought maybe something happened...";
 
 static char s_dialogs_17891_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17891_message_data[] = 
-	"NULL";
+	"Ah, no, um, it wasn't anything important.";
 
 static char s_dialogs_17892_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17892_message_data[] = 
-	"NULL";
+	"Sorry for startling you...";
 
 static char s_dialogs_17893_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17893_message_data[] = 
-	"NULL";
+	"Huh? Uh, no.../n"
+	"I don't mind that, but...";
 
 static char s_dialogs_17894_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17894_message_data[] = 
-	"NULL";
+	"It's actually something rather embarrassing,/n"
+	"but since it caused you to worry...";
 
 static char s_dialogs_17895_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17895_message_data[] = 
-	"NULL";
+	"...I suppose I must explain./n"
+	"So the truth is...";
 
 static char s_dialogs_17896_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17896_message_data[] = 
-	"NULL";
+	"You don't have to explain it to him!!";
 
 static char s_dialogs_17897_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17897_message_data[] = 
-	"NULL";
+	"Huh? B-But...";
 
 static char s_dialogs_17898_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17898_message_data[] = 
-	"NULL";
+	"C'mon, look at the situation here!";
 
 static char s_dialogs_17899_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17899_message_data[] = 
-	"NULL";
+	"The situation...? Ah, AAH!?";
 
 static char s_dialogs_17900_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17900_message_data[] = 
-	"NULL";
+	"You too, Yoshi-kun!/n"
+	"Thanks for apologizing, but...";
 
 static char s_dialogs_17901_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17901_message_data[] = 
-	"NULL";
+	"But?";
 
 static char s_dialogs_17902_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17902_message_data[] = 
-	"NULL";
+	"Could you please...";
 
 static char s_dialogs_17903_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17903_message_data[] = 
-	"NULL";
+	"Could I please?";
 
 static char s_dialogs_17904_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17904_message_data[] = 
-	"NULL";
+	"GET YOUR ASS OUT OF HERE!";
 
 static char s_dialogs_17905_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17905_message_data[] = 
-	"NULL";
+	"Y-Yes, ma'am!!";
 
 static char s_dialogs_17906_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17906_message_data[] = 
-	"NULL";
+	"SORRY!!";
 
 static char s_dialogs_17907_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17907_message_data[] = 
-	"NULL";
+	"*Phew*, that surprised me...";
 
 static char s_dialogs_17908_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17908_message_data[] = 
-	"NULL";
+	"The hell was that, dumbass!?";
 
 static char s_dialogs_17909_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17909_message_data[] = 
-	"NULL";
+	"Yeah, that was my bad!";
 
 static char s_dialogs_17910_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17910_message_data[] = 
-	"NULL";
+	"Don't just brazenly walk in when girls/n"
+	"are changing!!";
 
 static char s_dialogs_17911_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17911_message_data[] = 
-	"NULL";
+	"It's just, I heard you screaming in there./n"
+	"I wasn't thinking...";
 
 static char s_dialogs_17912_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17912_message_data[] = 
-	"NULL";
+	"Shut up! Don't make excuses!!";
 
 static char s_dialogs_17913_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17913_message_data[] = 
-	"NULL";
+	"Sorry...";
 
 static char s_dialogs_17914_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17914_message_data[] = 
-	"NULL";
+	"Look, just don't come in until we tell you!/n"
+	"Or next time you'll get it!!";
 
 static char s_dialogs_17915_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17915_message_data[] = 
-	"NULL";
+	"Got it!";
 
 static char s_dialogs_17916_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17916_message_data[] = 
-	"NULL";
+	"PHOTO OP!";
 
 static char s_dialogs_17917_speaker_data[] = 
 	"";
 static char s_dialogs_17917_message_data[] = 
-	"NULL";
+	"With lighting speed, I take my phone out/n"
+	"and set it to camera mode.";
 
 static char s_dialogs_17918_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17918_message_data[] = 
-	"NULL";
+	"Here we go... SAY CHEESE!";
 
 static char s_dialogs_17919_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17919_message_data[] = 
-	"NULL";
+	"...Kidding! It was a joke. A JOKE./n"
+	"HAHAHAHAHA...";
 
 static char s_dialogs_17920_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17920_message_data[] = 
-	"NULL";
+	"......Heh.";
 
 static char s_dialogs_17921_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17921_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_17922_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17922_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_17923_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17923_message_data[] = 
-	"NULL";
+	"Ha ha... ha... haaah.../n"
+	"Um... uh...?";
 
 static char s_dialogs_17924_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17924_message_data[] = 
-	"NULL";
+	"...Tough crowd, huh.";
 
 static char s_dialogs_17925_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17925_message_data[] = 
-	"NULL";
+	"...Ugh, well, as a spur of the moment thing,/n"
+	"I guess it was kinda funny...";
 
 static char s_dialogs_17926_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17926_message_data[] = 
-	"NULL";
+	"I... see./n"
+	"Thanks...";
 
 static char s_dialogs_17927_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17927_message_data[] = 
-	"NULL";
+	"GUHAAH!?";
 
 static char s_dialogs_17928_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17928_message_data[] = 
-	"NULL";
+	"BUT IS NOW THE TIME FOR JOKES!?";
 
 static char s_dialogs_17929_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17929_message_data[] = 
-	"NULL";
+	"S-Sensei...!/n"
+	"You hit me right in the face... with a vase...!/n"
+	"I'm dying...!";
 
 static char s_dialogs_17930_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17930_message_data[] = 
-	"NULL";
+	"Oh boo hoo, I don't give a damn about that./n"
+	"GET. OUT. NOW./n"
+	"...Before I have ya expelled.";
 
 static char s_dialogs_17931_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17931_message_data[] = 
-	"NULL";
+	"S-SORRY!!";
 
 static char s_dialogs_17932_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17932_message_data[] = 
-	"NULL";
+	"Yeah, so...";
 
 static char s_dialogs_17933_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17933_message_data[] = 
-	"NULL";
+	"Truly!";
 
 static char s_dialogs_17934_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17934_message_data[] = 
-	"NULL";
+	"I AM...!";
 
 static char s_dialogs_17935_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17935_message_data[] = 
-	"NULL";
+	"SO INCREDIBLY SORRY!!!";
 
 static char s_dialogs_17936_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17936_message_data[] = 
-	"NULL";
+	"Look up.";
 
 static char s_dialogs_17937_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17937_message_data[] = 
-	"NULL";
+	"Y-Yes, ma'am!";
 
 static char s_dialogs_17938_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17938_message_data[] = 
-	"NULL";
+	"Face her.";
 
 static char s_dialogs_17939_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17939_message_data[] = 
-	"NULL";
+	"Ngh...";
 
 static char s_dialogs_17940_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17940_message_data[] = 
-	"NULL";
+	"...Be honest, didja see anything...?";
 
 static char s_dialogs_17941_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17941_message_data[] = 
-	"NULL";
+	"W-Well... um...";
 
 static char s_dialogs_17942_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17942_message_data[] = 
-	"NULL";
+	"Staying quiet won't do you any favors, you know.";
 
 static char s_dialogs_17943_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17943_message_data[] = 
-	"NULL";
+	"I... I...";
 
 static char s_dialogs_17944_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17944_message_data[] = 
-	"NULL";
+	"We're not gonna hurt you./n"
+	"Just be honest, okay?";
 
 static char s_dialogs_17945_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17945_message_data[] = 
-	"NULL";
+	"K-Kagami-sama.../n"
+	"why are you cracking your knuckles?";
 
 static char s_dialogs_17946_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17946_message_data[] = 
-	"NULL";
+	"Could you please stop that? It's scaring me...";
 
 static char s_dialogs_17947_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17947_message_data[] = 
-	"NULL";
+	"Silence! Don't call me \"Kagami-sama\"!";
 
 static char s_dialogs_17948_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17948_message_data[] = 
-	"NULL";
+	"Eek... sorry...";
 
 static char s_dialogs_17949_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17949_message_data[] = 
-	"NULL";
+	"Please... tell us the truth./n"
+	"Hiding it won't do any of us any good...";
 
 static char s_dialogs_17950_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17950_message_data[] = 
-	"NULL";
+	"If you did see anything, please describe/n"
+	"what, how much, and in what manner you/n"
+	"witnessed such things...";
 
 static char s_dialogs_17951_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17951_message_data[] = 
-	"NULL";
+	"Do not leave out any details... okay?";
 
 static char s_dialogs_17952_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17952_message_data[] = 
-	"NULL";
+	"Eeeeeeeek...";
 
 static char s_dialogs_17953_speaker_data[] = 
 	"";
 static char s_dialogs_17953_message_data[] = 
-	"NULL";
+	"They're looking at me with intense eyes.../n"
+	"If I don't choose my words carefully, I'm a goner./n"
+	"So how should I answer...?";
 
 static char s_dialogs_17954_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17954_message_data[] = 
-	"NULL";
+	"I saw stuff!";
 
 static char s_dialogs_17955_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17955_message_data[] = 
-	"NULL";
+	"You did...? Hmm, like what?";
 
 static char s_dialogs_17956_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17956_message_data[] = 
-	"NULL";
+	"W-Well, of course,/n"
+	"I saw you... in your... underwear...";
 
 static char s_dialogs_17957_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17957_message_data[] = 
-	"NULL";
+	"Hmm... I see./n"
+	"...Well, good that you're being honest.";
 
 static char s_dialogs_17958_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17958_message_data[] = 
-	"NULL";
+	"Eh...? So, you'll forgive me...?";
 
 static char s_dialogs_17959_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17959_message_data[] = 
-	"NULL";
+	"Why the hell would I, DUMBASS!!?";
 
 static char s_dialogs_17960_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17960_message_data[] = 
-	"NULL";
+	"GUHAAAH!/n"
+	"S... Sorry...";
 
 static char s_dialogs_17961_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17961_message_data[] = 
-	"NULL";
+	"Well, we could go on and on with this,/n"
+	"but I guess what's done is done.";
 
 static char s_dialogs_17962_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17962_message_data[] = 
-	"NULL";
+	"I'll be nice. One punch, then we're good.";
 
 static char s_dialogs_17963_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17963_message_data[] = 
-	"NULL";
+	"I appreciate the generosity...";
 
 static char s_dialogs_17964_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17964_message_data[] = 
-	"NULL";
+	"Alright, here goes!";
 
 static char s_dialogs_17965_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17965_message_data[] = 
-	"NULL";
+	"Huh? What do you mean \"here goes\"!?/n"
+	"You already hit me once...";
 
 static char s_dialogs_17966_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17966_message_data[] = 
-	"NULL";
+	"It's times ten because you ran away!";
 
 static char s_dialogs_17967_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17967_message_data[] = 
-	"NULL";
+	"Wha... so... that's punch #2 you're readying...!?";
 
 static char s_dialogs_17968_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17968_message_data[] = 
-	"NULL";
+	"And what's that you're wearing!?";
 
 static char s_dialogs_17969_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17969_message_data[] = 
-	"NULL";
+	"TAAAAAKE THIIIIIS!!";
 
 static char s_dialogs_17970_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17970_message_data[] = 
-	"NULL";
+	"AAAAAAAAAHHH!!";
 
 static char s_dialogs_17971_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17971_message_data[] = 
-	"NULL";
+	"*Phew*, I feel a lot better now!";
 
 static char s_dialogs_17972_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17972_message_data[] = 
-	"NULL";
+	"Augh... owwww...";
 
 static char s_dialogs_17973_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17973_message_data[] = 
-	"NULL";
+	"Ah, I got you good./n"
+	"I hope everything's fine.";
 
 static char s_dialogs_17974_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17974_message_data[] = 
-	"NULL";
+	"I am NOT fine. AT ALL...";
 
 static char s_dialogs_17975_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17975_message_data[] = 
-	"NULL";
+	"Not you, my hand./n"
+	"I didn't chip a nail, did I...?";
 
 static char s_dialogs_17976_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17976_message_data[] = 
-	"NULL";
+	"Y-You're cruel...";
 
 static char s_dialogs_17977_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17977_message_data[] = 
-	"NULL";
+	"I saw nothing!";
 
 static char s_dialogs_17978_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17978_message_data[] = 
-	"NULL";
+	"I didn't see anything at all!/n"
+	"Honest to God, I didn't!!";
 
 static char s_dialogs_17979_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17979_message_data[] = 
-	"NULL";
+	"Oh, is that so?/n"
+	"...Then we're good here.";
 
 static char s_dialogs_17980_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17980_message_data[] = 
-	"NULL";
+	"If you didn't see anything,/n"
+	"then there's no problem, right?";
 
 static char s_dialogs_17981_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17981_message_data[] = 
-	"NULL";
+	"E-Exactly! And I didn't see anything!";
 
 static char s_dialogs_17982_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17982_message_data[] = 
-	"NULL";
+	"...If you, in fact, did not see anything.";
 
 static char s_dialogs_17983_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17983_message_data[] = 
-	"NULL";
+	"Y-Yeah...";
 
 static char s_dialogs_17984_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17984_message_data[] = 
-	"NULL";
+	"...If you really, truly saw nothing.";
 
 static char s_dialogs_17985_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17985_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_17986_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17986_message_data[] = 
-	"NULL";
+	"U-Uh... Miyuki... san...?";
 
 static char s_dialogs_17987_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17987_message_data[] = 
-	"NULL";
+	"But, to say that would be... a lie, right?";
 
 static char s_dialogs_17988_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17988_message_data[] = 
-	"NULL";
+	"*Gulp*";
 
 static char s_dialogs_17989_speaker_data[] = 
 	"Miyuki Takara";
@@ -96143,1117 +96242,1235 @@ static char s_dialogs_17989_message_data[] =
 static char s_dialogs_17990_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17990_message_data[] = 
-	"NULL";
+	"Um... w-well... uh...";
 
 static char s_dialogs_17991_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17991_message_data[] = 
-	"NULL";
+	"There's just no way you couldn't have seen.../n"
+	"isn't that right?";
 
 static char s_dialogs_17992_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17992_message_data[] = 
-	"NULL";
+	"Y-... Yes... that's right...";
 
 static char s_dialogs_17993_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_17993_message_data[] = 
-	"NULL";
+	"I leave the punishment in your hands!";
 
 static char s_dialogs_17994_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_17994_message_data[] = 
-	"NULL";
+	"OFF WITH YOUR HEAD!!!";
 
 static char s_dialogs_17995_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17995_message_data[] = 
-	"NULL";
+	"GUHAAAAAAH!?";
 
 static char s_dialogs_17996_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17996_message_data[] = 
-	"NULL";
+	"TO PRISON WITH YOU!!!";
 
 static char s_dialogs_17997_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17997_message_data[] = 
-	"NULL";
+	"Augh!?";
 
 static char s_dialogs_17998_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_17998_message_data[] = 
-	"NULL";
+	"...Geez, that was such an obvious lie./n"
+	"We told you to be honest!!";
 
 static char s_dialogs_17999_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_17999_message_data[] = 
-	"NULL";
+	"S...Sorry...";
 
 static char s_dialogs_18000_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18000_message_data[] = 
-	"NULL";
+	"I forget!";
 
 static char s_dialogs_18001_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18001_message_data[] = 
-	"NULL";
+	"Huh?";
 
 static char s_dialogs_18002_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18002_message_data[] = 
-	"NULL";
+	"I don't think I saw anything,/n"
+	"but honestly I've completely forgotten!!";
 
 static char s_dialogs_18003_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18003_message_data[] = 
-	"NULL";
+	"AHAHAHAHAHA! Nice one!/n"
+	"You're funny, I tell ya what!";
 
 static char s_dialogs_18004_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18004_message_data[] = 
-	"NULL";
+	"I-I know, right?/n"
+	"Haha... hahaha...";
 
 static char s_dialogs_18005_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18005_message_data[] = 
-	"NULL";
+	"To come up with something like that/n"
+	"in this kinda situation. I'm damn impressed.";
 
 static char s_dialogs_18006_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18006_message_data[] = 
-	"NULL";
+	"You've got guts, and a sense of humor to boot./n"
+	"Maybe ya should take up comedy.";
 
 static char s_dialogs_18007_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18007_message_data[] = 
-	"NULL";
+	"T-Thank you!/n"
+	"I guess I'm okay at making people laugh, huh?";
 
 static char s_dialogs_18008_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18008_message_data[] = 
-	"NULL";
+	"...What the hell. If we're doing a skit,/n"
+	"this should be a good way to end it.";
 
 static char s_dialogs_18009_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18009_message_data[] = 
-	"NULL";
+	"W-What's that...?";
 
 static char s_dialogs_18010_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18010_message_data[] = 
-	"NULL";
+	"I'm sorry, but this is comedy.";
 
 static char s_dialogs_18011_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18011_message_data[] = 
-	"NULL";
+	"Abeshi!?";
 
 static char s_dialogs_18012_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18012_message_data[] = 
-	"NULL";
+	"How's that!?/n"
+	"I bet ya really forgot now!";
 
 static char s_dialogs_18013_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18013_message_data[] = 
-	"NULL";
+	"That punch.../n"
+	"that was straight out of a skit or manga.";
 
 static char s_dialogs_18014_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18014_message_data[] = 
-	"NULL";
+	"Hm? Ya haven't had enough yet?/n"
+	"Guess I'll hafta punch ya until you've forgotten.";
 
 static char s_dialogs_18015_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18015_message_data[] = 
-	"NULL";
+	"No, that was enough!/n"
+	"Please, have mercy!!";
 
 static char s_dialogs_18016_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18016_message_data[] = 
-	"NULL";
+	"It appears Yoshi-san is remorseful,/n"
+	"shall we forgive him now?";
 
 static char s_dialogs_18017_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18017_message_data[] = 
-	"NULL";
+	"Yeah, sure./n"
+	"I'll let that be enough.";
 
 static char s_dialogs_18018_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18018_message_data[] = 
-	"NULL";
+	"Uggh... my head is spinning...";
 
 static char s_dialogs_18019_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18019_message_data[] = 
-	"NULL";
+	"Ya reap what ya sow./n"
+	"I'll bet you're glad it stops here.";
 
 static char s_dialogs_18020_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18020_message_data[] = 
-	"NULL";
+	"Yes... very much so.../n"
+	"At least I still have my life...";
 
 static char s_dialogs_18021_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18021_message_data[] = 
-	"NULL";
+	"...Anyway, what was with that loud screaming?";
 
 static char s_dialogs_18022_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18022_message_data[] = 
-	"NULL";
+	"Huh? O-Oh... that...";
 
 static char s_dialogs_18023_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18023_message_data[] = 
-	"NULL";
+	"If you hadn't done that,/n"
+	"I wouldn't have come in...";
 
 static char s_dialogs_18024_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18024_message_data[] = 
-	"NULL";
+	"Uh... so about that.../n"
+	"Well, um...";
 
 static char s_dialogs_18025_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18025_message_data[] = 
-	"NULL";
+	"It's... complicated, you see...";
 
 static char s_dialogs_18026_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18026_message_data[] = 
-	"NULL";
+	"...It's a touchy subject. It's a girl thing.";
 
 static char s_dialogs_18027_speaker_data[] = 
 	"Everyone";
 static char s_dialogs_18027_message_data[] = 
-	"NULL";
+	"*Sigh*...";
 
 static char s_dialogs_18028_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18028_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18029_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18029_message_data[] = 
-	"NULL";
+	"Surely that baked potato from two days ago/n"
+	"is the culprit... I got carried away...";
 
 static char s_dialogs_18030_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18030_message_data[] = 
-	"NULL";
+	"I have no clue how it happened...";
 
 static char s_dialogs_18031_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18031_message_data[] = 
-	"NULL";
+	"But you don't need to worry so much/n"
+	"about those numbers, right, Miyuki?/n"
+	"You've got a nice body by nature.";
 
 static char s_dialogs_18032_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18032_message_data[] = 
-	"NULL";
+	"I-I appreciate you saying that, but.../n"
+	"Obviously it does bother me...";
 
 static char s_dialogs_18033_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18033_message_data[] = 
-	"NULL";
+	"Really?/n"
+	"Don't you think maybe you're just growing again?";
 
 static char s_dialogs_18034_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18034_message_data[] = 
-	"NULL";
+	"Even if I am growing, that only goes so far...";
 
 static char s_dialogs_18035_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18035_message_data[] = 
-	"NULL";
+	"Y'all shouldn't worry so much about that./n"
+	"You're still growing, so it's only natural/n"
+	"it'd go up!";
 
 static char s_dialogs_18036_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18036_message_data[] = 
-	"NULL";
+	"That doesn't apply to me, though.../n"
+	"Auuuuuuugh!!";
 
 static char s_dialogs_18037_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18037_message_data[] = 
-	"NULL";
+	"But I've been so busy I've had to/n"
+	"neglect my health...";
 
 static char s_dialogs_18038_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18038_message_data[] = 
-	"NULL";
+	"Those midnight snacks during netgame sessions/n"
+	"have been a problem too...";
 
 static char s_dialogs_18039_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18039_message_data[] = 
-	"NULL";
+	"...Ah, I see.";
 
 static char s_dialogs_18040_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18040_message_data[] = 
-	"NULL";
+	"Have you three gained weight?";
 
 static char s_dialogs_18041_speaker_data[] = 
 	"Everyone";
 static char s_dialogs_18041_message_data[] = 
-	"NULL";
+	"*GASP*...!!!";
 
 static char s_dialogs_18042_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18042_message_data[] = 
-	"NULL";
+	"How'd ya figure that out?!/n"
+	"We haven't even said anything!";
 
 static char s_dialogs_18043_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18043_message_data[] = 
-	"NULL";
+	"You picked up on it right away, right!?/n"
+	"It must be so obvious...";
 
 static char s_dialogs_18044_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18044_message_data[] = 
-	"NULL";
+	"No, no, this is just a bad dream.../n"
+	"It's so bad... even a boy noticed...";
 
 static char s_dialogs_18045_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18045_message_data[] = 
-	"NULL";
+	"Have we... put on that much weight!?";
 
 static char s_dialogs_18046_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18046_message_data[] = 
-	"NULL";
+	"Yep... you sure have.";
 
 static char s_dialogs_18047_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18047_message_data[] = 
-	"NULL";
+	"Ahh!? Stop it!/n"
+	"Don't say any more!";
 
 static char s_dialogs_18048_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18048_message_data[] = 
-	"NULL";
+	"I was just making a casual remark...";
 
 static char s_dialogs_18049_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18049_message_data[] = 
-	"NULL";
+	"Hey, kid! That's enough!";
 
 static char s_dialogs_18050_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18050_message_data[] = 
-	"NULL";
+	"Taking a closer look, you just/n"
+	"seemed to have put on some weight is all.";
 
 static char s_dialogs_18051_speaker_data[] = 
 	"Everyone";
 static char s_dialogs_18051_message_data[] = 
-	"NULL";
+	"GAAAAAAHN!!!";
 
 static char s_dialogs_18052_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18052_message_data[] = 
-	"NULL";
+	"...Just kidding. I was joking.";
 
 static char s_dialogs_18053_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18053_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18054_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18054_message_data[] = 
-	"NULL";
+	"I mean, I just transfered here./n"
+	"I don't have any frame of reference to know/n"
+	"if you gained weight or not.";
 
 static char s_dialogs_18055_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18055_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18056_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18056_message_data[] = 
-	"NULL";
+	"I think you look normal, actually.";
 
 static char s_dialogs_18057_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18057_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18058_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18058_message_data[] = 
-	"NULL";
+	"...Uh, are you three okay?";
 
 static char s_dialogs_18059_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18059_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18060_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18060_message_data[] = 
-	"NULL";
+	"Helloooo, anyone home?";
 
 static char s_dialogs_18061_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18061_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18062_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18062_message_data[] = 
-	"NULL";
+	"I shocked you good, huh.../n"
+	"Sorry, I really was just joking, so don't/n"
+	"worry about it!";
 
 static char s_dialogs_18063_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18063_message_data[] = 
-	"NULL";
+	"...Don't bother... you're too late...";
 
 static char s_dialogs_18064_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18064_message_data[] = 
-	"NULL";
+	"I'm dreaming... this is a dream.../n"
+	"Please... if I'm dreaming, let me wake up soon...";
 
 static char s_dialogs_18065_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18065_message_data[] = 
-	"NULL";
+	"*Gasp*... I'm in such a shock...";
 
 static char s_dialogs_18066_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18066_message_data[] = 
-	"NULL";
+	"Well... I don't see it./n"
+	"I was just going off of what you were saying...";
 
 static char s_dialogs_18067_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18067_message_data[] = 
-	"NULL";
+	"I see... I guess we've still gotta chance/n"
+	"to improve then.";
 
 static char s_dialogs_18068_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18068_message_data[] = 
-	"NULL";
+	"If we do our best from here on,/n"
+	"there may still be hope for us yet!";
 
 static char s_dialogs_18069_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18069_message_data[] = 
-	"NULL";
+	"Of course there is!/n"
+	"This is our chance to turn things around!!";
 
 static char s_dialogs_18070_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18070_message_data[] = 
-	"NULL";
+	"Alright, let's take this on with our/n"
+	"heads held high!";
 
 static char s_dialogs_18071_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18071_message_data[] = 
-	"NULL";
+	"H-Hey, hold on... I just said you looked fine./n"
+	"What do you need to do your best at?";
 
 static char s_dialogs_18072_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18072_message_data[] = 
-	"NULL";
+	"...Ya really don't get it, kid.";
 
 static char s_dialogs_18073_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18073_message_data[] = 
-	"NULL";
+	"You may not notice a change in appearance,/n"
+	"but the numbers tell the true story!";
 
 static char s_dialogs_18074_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18074_message_data[] = 
-	"NULL";
+	"It's important to catch these things early!";
 
 static char s_dialogs_18075_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18075_message_data[] = 
-	"NULL";
+	"Exactly! Ya gotta act before it's too late!";
 
 static char s_dialogs_18076_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18076_message_data[] = 
-	"NULL";
+	"I-Is that how it is...?";
 
 static char s_dialogs_18077_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18077_message_data[] = 
-	"NULL";
+	"That's exactly how it is!/n"
+	"Also, our school uniforms help conceal/n"
+	"our stomach and butt, y'know?";
 
 static char s_dialogs_18078_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18078_message_data[] = 
-	"NULL";
+	"But when putting on a dress,/n"
+	"those areas become a lot more important.";
 
 static char s_dialogs_18079_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18079_message_data[] = 
-	"NULL";
+	"There's also design constraints to consider.../n"
+	"Regardless, the numbers are absolute!";
 
 static char s_dialogs_18080_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18080_message_data[] = 
-	"NULL";
+	"I-I see... I didn't realize.";
 
 static char s_dialogs_18081_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18081_message_data[] = 
-	"NULL";
+	"No, you three are pretty thin.";
 
 static char s_dialogs_18082_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18082_message_data[] = 
-	"NULL";
+	"Huh? But ya just said we gained weight,/n"
+	"didn't ya...?";
 
 static char s_dialogs_18083_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18083_message_data[] = 
-	"NULL";
+	"I just asked because of what you were saying...";
 
 static char s_dialogs_18084_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18084_message_data[] = 
-	"NULL";
+	"So then... we aren't fat?";
 
 static char s_dialogs_18085_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18085_message_data[] = 
-	"NULL";
+	"Yep, not at all.";
 
 static char s_dialogs_18086_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18086_message_data[] = 
-	"NULL";
+	"Are you sure? Really truly?";
 
 static char s_dialogs_18087_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18087_message_data[] = 
-	"NULL";
+	"Yes, really truly.";
 
 static char s_dialogs_18088_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18088_message_data[] = 
-	"NULL";
+	"Can we really trust you?";
 
 static char s_dialogs_18089_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18089_message_data[] = 
-	"NULL";
+	"Of course you can./n"
+	"What point would there be in lying about it?";
 
 static char s_dialogs_18090_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18090_message_data[] = 
-	"NULL";
+	"I see... *phew*, what a relief!";
 
 static char s_dialogs_18091_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18091_message_data[] = 
-	"NULL";
+	"It really is./n"
+	"A man's gotta keen eye for this stuff.";
 
 static char s_dialogs_18092_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18092_message_data[] = 
-	"NULL";
+	"But nevertheless, we just got his/n"
+	"seal of approval!";
 
 static char s_dialogs_18093_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18093_message_data[] = 
-	"NULL";
+	"Indeed, it is a relief. Our new measurements/n"
+	"are still within acceptable levels.";
 
 static char s_dialogs_18094_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18094_message_data[] = 
-	"NULL";
+	"Yoshi-kun, thank you!/n"
+	"You've made us feel a lot better!";
 
 static char s_dialogs_18095_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18095_message_data[] = 
-	"NULL";
+	"I'm... not sure what I did, but I'm glad I could help.";
 
 static char s_dialogs_18096_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18096_message_data[] = 
-	"NULL";
+	"...So, kid./n"
+	"In what places...?";
 
 static char s_dialogs_18097_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18097_message_data[] = 
-	"NULL";
+	"Huh...?";
 
 static char s_dialogs_18098_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18098_message_data[] = 
-	"NULL";
+	"In what places are we thin?";
 
 static char s_dialogs_18099_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18099_message_data[] = 
-	"NULL";
+	"In... what... places...?";
 
 static char s_dialogs_18100_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18100_message_data[] = 
-	"NULL";
+	"Augh! You can be \"thin\" in many places!/n"
+	"Like having a tight waist, or slender legs.";
 
 static char s_dialogs_18101_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18101_message_data[] = 
-	"NULL";
+	"So? What's our best features?";
 
 static char s_dialogs_18102_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18102_message_data[] = 
-	"NULL";
+	"Ah, I'd definitely like to know that.";
 
 static char s_dialogs_18103_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18103_message_data[] = 
-	"NULL";
+	"It's hard to get a guy's opinion on these things,/n"
+	"so it'd be nice to know.";
 
 static char s_dialogs_18104_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18104_message_data[] = 
-	"NULL";
+	"G-Getting an honest opinion is a bit/n"
+	"embarrassing though...";
 
 static char s_dialogs_18105_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18105_message_data[] = 
-	"NULL";
+	"But... like, aren't you interested?";
 
 static char s_dialogs_18106_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18106_message_data[] = 
-	"NULL";
+	"C'mon, don't be shy now! Lay it on us, 'kay?";
 
 static char s_dialogs_18107_speaker_data[] = 
 	"Everyone";
 static char s_dialogs_18107_message_data[] = 
-	"NULL";
+	"Where are we thin?";
 
 static char s_dialogs_18108_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18108_message_data[] = 
-	"NULL";
+	"You ask me \"where\", but.../n"
+	"I can just tell... I guess...?";
 
 static char s_dialogs_18109_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18109_message_data[] = 
-	"NULL";
+	"You... can just tell?";
 
 static char s_dialogs_18110_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18110_message_data[] = 
-	"NULL";
+	"The hell does that mean?/n"
+	"That's not clear at all.";
 
 static char s_dialogs_18111_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18111_message_data[] = 
-	"NULL";
+	"Could ya be a little more specific?/n"
+	"I don't getcha at all.";
 
 static char s_dialogs_18112_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18112_message_data[] = 
-	"NULL";
+	"*Sigh*... um, so, you three...";
 
 static char s_dialogs_18113_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18113_message_data[] = 
-	"NULL";
+	"Yes yes, what about us?";
 
 static char s_dialogs_18114_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18114_message_data[] = 
-	"NULL";
+	"You're just thin overall, I guess?";
 
 static char s_dialogs_18115_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18115_message_data[] = 
-	"NULL";
+	"...Overall?";
 
 static char s_dialogs_18116_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18116_message_data[] = 
-	"NULL";
+	"Overall!?";
 
 static char s_dialogs_18117_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18117_message_data[] = 
-	"NULL";
+	"Ya think you're funny, kid!?";
 
 static char s_dialogs_18118_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18118_message_data[] = 
-	"NULL";
+	"W-W-What's so bad about what I said?";
 
 static char s_dialogs_18119_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18119_message_data[] = 
-	"NULL";
+	"...Well, to put it simply, Yoshi-kun,/n"
+	"you REALLY don't know ANYTHING, do you?";
 
 static char s_dialogs_18120_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18120_message_data[] = 
-	"NULL";
+	"You see... those numbers mean everything/n"
+	"in this world...";
 
 static char s_dialogs_18121_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18121_message_data[] = 
-	"NULL";
+	"So, we're not thin at all!/n"
+	"That's basically what ya said...";
 
 static char s_dialogs_18122_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18122_message_data[] = 
-	"NULL";
+	"Um... uh, guys?";
 
 static char s_dialogs_18123_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18123_message_data[] = 
-	"NULL";
+	"Sorry, Yoshi-san, we forced you/n"
+	"into flattering us...";
 
 static char s_dialogs_18124_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18124_message_data[] = 
-	"NULL";
+	"Wait, no, that wasn't what I was trying to...";
 
 static char s_dialogs_18125_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18125_message_data[] = 
-	"NULL";
+	"It's fine, don't waste your breath./n"
+	"It's not your fault.";
 
 static char s_dialogs_18126_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18126_message_data[] = 
-	"NULL";
+	"Yeah. If anyone's to blame... it's all on me...";
 
 static char s_dialogs_18127_speaker_data[] = 
 	"Everyone";
 static char s_dialogs_18127_message_data[] = 
-	"NULL";
+	"*Sigh*...";
 
 static char s_dialogs_18128_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18128_message_data[] = 
-	"NULL";
+	"T-Those must've been some really shocking/n"
+	"numbers, huh...?";
 
 static char s_dialogs_18129_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18129_message_data[] = 
-	"NULL";
+	"...Anyway, we can't stay like this./n"
+	"We gotta figure this out!";
 
 static char s_dialogs_18130_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18130_message_data[] = 
-	"NULL";
+	"Indeed...";
 
 static char s_dialogs_18131_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18131_message_data[] = 
-	"NULL";
+	"In this state, I'd be too embarrassed to/n"
+	"compete in the contest...";
 
 static char s_dialogs_18132_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18132_message_data[] = 
-	"NULL";
+	"Me too! We have to go on a diet!";
 
 static char s_dialogs_18133_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18133_message_data[] = 
-	"NULL";
+	"Being a girl sure is rough.../n"
+	"Well, good luck with that.";
 
 static char s_dialogs_18134_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18134_message_data[] = 
-	"NULL";
+	"Hey, why are you talking like/n"
+	"it's someone else's problem?";
 
 static char s_dialogs_18135_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18135_message_data[] = 
-	"NULL";
+	"Well, because it literally is...";
 
 static char s_dialogs_18136_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18136_message_data[] = 
-	"NULL";
+	"You're gonna help too!/n"
+	"And no whining about it!";
 
 static char s_dialogs_18137_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18137_message_data[] = 
-	"NULL";
+	"Why me though...?";
 
 static char s_dialogs_18138_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18138_message_data[] = 
-	"NULL";
+	"GAHAAH!";
 
 static char s_dialogs_18139_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18139_message_data[] = 
-	"NULL";
+	"If you talk back, I'm gonna slug you!";
 
 static char s_dialogs_18140_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18140_message_data[] = 
-	"NULL";
+	"This isn't a manga,/n"
+	"you can't keep threatening to punch me!!";
 
 static char s_dialogs_18141_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18141_message_data[] = 
-	"NULL";
+	"Shut up! You're the one who started whining!";
 
 static char s_dialogs_18142_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18142_message_data[] = 
-	"NULL";
+	"Do I not get any say in this...?";
 
 static char s_dialogs_18143_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18143_message_data[] = 
-	"NULL";
+	"Now now, cut that out, you two.";
 
 static char s_dialogs_18144_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18144_message_data[] = 
-	"NULL";
+	"You two going at each other's throats/n"
+	"won't solve anything, now will it?";
 
 static char s_dialogs_18145_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18145_message_data[] = 
-	"NULL";
+	"Ugh... but he...";
 
 static char s_dialogs_18146_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18146_message_data[] = 
-	"NULL";
+	"You say we're going at each other, but.../n"
+	"I think it's all coming from one side...";
 
 static char s_dialogs_18147_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18147_message_data[] = 
-	"NULL";
+	"It's okay, Kagami-san./n"
+	"I'm sure Yoshi-san will agree.";
 
 static char s_dialogs_18148_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18148_message_data[] = 
-	"NULL";
+	"...Huh?";
 
 static char s_dialogs_18149_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18149_message_data[] = 
-	"NULL";
+	"I don't know much about dieting, you see.";
 
 static char s_dialogs_18150_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18150_message_data[] = 
-	"NULL";
+	"...So your help would really be amazing.";
 
 static char s_dialogs_18151_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18151_message_data[] = 
-	"NULL";
+	"Um, I never said I'd...";
 
 static char s_dialogs_18152_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18152_message_data[] = 
-	"NULL";
+	"YOU ARE GOING TO HELP, RIGHT!?";
 
 static char s_dialogs_18153_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18153_message_data[] = 
-	"NULL";
+	"...Yes, ma'am.";
 
 static char s_dialogs_18154_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18154_message_data[] = 
-	"NULL";
+	"Thank you so much!/n"
+	"Glad to see you were so willing to agree.";
 
 static char s_dialogs_18155_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18155_message_data[] = 
-	"NULL";
+	"(More like I was held at gunpoint basically...)";
 
 static char s_dialogs_18156_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18156_message_data[] = 
-	"NULL";
+	"Good good./n"
+	"I'm glad this went amicably.";
 
 static char s_dialogs_18157_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18157_message_data[] = 
-	"NULL";
+	"If ya had refused,/n"
+	"we would've had to take drastic measures.";
 
 static char s_dialogs_18158_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18158_message_data[] = 
-	"NULL";
+	"D-Drastic measures?";
 
 static char s_dialogs_18159_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18159_message_data[] = 
-	"NULL";
+	"We caught ya trying to peep. I probably, no,/n"
+	"definitely would've had ya expelled ♪";
 
 static char s_dialogs_18160_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18160_message_data[] = 
-	"NULL";
+	"I, Yoshi, solemnly swear to most graciously/n"
+	"help you three with your dieting!!";
 
 static char s_dialogs_18161_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18161_message_data[] = 
-	"NULL";
+	"Sounds good to me.";
 
 static char s_dialogs_18162_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18162_message_data[] = 
-	"NULL";
+	"S-So, what do you want me to do?";
 
 static char s_dialogs_18163_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18163_message_data[] = 
-	"NULL";
+	"Let's see... there ain't much time 'till the/n"
+	"festival, so how 'bout ya find a dieting method/n"
+	"that'll give us results fast?";
 
 static char s_dialogs_18164_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18164_message_data[] = 
-	"NULL";
+	"Ah, that reminds me,/n"
+	"don't you know a lot about that, Kagami-san...?";
 
 static char s_dialogs_18165_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18165_message_data[] = 
-	"NULL";
+	"Ugh... you're really going straight in/n"
+	"for the attack, huh, Miyuki?";
 
 static char s_dialogs_18166_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18166_message_data[] = 
-	"NULL";
+	"...Huh!?/n"
+	"No, I um, didn't mean it like that...";
 
 static char s_dialogs_18167_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18167_message_data[] = 
-	"NULL";
+	"...Look, it's okay./n"
+	"But anyway, I guess what comes to mind is stuff/n"
+	"like staying away from sweets.";
 
 static char s_dialogs_18168_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18168_message_data[] = 
-	"NULL";
+	"I have watched TV specials about that stuff too,/n"
+	"but I don't remember very much.";
 
 static char s_dialogs_18169_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18169_message_data[] = 
-	"NULL";
+	"Ah, my mom likes those programs, but.../n"
+	"if I were to ask, I'm sure she wouldn't/n"
+	"remember anything.";
 
 static char s_dialogs_18170_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18170_message_data[] = 
-	"NULL";
+	"...I see./n"
+	"Well, I can try looking for that stuff online.";
 
 static char s_dialogs_18171_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18171_message_data[] = 
-	"NULL";
+	"Alright, sounds like a plan./n"
+	"We're couting on ya.";
 
 static char s_dialogs_18172_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18172_message_data[] = 
-	"NULL";
+	"Alright, will do.";
 
 static char s_dialogs_18173_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18173_message_data[] = 
-	"NULL";
+	"Ah, before I forget!/n"
+	"Do NOT tell ANYONE about this!";
 
 static char s_dialogs_18174_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18174_message_data[] = 
-	"NULL";
+	"...Because it's embarrassing?";
 
 static char s_dialogs_18175_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18175_message_data[] = 
-	"NULL";
+	"Obviously!!/n"
+	"And if Konata were to find out...";
 
 static char s_dialogs_18176_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18176_message_data[] = 
-	"NULL";
+	"Kagamin, you're gonna be in a beauty contest?/n"
+	"I thought you said you didn't like them.";
 
 static char s_dialogs_18177_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18177_message_data[] = 
-	"NULL";
+	"But even still, you're going out of your way/n"
+	"to diet for it... tee hee♪";
 
 static char s_dialogs_18178_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18178_message_data[] = 
-	"NULL";
+	"S-Shut up! It's none of your business!!";
 
 static char s_dialogs_18179_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18179_message_data[] = 
-	"NULL";
+	"The way you get all blushy is so moe, Kagami!";
 
 static char s_dialogs_18180_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18180_message_data[] = 
-	"NULL";
+	"...I just know that's how it'll go!";
 
 static char s_dialogs_18181_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18181_message_data[] = 
-	"NULL";
+	"Thanks for the easy-to-understand explanation.";
 
 static char s_dialogs_18182_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18182_message_data[] = 
-	"NULL";
+	"Yeah, for sure./n"
+	"Izumi can't find out about me either.";
 
 static char s_dialogs_18183_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18183_message_data[] = 
-	"NULL";
+	"Well, as for me, I don't think it's something/n"
+	"I should hide...";
 
 static char s_dialogs_18184_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18184_message_data[] = 
-	"NULL";
+	"But, if everyone else feels that way,/n"
+	"I'll stay quiet.";
 
 static char s_dialogs_18185_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18185_message_data[] = 
-	"NULL";
+	"Alright, I'll keep it a secret from others.";
 
 static char s_dialogs_18186_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18186_message_data[] = 
-	"NULL";
+	"ESPECIALLY from Konata!!";
 
 static char s_dialogs_18187_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18187_message_data[] = 
-	"NULL";
+	"Yes. Especially from Konata-san.";
 
 static char s_dialogs_18188_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18188_message_data[] = 
-	"NULL";
+	"Alright, we're counting on you./n"
+	"I've gotta get going now.";
 
 static char s_dialogs_18189_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18189_message_data[] = 
-	"NULL";
+	"Yes, me too.. there's more preparations/n"
+	"for the festival I have to take care of.";
 
 static char s_dialogs_18190_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18190_message_data[] = 
-	"NULL";
+	"Okay then./n"
+	"I'll get home quick and start researching.";
 
 static char s_dialogs_18191_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18191_message_data[] = 
-	"NULL";
+	"Please do.";
 
 static char s_dialogs_18192_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18192_message_data[] = 
-	"NULL";
+	"You're going home, kid?/n"
+	"In that case, how 'bout I tag along?";
 
 static char s_dialogs_18193_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18193_message_data[] = 
-	"NULL";
+	"S-Sure, I'm guessing you're done with/n"
+	"all your teacher stuff, then?";
 
 static char s_dialogs_18194_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18194_message_data[] = 
-	"NULL";
+	"Yeah, for today. I'm busy every day,/n"
+	"but sometimes I like to go home early.";
 
 static char s_dialogs_18195_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18195_message_data[] = 
-	"NULL";
+	"I see...";
 
 static char s_dialogs_18196_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18196_message_data[] = 
-	"NULL";
+	"...Say, kid./n"
+	"Do ya know what this road gets called?";
 
 static char s_dialogs_18197_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18197_message_data[] = 
-	"NULL";
+	"Huh? No, I don't.";
 
 static char s_dialogs_18198_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18198_message_data[] = 
-	"NULL";
+	"So this road... is known as the \"road of tears\".";
 
 static char s_dialogs_18199_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18199_message_data[] = 
-	"NULL";
+	"As the story goes... a girl student from Ryouou,/n"
+	"starving and exhausted from the diet she's on,/n"
+	"walks in tears along this sad road.";
 
 static char s_dialogs_18200_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18200_message_data[] = 
-	"NULL";
+	"...Is that a true story? Isn't it a little too/n"
+	"convenient for the current situation?/n"
+	"It seems entirely made-up to me.";
 
 static char s_dialogs_18201_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18201_message_data[] = 
-	"NULL";
+	"Entirely made up, it is not./n"
+	"'Cause that's gonna be me now.";
 
 static char s_dialogs_18202_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18202_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18203_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18203_message_data[] = 
-	"NULL";
+	"Anyway, so about dieting!/n"
+	"Dieting is a woman's life work./n"
+	"The biggest fight of her life!!";
 
 static char s_dialogs_18204_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18204_message_data[] = 
-	"NULL";
+	"And so, we're countin' on ya, kid!";
 
 static char s_dialogs_18205_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18205_message_data[] = 
-	"NULL";
+	"Work hard, and badda BING badda BOOM/n"
+	"nice bodies are ours!";
 
 static char s_dialogs_18206_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18206_message_data[] = 
-	"NULL";
+	"I'm not the one who needs to work hard/n"
+	"for that to happen...";
 
 static char s_dialogs_18207_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18207_message_data[] = 
-	"NULL";
+	"What is it even gonna be, this \"great plan\"...?";
 
 static char s_dialogs_18208_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18208_message_data[] = 
-	"NULL";
+	".........";
 
 static char s_dialogs_18209_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18209_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18210_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18210_message_data[] = 
-	"NULL";
+	"...";
 
 static char s_dialogs_18211_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18211_message_data[] = 
-	"NULL";
+	"Damn... my mind's drawing blanks.";
 
 static char s_dialogs_18212_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18212_message_data[] = 
-	"NULL";
+	"I'll go for a walk and see if that helps.";
 
 static char s_dialogs_18213_speaker_data[] = 
 	"/l /f";
@@ -97318,557 +97535,631 @@ static char s_dialogs_18224_message_data[] =
 static char s_dialogs_18225_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18225_message_data[] = 
-	"NULL";
+	"*Sigh*... so,they want a dieting method, huh?";
 
 static char s_dialogs_18226_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18226_message_data[] = 
-	"NULL";
+	"Why do they think I'd know anything/n"
+	"about that stuff?";
 
 static char s_dialogs_18227_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18227_message_data[] = 
-	"NULL";
+	"...This shop's still open.";
 
 static char s_dialogs_18228_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18228_message_data[] = 
-	"NULL";
+	"But there's no customers inside.../n"
+	"Is it doing okay?";
 
 static char s_dialogs_18229_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18229_message_data[] = 
-	"NULL";
+	"It'd be sad to see it shut down.";
 
 static char s_dialogs_18230_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18230_message_data[] = 
-	"NULL";
+	"I guess I'll head in for a bit to help out/n"
+	"their sales.";
 
 static char s_dialogs_18231_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18231_message_data[] = 
-	"NULL";
+	"I don't wanna go in really,/n"
+	"but if it's for the store's sake.";
 
 static char s_dialogs_18232_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18232_message_data[] = 
-	"NULL";
+	"*Phew*... once again,/n"
+	"I've contributed to this store's sales.";
 
 static char s_dialogs_18233_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18233_message_data[] = 
-	"NULL";
+	"Alright, now that I'm refreshed,/n"
+	"time to go home and figure out a diet plan!";
 
 static char s_dialogs_18234_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18234_message_data[] = 
-	"NULL";
+	"Worthless stores like this deserve to go out of/n"
+	"business anyway.";
 
 static char s_dialogs_18235_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18235_message_data[] = 
-	"NULL";
+	"...WAIT! WHAT AM I THINKING!?";
 
 static char s_dialogs_18236_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18236_message_data[] = 
-	"NULL";
+	"Is there any store as good as this!?";
 
 static char s_dialogs_18237_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18237_message_data[] = 
-	"NULL";
+	"If I must, I'll come in, no matter the cost!/n"
+	"I'm going in there!";
 
 static char s_dialogs_18238_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18238_message_data[] = 
-	"NULL";
+	"...Or so I thought,/n"
+	"but I don't have any money with me today.";
 
 static char s_dialogs_18239_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18239_message_data[] = 
-	"NULL";
+	"*Phew*... I lucked out.";
 
 static char s_dialogs_18240_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18240_message_data[] = 
-	"NULL";
+	"...Though I feel empty inside./n"
+	"...Oh well, let's go home.";
 
 static char s_dialogs_18241_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18241_message_data[] = 
-	"NULL";
+	".........";
 
 static char s_dialogs_18242_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18242_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18243_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18243_message_data[] = 
-	"NULL";
+	"...";
 
 static char s_dialogs_18244_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18244_message_data[] = 
-	"NULL";
+	"Darn it... I still can't come up with anything.";
 
 static char s_dialogs_18245_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18245_message_data[] = 
-	"NULL";
+	"Makes sense, I've never gone on a diet before...";
 
 static char s_dialogs_18246_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18246_message_data[] = 
-	"NULL";
+	"I'll have to do some independent research./n"
+	"Though asking someone could be more reliable./n"
+	"Or should I just look it up online?";
 
 static char s_dialogs_18247_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18247_message_data[] = 
-	"NULL";
+	"Alright, what should I do...?";
 
 static char s_dialogs_18248_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18248_message_data[] = 
-	"NULL";
+	"...Am I seriously considering that!?";
 
 static char s_dialogs_18249_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18249_message_data[] = 
-	"NULL";
+	"I was told in no uncertain terms to keep this/n"
+	"a secret from Konata-san...";
 
 static char s_dialogs_18250_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18250_message_data[] = 
-	"NULL";
+	"...But hey, I'm just asking about/n"
+	"dieting methods.";
 
 static char s_dialogs_18251_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18251_message_data[] = 
-	"NULL";
+	"So long as she doesn't find out that/n"
+	"Kagami-san and Kuroi Sensei are going on a diet,/n"
+	"it's all good, right?";
 
 static char s_dialogs_18252_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18252_message_data[] = 
-	"NULL";
+	"Maybe I can catch her on soul link messenger?";
 
 static char s_dialogs_18253_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18253_message_data[] = 
-	"NULL";
+	"Let's see, Konata-san.../n"
+	"Ah, she's online.";
 
 static char s_dialogs_18254_speaker_data[] = 
 	"";
 static char s_dialogs_18254_message_data[] = 
-	"NULL";
+	"[xX_Yoshi_Xx]/n"
+	"Good evening, Konata-san./n"
+	"It's me, Yoshi.";
 
 static char s_dialogs_18255_speaker_data[] = 
 	"";
 static char s_dialogs_18255_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"Heyo, what's up?";
 
 static char s_dialogs_18256_speaker_data[] = 
 	"";
 static char s_dialogs_18256_message_data[] = 
-	"NULL";
+	"[xX_Yoshi_Xx]/n"
+	"This is gonna sound out of nowhere, but...";
 
 static char s_dialogs_18257_speaker_data[] = 
 	"";
 static char s_dialogs_18257_message_data[] = 
-	"NULL";
+	"[xX_Yoshi_Xx]/n"
+	"Do you know of any good dieting methods?";
 
 static char s_dialogs_18258_speaker_data[] = 
 	"";
 static char s_dialogs_18258_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18259_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18259_message_data[] = 
-	"NULL";
+	"Hmm, it's taking her a while to respond./n"
+	"Maybe she's just looking it up for me...";
 
 static char s_dialogs_18260_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18260_message_data[] = 
-	"NULL";
+	"If you don't know, you can just tell me...";
 
 static char s_dialogs_18261_speaker_data[] = 
 	"";
 static char s_dialogs_18261_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"I see, so Kagami asked you huh? lolololol";
 
 static char s_dialogs_18262_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18262_message_data[] = 
-	"NULL";
+	"ACK!!!!!!!";
 
 static char s_dialogs_18263_speaker_data[] = 
 	"";
 static char s_dialogs_18263_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"Bet she came to you begging for help lmao";
 
 static char s_dialogs_18264_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18264_message_data[] = 
-	"NULL";
+	"Wha... h-how did she know!?";
 
 static char s_dialogs_18265_speaker_data[] = 
 	"";
 static char s_dialogs_18265_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"Geez, how many times has she tried now? XD";
 
 static char s_dialogs_18266_speaker_data[] = 
 	"";
 static char s_dialogs_18266_message_data[] = 
-	"NULL";
+	"[xX_Yoshi_Xx]/n"
+	"Wait, you've got it";
 
 static char s_dialogs_18267_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18267_message_data[] = 
-	"NULL";
+	"GAH, I sent it before I was done!";
 
 static char s_dialogs_18268_speaker_data[] = 
 	"";
 static char s_dialogs_18268_message_data[] = 
-	"NULL";
+	"[xX_Yoshi_Xx]/n"
+	"*Wait, you've got it all wrong!/n"
+	"This isn't about Kagami-san.";
 
 static char s_dialogs_18269_speaker_data[] = 
 	"";
 static char s_dialogs_18269_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"Ah, sure sure./n"
+	"I understand, it's all good.";
 
 static char s_dialogs_18270_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18270_message_data[] = 
-	"NULL";
+	"Wha...What does she know?/n"
+	"And what does she mean \"it's all good\"...?";
 
 static char s_dialogs_18271_speaker_data[] = 
 	"";
 static char s_dialogs_18271_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"\"Don't tell Konata no matter what!\"/n"
+	"She told you that, right? ;)";
 
 static char s_dialogs_18272_speaker_data[] = 
 	"";
 static char s_dialogs_18272_message_data[] = 
-	"NULL";
+	"She saw completely through it...";
 
 static char s_dialogs_18273_speaker_data[] = 
 	"";
 static char s_dialogs_18273_message_data[] = 
-	"NULL";
+	"[xX_Yoshi_Xx]/n"
+	"You've got me orz/n"
+	"Please don't tell on me...";
 
 static char s_dialogs_18274_speaker_data[] = 
 	"";
 static char s_dialogs_18274_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"Oui oui./n"
+	"I'll stay quiet, so don't worry, k?";
 
 static char s_dialogs_18275_speaker_data[] = 
 	"";
 static char s_dialogs_18275_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"http://www.vridge.co.jp/star.html";
 
 static char s_dialogs_18276_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18276_message_data[] = 
-	"NULL";
+	"Hm? What's that URL...?";
 
 static char s_dialogs_18277_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18277_message_data[] = 
-	"NULL";
+	"Uh, what's this?/n"
+	"\"Simple and Easy Fitness for Everyone!/n"
+	"Punch ★ Boxercise\"?";
 
 static char s_dialogs_18278_speaker_data[] = 
 	"";
 static char s_dialogs_18278_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"So basically, all you do is alternate between/n"
+	"left and right punches.";
 
 static char s_dialogs_18279_speaker_data[] = 
 	"";
 static char s_dialogs_18279_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"I used to do this a while back./n"
+	"It's easy, but surprisingly effective!";
 
 static char s_dialogs_18280_speaker_data[] = 
 	"";
 static char s_dialogs_18280_message_data[] = 
-	"NULL";
+	"[xX_Yoshi_Xx]/n"
+	"Thanks!";
 
 static char s_dialogs_18281_speaker_data[] = 
 	"";
 static char s_dialogs_18281_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"Kagami's really pushing you around, huh.";
 
 static char s_dialogs_18282_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18282_message_data[] = 
-	"NULL";
+	"Y-You're misunderstanding slightly...";
 
 static char s_dialogs_18283_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18283_message_data[] = 
-	"NULL";
+	"Wha? She sent something./n"
+	"...I'll click \"yes\".";
 
 static char s_dialogs_18284_speaker_data[] = 
 	"";
 static char s_dialogs_18284_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"When you tell Kagami, read this.";
 
 static char s_dialogs_18285_speaker_data[] = 
 	"";
 static char s_dialogs_18285_message_data[] = 
-	"NULL";
+	"[xX_Yoshi_Xx]/n"
+	"Thanks, but what is this?";
 
 static char s_dialogs_18286_speaker_data[] = 
 	"";
 static char s_dialogs_18286_message_data[] = 
-	"NULL";
+	"[konakona]/n"
+	"Heh, you'll know when you read it./n"
+	"See ya (^_^)/";
 
 static char s_dialogs_18287_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18287_message_data[] = 
-	"NULL";
+	"Ah, she went offline...";
 
 static char s_dialogs_18288_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18288_message_data[] = 
-	"NULL";
+	"I think Tsukasa-san would know something/n"
+	"about dieting.";
 
 static char s_dialogs_18289_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18289_message_data[] = 
-	"NULL";
+	"...Though it's not like there's anyone else/n"
+	"I could ask... whatever, I'll call her.";
 
 static char s_dialogs_18290_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18290_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18291_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18291_message_data[] = 
-	"NULL";
+	"She's taking a while to pick up...";
 
 static char s_dialogs_18292_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18292_message_data[] = 
-	"NULL";
+	"Hiiiiii.... can hyuu ear meee...?";
 
 static char s_dialogs_18293_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18293_message_data[] = 
-	"NULL";
+	"Ah, hello, this is Yoshi...";
 
 static char s_dialogs_18294_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18294_message_data[] = 
-	"NULL";
+	"Ah... Yoshi-kun.../n"
+	"...Who is that?";
 
 static char s_dialogs_18295_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18295_message_data[] = 
-	"NULL";
+	"C-C'mon, it's me, Yoshi...";
 
 static char s_dialogs_18296_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18296_message_data[] = 
-	"NULL";
+	"Yeah... Yoshi-kun.../n"
+	"You just said that...";
 
 static char s_dialogs_18297_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18297_message_data[] = 
-	"NULL";
+	"You must've been asleep... sorry for waking you.";
 
 static char s_dialogs_18298_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18298_message_data[] = 
-	"NULL";
+	"No... it's okay!/n"
+	"I was just taking a nap...";
 
 static char s_dialogs_18299_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18299_message_data[] = 
-	"NULL";
+	"I'm really sorry. I'll hang up now.";
 
 static char s_dialogs_18300_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18300_message_data[] = 
-	"NULL";
+	"It's okay!/n"
+	"...What did you wanna talk about?";
 
 static char s_dialogs_18301_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18301_message_data[] = 
-	"NULL";
+	"Y-You sure?/n"
+	"Well, uh, there's something I want to ask...";
 
 static char s_dialogs_18302_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18302_message_data[] = 
-	"NULL";
+	"Do you by chance know of any dieting methods/n"
+	"that give quick results?";
 
 static char s_dialogs_18303_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18303_message_data[] = 
-	"NULL";
+	"...Hmm... a diet...?";
 
 static char s_dialogs_18304_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18304_message_data[] = 
-	"NULL";
+	"...Hmm... let's see...";
 
 static char s_dialogs_18305_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18305_message_data[] = 
-	"NULL";
+	"Hmm...";
 
 static char s_dialogs_18306_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18306_message_data[] = 
-	"NULL";
+	"Uh? A-Are you still there?";
 
 static char s_dialogs_18307_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18307_message_data[] = 
-	"NULL";
+	"Huh... oh... yeah./n"
+	"A diet, huh?";
 
 static char s_dialogs_18308_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18308_message_data[] = 
-	"NULL";
+	"It's said if you eat nothing but apples/n"
+	"for three days... you'll lose three kilos...";
 
 static char s_dialogs_18309_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18309_message_data[] = 
-	"NULL";
+	"Three kilos in thee days?/n"
+	"If that's true, that's amazing!";
 
 static char s_dialogs_18310_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18310_message_data[] = 
-	"NULL";
+	"...It is true... and that's not all!";
 
 static char s_dialogs_18311_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18311_message_data[] = 
-	"NULL";
+	"Just drinking soy milk...";
 
 static char s_dialogs_18312_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18312_message_data[] = 
-	"NULL";
+	"Or just eating chocolate...";
 
 static char s_dialogs_18313_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18313_message_data[] = 
-	"NULL";
+	"Or just prunes...";
 
 static char s_dialogs_18314_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18314_message_data[] = 
-	"NULL";
+	"Or even sweet potatoes, all of those work too.";
 
 static char s_dialogs_18315_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18315_message_data[] = 
-	"NULL";
+	"I see... so any of those will work just as well.";
 
 static char s_dialogs_18316_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18316_message_data[] = 
-	"NULL";
+	"Well.. not exactly, but... you get the picture...";
 
 static char s_dialogs_18317_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18317_message_data[] = 
-	"NULL";
+	"Got it, thanks. That was a huge help!";
 
 static char s_dialogs_18318_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18318_message_data[] = 
-	"NULL";
+	"No... problem...";
 
 static char s_dialogs_18319_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18319_message_data[] = 
-	"NULL";
+	"Tell sis... I said good luck with the diet...";
 
 static char s_dialogs_18320_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18320_message_data[] = 
-	"NULL";
+	"Yeah, will do... wait, huh!?";
 
 static char s_dialogs_18321_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18321_message_data[] = 
-	"NULL";
+	"H-How did you know about that?";
 
 static char s_dialogs_18322_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18322_message_data[] = 
-	"NULL";
+	"...zzz... zzz...";
 
 static char s_dialogs_18323_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18323_message_data[] = 
-	"NULL";
+	"Hello? You still there?";
 
 static char s_dialogs_18324_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18324_message_data[] = 
-	"NULL";
+	"...Ngh... munyah...";
 
 static char s_dialogs_18325_speaker_data[] = 
 	"";
 static char s_dialogs_18325_message_data[] = 
-	"NULL";
+	"Shoot. Tsukasa-san fell asleep on the phone./n"
+	"I shouldn't wake her, I'll hang up.";
 
 static char s_dialogs_18326_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18326_message_data[] = 
-	"NULL";
+	"Yep, when in doubt, check the internet.";
 
 static char s_dialogs_18327_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18327_message_data[] = 
-	"NULL";
+	"Let's see... dieting...";
 
 static char s_dialogs_18328_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18328_message_data[] = 
-	"NULL";
+	"Oh wow, what's this? Who knew there's/n"
+	"a bunch of dieting websites these days?";
 
 static char s_dialogs_18329_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18329_message_data[] = 
-	"NULL";
+	"Man, there's so many, I'm not sure what to/n"
+	"go with... a lot of them have weird names.";
 
 static char s_dialogs_18330_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18330_message_data[] = 
-	"NULL";
+	"Hm? What's this? A plant seed diet?";
 
 static char s_dialogs_18331_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18331_message_data[] = 
-	"NULL";
+	"Puku fruit... often referred to as \"puku seed\",/n"
+	"looks similar to roasted sesame seeds,/n"
+	"but swell to 50 times their size when in water.";
 
 static char s_dialogs_18332_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18332_message_data[] = 
-	"NULL";
+	"Hence, if eaten with water, you'll quickly/n"
+	"feel full, allowing you to reduce your/n"
+	"caloric intake.";
 
 static char s_dialogs_18333_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18333_message_data[] = 
-	"NULL";
+	"Incidentally, drinking our admin-recommended/n"
+	"special vegetable juice (AKA \"thick juice\")/n"
+	"will double the effect... really!?";
 
 static char s_dialogs_18334_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18334_message_data[] = 
-	"NULL";
+	"Is this too good to be true?/n"
+	"It seems so easy...";
 
 static char s_dialogs_18335_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18335_message_data[] = 
-	"NULL";
+	"Hmm, so these puku seeds are sold/n"
+	"in the health foods section.";
 
 static char s_dialogs_18336_speaker_data[] = 
 	"/l /f";
@@ -97878,152 +98169,177 @@ static char s_dialogs_18336_message_data[] =
 static char s_dialogs_18337_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18337_message_data[] = 
-	"NULL";
+	"...Bleh... seems like it'd taste awful...";
 
 static char s_dialogs_18338_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18338_message_data[] = 
-	"NULL";
+	"Alright, well, I've got some info./n"
+	"I'll tell everyone tomorrow.";
 
 static char s_dialogs_18339_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18339_message_data[] = 
-	"NULL";
+	"I hope this'll help them lose weight...";
 
 static char s_dialogs_18340_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18340_message_data[] = 
-	"NULL";
+	"Oh well, the rest is up to them now./n"
+	"Alright... I'm kinda tired, so I guess I'll get/n"
+	"some sleep...";
 
 static char s_dialogs_18341_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18341_message_data[] = 
-	"NULL";
+	"Welcome to Unlucky ★ Sisters!/n"
+	"I'm your host, Hinata Miyakawa, and...";
 
 static char s_dialogs_18342_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18342_message_data[] = 
-	"NULL";
+	"I'm your other host, Hikage Miyakawa./n"
+	"Alright, so the topic for today is...";
 
 static char s_dialogs_18343_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18343_message_data[] = 
-	"NULL";
+	"That's wrong./n"
+	"It's not \"mew mew\", it's \"cat\".";
 
 static char s_dialogs_18344_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18344_message_data[] = 
-	"NULL";
+	"It's okay, Sakuraba Sensei./n"
+	"\"Mew mew\" is more moe ♪";
 
 static char s_dialogs_18345_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18345_message_data[] = 
-	"NULL";
+	"Oneechan, I don't get it./n"
+	"What's this about Schrodinger and cats?";
 
 static char s_dialogs_18346_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18346_message_data[] = 
-	"NULL";
+	"Schrodinger was a physicist./n"
+	"First, do an internet search on him, please.";
 
 static char s_dialogs_18347_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18347_message_data[] = 
-	"NULL";
+	"Uwah, I ain't reading that!";
 
 static char s_dialogs_18348_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18348_message_data[] = 
-	"NULL";
+	"It's just sooo looong. Would you watch an/n"
+	"entertainment show for the information?/n"
+	"No, you just want an expert's rambling.";
 
 static char s_dialogs_18349_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18349_message_data[] = 
-	"NULL";
+	"This may be a variety show, but you're setting up/n"
+	"the viewers' for disappointment with a remark/n"
+	"like that.";
 
 static char s_dialogs_18350_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18350_message_data[] = 
-	"NULL";
+	"C'mon, can't you just give a summary?/n"
+	"That's what we're looking for, right?";
 
 static char s_dialogs_18351_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18351_message_data[] = 
-	"NULL";
+	"Exactly!/n"
+	"So please, go on, sensei ♪";
 
 static char s_dialogs_18352_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18352_message_data[] = 
-	"NULL";
+	"Figures it'd come to this./n"
+	"But you know I specialize in biology, right?";
 
 static char s_dialogs_18353_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18353_message_data[] = 
-	"NULL";
+	"To the uninterested audience watching,/n"
+	"all science is basically the same anyway ♪";
 
 static char s_dialogs_18354_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18354_message_data[] = 
-	"NULL";
+	"Oneechan, you can't say that!/n"
+	"That's definitely gonna cause us problems.";
 
 static char s_dialogs_18355_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18355_message_data[] = 
-	"NULL";
+	"Why would it?/n"
+	"Don't you know about \"game brain\"?";
 
 static char s_dialogs_18356_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18356_message_data[] = 
-	"NULL";
+	"Alright, I guess I'll start explaining now.";
 
 static char s_dialogs_18357_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18357_message_data[] = 
-	"NULL";
+	"Sensei, NICE!";
 
 static char s_dialogs_18358_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18358_message_data[] = 
-	"NULL";
+	"Well, coming here would've been for nothing/n"
+	"if the show were to get cancelled.";
 
 static char s_dialogs_18359_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18359_message_data[] = 
-	"NULL";
+	"Putting that aside though,/n"
+	"Schrodinger's Cat is like a discussion of sorts.";
 
 static char s_dialogs_18360_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18360_message_data[] = 
-	"NULL";
+	"There are three necessary components: an atom/n"
+	"that may undergo decay, a box that spews/n"
+	"poisonous gas if decay occurs, and a cat.";
 
 static char s_dialogs_18361_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18361_message_data[] = 
-	"NULL";
+	"Why do you need the cat?";
 
 static char s_dialogs_18362_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18362_message_data[] = 
-	"NULL";
+	"So it can be killed by the poisonous gas.";
 
 static char s_dialogs_18363_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18363_message_data[] = 
-	"NULL";
+	"No! But the cat didn't do anything wrong!";
 
 static char s_dialogs_18364_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18364_message_data[] = 
-	"NULL";
+	"Remember, this is all hypothetical.";
 
 static char s_dialogs_18365_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18365_message_data[] = 
-	"NULL";
+	"No! Let the cat go!/n"
+	"We firmly demand it!";
 
 static char s_dialogs_18366_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18366_message_data[] = 
-	"NULL";
+	"You're such a pain.../n"
+	"Whatever, so here's the gist.";
 
 static char s_dialogs_18367_speaker_data[] = 
 	"Hikaru Sakuraba";
@@ -98033,3167 +98349,3570 @@ static char s_dialogs_18367_message_data[] =
 static char s_dialogs_18368_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18368_message_data[] = 
-	"NULL";
+	"Huh... so what's that mean?";
 
 static char s_dialogs_18369_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18369_message_data[] = 
-	"NULL";
+	"When you observe something, it collapses into a/n"
+	"state. Until then, the outcome can't be known,/n"
+	"and it's in a mixture.";
 
 static char s_dialogs_18370_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18370_message_data[] = 
-	"NULL";
+	"Ah, there's the key point./n"
+	"Take notes everyone!";
 
 static char s_dialogs_18371_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18371_message_data[] = 
-	"NULL";
+	"For the aforementioned cat in the experiment,/n"
+	"if the decay occurs, the poison gas is released/n"
+	"and the cat dies.";
 
 static char s_dialogs_18372_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18372_message_data[] = 
-	"NULL";
+	"But, until you open the lid of the box,/n"
+	"what happened inside can't be known.";
 
 static char s_dialogs_18373_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18373_message_data[] = 
-	"NULL";
+	"So it's like I just said, it's in a mixture./n"
+	"Thus, whether the cat is alive is mixed/n"
+	"into this as well.";
 
 static char s_dialogs_18374_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18374_message_data[] = 
-	"NULL";
+	"Hmm, all that means is I don't know whether/n"
+	"the cat is alive or not...";
 
 static char s_dialogs_18375_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18375_message_data[] = 
-	"NULL";
+	"That is not what it means./n"
+	"There's a lot of complexities when it comes to/n"
+	"this, so research it thoroughly online.";
 
 static char s_dialogs_18376_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18376_message_data[] = 
-	"NULL";
+	"Yeah, I'd rather not...";
 
 static char s_dialogs_18377_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18377_message_data[] = 
-	"NULL";
+	"Sensei, I have a question.";
 
 static char s_dialogs_18378_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18378_message_data[] = 
-	"NULL";
+	"What is it, private... I mean, Miyakawa-kun?";
 
 static char s_dialogs_18379_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18379_message_data[] = 
-	"NULL";
+	"I think you could shake the box/n"
+	"to figure out if mew mew is alive inside ♪";
 
 static char s_dialogs_18380_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18380_message_data[] = 
-	"NULL";
+	"Oneechan, NICE!/n"
+	"If you do that and the cat meows, you'll know/n"
+	"that it's alive!";
 
 static char s_dialogs_18381_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18381_message_data[] = 
-	"NULL";
+	"What if the box is fastened in place?/n"
+	"What then, Hikage-kun?";
 
 static char s_dialogs_18382_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18382_message_data[] = 
-	"NULL";
+	"Uhhh, I'll bang on the box./n"
+	"It'll surprise the cat and it'll meow.";
 
 static char s_dialogs_18383_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18383_message_data[] = 
-	"NULL";
+	"And if the box is bulky and airtight,/n"
+	"meaning you couldn't hear its cries?";
 
 static char s_dialogs_18384_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18384_message_data[] = 
-	"NULL";
+	"That's so sad. The cat's gonna suffer!";
 
 static char s_dialogs_18385_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18385_message_data[] = 
-	"NULL";
+	"That won't be determined until you observe it./n"
+	"That's the whole point.";
 
 static char s_dialogs_18386_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18386_message_data[] = 
-	"NULL";
+	"That's crazy./n"
+	"You could know without opening it.";
 
 static char s_dialogs_18387_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18387_message_data[] = 
-	"NULL";
+	"Yeah, and you can say mew mew is/n"
+	"simultaneously both alive and dead, but...";
 
 static char s_dialogs_18388_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18388_message_data[] = 
-	"NULL";
+	"You've said something good there./n"
+	"Yes, that is it.";
 
 static char s_dialogs_18389_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18389_message_data[] = 
-	"NULL";
+	"The state of the decay and the cat's life/n"
+	"are fundamentally different matters./n"
+	"You can't treat the two as one.";
 
 static char s_dialogs_18390_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18390_message_data[] = 
-	"NULL";
+	"Thus, it is a paradox and does not hold.";
 
 static char s_dialogs_18391_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18391_message_data[] = 
-	"NULL";
+	"I believe it to be merely reasoning based upon/n"
+	"a flawed premise.";
 
 static char s_dialogs_18392_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18392_message_data[] = 
-	"NULL";
+	"Uh... oneechan, you got that?";
 
 static char s_dialogs_18393_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18393_message_data[] = 
-	"NULL";
+	"Did I get what?";
 
 static char s_dialogs_18394_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18394_message_data[] = 
-	"NULL";
+	"Seems you didn't understand anything.";
 
 static char s_dialogs_18395_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18395_message_data[] = 
-	"NULL";
+	"My my, how rude!/n"
+	"You know what I want to say most, right?";
 
 static char s_dialogs_18396_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18396_message_data[] = 
-	"NULL";
+	"What would that be?";
 
 static char s_dialogs_18397_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18397_message_data[] = 
-	"NULL";
+	"Don't presume!";
 
 static char s_dialogs_18398_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18398_message_data[] = 
-	"NULL";
+	"Reject the premise./n"
+	"You must not underestimate the power of one's/n"
+	"biases.";
 
 static char s_dialogs_18399_speaker_data[] = 
 	"Hikaru Sakuraba";
 static char s_dialogs_18399_message_data[] = 
-	"NULL";
+	"Do not forget that. That is all from me.";
 
 static char s_dialogs_18400_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18400_message_data[] = 
-	"NULL";
+	"Ugh... I can't make heads or tails of this.";
 
 static char s_dialogs_18401_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18401_message_data[] = 
-	"NULL";
+	"Hikage-chan, do not think. Just feel, okay?";
 
 static char s_dialogs_18402_speaker_data[] = 
 	"Hikage Miyakawa";
 static char s_dialogs_18402_message_data[] = 
-	"NULL";
+	"I don't understand that either./n"
+	"Oh well, bye bye everyone!";
 
 static char s_dialogs_18403_speaker_data[] = 
 	"Hinata Miyakawa";
 static char s_dialogs_18403_message_data[] = 
-	"NULL";
+	"You've been giving up all day!/n"
+	"...Hikage, you dreadful child!";
 
 static char s_dialogs_18404_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18404_message_data[] = 
-	"NULL";
+	"Gosh... that made no sense at all, *yawn*...";
 
 static char s_dialogs_18405_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18405_message_data[] = 
-	"NULL";
+	"...Whatcha talkin' 'bout, kid?";
 
 static char s_dialogs_18406_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18406_message_data[] = 
-	"NULL";
+	"...Ngh? H-Hwah?/n"
+	"No-I mean, Schrodinger's Mew Mew...";
 
 static char s_dialogs_18407_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18407_message_data[] = 
-	"NULL";
+	"Did ya just say... \"Schrodinger\"?";
 
 static char s_dialogs_18408_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18408_message_data[] = 
-	"NULL";
+	"Y'know this is world history class, right?/n"
+	"This ain't physics.";
 
 static char s_dialogs_18409_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18409_message_data[] = 
-	"NULL";
+	"Though I don't think they teach that/n"
+	"in high school physics.";
 
 static char s_dialogs_18410_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18410_message_data[] = 
-	"NULL";
+	"Uh... w-well... it is odd for sure./n"
+	"Shaking the mew mew would definitely...";
 
 static char s_dialogs_18411_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18411_message_data[] = 
-	"NULL";
+	"...The weird thing is your damn brain./n"
+	"Like, first of all, who?";
 
 static char s_dialogs_18412_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18412_message_data[] = 
-	"NULL";
+	"\"Who?\", as in...";
 
 static char s_dialogs_18413_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18413_message_data[] = 
-	"NULL";
+	"...Who am I talking about, right?";
 
 static char s_dialogs_18414_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18414_message_data[] = 
-	"NULL";
+	"...Ya still half-asleep, kid?";
 
 static char s_dialogs_18415_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18415_message_data[] = 
-	"NULL";
+	"N-No, I would never!/n"
+	"That's not it at all!";
 
 static char s_dialogs_18416_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18416_message_data[] = 
-	"NULL";
+	"I'm positive I was sleeping in my bedroom!";
 
 static char s_dialogs_18417_speaker_data[] = 
 	"";
 static char s_dialogs_18417_message_data[] = 
-	"NULL";
+	"...Yeah, I'm sure of it.";
 
 static char s_dialogs_18418_speaker_data[] = 
 	"";
 static char s_dialogs_18418_message_data[] = 
-	"NULL";
+	"And yet, I wake up to find myself in the/n"
+	"middle of class...";
 
 static char s_dialogs_18419_speaker_data[] = 
 	"";
 static char s_dialogs_18419_message_data[] = 
-	"NULL";
+	"D-Don't tell me she's gonna...!";
 
 static char s_dialogs_18420_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18420_message_data[] = 
-	"NULL";
+	"GUAAAH!?";
 
 static char s_dialogs_18421_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18421_message_data[] = 
-	"NULL";
+	"...That's enough./n"
+	"Geez, come to the staff room after school.";
 
 static char s_dialogs_18422_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18422_message_data[] = 
-	"NULL";
+	"Yes, ma'am.../n"
+	"Ugh... that hurt...";
 
 static char s_dialogs_18423_speaker_data[] = 
 	"";
 static char s_dialogs_18423_message_data[] = 
-	"NULL";
+	"Being punched caused me to understand slightly.";
 
 static char s_dialogs_18424_speaker_data[] = 
 	"";
 static char s_dialogs_18424_message_data[] = 
-	"NULL";
+	"This isn't the result of paranoia or a time skip.";
 
 static char s_dialogs_18425_speaker_data[] = 
 	"";
 static char s_dialogs_18425_message_data[] = 
-	"NULL";
+	"This is just...";
 
 static char s_dialogs_18426_speaker_data[] = 
 	"";
 static char s_dialogs_18426_message_data[] = 
-	"NULL";
+	"Just...";
 
 static char s_dialogs_18427_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18427_message_data[] = 
-	"NULL";
+	"Just a case of amnesia./n"
+	"Happens all the time in gal games.";
 
 static char s_dialogs_18428_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18428_message_data[] = 
-	"NULL";
+	"I see./n"
+	"Wow, so it happens all the time apparently.";
 
 static char s_dialogs_18429_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18429_message_data[] = 
-	"NULL";
+	"Is that so?/n"
+	"I really don't think it's like that...";
 
 static char s_dialogs_18430_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18430_message_data[] = 
-	"NULL";
+	"That's because they're games!/n"
+	"That doesn't happen in real life!";
 
 static char s_dialogs_18431_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18431_message_data[] = 
-	"NULL";
+	"In games, they only remember the/n"
+	"convenient details, like the heroine.";
 
 static char s_dialogs_18432_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18432_message_data[] = 
-	"NULL";
+	"Even then, they struggle to remember/n"
+	"crucial plot details until the very end.";
 
 static char s_dialogs_18433_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18433_message_data[] = 
-	"NULL";
+	"Well, it has to be like that,/n"
+	"otherwise the story won't stay exciting.";
 
 static char s_dialogs_18434_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18434_message_data[] = 
-	"NULL";
+	"Also, Kagami, so I see you've suddenly/n"
+	"leveled up as an otaku.";
 
 static char s_dialogs_18435_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18435_message_data[] = 
-	"NULL";
+	"Wha!? No...!/n"
+	"I DID NOT!!";
 
 static char s_dialogs_18436_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18436_message_data[] = 
-	"NULL";
+	"Gosh, why are we even talking about this!?";
 
 static char s_dialogs_18437_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18437_message_data[] = 
-	"NULL";
+	"It's just something Yoshi-kun made up/n"
+	"in his sleep!";
 
 static char s_dialogs_18438_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18438_message_data[] = 
-	"NULL";
+	"Ahaha... yeah, you're probably right.";
 
 static char s_dialogs_18439_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18439_message_data[] = 
-	"NULL";
+	"This is rather mysterious. Where could/n"
+	"such a conversation have come from?";
 
 static char s_dialogs_18440_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18440_message_data[] = 
-	"NULL";
+	"C'mon! You were called into the staff room,/n"
+	"remember? You've gotta go, or she'll get mad/n"
+	"at you again!";
 
 static char s_dialogs_18441_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18441_message_data[] = 
-	"NULL";
+	"Ah, right./n"
+	"Well, I'll get going then.";
 
 static char s_dialogs_18442_speaker_data[] = 
 	"Konata & Tsukasa";
 static char s_dialogs_18442_message_data[] = 
-	"NULL";
+	"See you later!";
 
 static char s_dialogs_18443_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18443_message_data[] = 
-	"NULL";
+	"H-Huh? Why are you two following me?";
 
 static char s_dialogs_18444_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18444_message_data[] = 
-	"NULL";
+	"The truth is, Kuroi Sensei called me over too.";
 
 static char s_dialogs_18445_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18445_message_data[] = 
-	"NULL";
+	"Same for me./n"
+	"...I have an idea what she wants to talk about.";
 
 static char s_dialogs_18446_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18446_message_data[] = 
-	"NULL";
+	"Indeed. I think it must be about THAT.";
 
 static char s_dialogs_18447_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18447_message_data[] = 
-	"NULL";
+	"...Hm? What do you mean?";
 
 static char s_dialogs_18448_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18448_message_data[] = 
-	"NULL";
+	"You're really dense, aren't you?/n"
+	"She means the stuff about the diet!";
 
 static char s_dialogs_18449_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18449_message_data[] = 
-	"NULL";
+	"Ka... Kagami-san... that was really loud...";
 
 static char s_dialogs_18450_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18450_message_data[] = 
-	"NULL";
+	"Uwah!?";
 
 static char s_dialogs_18451_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18451_message_data[] = 
-	"NULL";
+	"I see, that explains why it's both of you.";
 
 static char s_dialogs_18452_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18452_message_data[] = 
-	"NULL";
+	"Right.";
 
 static char s_dialogs_18453_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18453_message_data[] = 
-	"NULL";
+	"But I'm sure she'll start by/n"
+	"giving you a warning about nodding off in class.";
 
 static char s_dialogs_18454_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18454_message_data[] = 
-	"NULL";
+	"Ack...!/n"
+	"But yeah, she obviously will, huh...?";
 
 static char s_dialogs_18455_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18455_message_data[] = 
-	"NULL";
+	"Oh good good, you're all here!";
 
 static char s_dialogs_18456_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18456_message_data[] = 
-	"NULL";
+	"We'll get to it right away./n"
+	"Now, Yoshi...";
 
 static char s_dialogs_18457_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18457_message_data[] = 
-	"NULL";
+	"Y-Yes...?";
 
 static char s_dialogs_18458_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18458_message_data[] = 
-	"NULL";
+	"So, didja find a good dieting method?";
 
 static char s_dialogs_18459_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18459_message_data[] = 
-	"NULL";
+	"Huh... we're going straight to this? I was sure/n"
+	"this was gonna be about me nodding off...";
 
 static char s_dialogs_18460_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18460_message_data[] = 
-	"NULL";
+	"Hm? Oh, so you're taking initiative and/n"
+	"are asking to be punched?";
 
 static char s_dialogs_18461_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18461_message_data[] = 
-	"NULL";
+	"No, that's not what I meant...";
 
 static char s_dialogs_18462_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18462_message_data[] = 
-	"NULL";
+	"Then I don't care 'bout that./n"
+	"Right now, the diet is our utmost priority!";
 
 static char s_dialogs_18463_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18463_message_data[] = 
-	"NULL";
+	"...I really wanna interject right about now...";
 
 static char s_dialogs_18464_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18464_message_data[] = 
-	"NULL";
+	"But anyway, I absolutely agree we should/n"
+	"stay focused on the diet!!";
 
 static char s_dialogs_18465_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18465_message_data[] = 
-	"NULL";
+	"Alright, let's get right to it./n"
+	"Yoshi, whatcha got?";
 
 static char s_dialogs_18466_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18466_message_data[] = 
-	"NULL";
+	"Yeah, so I did some research.";
 
 static char s_dialogs_18467_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18467_message_data[] = 
-	"NULL";
+	"It's called \"Punch ★ Boxercise\"./n"
+	"...At least, that's what Kona--";
 
 static char s_dialogs_18468_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18468_message_data[] = 
-	"NULL";
+	"...Kona?";
 
 static char s_dialogs_18469_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18469_message_data[] = 
-	"NULL";
+	"Kona... cona... corner!/n"
+	"Yes, in the corner of the website I saw,/n"
+	"that's what they called it! Yep!";
 
 static char s_dialogs_18470_speaker_data[] = 
 	"";
 static char s_dialogs_18470_message_data[] = 
-	"NULL";
+	"Shoot. Konata-san's not supposed to know./n"
+	"It's really hard to not let it slip though...";
 
 static char s_dialogs_18471_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18471_message_data[] = 
-	"NULL";
+	"Boxercise... you say? I suppose that means/n"
+	"there's women who go to boxing gyms?";
 
 static char s_dialogs_18472_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18472_message_data[] = 
-	"NULL";
+	"Yeah, I guess so,/n"
+	"but you don't have to go to a gym to do it.";
 
 static char s_dialogs_18473_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18473_message_data[] = 
-	"NULL";
+	"It doesn't require any tough training either./n"
+	"All you have to do is release punches.";
 
 static char s_dialogs_18474_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18474_message_data[] = 
-	"NULL";
+	"Punches? Can you really lose weight just by/n"
+	"doing that?";
 
 static char s_dialogs_18475_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18475_message_data[] = 
-	"NULL";
+	"It would seem so. Also... oh, right./n"
+	"I was told to read this.";
 
 static char s_dialogs_18476_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18476_message_data[] = 
-	"NULL";
+	"Huh, what's that? Who told you?";
 
 static char s_dialogs_18477_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18477_message_data[] = 
-	"NULL";
+	"W-Whoever made the website!/n"
+	"A-Anyway... I'll read it. Let's see...";
 
 static char s_dialogs_18478_speaker_data[] = 
 	"???";
 static char s_dialogs_18478_message_data[] = 
-	"NULL";
+	"For Tomorrow (Part 1)/n"
+	"~ Jab ~";
 
 static char s_dialogs_18479_speaker_data[] = 
 	"???";
 static char s_dialogs_18479_message_data[] = 
-	"NULL";
+	"...To make a breakthrough in your attacks,/n"
+	"or to stop your foe's advances,/n"
+	"do some rapid left punches...";
 
 static char s_dialogs_18480_speaker_data[] = 
 	"???";
 static char s_dialogs_18480_message_data[] = 
-	"NULL";
+	"Keep your left elbow beneath your armpit,/n"
+	"aim at a slight angle,/n"
+	"and punch like you're scooping something...";
 
 static char s_dialogs_18481_speaker_data[] = 
 	"???";
 static char s_dialogs_18481_message_data[] = 
-	"NULL";
+	"Let out three precise jabs, then follow it up/n"
+	"with a right punch that's three times as strong!";
 
 static char s_dialogs_18482_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18482_message_data[] = 
-	"NULL";
+	"...That's what it says.";
 
 static char s_dialogs_18483_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18483_message_data[] = 
-	"NULL";
+	"...What was that? That made no sense.";
 
 static char s_dialogs_18484_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18484_message_data[] = 
-	"NULL";
+	"Whatcha trying to say, kid!?";
 
 static char s_dialogs_18485_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18485_message_data[] = 
-	"NULL";
+	"...I know, right?";
 
 static char s_dialogs_18486_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18486_message_data[] = 
-	"NULL";
+	"I can do this... I can do this.../n"
+	"I'm gonna rule at this diet!!!";
 
 static char s_dialogs_18487_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18487_message_data[] = 
-	"NULL";
+	"Huh?";
 
 static char s_dialogs_18488_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18488_message_data[] = 
-	"NULL";
+	"Alright... so do some rapid left punches...";
 
 static char s_dialogs_18489_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18489_message_data[] = 
-	"NULL";
+	"Keep your left elbow beneath your armpit...";
 
 static char s_dialogs_18490_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18490_message_data[] = 
-	"NULL";
+	"Aim at a small angle,/n"
+	"and punch like you're scooping something...";
 
 static char s_dialogs_18491_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18491_message_data[] = 
-	"NULL";
+	"So like this?/n"
+	"Eh! Eh! Eh! ";
 
 static char s_dialogs_18492_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18492_message_data[] = 
-	"NULL";
+	"That ain't right, Takara./n"
+	"That's not whatcha shout.";
 
 static char s_dialogs_18493_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18493_message_data[] = 
-	"NULL";
+	"Utsubeshi! Utsubeshi! Utsubeshi!/n"
+	"...Like that!";
 
 static char s_dialogs_18494_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18494_message_data[] = 
-	"NULL";
+	"O-Okay!/n"
+	"Utsubeshi! Utsubeshi! Utsubeshi!!";
 
 static char s_dialogs_18495_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18495_message_data[] = 
-	"NULL";
+	"Yeah, Takara! That's more like it!";
 
 static char s_dialogs_18496_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18496_message_data[] = 
-	"NULL";
+	"...Wow, they're already getting started.";
 
 static char s_dialogs_18497_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18497_message_data[] = 
-	"NULL";
+	"Miyuki's really getting into it.";
 
 static char s_dialogs_18498_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18498_message_data[] = 
-	"NULL";
+	"Yes. It's a bit tough,/n"
+	"but it feels like it's effective.";
 
 static char s_dialogs_18499_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18499_message_data[] = 
-	"NULL";
+	"Of course it is! I've got this in the bag!/n"
+	"I've got my sights set on the world!!";
 
 static char s_dialogs_18500_speaker_data[] = 
 	"";
 static char s_dialogs_18500_message_data[] = 
-	"NULL";
+	"The world? What world?";
 
 static char s_dialogs_18501_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18501_message_data[] = 
-	"NULL";
+	"And after that, next is...";
 
 static char s_dialogs_18502_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18502_message_data[] = 
-	"NULL";
+	"Let out three precise jabs, then follow it up/n"
+	"with a right punch...";
 
 static char s_dialogs_18503_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18503_message_data[] = 
-	"NULL";
+	"...A punch that's three times as strong...!/n"
+	"Alright!";
 
 static char s_dialogs_18504_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18504_message_data[] = 
-	"NULL";
+	"Utsubeshi! Utsubeshi! Utsubeshi!!";
 
 static char s_dialogs_18505_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18505_message_data[] = 
-	"NULL";
+	"And now for the right punch... EEIIII!!";
 
 static char s_dialogs_18506_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18506_message_data[] = 
-	"NULL";
+	"GOHAAAAH!!!?";
 
 static char s_dialogs_18507_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18507_message_data[] = 
-	"NULL";
+	"AHH!? S-Sorry!";
 
 static char s_dialogs_18508_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18508_message_data[] = 
-	"NULL";
+	"T-That sure was three times the usuaaaaal...!";
 
 static char s_dialogs_18509_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18509_message_data[] = 
-	"NULL";
+	"I am so very sorry!/n"
+	"Are you alright!?";
 
 static char s_dialogs_18510_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18510_message_data[] = 
-	"NULL";
+	"S-Somehow...";
 
 static char s_dialogs_18511_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18511_message_data[] = 
-	"NULL";
+	"But wow, Miyuki-san, that came from you?/n"
+	"...This is really effective.";
 
 static char s_dialogs_18512_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18512_message_data[] = 
-	"NULL";
+	"Hmmm, if it's so effective,/n"
+	"guess I'll have to take it seriously too.";
 
 static char s_dialogs_18513_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18513_message_data[] = 
-	"NULL";
+	"No, I didn't mean it like that...";
 
 static char s_dialogs_18514_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18514_message_data[] = 
-	"NULL";
+	"Yes! For tomorrow!/n"
+	"For a glowing hot body... I'll do it!!";
 
 static char s_dialogs_18515_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18515_message_data[] = 
-	"NULL";
+	"Yes! For tomorrow, we FIGHT!";
 
 static char s_dialogs_18516_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18516_message_data[] = 
-	"NULL";
+	"...Well, how about that?/n"
+	"Work hard, guys, but not too hard...";
 
 static char s_dialogs_18517_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18517_message_data[] = 
-	"NULL";
+	"Apparently, if you eat nothing but apples/n"
+	"for three days, you'll lose three kilos.";
 
 static char s_dialogs_18518_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18518_message_data[] = 
-	"NULL";
+	"Huh!? Really?/n"
+	"All we have to do is eat apples to lose weight!?";
 
 static char s_dialogs_18519_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18519_message_data[] = 
-	"NULL";
+	"That's what I was told./n"
+	"I got it from a reliable source.";
 
 static char s_dialogs_18520_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18520_message_data[] = 
-	"NULL";
+	"And that's not all,/n"
+	"you could drink just soy milk instead.";
 
 static char s_dialogs_18521_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18521_message_data[] = 
-	"NULL";
+	"Or just eat chocolate.";
 
 static char s_dialogs_18522_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18522_message_data[] = 
-	"NULL";
+	"Or just prunes.";
 
 static char s_dialogs_18523_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18523_message_data[] = 
-	"NULL";
+	"Even sweet potatoes will work.";
 
 static char s_dialogs_18524_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18524_message_data[] = 
-	"NULL";
+	"T-That's incredible! To think you could/n"
+	"lose weight just by eating such yummy things.";
 
 static char s_dialogs_18525_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18525_message_data[] = 
-	"NULL";
+	"This is totally like a dream ♪";
 
 static char s_dialogs_18526_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18526_message_data[] = 
-	"NULL";
+	"I really hope it isn't a dream...";
 
 static char s_dialogs_18527_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18527_message_data[] = 
-	"NULL";
+	"Could there really be such a/n"
+	"convenient dieting method?";
 
 static char s_dialogs_18528_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18528_message_data[] = 
-	"NULL";
+	"Well, it does limit ya to one food.";
 
 static char s_dialogs_18529_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18529_message_data[] = 
-	"NULL";
+	"It's like ya gotta eat just the bare minimum/n"
+	"required for nourishment, and nothing else.";
 
 static char s_dialogs_18530_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18530_message_data[] = 
-	"NULL";
+	"I see, it makes sense when you put it that way.";
 
 static char s_dialogs_18531_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18531_message_data[] = 
-	"NULL";
+	"Alright! I'm totally sold on this diet plan!";
 
 static char s_dialogs_18532_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18532_message_data[] = 
-	"NULL";
+	"This is gonna be easy,/n"
+	"I don't have to do anything super special.";
 
 static char s_dialogs_18533_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18533_message_data[] = 
-	"NULL";
+	"Like, losing weight while you eat?/n"
+	"That's insane!";
 
 static char s_dialogs_18534_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18534_message_data[] = 
-	"NULL";
+	"(...Psst, Miyuki-san.)";
 
 static char s_dialogs_18535_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18535_message_data[] = 
-	"NULL";
+	"(Yes? What is it?)";
 
 static char s_dialogs_18536_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18536_message_data[] = 
-	"NULL";
+	"(So...   I think I can see the failure flag/n"
+	"being set for Kagami-san from a mile away.)";
 
 static char s_dialogs_18537_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18537_message_data[] = 
-	"NULL";
+	"(Oh, a flag? You mean one of those things/n"
+	"Izumi-san always talks about, right?)";
 
 static char s_dialogs_18538_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18538_message_data[] = 
-	"NULL";
+	"Alright, so I've got a bunch of choices,/n"
+	"but which one should I go with?";
 
 static char s_dialogs_18539_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18539_message_data[] = 
-	"NULL";
+	"Obviously the apples, right?/n"
+	"It's a fruit, so it feels natural eating them,/n"
+	"and they seem good for your body!";
 
 static char s_dialogs_18540_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18540_message_data[] = 
-	"NULL";
+	"Hmm, but I do love me some chocolate...";
 
 static char s_dialogs_18541_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18541_message_data[] = 
-	"NULL";
+	"(...I can see it too. There's a flag/n"
+	"shining like a beacon on Hiiragi's head...)";
 
 static char s_dialogs_18542_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18542_message_data[] = 
-	"NULL";
+	"I dunno about soy milk or prunes though.../n"
+	"A liquid diet for three days would be tough.";
 
 static char s_dialogs_18543_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18543_message_data[] = 
-	"NULL";
+	"If I ate sweet potatoes, I think it'd be good/n"
+	"for my bowel movements at the same time,/n"
+	"so that's a bonus.";
 
 static char s_dialogs_18544_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18544_message_data[] = 
-	"NULL";
+	"(I'm shocked she said that in front of a guy...)";
 
 static char s_dialogs_18545_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18545_message_data[] = 
-	"NULL";
+	"(Yoshi-san, if possible, could you/n"
+	"please assist Kagami-san with the diet?)";
 
 static char s_dialogs_18546_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18546_message_data[] = 
-	"NULL";
+	"(Obviously, if she's left to her own devices...)";
 
 static char s_dialogs_18547_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18547_message_data[] = 
-	"NULL";
+	"(...Yeah, help us steer clear of the/n"
+	"failure route, will ya?)";
 
 static char s_dialogs_18548_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18548_message_data[] = 
-	"NULL";
+	"(Sure, I'll do what I can.)";
 
 static char s_dialogs_18549_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18549_message_data[] = 
-	"NULL";
+	"Ah, that's it! If I eat a well-balanced mix/n"
+	"of everything, wouldn't that be best?";
 
 static char s_dialogs_18550_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18550_message_data[] = 
-	"NULL";
+	"No, that would go completely against/n"
+	"the whole point of the diet!";
 
 static char s_dialogs_18551_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18551_message_data[] = 
-	"NULL";
+	"Huh, is that so?";
 
 static char s_dialogs_18552_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18552_message_data[] = 
-	"NULL";
+	"Look, it's gonna be three days!/n"
+	"Let's figure out what you're eating for/n"
+	"those three days.";
 
 static char s_dialogs_18553_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18553_message_data[] = 
-	"NULL";
+	"Hmm... if I can only pick one.../n"
+	"I'll have to go with the apples.";
 
 static char s_dialogs_18554_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18554_message_data[] = 
-	"NULL";
+	"I'm gonna go buy them right now!";
 
 static char s_dialogs_18555_speaker_data[] = 
 	"";
 static char s_dialogs_18555_message_data[] = 
-	"NULL";
+	"I see it... the flag... the failure flag.../n"
+	"I can really see it...";
 
 static char s_dialogs_18556_speaker_data[] = 
 	"";
 static char s_dialogs_18556_message_data[] = 
-	"NULL";
+	"Will this really lead to any improvement...?";
 
 static char s_dialogs_18557_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18557_message_data[] = 
-	"NULL";
+	"Um, so there's this food known as \"puku seed\".";
 
 static char s_dialogs_18558_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18558_message_data[] = 
-	"NULL";
+	"Ah, that's right, puku seed!/n"
+	"I know all 'bout that! They're those things/n"
+	"that expand inside your stomach!";
 
 static char s_dialogs_18559_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18559_message_data[] = 
-	"NULL";
+	"T-They expand in your stomach...!?";
 
 static char s_dialogs_18560_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18560_message_data[] = 
-	"NULL";
+	"You know about them, sensei?/n"
+	"Guess my research was for nothing.";
 
 static char s_dialogs_18561_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18561_message_data[] = 
-	"NULL";
+	"Don't beat yourself up over it./n"
+	"Amahara-san brought some the other day.";
 
 static char s_dialogs_18562_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18562_message_data[] = 
-	"NULL";
+	"That's when she told me all about it.";
 
 static char s_dialogs_18563_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18563_message_data[] = 
-	"NULL";
+	"So, what are they like?";
 
 static char s_dialogs_18564_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18564_message_data[] = 
-	"NULL";
+	"So at first they're real little, but once/n"
+	"ya eat them, they swell up in your stomach.";
 
 static char s_dialogs_18565_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18565_message_data[] = 
-	"NULL";
+	"Uh, so, to explain in more detail...";
 
 static char s_dialogs_18566_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18566_message_data[] = 
-	"NULL";
+	"...So that's what they're like.";
 
 static char s_dialogs_18567_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18567_message_data[] = 
-	"NULL";
+	"F-F-Fifty times their normal size...!?";
 
 static char s_dialogs_18568_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18568_message_data[] = 
-	"NULL";
+	"Hmmm, sounds interesting!/n"
+	"Feeling full is good enough for me!";
 
 static char s_dialogs_18569_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18569_message_data[] = 
-	"NULL";
+	"Alrighty!/n"
+	"Let's go get some from Amahara-san right away...";
 
 static char s_dialogs_18570_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18570_message_data[] = 
-	"NULL";
+	"Hey, h-hold on!";
 
 static char s_dialogs_18571_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18571_message_data[] = 
-	"NULL";
+	"Um... so you're saying that they're small/n"
+	"when you eat them, but they swell inside/n"
+	"your stomach, right?";
 
 static char s_dialogs_18572_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18572_message_data[] = 
-	"NULL";
+	"That's right. Is there a problem with that?";
 
 static char s_dialogs_18573_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18573_message_data[] = 
-	"NULL";
+	"So then, if you were to eat too many of them,/n"
+	"would your stomach get bigger and bigger until...";
 
 static char s_dialogs_18574_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18574_message_data[] = 
-	"NULL";
+	"It bursts open...? That won't happen, will it?";
 
 static char s_dialogs_18575_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18575_message_data[] = 
-	"NULL";
+	"Huh...?";
 
 static char s_dialogs_18576_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18576_message_data[] = 
-	"NULL";
+	"Wha? Are you serious...?";
 
 static char s_dialogs_18577_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18577_message_data[] = 
-	"NULL";
+	"B-But... it grows fifty times bigger, right?/n"
+	"If it were to expand that much...";
 
 static char s_dialogs_18578_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18578_message_data[] = 
-	"NULL";
+	"Nah, that would never happen.";
 
 static char s_dialogs_18579_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18579_message_data[] = 
-	"NULL";
+	"If that were possible, I don't think/n"
+	"you'd legally be able to sell them.";
 
 static char s_dialogs_18580_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18580_message_data[] = 
-	"NULL";
+	"T-That's true, but...";
 
 static char s_dialogs_18581_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18581_message_data[] = 
-	"NULL";
+	"I wouldn't be so sure these days./n"
+	"You've got all these chemicals,/n"
+	"contaminants, and other junk hidden in food.";
 
 static char s_dialogs_18582_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18582_message_data[] = 
-	"NULL";
+	"I especially wouldn't trust stuff that/n"
+	"comes from certain countries.";
 
 static char s_dialogs_18583_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18583_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18584_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18584_message_data[] = 
-	"NULL";
+	"Sensei... what are you doing?/n"
+	"Are you trying to scare her?";
 
 static char s_dialogs_18585_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18585_message_data[] = 
-	"NULL";
+	"AHAHA, I'm kidding!";
 
 static char s_dialogs_18586_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18586_message_data[] = 
-	"NULL";
+	"A nurse drinks the stuff./n"
+	"There can't be anything weird 'bout it.";
 
 static char s_dialogs_18587_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18587_message_data[] = 
-	"NULL";
+	"Ah... that's true./n"
+	"If Amahara-sensei drinks it, then...";
 
 static char s_dialogs_18588_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18588_message_data[] = 
-	"NULL";
+	"And there ya go, now Takara's on board too.";
 
 static char s_dialogs_18589_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18589_message_data[] = 
-	"NULL";
+	"Yeah... I am a bit scared still,/n"
+	"but I'll at least give it a try...";
 
 static char s_dialogs_18590_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18590_message_data[] = 
-	"NULL";
+	"It'll be fine. We just gotta read the warnings/n"
+	"carefully and take the proper dosage.";
 
 static char s_dialogs_18591_speaker_data[] = 
 	"";
 static char s_dialogs_18591_message_data[] = 
-	"NULL";
+	"...It's not like it's medicine.";
 
 static char s_dialogs_18592_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18592_message_data[] = 
-	"NULL";
+	"Ah, that reminds me.";
 
 static char s_dialogs_18593_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18593_message_data[] = 
-	"NULL";
+	"If you drink a special vegetable juice/n"
+	"(AKA \"thick juice\") with it, it's twice as/n"
+	"effective!";
 
 static char s_dialogs_18594_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18594_message_data[] = 
-	"NULL";
+	"...Apparently.";
 
 static char s_dialogs_18595_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18595_message_data[] = 
-	"NULL";
+	"As for how to make it... ah, here it is./n"
+	"So yeah...";
 
 static char s_dialogs_18596_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18596_message_data[] = 
-	"NULL";
+	"What's that...?/n"
+	"Bleck, what the hell is this!?";
 
 static char s_dialogs_18597_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18597_message_data[] = 
-	"NULL";
+	"Woah... that's really not the kinda/n"
+	"recipe you wanna be showing people.";
 
 static char s_dialogs_18598_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18598_message_data[] = 
-	"NULL";
+	"Don't try this at home, kids.";
 
 static char s_dialogs_18599_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18599_message_data[] = 
-	"NULL";
+	"Simply put, this is one hell of a/n"
+	"homemade aojiru recipe!";
 
 static char s_dialogs_18600_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18600_message_data[] = 
-	"NULL";
+	"Definitely seems like if ya threw all that/n"
+	"in a drink it'd be good for ya.";
 
 static char s_dialogs_18601_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18601_message_data[] = 
-	"NULL";
+	"Ohh ohh ohhhh...";
 
 static char s_dialogs_18602_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18602_message_data[] = 
-	"NULL";
+	"Hm? Takara, what's the matter?";
 
 static char s_dialogs_18603_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18603_message_data[] = 
-	"NULL";
+	"I-I'd like to, um... pass on this...";
 
 static char s_dialogs_18604_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18604_message_data[] = 
-	"NULL";
+	"And where will that get ya? We've made it/n"
+	"this far, so we've gotta stick together!";
 
 static char s_dialogs_18605_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18605_message_data[] = 
-	"NULL";
+	"And that includes drinking this/n"
+	"special vegetable juice (AKA \"thick juice\")/n"
+	"with us!";
 
 static char s_dialogs_18606_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18606_message_data[] = 
-	"NULL";
+	"As your teacher, that's an order!";
 
 static char s_dialogs_18607_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18607_message_data[] = 
-	"NULL";
+	"B-But...";
 
 static char s_dialogs_18608_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18608_message_data[] = 
-	"NULL";
+	"Well, it's definitely not something you're gonna/n"
+	"enjoy drinking, that's for sure.";
 
 static char s_dialogs_18609_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18609_message_data[] = 
-	"NULL";
+	"So, to make it easier, what if we were/n"
+	"to drink it mixed with something else?";
 
 static char s_dialogs_18610_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18610_message_data[] = 
-	"NULL";
+	"If we do that, I know you can do it, Miyuki.";
 
 static char s_dialogs_18611_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18611_message_data[] = 
-	"NULL";
+	"When it gets to be too much,/n"
+	"you can dilute it more and more as needed.";
 
 static char s_dialogs_18612_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18612_message_data[] = 
-	"NULL";
+	"W-Well... in that case, I guess...";
 
 static char s_dialogs_18613_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18613_message_data[] = 
-	"NULL";
+	"Whaa? There's no fun in that!";
 
 static char s_dialogs_18614_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18614_message_data[] = 
-	"NULL";
+	"It's in the name, you gotta drink it thiiiick!/n"
+	"Only losers dilute it.";
 
 static char s_dialogs_18615_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18615_message_data[] = 
-	"NULL";
+	"No... no way...";
 
 static char s_dialogs_18616_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18616_message_data[] = 
-	"NULL";
+	"N-Now now, everyone can have it as thick/n"
+	"as they like.";
 
 static char s_dialogs_18617_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18617_message_data[] = 
-	"NULL";
+	"The goal here isn't to \"win\" or \"lose\",/n"
+	"it's to lose weight.";
 
 static char s_dialogs_18618_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18618_message_data[] = 
-	"NULL";
+	"Hmph... well, I guess you're right.";
 
 static char s_dialogs_18619_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18619_message_data[] = 
-	"NULL";
+	"Alright, y'all, let's get some puku seed/n"
+	"and start this off tonight!";
 
 static char s_dialogs_18620_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18620_message_data[] = 
-	"NULL";
+	"Y-Yes. Understood.";
 
 static char s_dialogs_18621_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18621_message_data[] = 
-	"NULL";
+	"Alright! Let's do our best!";
 
 static char s_dialogs_18622_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18622_message_data[] = 
-	"NULL";
+	"Objective: reduce waist by three centimeters!!";
 
 static char s_dialogs_18623_speaker_data[] = 
 	"Everyone";
 static char s_dialogs_18623_message_data[] = 
-	"NULL";
+	"Hey, hey, HOOOOO!!";
 
 static char s_dialogs_18624_speaker_data[] = 
 	"";
 static char s_dialogs_18624_message_data[] = 
-	"NULL";
+	"You know... not everything has to be/n"
+	"\"The Great Something Plan!\"...";
 
 static char s_dialogs_18625_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18625_message_data[] = 
-	"NULL";
+	"Oh? Is it that time already?";
 
 static char s_dialogs_18626_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18626_message_data[] = 
-	"NULL";
+	"Preparing for the school festival is so fun/n"
+	"that time passes in the blink of an eye!";
 
 static char s_dialogs_18627_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18627_message_data[] = 
-	"NULL";
+	"Uggh, it feels so long for me, personally.";
 
 static char s_dialogs_18628_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18628_message_data[] = 
-	"NULL";
+	"Really? Why's that?";
 
 static char s_dialogs_18629_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18629_message_data[] = 
-	"NULL";
+	"Whatever, the chime rang, let's just go home.";
 
 static char s_dialogs_18630_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18630_message_data[] = 
-	"NULL";
+	"If I make a run for it, I might make it/n"
+	"just in time for the evening anime!";
 
 static char s_dialogs_18631_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18631_message_data[] = 
-	"NULL";
+	"Ah, I see.";
 
 static char s_dialogs_18632_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18632_message_data[] = 
-	"NULL";
+	"Heyo, Hiiragi, time to go home!";
 
 static char s_dialogs_18633_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18633_message_data[] = 
-	"NULL";
+	"...Wha? Hiiragi ain't here.";
 
 static char s_dialogs_18634_speaker_data[] = 
 	"Ayano Minegishi";
 static char s_dialogs_18634_message_data[] = 
-	"NULL";
+	"I was sure she'd be in classroom B.";
 
 static char s_dialogs_18635_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18635_message_data[] = 
-	"NULL";
+	"Huh? But I am here?";
 
 static char s_dialogs_18636_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18636_message_data[] = 
-	"NULL";
+	"They mean Kagami, not you, Tsukasa./n"
+	"Thought you would've figured that out by now.";
 
 static char s_dialogs_18637_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18637_message_data[] = 
-	"NULL";
+	"Ah, I see. If you're looking for sis, I think/n"
+	"she left early since she had something to do?";
 
 static char s_dialogs_18638_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18638_message_data[] = 
-	"NULL";
+	"Whaaa? I see. That sucks.";
 
 static char s_dialogs_18639_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18639_message_data[] = 
-	"NULL";
+	"It looked like \"our\" Hiiragi was really worried/n"
+	"about THAT thing, so we thought we could/n"
+	"cheer her up...";
 
 static char s_dialogs_18640_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18640_message_data[] = 
-	"NULL";
+	"Grr...";
 
 static char s_dialogs_18641_speaker_data[] = 
 	"Ayano Minegishi";
 static char s_dialogs_18641_message_data[] = 
-	"NULL";
+	"Right... that's definitely what you/n"
+	"had in mind, Misa-chan.";
 
 static char s_dialogs_18642_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18642_message_data[] = 
-	"NULL";
+	"Huh? What's so funny 'bout that?";
 
 static char s_dialogs_18643_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18643_message_data[] = 
-	"NULL";
+	"Mumumuh...?/n"
+	"Wait, what's happened to \"our\" Kagami?";
 
 static char s_dialogs_18644_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18644_message_data[] = 
-	"NULL";
+	"Hmm? Meh, it doesn't concern ya, Chibi.";
 
 static char s_dialogs_18645_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18645_message_data[] = 
-	"NULL";
+	"Anyways, looks like we couldn't nab our Hiiragi./n"
+	"It'd be nice to walk home with her sometimes.";
 
 static char s_dialogs_18646_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18646_message_data[] = 
-	"NULL";
+	"Well too bad!/n"
+	"OUR Kagami walks home with us every day!";
 
 static char s_dialogs_18647_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18647_message_data[] = 
-	"NULL";
+	"Hmph!/n"
+	"So ya say, but you were left behind today!";
 
 static char s_dialogs_18648_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18648_message_data[] = 
-	"NULL";
+	"Just today. It couldn't be helped!";
 
 static char s_dialogs_18649_speaker_data[] = 
 	"Ayano Minegishi";
 static char s_dialogs_18649_message_data[] = 
-	"NULL";
+	"Hiiragi-chan is always very popular, huh?";
 
 static char s_dialogs_18650_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18650_message_data[] = 
-	"NULL";
+	"Yeah. Though if sis were here, she definitely/n"
+	"wouldn't like it...";
 
 static char s_dialogs_18651_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18651_message_data[] = 
-	"NULL";
+	"*GROWL*!";
 
 static char s_dialogs_18652_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18652_message_data[] = 
-	"NULL";
+	"*GROWL*! *HISS*!";
 
 static char s_dialogs_18653_speaker_data[] = 
 	"Ayano Minegishi";
 static char s_dialogs_18653_message_data[] = 
-	"NULL";
+	"Now now, Misa-chan, that's enough./n"
+	"Let's go home, okay?";
 
 static char s_dialogs_18654_speaker_data[] = 
 	"Misao Kusakabe";
 static char s_dialogs_18654_message_data[] = 
-	"NULL";
+	"Grrrr... I'll remember this, Chibi!/n"
+	"Hiiragi is ours!";
 
 static char s_dialogs_18655_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18655_message_data[] = 
-	"NULL";
+	"Yeah, right!/n"
+	"Kagami is ours for sure!";
 
 static char s_dialogs_18656_speaker_data[] = 
 	"Ayano Minegishi";
 static char s_dialogs_18656_message_data[] = 
-	"NULL";
+	"Alright, everyone, see you later!";
 
 static char s_dialogs_18657_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18657_message_data[] = 
-	"NULL";
+	"Oh, yeah, bye bye!";
 
 static char s_dialogs_18658_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18658_message_data[] = 
-	"NULL";
+	"Haah... haah... ugh, that was exhausting.";
 
 static char s_dialogs_18659_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18659_message_data[] = 
-	"NULL";
+	"By the way, I haven't seen Kagami or Miyuki-san/n"
+	"anywhere, have you?";
 
 static char s_dialogs_18660_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18660_message_data[] = 
-	"NULL";
+	"No, Yuki-chan went home early today too.";
 
 static char s_dialogs_18661_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18661_message_data[] = 
-	"NULL";
+	"I heard them talking about what to do for the/n"
+	"beauty contest, so they're probably preparing/n"
+	"for that.";
 
 static char s_dialogs_18662_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18662_message_data[] = 
-	"NULL";
+	"WHAT!?/n"
+	"They're getting a head start!?";
 
 static char s_dialogs_18663_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18663_message_data[] = 
-	"NULL";
+	"\"Getting a head start\"?/n"
+	"I thought you were responsible for the/n"
+	"beauty contest stuff too, Kona-chan?";
 
 static char s_dialogs_18664_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18664_message_data[] = 
-	"NULL";
+	"Yuki-chan is already busy as it is,/n"
+	"and you say something like that...";
 
 static char s_dialogs_18665_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18665_message_data[] = 
-	"NULL";
+	"That and this are unrelated!/n"
+	"Look, let's just go home!";
 
 static char s_dialogs_18666_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18666_message_data[] = 
-	"NULL";
+	"Oh, okay. Wait for me!";
 
 static char s_dialogs_18667_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18667_message_data[] = 
-	"NULL";
+	"Oh, right. Bye bye, Yoshi-kun!/n"
+	"See you tomorrow!";
 
 static char s_dialogs_18668_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18668_message_data[] = 
-	"NULL";
+	"Oh, I almost forgot about you!/n"
+	"Bye bye, Yoshi-kun!";
 
 static char s_dialogs_18669_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18669_message_data[] = 
-	"NULL";
+	"Bye bye!";
 
 static char s_dialogs_18670_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18670_message_data[] = 
-	"NULL";
+	"...Thank goodness./n"
+	"I was wondering whether or not I stood out.";
 
 static char s_dialogs_18671_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18671_message_data[] = 
-	"NULL";
+	"Anyway, they said something interesting/n"
+	"just now.";
 
 static char s_dialogs_18672_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18672_message_data[] = 
-	"NULL";
+	"Could Konata-san be the reason/n"
+	"why Miyuki-san's in the beauty contest?";
 
 static char s_dialogs_18673_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18673_message_data[] = 
-	"NULL";
+	"...It's possible. I wouldn't put it past/n"
+	"Konata-san to force her into it.";
 
 static char s_dialogs_18674_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18674_message_data[] = 
-	"NULL";
+	"Miyuki-san's sure got it rough.../n"
+	"Anyway, I guess I'll go home too.";
 
 static char s_dialogs_18675_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18675_message_data[] = 
-	"NULL";
+	"Oh...?";
 
 static char s_dialogs_18676_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18676_message_data[] = 
-	"NULL";
+	"Ah, Amahara Sensei...";
 
 static char s_dialogs_18677_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18677_message_data[] = 
-	"NULL";
+	"The chime's already gone off./n"
+	"You better hurry before they close the gate.";
 
 static char s_dialogs_18678_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18678_message_data[] = 
-	"NULL";
+	"Yeah. Well, see you--";
 
 static char s_dialogs_18679_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18679_message_data[] = 
-	"NULL";
+	"Ah, but hold on for a second, please.";
 
 static char s_dialogs_18680_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18680_message_data[] = 
-	"NULL";
+	"Sure, what is it?";
 
 static char s_dialogs_18681_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18681_message_data[] = 
-	"NULL";
+	"I was talking to Kuroi Sensei.../n"
+	"So you're going on a diet?";
 
 static char s_dialogs_18682_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18682_message_data[] = 
-	"NULL";
+	"Well... it's Kuroi Sensei, Takara-san and/n"
+	"Hiiragi-san too. So that makes four, right?";
 
 static char s_dialogs_18683_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18683_message_data[] = 
-	"NULL";
+	"No... I'm just helping them./n"
+	"I'm not going on a diet./n"
+	"I'm not overweight or anything...";
 
 static char s_dialogs_18684_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18684_message_data[] = 
-	"NULL";
+	"Then how about the other three?/n"
+	"How far are they gonna go for this contest...?";
 
 static char s_dialogs_18685_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18685_message_data[] = 
-	"NULL";
+	"What do you think?/n"
+	"Are those three really that fat?";
 
 static char s_dialogs_18686_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18686_message_data[] = 
-	"NULL";
+	"Uh... why are you asking me that...?";
 
 static char s_dialogs_18687_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18687_message_data[] = 
-	"NULL";
+	"Oh... but you saw them, right?/n"
+	"You saw the three of them naked...";
 
 static char s_dialogs_18688_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18688_message_data[] = 
-	"NULL";
+	"WHAAAAAAAAAAAA!?";
 
 static char s_dialogs_18689_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18689_message_data[] = 
-	"NULL";
+	"Kuroi Sensei told me you did./n"
+	"She said you brazenly peeked on them./n"
+	"I'm surprised you had the guts to do that.";
 
 static char s_dialogs_18690_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18690_message_data[] = 
-	"NULL";
+	"Wait, no, ack!? They weren't naked,/n"
+	"they were in their underwear!";
 
 static char s_dialogs_18691_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18691_message_data[] = 
-	"NULL";
+	"So, how were they \"au naturale\"?/n"
+	"They're not so fat that they have to go on a/n"
+	"diet, were they?";
 
 static char s_dialogs_18692_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18692_message_data[] = 
-	"NULL";
+	"I told you, they weren't.../n"
+	"Augh, what does it matter...?";
 
 static char s_dialogs_18693_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18693_message_data[] = 
-	"NULL";
+	"Let's see, so from what I could tell...";
 
 static char s_dialogs_18694_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18694_message_data[] = 
-	"NULL";
+	"I guess they're the type who look slimmer/n"
+	"in clothing? The places you don't normally see/n"
+	"are surprisingly...";
 
 static char s_dialogs_18695_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18695_message_data[] = 
-	"NULL";
+	"I see, so that's how it is./n"
+	"I guess you can't really tell when they cover/n"
+	"it with clothes.";
 
 static char s_dialogs_18696_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18696_message_data[] = 
-	"NULL";
+	"I'll bet Hiiragi-san is really self-concious/n"
+	"about that one place...";
 
 static char s_dialogs_18697_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18697_message_data[] = 
-	"NULL";
+	"As for Takara-san... if she were to be concerned/n"
+	"about gaining weight anywhere, it'd probably/n"
+	"be there.";
 
 static char s_dialogs_18698_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18698_message_data[] = 
-	"NULL";
+	"As for Kuroi Sensei.../n"
+	"It'd be there... and there... and there too.";
 
 static char s_dialogs_18699_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18699_message_data[] = 
-	"NULL";
+	"Could Kuroi Sensei be bad all around...?";
 
 static char s_dialogs_18700_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18700_message_data[] = 
-	"NULL";
+	"So you finally were able to just say it?/n"
+	"Well, if you say so,/n"
+	"then I guess that's just how it is.";
 
 static char s_dialogs_18701_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18701_message_data[] = 
-	"NULL";
+	"Honestly, they were quite.../n"
+	"Let's just say I was genuinely shocked when/n"
+	"I saw them.";
 
 static char s_dialogs_18702_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18702_message_data[] = 
-	"NULL";
+	"Huh!? Is that so?";
 
 static char s_dialogs_18703_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18703_message_data[] = 
-	"NULL";
+	"How should I put it?/n"
+	"It felt like those \"before vs. after\" shots.";
 
 static char s_dialogs_18704_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18704_message_data[] = 
-	"NULL";
+	"T-That's rather surprising.../n"
+	"I suppose when clothes are covering them you/n"
+	"really can't notice those things...";
 
 static char s_dialogs_18705_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18705_message_data[] = 
-	"NULL";
+	"But what does that mean exactly...?/n"
+	"Was it that they had a surprisingly thick build?/n"
+	"Or were they surprisingly muscular perhaps?";
 
 static char s_dialogs_18706_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18706_message_data[] = 
-	"NULL";
+	"Or maybe it turns out they're tightly/n"
+	"stuffing themselves into their clothes...";
 
 static char s_dialogs_18707_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18707_message_data[] = 
-	"NULL";
+	"Doesn't that make you feel all tight inside...?";
 
 static char s_dialogs_18708_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18708_message_data[] = 
-	"NULL";
+	"Ah... just imagining it is making me feel/n"
+	"like I'm suffocating.";
 
 static char s_dialogs_18709_speaker_data[] = 
 	"";
 static char s_dialogs_18709_message_data[] = 
-	"NULL";
+	"No, that's not what I was thinking at all...";
 
 static char s_dialogs_18710_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18710_message_data[] = 
-	"NULL";
+	"Hey, sensei... you know I'm joking, right?/n"
+	"None of them are THAT fat.";
 
 static char s_dialogs_18711_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18711_message_data[] = 
-	"NULL";
+	"Ah... r-right./n"
+	"Don't startle me like that again, please.";
 
 static char s_dialogs_18712_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18712_message_data[] = 
-	"NULL";
+	"Ahaha... sorry about that.";
 
 static char s_dialogs_18713_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18713_message_data[] = 
-	"NULL";
+	"There's no problem with them at all./n"
+	"None of them are fat.";
 
 static char s_dialogs_18714_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18714_message_data[] = 
-	"NULL";
+	"Ah, that's what I suspected./n"
+	"I don't think they are either.";
 
 static char s_dialogs_18715_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18715_message_data[] = 
-	"NULL";
+	"They're not fat, yet they're dieting.../n"
+	"Honestly, I don't see the point.";
 
 static char s_dialogs_18716_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18716_message_data[] = 
-	"NULL";
+	"Indeed./n"
+	"But, it is tough being a girl at their age.";
 
 static char s_dialogs_18717_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18717_message_data[] = 
-	"NULL";
+	"At their age...?";
 
 static char s_dialogs_18718_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18718_message_data[] = 
-	"NULL";
+	"Especially for Hiiragi-san, she can be a bit/n"
+	"too self-concious about her physique.";
 
 static char s_dialogs_18719_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18719_message_data[] = 
-	"NULL";
+	"As for Takara-san... obviously she feels/n"
+	"a lot of pressure due to being in the contest.";
 
 static char s_dialogs_18720_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18720_message_data[] = 
-	"NULL";
+	"So then,/n"
+	"what about the person who isn't that age?";
 
 static char s_dialogs_18721_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18721_message_data[] = 
-	"NULL";
+	"Oh my, do I have to tell Kuroi Sensei/n"
+	"that you asked me that?";
 
 static char s_dialogs_18722_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18722_message_data[] = 
-	"NULL";
+	"Ack, no.../n"
+	"Please, have mercy on me.";
 
 static char s_dialogs_18723_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18723_message_data[] = 
-	"NULL";
+	"Tee hee hee, I'm joking.";
 
 static char s_dialogs_18724_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18724_message_data[] = 
-	"NULL";
+	"Though,   I'll have you know that Kuroi Sensei/n"
+	"has a surprisingly nice figure.";
 
 static char s_dialogs_18725_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18725_message_data[] = 
-	"NULL";
+	"...What are you wanting me to do/n"
+	"with that information?";
 
 static char s_dialogs_18726_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18726_message_data[] = 
-	"NULL";
+	"Oh?/n"
+	"I just thought you may have wanted to know...";
 
 static char s_dialogs_18727_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18727_message_data[] = 
-	"NULL";
+	"Please, forget anything unnecessary I say.";
 
 static char s_dialogs_18728_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18728_message_data[] = 
-	"NULL";
+	"Y-Yes, of course!";
 
 static char s_dialogs_18729_speaker_data[] = 
 	"";
 static char s_dialogs_18729_message_data[] = 
-	"NULL";
+	"So Kuroi Sensei has a surprisingly nice figure.";
 
 static char s_dialogs_18730_speaker_data[] = 
 	"";
 static char s_dialogs_18730_message_data[] = 
-	"NULL";
+	"This information has now been etched deep/n"
+	"into my heart.";
 
 static char s_dialogs_18731_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18731_message_data[] = 
-	"NULL";
+	"Oh, Sakuraba Sensei's calling me.";
 
 static char s_dialogs_18732_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18732_message_data[] = 
-	"NULL";
+	"Yes, hello...?";
 
 static char s_dialogs_18733_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18733_message_data[] = 
-	"NULL";
+	"...Ah, right. Sorry, I completely forgot.";
 
 static char s_dialogs_18734_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18734_message_data[] = 
-	"NULL";
+	"Yes... yes... I'm on my way now.../n"
+	"Yes, wait just a bit, okay?";
 
 static char s_dialogs_18735_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18735_message_data[] = 
-	"NULL";
+	"Sorry, I have some business to take care off./n"
+	"Excuse me, please.";
 
 static char s_dialogs_18736_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18736_message_data[] = 
-	"NULL";
+	"Ah, sure. I have to be heading home anyway.";
 
 static char s_dialogs_18737_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18737_message_data[] = 
-	"NULL";
+	"Tell everyone I wish them good luck/n"
+	"with their dieting.";
 
 static char s_dialogs_18738_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18738_message_data[] = 
-	"NULL";
+	"And seriously, warn them against overdoing it/n"
+	"so they don't put their health at risk.";
 
 static char s_dialogs_18739_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18739_message_data[] = 
-	"NULL";
+	"Also, if there is anything I can do to help,/n"
+	"please talk to me anytime!";
 
 static char s_dialogs_18740_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18740_message_data[] = 
-	"NULL";
+	"Yes, will do. Thank you so much!";
 
 static char s_dialogs_18741_speaker_data[] = 
 	"Fuyuki Amahara";
 static char s_dialogs_18741_message_data[] = 
-	"NULL";
+	"Okay, see you later!";
 
 static char s_dialogs_18742_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18742_message_data[] = 
-	"NULL";
+	"...Alright, I better head home now.";
 
 static char s_dialogs_18743_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18743_message_data[] = 
-	"NULL";
+	"*Sigh*... it's really late.";
 
 static char s_dialogs_18744_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18744_message_data[] = 
-	"NULL";
+	"It goes without saying, but preparing for the/n"
+	"school festival is rough.";
 
 static char s_dialogs_18745_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18745_message_data[] = 
-	"NULL";
+	"...That reminds me, Kagami-san and Miyuki-san/n"
+	"went home early today, right?";
 
 static char s_dialogs_18746_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18746_message_data[] = 
-	"NULL";
+	"In order to work on their diet surely.../n"
+	"Are they gonna follow it properly?";
 
 static char s_dialogs_18747_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18747_message_data[] = 
-	"NULL";
+	"Or rather, is it possible they'll overdo it/n"
+	"and wear themselves out?";
 
 static char s_dialogs_18748_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18748_message_data[] = 
-	"NULL";
+	"...That worries me.";
 
 static char s_dialogs_18749_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18749_message_data[] = 
-	"NULL";
+	"What to do.../n"
+	"Is there anything I could do?";
 
 static char s_dialogs_18750_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18750_message_data[] = 
-	"NULL";
+	"I guess I'll call and see how it's going./n"
+	"...But it is pretty late, so I shouldn't/n"
+	"call more than one person.";
 
 static char s_dialogs_18751_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18751_message_data[] = 
-	"NULL";
+	"Let's give it some thought./n"
+	"Who will I call?";
 
 static char s_dialogs_18752_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18752_message_data[] = 
-	"NULL";
+	"I'll call Kuroi Sensei.";
 
 static char s_dialogs_18753_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18753_message_data[] = 
-	"NULL";
+	"Out of all of them, she seems like the/n"
+	"one with the least discipline.";
 
 static char s_dialogs_18754_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18754_message_data[] = 
-	"NULL";
+	"Hello. Who is it?";
 
 static char s_dialogs_18755_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18755_message_data[] = 
-	"NULL";
+	"Ah, Kuroi Sensei. This is Yoshi...";
 
 static char s_dialogs_18756_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18756_message_data[] = 
-	"NULL";
+	"What'cha doing calling at this hour?/n"
+	"Do ya need something?";
 
 static char s_dialogs_18757_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18757_message_data[] = 
-	"NULL";
+	"No, it's just... about the diet./n"
+	"I was wondering how it's going./n"
+	"...Everything going alright?";
 
 static char s_dialogs_18758_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18758_message_data[] = 
-	"NULL";
+	"Ah, I was just about to get started with that./n"
+	"Ya interrupted me at the perfect time.";
 
 static char s_dialogs_18759_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18759_message_data[] = 
-	"NULL";
+	"Ah, I see. Sorry about that.";
 
 static char s_dialogs_18760_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18760_message_data[] = 
-	"NULL";
+	"While you're here, can I ask you something/n"
+	"real quick?";
 
 static char s_dialogs_18761_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18761_message_data[] = 
-	"NULL";
+	"Hm? What is it?";
 
 static char s_dialogs_18762_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18762_message_data[] = 
-	"NULL";
+	"Um so... sensei, you said you're/n"
+	"participating in the beauty contest because/n"
+	"it seemed fun, right?";
 
 static char s_dialogs_18763_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18763_message_data[] = 
-	"NULL";
+	"But is it okay for a teacher to be/n"
+	"participating in the first place?";
 
 static char s_dialogs_18764_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18764_message_data[] = 
-	"NULL";
+	"It's perfectly okay./n"
+	"There ain't any rules against me competing.";
 
 static char s_dialogs_18765_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18765_message_data[] = 
-	"NULL";
+	"Oh, really?";
 
 static char s_dialogs_18766_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18766_message_data[] = 
-	"NULL";
+	"I had Takara check for me, so I'm sure of it.";
 
 static char s_dialogs_18767_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18767_message_data[] = 
-	"NULL";
+	"Though, the vice principal wasn't/n"
+	"too happy about it, HAHAHAHAHA!";
 
 static char s_dialogs_18768_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18768_message_data[] = 
-	"NULL";
+	"I see...";
 
 static char s_dialogs_18769_speaker_data[] = 
 	"";
 static char s_dialogs_18769_message_data[] = 
-	"NULL";
+	"I'm not sure if that's a laughing matter.";
 
 static char s_dialogs_18770_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18770_message_data[] = 
-	"NULL";
+	"Well, anyway, I'll be going now.";
 
 static char s_dialogs_18771_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18771_message_data[] = 
-	"NULL";
+	"Ah, sure. See you later.";
 
 static char s_dialogs_18772_speaker_data[] = 
 	"Nanako Kuroi";
 static char s_dialogs_18772_message_data[] = 
-	"NULL";
+	"Don't stay up too late now, ya hear?/n"
+	"Next time I catch ya sleeping, I ain't/n"
+	"going easy on ya!";
 
 static char s_dialogs_18773_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18773_message_data[] = 
-	"NULL";
+	"Uggh... yes, ma'am...";
 
 static char s_dialogs_18774_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18774_message_data[] = 
-	"NULL";
+	"How about Miyuki-san?";
 
 static char s_dialogs_18775_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18775_message_data[] = 
-	"NULL";
+	"Miyuki-san seems to be taking it seriously,/n"
+	"maybe to the point of putting herself in danger.";
 
 static char s_dialogs_18776_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18776_message_data[] = 
-	"NULL";
+	"...Yes... Takara speaking...";
 
 static char s_dialogs_18777_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18777_message_data[] = 
-	"NULL";
+	"Miyuki-san? This is Yoshi...";
 
 static char s_dialogs_18778_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18778_message_data[] = 
-	"NULL";
+	"Ah, Yoshi-san... what's going on?";
 
 static char s_dialogs_18779_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18779_message_data[] = 
-	"NULL";
+	"Well, I was just wondering./n"
+	"How's the diet going?";
 
 static char s_dialogs_18780_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18780_message_data[] = 
-	"NULL";
+	"The diet?/n"
+	"I'm doing it more-or-less as you told me.";
 
 static char s_dialogs_18781_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18781_message_data[] = 
-	"NULL";
+	"Actually, I was just thinking about/n"
+	"going to bed for today.";
 
 static char s_dialogs_18782_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18782_message_data[] = 
-	"NULL";
+	"Ah, I see./n"
+	"I guess I was worried for nothing, huh?";
 
 static char s_dialogs_18783_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18783_message_data[] = 
-	"NULL";
+	"Oh no, it's okay.";
 
 static char s_dialogs_18784_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18784_message_data[] = 
-	"NULL";
+	"Do you always go to sleep around this time?";
 
 static char s_dialogs_18785_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18785_message_data[] = 
-	"NULL";
+	"Yes, that's right.";
 
 static char s_dialogs_18786_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18786_message_data[] = 
-	"NULL";
+	"Up until last year, I would go to sleep at ten,/n"
+	"but this year there's entrance exams,/n"
+	"of course...";
 
 static char s_dialogs_18787_speaker_data[] = 
 	"";
 static char s_dialogs_18787_message_data[] = 
-	"NULL";
+	"Wow, she goes to sleep really early./n"
+	"...Well, to each their own.";
 
 static char s_dialogs_18788_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18788_message_data[] = 
-	"NULL";
+	"This is my first time dieting,/n"
+	"so I don't know much about it...";
 
 static char s_dialogs_18789_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18789_message_data[] = 
-	"NULL";
+	"Could something so easy really be effective?";
 
 static char s_dialogs_18790_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18790_message_data[] = 
-	"NULL";
+	"I don't have any confidence that doing it/n"
+	"will make any difference...";
 
 static char s_dialogs_18791_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18791_message_data[] = 
-	"NULL";
+	"Well, it's still the first day./n"
+	"If you keep at it, you'll see results.";
 
 static char s_dialogs_18792_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18792_message_data[] = 
-	"NULL";
+	"Do you really think so...?";
 
 static char s_dialogs_18793_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18793_message_data[] = 
-	"NULL";
+	"Don't worry about it./n"
+	"You'll definitely see results.";
 
 static char s_dialogs_18794_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18794_message_data[] = 
-	"NULL";
+	"...\"Definitely\"... you say?";
 
 static char s_dialogs_18795_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18795_message_data[] = 
-	"NULL";
+	"Yes, definitely. I guarantee it.";
 
 static char s_dialogs_18796_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18796_message_data[] = 
-	"NULL";
+	"...Though, yeah, I don't know anything/n"
+	"about dieting either.";
 
 static char s_dialogs_18797_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18797_message_data[] = 
-	"NULL";
+	"Tee hee hee, that's quite the/n"
+	"sweet \"definitely\" then.";
 
 static char s_dialogs_18798_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18798_message_data[] = 
-	"NULL";
+	"Hahaha, I guess so./n"
+	"But yeah, if you put your trust in it,/n"
+	"surely the results will come.";
 
 static char s_dialogs_18799_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18799_message_data[] = 
-	"NULL";
+	"...Shoot. That was pretty embarrassing.";
 
 static char s_dialogs_18800_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18800_message_data[] = 
-	"NULL";
+	"No, it wasn't embarrassing at all./n"
+	"Thanks for saying it.";
 
 static char s_dialogs_18801_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18801_message_data[] = 
-	"NULL";
+	"I'll try to do the best I can.";
 
 static char s_dialogs_18802_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18802_message_data[] = 
-	"NULL";
+	"Oh, while you're here./n"
+	"Can I ask you something real quick?";
 
 static char s_dialogs_18803_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18803_message_data[] = 
-	"NULL";
+	"Sure, what is it?";
 
 static char s_dialogs_18804_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18804_message_data[] = 
-	"NULL";
+	"Miyuki-san, why are you participating/n"
+	"in the beauty contest?";
 
 static char s_dialogs_18805_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18805_message_data[] = 
-	"NULL";
+	"I see you more as someone who'd be managing it/n"
+	"rather than someone who'd compete in it.";
 
 static char s_dialogs_18806_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18806_message_data[] = 
-	"NULL";
+	"Ah, well... I had no say in the matter.";
 
 static char s_dialogs_18807_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18807_message_data[] = 
-	"NULL";
+	"There weren't many participants at first,/n"
+	"so people were being recruited in class/n"
+	"and that's when Izumi-san said...";
 
 static char s_dialogs_18808_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18808_message_data[] = 
-	"NULL";
+	"\"In that case, Miyuki-san should participate!\"";
 
 static char s_dialogs_18809_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18809_message_data[] = 
-	"NULL";
+	"\"Don't worry! Wear something that shows/n"
+	"a lot of skin and you'll win for sure!\"";
 
 static char s_dialogs_18810_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18810_message_data[] = 
-	"NULL";
+	"\"I wanna see it, so you just HAVE/n"
+	"to participate!\"";
 
 static char s_dialogs_18811_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18811_message_data[] = 
-	"NULL";
+	"And since there wasn't enough people,/n"
+	"I couldn't refuse...";
 
 static char s_dialogs_18812_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18812_message_data[] = 
-	"NULL";
+	"Yeah... I figured it was something like that./n"
+	"Things sure aren't easy for you.";
 
 static char s_dialogs_18813_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18813_message_data[] = 
-	"NULL";
+	"Yes... but it can't be helped.";
 
 static char s_dialogs_18814_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18814_message_data[] = 
-	"NULL";
+	"Oh right, you were wanting to go to sleep./n"
+	"I'll hang up now.";
 
 static char s_dialogs_18815_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18815_message_data[] = 
-	"NULL";
+	"Ah, sure. Thanks for caring about me.";
 
 static char s_dialogs_18816_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18816_message_data[] = 
-	"NULL";
+	"Oh no, I was just.../n"
+	"Anyway, good night.";
 
 static char s_dialogs_18817_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18817_message_data[] = 
-	"NULL";
+	"Yes. I'll see you later.";
 
 static char s_dialogs_18818_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18818_message_data[] = 
-	"NULL";
+	"Kagami-san goes on diets often, doesn't she?/n"
+	"There's no need to worry about her.";
 
 static char s_dialogs_18819_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18819_message_data[] = 
-	"NULL";
+	"...Wait wait wait. Think about what that means./n"
+	"She has to keep going on diets...";
 
 static char s_dialogs_18820_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18820_message_data[] = 
-	"NULL";
+	"So that means she's failed dieting/n"
+	"many times, right?";
 
 static char s_dialogs_18821_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18821_message_data[] = 
-	"NULL";
+	"...I better call immediately!";
 
 static char s_dialogs_18822_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18822_message_data[] = 
-	"NULL";
+	"Yes, hello? This is Hiiragi.";
 
 static char s_dialogs_18823_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18823_message_data[] = 
-	"NULL";
+	"Ah, Kagami-san? This is Yoshi./n"
+	"You doing that diet?";
 
 static char s_dialogs_18824_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18824_message_data[] = 
-	"NULL";
+	"W-W-What makes you say that all of a sudden?";
 
 static char s_dialogs_18825_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18825_message_data[] = 
-	"NULL";
+	"Well, I was just wondering how the/n"
+	"diet was going.";
 
 static char s_dialogs_18826_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18826_message_data[] = 
-	"NULL";
+	"...I'm sick of the... *crunch*... diet talk./n"
+	"Did you really call me just to ask that?";
 
 static char s_dialogs_18827_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18827_message_data[] = 
-	"NULL";
+	"Uh... yeah, so.../n"
+	"I guess I'm being a bother, huh...?";
 
 static char s_dialogs_18828_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18828_message_data[] = 
-	"NULL";
+	"...You're fine... *crunch*/n"
+	"I don't think you're a bother./n"
+	"Thanks for thinking about me.";
 
 static char s_dialogs_18829_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18829_message_data[] = 
-	"NULL";
+	"No problem. Glad to hear it.";
 
 static char s_dialogs_18830_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18830_message_data[] = 
-	"NULL";
+	"...Ah, but *crunch*.../n"
+	"don't get the wrong idea, okay?";
 
 static char s_dialogs_18831_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18831_message_data[] = 
-	"NULL";
+	"It's not like I'm happy you called... *crunch*/n"
+	"...or anything like that!";
 
 static char s_dialogs_18832_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18832_message_data[] = 
-	"NULL";
+	"Think a little more from now on!";
 
 static char s_dialogs_18833_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18833_message_data[] = 
-	"NULL";
+	"Take this kinda stuff too far/n"
+	"and it just becomes annoying! *crunch*";
 
 static char s_dialogs_18834_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18834_message_data[] = 
-	"NULL";
+	"Ah, right. Got it.";
 
 static char s_dialogs_18835_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18835_message_data[] = 
-	"NULL";
+	"...Anyway, you didn't answer my question.";
 
 static char s_dialogs_18836_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18836_message_data[] = 
-	"NULL";
+	"Huh? What's that?";
 
 static char s_dialogs_18837_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18837_message_data[] = 
-	"NULL";
+	"The diet. Are you doing it?";
 
 static char s_dialogs_18838_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18838_message_data[] = 
-	"NULL";
+	"Uh...!";
 
 static char s_dialogs_18839_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18839_message_data[] = 
-	"NULL";
+	"\"Uh\"?";
 
 static char s_dialogs_18840_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18840_message_data[] = 
-	"NULL";
+	"Shut up! I was just about to start!";
 
 static char s_dialogs_18841_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18841_message_data[] = 
-	"NULL";
+	"Ah, of course./n"
+	"Well, I didn't mean to interrupt then.";
 
 static char s_dialogs_18842_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18842_message_data[] = 
-	"NULL";
+	"Yeah, you WERE interrupting me.";
 
 static char s_dialogs_18843_speaker_data[] = 
 	"";
 static char s_dialogs_18843_message_data[] = 
-	"NULL";
+	"...Gosh.";
 
 static char s_dialogs_18844_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18844_message_data[] = 
-	"NULL";
+	"But... this diet... *crunch*./n"
+	"...I wonder if it'll really work.";
 
 static char s_dialogs_18845_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18845_message_data[] = 
-	"NULL";
+	"Well, it better work or I'm gonna/n"
+	"be in a real mess... *crunch*";
 
 static char s_dialogs_18846_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18846_message_data[] = 
-	"NULL";
+	"...Well maybe you could start by laying off/n"
+	"the snacks? That alone would do some good.";
 
 static char s_dialogs_18847_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18847_message_data[] = 
-	"NULL";
+	"HWAAAH!? Y-You could hear that!?";
 
 static char s_dialogs_18848_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18848_message_data[] = 
-	"NULL";
+	"Yeah. The whole time./n"
+	"Kagami-san, you sure love snacks, huh?";
 
 static char s_dialogs_18849_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18849_message_data[] = 
-	"NULL";
+	"Ah... aha, ahahahaha... this was... uh.../n"
+	"my last meal before it.";
 
 static char s_dialogs_18850_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18850_message_data[] = 
-	"NULL";
+	"I'll start the diet after this./n"
+	"I was just finishing eating... y'know?";
 
 static char s_dialogs_18851_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18851_message_data[] = 
-	"NULL";
+	"...That better be your last one, okay?";
 
 static char s_dialogs_18852_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18852_message_data[] = 
-	"NULL";
+	"I-I know!";
 
 static char s_dialogs_18853_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18853_message_data[] = 
-	"NULL";
+	"Ah, that reminds me./n"
+	"Do you mind telling me something?";
 
 static char s_dialogs_18854_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18854_message_data[] = 
-	"NULL";
+	"Why are you participating in the beauty contest?";
 
 static char s_dialogs_18855_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18855_message_data[] = 
-	"NULL";
+	"Huh!? T-That's because...";
 
 static char s_dialogs_18856_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18856_message_data[] = 
-	"NULL";
+	"I know you told me not to pry,/n"
+	"but I can't help but be interested.";
 
 static char s_dialogs_18857_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18857_message_data[] = 
-	"NULL";
+	"...Well, there's no big secret or anything./n"
+	"It's just a little annoying.";
 
 static char s_dialogs_18858_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18858_message_data[] = 
-	"NULL";
+	"But... you really don't want to, right?/n"
+	"Going on a diet for it is a lot, isn't it?";
 
 static char s_dialogs_18859_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18859_message_data[] = 
-	"NULL";
+	"So if you don't want to do it,/n"
+	"why didn't you just refuse? ";
 
 static char s_dialogs_18860_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18860_message_data[] = 
-	"NULL";
+	"...Well, that's true, but...";
 
 static char s_dialogs_18861_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18861_message_data[] = 
-	"NULL";
+	"...Okay, I'll tell you./n"
+	"The truth is...";
 
 static char s_dialogs_18862_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18862_message_data[] = 
-	"NULL";
+	"Yes?";
 
 static char s_dialogs_18863_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18863_message_data[] = 
-	"NULL";
+	"It's because of my classmate, Kusakabe.../n"
+	"She entered me without my permission.";
 
 static char s_dialogs_18864_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18864_message_data[] = 
-	"NULL";
+	"...That's just horrible.";
 
 static char s_dialogs_18865_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18865_message_data[] = 
-	"NULL";
+	"I know, right!?/n"
+	"Shit, just thinking about it makes my/n"
+	"blood boil!";
 
 static char s_dialogs_18866_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18866_message_data[] = 
-	"NULL";
+	"But, if that's the case, surely you/n"
+	"could just remove yourself from it.";
 
 static char s_dialogs_18867_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18867_message_data[] = 
-	"NULL";
+	"Well, I could, but... it's just.../n"
+	"Miyuki-san appreciates it./n"
+	"She's happy we're doing it together.";
 
 static char s_dialogs_18868_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18868_message_data[] = 
-	"NULL";
+	"When she told me that, I just couldn't refuse...";
 
 static char s_dialogs_18869_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18869_message_data[] = 
-	"NULL";
+	"I see. You're very thoughtful when it comes/n"
+	"to your friends, Kagami-san.";
 
 static char s_dialogs_18870_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18870_message_data[] = 
-	"NULL";
+	"Wha!? N-No.../n"
+	"It's not like that, okay!?";
 
 static char s_dialogs_18871_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18871_message_data[] = 
-	"NULL";
+	"W-Why are you getting so worked up?/n"
+	"It's nothing to be ashamed of.";
 
 static char s_dialogs_18872_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18872_message_data[] = 
-	"NULL";
+	"I am NOT getting worked up!";
 
 static char s_dialogs_18873_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18873_message_data[] = 
-	"NULL";
+	"Augh, I'm hanging up now!/n"
+	"Goodnight!";
 
 static char s_dialogs_18874_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18874_message_data[] = 
-	"NULL";
+	"Alright, I'll look a little more to see/n"
+	"if there's a better dieting method.";
 
 static char s_dialogs_18875_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18875_message_data[] = 
-	"NULL";
+	"If I do a thorough online search,/n"
+	"I'm sure there's more to find.";
 
 static char s_dialogs_18876_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18876_message_data[] = 
-	"NULL";
+	"Let's see, dieting...";
 
 static char s_dialogs_18877_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18877_message_data[] = 
-	"NULL";
+	"......";
 
 static char s_dialogs_18878_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18878_message_data[] = 
-	"NULL";
+	"Hmmm, I'm missing something./n"
+	"Alright, I'll add more keywords.";
 
 static char s_dialogs_18879_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18879_message_data[] = 
-	"NULL";
+	"So we've got \"dieting\" and...";
 
 static char s_dialogs_18880_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18880_message_data[] = 
-	"NULL";
+	"...Amazing results!";
 
 static char s_dialogs_18881_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18881_message_data[] = 
-	"NULL";
+	"...Oh, what's this!?";
 
 static char s_dialogs_18882_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18882_message_data[] = 
-	"NULL";
+	"What's this...?/n"
+	"Jack's Grappler Camp...?";
 
 static char s_dialogs_18883_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18883_message_data[] = 
-	"NULL";
+	"I see, it's an exercise taken from the/n"
+	"training drills of the strongest fighters.";
 
 static char s_dialogs_18884_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18884_message_data[] = 
-	"NULL";
+	"Huh? The \"transcendence advanced level\" is/n"
+	"thirty hours a day, two days of exercise/n"
+	"and doping...";
 
 static char s_dialogs_18885_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18885_message_data[] = 
-	"NULL";
+	"\"Quickly transforms you from a/n"
+	"sumo wrestler body to a supermodel body\"?";
 
 static char s_dialogs_18886_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18886_message_data[] = 
-	"NULL";
+	"Insane. It's incredible, but I could never/n"
+	"recommend that.";
 
 static char s_dialogs_18887_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18887_message_data[] = 
-	"NULL";
+	"...Huh? \"For pussies, the beginner level is/n"
+	"for you (or seek one of those normal diets)\"";
 
 static char s_dialogs_18888_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18888_message_data[] = 
-	"NULL";
+	"That sounds a lot better. There's even a/n"
+	"trial version manual and movie I can download.";
 
 static char s_dialogs_18889_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18889_message_data[] = 
-	"NULL";
+	"Alright, I'll tell everyone about this tomorrow.";
 
 static char s_dialogs_18890_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18890_message_data[] = 
-	"NULL";
+	"...Huge weight loss!";
 
 static char s_dialogs_18891_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18891_message_data[] = 
-	"NULL";
+	"Hmm, this is about bathing.../n"
+	"A dieting method you can do in the bath?";
 
 static char s_dialogs_18892_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18892_message_data[] = 
-	"NULL";
+	"\"Easy to do every day and great results ♪\".";
 
 static char s_dialogs_18893_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18893_message_data[] = 
-	"NULL";
+	"Repeated baths, half-body baths, bath salts,/n"
+	"and massages... can you really do so much/n"
+	"with just a bath?";
 
 static char s_dialogs_18894_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18894_message_data[] = 
-	"NULL";
+	"Oh, it looks like there's even more/n"
+	"bath-themed dieting methods above that link.";
 
 static char s_dialogs_18895_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18895_message_data[] = 
-	"NULL";
+	"Alright, I'll take some things that look good/n"
+	"and share my findings with everyone next time.";
 
 static char s_dialogs_18896_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18896_message_data[] = 
-	"NULL";
+	"...See results quickly!";
 
 static char s_dialogs_18897_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18897_message_data[] = 
-	"NULL";
+	"Hmm, I see...";
 
 static char s_dialogs_18898_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18898_message_data[] = 
-	"NULL";
+	"Obviously for such quick results, you really have/n"
+	"to watch your calories... I guess that's all/n"
+	"you can do.";
 
 static char s_dialogs_18899_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18899_message_data[] = 
-	"NULL";
+	"There's products with scents and flavors/n"
+	"designed to reduce your appetite.";
 
 static char s_dialogs_18900_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18900_message_data[] = 
-	"NULL";
+	"Refrain from fried food, refrain from carbs,/n"
+	"refrain from sugar...";
 
 static char s_dialogs_18901_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18901_message_data[] = 
-	"NULL";
+	"Refrain from snacks, refrain from dinner...";
 
 static char s_dialogs_18902_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18902_message_data[] = 
-	"NULL";
+	"Only have a drink for breakfast...";
 
 static char s_dialogs_18903_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18903_message_data[] = 
-	"NULL";
+	"...If you do all that, you can't eat anything!";
 
 static char s_dialogs_18904_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18904_message_data[] = 
-	"NULL";
+	"So this is one of those aggressive fasting/n"
+	"kinds of diets, huh...?";
 
 static char s_dialogs_18905_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18905_message_data[] = 
-	"NULL";
+	"...T-This won't kill them, right?";
 
 static char s_dialogs_18906_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18906_message_data[] = 
-	"NULL";
+	"Whatever, I'll just take down what I can/n"
+	"and report my findings to everyone.";
 
 static char s_dialogs_18907_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18907_message_data[] = 
-	"NULL";
+	"Then each of them can decide what works/n"
+	"best for them.";
 
 static char s_dialogs_18908_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18908_message_data[] = 
-	"NULL";
+	"Oh well, worrying won't do any good./n"
+	"From here on out, it all comes down to/n"
+	"everyone putting in the effort.";
 
 static char s_dialogs_18909_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18909_message_data[] = 
-	"NULL";
+	"Well... it's pretty late. I better get to sleep.";
 
 static char s_dialogs_18910_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18910_message_data[] = 
-	"NULL";
+	"...No matter how you slice it,/n"
+	"dieting sure is tough. Good luck, everyone.";
 
 static char s_dialogs_18911_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18911_message_data[] = 
-	"NULL";
+	"What is it about women that makes them/n"
+	"so concerned about their figure?";
 
 static char s_dialogs_18912_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18912_message_data[] = 
-	"NULL";
+	"I think all of this is unnecessary./n"
+	"I just don't see how they're fat.";
 
 static char s_dialogs_18913_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18913_message_data[] = 
-	"NULL";
+	"They're not fat, but they want to lose weight.../n"
+	"It's just so strange.";
 
 static char s_dialogs_18914_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18914_message_data[] = 
-	"NULL";
+	"Do they think being thin as a mummy is the/n"
+	"ideal body type or something?";
 
 static char s_dialogs_18915_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18915_message_data[] = 
-	"NULL";
+	"That doesn't seem right.../n"
+	"but I don't understand how women think.";
 
 static char s_dialogs_18916_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18916_message_data[] = 
-	"NULL";
+	"...Seriously, I don't understand them at all.";
 
 static char s_dialogs_18917_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18917_message_data[] = 
-	"NULL";
+	"Yoshi-san, it's lunch break.";
 
 static char s_dialogs_18918_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18918_message_data[] = 
-	"NULL";
+	"Huh? Oh, yeah. It is.";
 
 static char s_dialogs_18919_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18919_message_data[] = 
-	"NULL";
+	"So, um... if it's okay,/n"
+	"would you mind eating lunch with me?";
 
 static char s_dialogs_18920_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18920_message_data[] = 
-	"NULL";
+	"Huh...? S-Sure, if you're okay with it...";
 
 static char s_dialogs_18921_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18921_message_data[] = 
-	"NULL";
+	"Really? Thank you so much!";
 
 static char s_dialogs_18922_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18922_message_data[] = 
-	"NULL";
+	"That makes me really happy./n"
+	"Being together with Yoshi-san...";
 
 static char s_dialogs_18923_speaker_data[] = 
 	"";
 static char s_dialogs_18923_message_data[] = 
-	"NULL";
+	"This turn of events is making my heart pound./n"
+	"Miyuki-san, what have I done to be so lucky?";
 
 static char s_dialogs_18924_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18924_message_data[] = 
-	"NULL";
+	"...It's very reassuring.";
 
 static char s_dialogs_18925_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18925_message_data[] = 
-	"NULL";
+	"Wha? Reassuring...?";
 
 static char s_dialogs_18926_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18926_message_data[] = 
-	"NULL";
+	"Ah, what's this? Yoshi-kun,/n"
+	"have you entered Miyuki-san's route?";
 
 static char s_dialogs_18927_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18927_message_data[] = 
-	"NULL";
+	"Huh? R-Route?";
 
 static char s_dialogs_18928_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18928_message_data[] = 
-	"NULL";
+	"So, are you two gonna have a lovey-dovey/n"
+	"bento event now?";
 
 static char s_dialogs_18929_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18929_message_data[] = 
-	"NULL";
+	"L-Lovey-dovey...!?/n"
+	"Izumi-san, you have it all wrong!";
 
 static char s_dialogs_18930_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18930_message_data[] = 
-	"NULL";
+	"Huh? What...?/n"
+	"So you didn't mean it like that?";
 
 static char s_dialogs_18931_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18931_message_data[] = 
-	"NULL";
+	"W-Whaaa!?";
 
 static char s_dialogs_18932_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18932_message_data[] = 
-	"NULL";
+	"I see... so you hate me, Miyuki-san.";
 
 static char s_dialogs_18933_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18933_message_data[] = 
-	"NULL";
+	"N-No...! That's not what I meant!";
 
 static char s_dialogs_18934_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18934_message_data[] = 
-	"NULL";
+	"I DO like you, Yoshi-san!/n"
+	"It's just that kind of thing now is...!";
 
 static char s_dialogs_18935_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18935_message_data[] = 
-	"NULL";
+	"Miyuki-san, you know it's okay to confess/n"
+	"your love if that's how you feel, right?";
 
 static char s_dialogs_18936_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18936_message_data[] = 
-	"NULL";
+	"Co-... con-... fess...!?";
 
 static char s_dialogs_18937_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18937_message_data[] = 
-	"NULL";
+	"Ah, I see./n"
+	"So this WAS gonna be a love confession event.";
 
 static char s_dialogs_18938_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18938_message_data[] = 
-	"NULL";
+	"...Ohhh.";
 
 static char s_dialogs_18939_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18939_message_data[] = 
-	"NULL";
+	"Waaa!? Yuki-chan, what's wrong!?";
 
 static char s_dialogs_18940_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18940_message_data[] = 
-	"NULL";
+	"Yuki-chan, are you okay?/n"
+	"Your face is still red.";
 
 static char s_dialogs_18941_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18941_message_data[] = 
-	"NULL";
+	"Yeah, I think so...";
 
 static char s_dialogs_18942_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18942_message_data[] = 
-	"NULL";
+	"Heh, you act so cutely, Miyuki-san.";
 
 static char s_dialogs_18943_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18943_message_data[] = 
-	"NULL";
+	"He doesn't make you so flustered to the point of/n"
+	"fainting, but you like him \"as a friend\", right?/n"
+	"I knew that, I was just giving you a hard time.";
 
 static char s_dialogs_18944_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18944_message_data[] = 
-	"NULL";
+	"I'll apologize too./n"
+	"I only intended to tease you a bit...";
 
 static char s_dialogs_18945_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18945_message_data[] = 
-	"NULL";
+	"No... I'm the one who lost composure./n"
+	"I let myself get too embarrassed...";
 
 static char s_dialogs_18946_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18946_message_data[] = 
-	"NULL";
+	"It's okay, don't worry about it!/n"
+	"Let's hurry up and eat our bento!";
 
 static char s_dialogs_18947_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18947_message_data[] = 
-	"NULL";
+	"Huh? That reminds me,/n"
+	"is Kagami not coming today?";
 
 static char s_dialogs_18948_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18948_message_data[] = 
-	"NULL";
+	"Yeah. Sis has something to take care of,/n"
+	"so she's eating alone. She's been so busy.";
 
 static char s_dialogs_18949_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18949_message_data[] = 
-	"NULL";
+	"Hmm, hasn't Kagami been a bit anti-social lately?";
 
 static char s_dialogs_18950_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18950_message_data[] = 
-	"NULL";
+	"You think so? She's been keeping up with/n"
+	"bento-making duty though./n"
+	"I wonder what she made today?";
 
 static char s_dialogs_18951_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18951_message_data[] = 
-	"NULL";
+	"...Huh?";
 
 static char s_dialogs_18952_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18952_message_data[] = 
-	"NULL";
+	"W-What's that?/n"
+	"Is that really all there is?";
 
 static char s_dialogs_18953_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18953_message_data[] = 
-	"NULL";
+	"Whaaaaaa... siiiis!";
 
 static char s_dialogs_18954_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18954_message_data[] = 
-	"NULL";
+	"Woah, that sure is a crappy bento!/n"
+	"Wait, Miyuki-san, what's that!?";
 
 static char s_dialogs_18955_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18955_message_data[] = 
-	"NULL";
+	"Ah, this is... yogurt.";
 
 static char s_dialogs_18956_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18956_message_data[] = 
-	"NULL";
+	"I, um... asked my mother to make/n"
+	"something healthy.";
 
 static char s_dialogs_18957_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18957_message_data[] = 
-	"NULL";
+	"And in response... she fills the whole/n"
+	"bento box with yogurt!? That's going too far...";
 
 static char s_dialogs_18958_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18958_message_data[] = 
-	"NULL";
+	"Miyuki-san... is this for the... diet?";
 
 static char s_dialogs_18959_speaker_data[] = 
 	"";
 static char s_dialogs_18959_message_data[] = 
-	"NULL";
+	"I ask in a quiet voice.";
 
 static char s_dialogs_18960_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18960_message_data[] = 
-	"NULL";
+	"Yes... it's embarrassing to eat this/n"
+	"all by myself, so that's why I...";
 
 static char s_dialogs_18961_speaker_data[] = 
 	"";
 static char s_dialogs_18961_message_data[] = 
-	"NULL";
+	"I see./n"
+	"It's why you invited me a moment ago.";
 
 static char s_dialogs_18962_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18962_message_data[] = 
-	"NULL";
+	"Yours is crazy too, Yuki-chan,/n"
+	"but mine is some nutritional thing...";
 
 static char s_dialogs_18963_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18963_message_data[] = 
-	"NULL";
+	"What is the meaning of this...?/n"
+	"Am I supposed to go on a diet too?";
 
 static char s_dialogs_18964_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18964_message_data[] = 
-	"NULL";
+	"No, I don't think so./n"
+	"She probably just got hers mixed up with yours.";
 
 static char s_dialogs_18965_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18965_message_data[] = 
-	"NULL";
+	"Ah, I see./n"
+	"Sis, you're working so hard!";
 
 static char s_dialogs_18966_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18966_message_data[] = 
-	"NULL";
+	"Oh well, I think it's a lost cause anyway.";
 
 static char s_dialogs_18967_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18967_message_data[] = 
-	"NULL";
+	"Hey, that's not true!";
 
 static char s_dialogs_18968_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18968_message_data[] = 
-	"NULL";
+	"She's gonna be in the beauty contest,/n"
+	"so sis has been very motivated.";
 
 static char s_dialogs_18969_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18969_message_data[] = 
-	"NULL";
+	"...What?";
 
 static char s_dialogs_18970_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18970_message_data[] = 
-	"NULL";
+	"Uwah!?/n"
+	"T-Tsukasa-san, that was...!";
 
 static char s_dialogs_18971_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18971_message_data[] = 
-	"NULL";
+	"...She let it slip, huh...?";
 
 static char s_dialogs_18972_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18972_message_data[] = 
-	"NULL";
+	"Wha...? W-What? What?";
 
 static char s_dialogs_18973_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18973_message_data[] = 
-	"NULL";
+	"Kagami's gonna be in the beauty pageant!?";
 
 static char s_dialogs_18974_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18974_message_data[] = 
-	"NULL";
+	"Y-Yeah. One thing lead to another,/n"
+	"and she ended up being in it.";
 
 static char s_dialogs_18975_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18975_message_data[] = 
-	"NULL";
+	"Tsukasa! Sorry about that!/n"
+	"I gave you my bento by mistake!!";
 
 static char s_dialogs_18976_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18976_message_data[] = 
-	"NULL";
+	"...Wait... am I too late...?";
 
 static char s_dialogs_18977_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18977_message_data[] = 
-	"NULL";
+	"...Well, you kinda came at the perfect time/n"
+	"in a sense...";
 
 static char s_dialogs_18978_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18978_message_data[] = 
-	"NULL";
+	"Ah, sis./n"
+	"Yeah, I figured this had to be yours.";
 
 static char s_dialogs_18979_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18979_message_data[] = 
-	"NULL";
+	"...Yeah./n"
+	"Here, this one's yours, Tsukasa.";
 
 static char s_dialogs_18980_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18980_message_data[] = 
-	"NULL";
+	"MweheheHEHEEE, Kaaaagami ♪";
 
 static char s_dialogs_18981_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18981_message_data[] = 
-	"NULL";
+	"W-...what?/n"
+	"Me going on a diet isn't THAT unusual.";
 
 static char s_dialogs_18982_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18982_message_data[] = 
-	"NULL";
+	"Yeah. A diet, huh? ♪";
 
 static char s_dialogs_18983_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18983_message_data[] = 
-	"NULL";
+	"But when it comes to being in a beauty pageant,/n"
+	"it's of the utmost importance!";
 
 static char s_dialogs_18984_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18984_message_data[] = 
-	"NULL";
+	"Wha!?";
 
 static char s_dialogs_18985_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18985_message_data[] = 
-	"NULL";
+	"Hey hey, what kinda outfit you gonna wear?/n"
+	"How about I lend you a cosplay outfit from work?";
 
 static char s_dialogs_18986_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18986_message_data[] = 
-	"NULL";
+	"HEY! Yoshi-kun!?";
 
 static char s_dialogs_18987_speaker_data[] = 
 	"/l /f";
 static char s_dialogs_18987_message_data[] = 
-	"NULL";
+	"N-No no! It wasn't me!!";
 
 static char s_dialogs_18988_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18988_message_data[] = 
-	"NULL";
+	"So it was Miyuki!?";
 
 static char s_dialogs_18989_speaker_data[] = 
 	"Miyuki Takara";
 static char s_dialogs_18989_message_data[] = 
-	"NULL";
+	"I-I would never...";
 
 static char s_dialogs_18990_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18990_message_data[] = 
-	"NULL";
+	"This year's school festival is shaping up/n"
+	"to be the best one ever!";
 
 static char s_dialogs_18991_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18991_message_data[] = 
-	"NULL";
+	"I'll have to get my dad to record the whole/n"
+	"beauty pageant in HD quality!";
 
 static char s_dialogs_18992_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18992_message_data[] = 
-	"NULL";
+	"HAVE MERCY!!/n"
+	"Anything but that, I'm begging you!!";
 
 static char s_dialogs_18993_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18993_message_data[] = 
-	"NULL";
+	"Huh, but this will be our last/n"
+	"high school beauty pageant, y'know?";
 
 static char s_dialogs_18994_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18994_message_data[] = 
-	"NULL";
+	"You'll want it for the future./n"
+	"You can show it at your wedding and the like!";
 
 static char s_dialogs_18995_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18995_message_data[] = 
-	"NULL";
+	"ABSOLUTELY NOT!!";
 
 static char s_dialogs_18996_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18996_message_data[] = 
-	"NULL";
+	"...S-Sorry, sis./n"
+	"I'm the one... who told Kona-chan...";
 
 static char s_dialogs_18997_speaker_data[] = 
 	"Tsukasa Hiiragi";
 static char s_dialogs_18997_message_data[] = 
-	"NULL";
+	"I completely forgot it was a secret...";
 
 static char s_dialogs_18998_speaker_data[] = 
 	"Kagami Hiiragi";
 static char s_dialogs_18998_message_data[] = 
-	"NULL";
+	"*Sigh*... Tsukasa! So it was you!";
 
 static char s_dialogs_18999_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_18999_message_data[] = 
-	"NULL";
+	"Oh well, I'll be cheering you on./n"
+	"Good luck with the diet!";
 
 static char s_dialogs_19000_speaker_data[] = 
 	"Konata Izumi";
 static char s_dialogs_19000_message_data[] = 
-	"NULL";
+	"Alright now, aim high! Win the beauty pageant!/n"
+	"Become our school's IDOL!";
 
 static char s_dialogs_19001_speaker_data[] = 
 	"Kagami Hiiragi";
