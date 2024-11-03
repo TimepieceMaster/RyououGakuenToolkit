@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClCompile Include="src\build.c" />
     <ClCompile Include="src\header_data_implementation.c" />
+    <ClCompile Include="src\script_0_implementation.c" />
+    <ClCompile Include="src\script_1_implementation.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hdr\eboot_patch_structures.h" />
@@ -39,6 +41,9 @@
     <ClInclude Include="hdr\scripts\script_0_commands.h" />
     <ClInclude Include="hdr\scripts\script_0_structure.h" />
     <ClInclude Include="hdr\scripts\script_0_text.h" />
+    <ClInclude Include="hdr\scripts\script_1_commands.h" />
+    <ClInclude Include="hdr\scripts\script_1_structure.h" />
+    <ClInclude Include="hdr\scripts\script_1_text.h" />
     <ClInclude Include="hdr\scripts\variable_width_font_patches.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

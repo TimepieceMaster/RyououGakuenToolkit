@@ -122,7 +122,8 @@ const image_replace_info g_pr_images_to_replace[] =
 
 const script_replace_info g_scripts_to_replace[] =
 {
-	{ &g_script_0_elements, 0 }
+	{ &g_script_0_elements, 0 },
+	{ &g_script_1_elements, 1 }
 };
 
 const texture_region_info_array *g_texture_regions_to_update[] =

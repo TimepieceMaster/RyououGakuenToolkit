@@ -21,6 +21,12 @@
     <ClCompile Include="src\header_data_implementation.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\script_0_implementation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_1_implementation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hdr\image_info\union_2528_1.h">
@@ -72,6 +78,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="hdr\header_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\scripts\script_1_commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\scripts\script_1_structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\scripts\script_1_text.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

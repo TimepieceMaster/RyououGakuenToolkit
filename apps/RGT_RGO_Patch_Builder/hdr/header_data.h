@@ -20,3 +20,4 @@ extern single_instruction_patch_array g_pr_4_single_instruction_patches;
 extern single_instruction_patch_array g_variable_width_font_patch;
 extern rgt_rgo_pr_image_info_array g_rgo_pr_image_infos;
 extern rgt_rgo_script_element_array g_script_0_elements;
+extern rgt_rgo_script_element_array g_script_1_elements;

@@ -1,13 +1,14 @@
 #include "ryouou_gakuen_toolkit.h"
 
-#define CPK_FROM "assets/sc_partial_episode_5.cpk"
+#define CPK_FROM "assets/sc_epilogue_miyuki.cpk"
 #define CPK_TO "assets/sc_reboot.cpk"
 #define GLYPH_STRINGS_FROM "assets/font_strings_video_series.txt"
 #define GLYPH_STRINGS_TO "assets/english_font_strings.txt"
-#define STRUCTURE_OUT "results/script_0_structure.h"
-#define COMMANDS_OUT "results/script_0_commands.h"
-#define TEXT_OUT "results/script_0_text.h"
-#define SCRIPT_ID 0
+#define STRUCTURE_OUT "results/script_1_structure.h"
+#define COMMANDS_OUT "results/script_1_commands.h"
+#define TEXT_OUT "results/script_1_text.h"
+#define CPK_OUT "results/sc.cpk"
+#define SCRIPT_ID 1
 
 int
 main(void)
@@ -155,7 +156,7 @@ main(void)
 	(
 		rgt_rgo_script_to_headers
 		(
-			&arena, script_to, 0, to_strings_utf8,
+			&arena, script_to, SCRIPT_ID, to_strings_utf8,
 			STRUCTURE_OUT, COMMANDS_OUT, TEXT_OUT, false
 		)
 	);

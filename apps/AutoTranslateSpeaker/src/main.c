@@ -4,10 +4,10 @@
 #define SCRIPT_CPK_ENG "assets/sc_eng.cpk"
 #define GLYPH_STRINGS_JP "assets/glyph_strings_jp.txt"
 #define GLYPH_STRINGS_ENG "assets/glyph_strings_eng.txt"
-#define STRUCTURE_OUT "results/script_0_structure.h"
-#define COMMANDS_OUT "results/script_0_commands.h"
-#define TEXT_OUT "results/script_0_text.h"
-#define SCRIPT_ID 0
+#define STRUCTURE_OUT "results/script_1_structure.h"
+#define COMMANDS_OUT "results/script_1_commands.h"
+#define TEXT_OUT "results/script_1_text.h"
+#define SCRIPT_ID 1
 
 typedef struct _speaker_name_string
 {

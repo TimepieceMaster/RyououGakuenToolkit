@@ -2,11 +2,11 @@
 
 #define CPK_PATH "assets/sc.cpk"
 #define FONT_STRINGS_PATH "resources/rgo_font_strings.txt"
-#define SCRIPT_ID 0
-#define OUT_PATH_STRUCTURE "results/script_0_structure.h"
-#define OUT_PATH_COMMANDS "results/script_0_commands.h"
-#define OUT_PATH_TEXT "results/script_0_text.h"
-#define NO_TEXT false
+#define SCRIPT_ID 1
+#define OUT_PATH_STRUCTURE "results/script_1_structure.h"
+#define OUT_PATH_COMMANDS "results/script_1_commands.h"
+#define OUT_PATH_TEXT "results/script_1_text.h"
+#define NO_TEXT true
 
 int 
 main(void)

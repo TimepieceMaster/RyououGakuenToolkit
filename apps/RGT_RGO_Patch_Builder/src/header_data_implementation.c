@@ -11,4 +11,3 @@
 #include "image_info/pr_4.h"
 #include "scripts/variable_width_font_patches.h"
 #include "rgo_pr_image_info.h"
-#include "scripts/script_0_structure.h"
