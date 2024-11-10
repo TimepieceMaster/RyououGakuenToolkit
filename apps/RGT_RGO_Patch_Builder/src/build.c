@@ -718,6 +718,12 @@ main(void)
 	(
 		"UMD-replace.exe "
 		"results\\rgopsp.iso "
+		"PSP_GAME/USRDIR/DATA/op.pmf resources\\movies\\op.pmf"
+	);
+	system
+	(
+		"UMD-replace.exe "
+		"results\\rgopsp.iso "
 		"PSP_GAME/SYSDIR/EBOOT.bin results\\EBOOT.bin"
 	);
 
