@@ -610,7 +610,7 @@ patch_scripts(rgt_u8_array eboot)
 		RGT_CALL(rgt_add_cpk_file(&arena, &cpk, id, script_file));
 		update_eboot_file_size_table
 		(
-			0x10319E, 0, 11, 0, 
+			0x10319E, 0, 11, id, 
 			(u16)(script_file.length / RGT_KILOBYTE(2)), eboot
 		);
 		if (script_file.length > script_heap_size)
