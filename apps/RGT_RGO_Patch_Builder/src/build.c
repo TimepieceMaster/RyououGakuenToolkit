@@ -720,11 +720,17 @@ main(void)
 		"results\\rgopsp.iso "
 		"PSP_GAME/USRDIR/DATA/op.pmf resources\\movies\\op.pmf"
 	);
-	system
+	system /* True ending ED */
 	(
 		"UMD-replace.exe "
 		"results\\rgopsp.iso "
 		"PSP_GAME/USRDIR/DATA/ed.pmf resources\\movies\\ed.pmf"
+	);
+	system /* Bad ending ED */
+	(
+		"UMD-replace.exe "
+		"results\\rgopsp.iso "
+		"PSP_GAME/USRDIR/DATA/mov_10.pmf resources\\movies\\mov_10.pmf"
 	);
 	system
 	(
