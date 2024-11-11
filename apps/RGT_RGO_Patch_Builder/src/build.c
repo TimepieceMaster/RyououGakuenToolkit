@@ -720,6 +720,12 @@ main(void)
 		"results\\rgopsp.iso "
 		"PSP_GAME/USRDIR/DATA/op.pmf resources\\movies\\op.pmf"
 	);
+	system /* Star Wars Text Crawl */
+	(
+		"UMD-replace.exe "
+		"results\\rgopsp.iso "
+		"PSP_GAME/USRDIR/DATA/titlein.pmf resources\\movies\\titlein.pmf"
+	);
 	system /* True ending ED */
 	(
 		"UMD-replace.exe "
@@ -731,6 +737,18 @@ main(void)
 		"UMD-replace.exe "
 		"results\\rgopsp.iso "
 		"PSP_GAME/USRDIR/DATA/mov_10.pmf resources\\movies\\mov_10.pmf"
+	);
+	system /* Good ending ED */
+	(
+		"UMD-replace.exe "
+		"results\\rgopsp.iso "
+		"PSP_GAME/USRDIR/DATA/mov_11.pmf resources\\movies\\mov_11.pmf"
+	);
+	system /* Konata Accelerator */
+	(
+		"UMD-replace.exe "
+		"results\\rgopsp.iso "
+		"PSP_GAME/USRDIR/DATA/mov_09.pmf resources\\movies\\mov_09.pmf"
 	);
 	system
 	(
