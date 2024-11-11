@@ -151,7 +151,16 @@ static single_instruction_patch s_variable_width_font_patch_data[] =
 	/* Expand character limit for choices and left-align */
 	{ 0x7868, 0x00000000 },
 	{ 0x786C, 0x34040000 },
-	{ 0x7940, 0x00000000 }
+	{ 0x7940, 0x00000000 },
+
+	/* Add space between first and last name on file select screen. */
+	{ 0x362F4, 0x0A20A748 },
+	{ 0x362F8, 0xA4800000 },
+	{ 0x25DE0, 0x00A03021 },
+	{ 0x25DE4, 0x34050000 },
+	{ 0x25DE8, 0x24840002 },
+	{ 0x25DEC, 0x0A20E88F },
+	{ 0x25DF0, 0x26310002 }
 };
 
 single_instruction_patch_array g_variable_width_font_patch =
