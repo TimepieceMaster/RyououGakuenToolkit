@@ -20,6 +20,13 @@ typedef struct _script_replace_info
 
 const image_replace_info g_union_images_to_replace[] =
 {
+	/* Story CGs */
+	{ "resources\\images\\1028_0.png", 1028, 0 },
+	{ "resources\\images\\1029_0.png", 1029, 0 },
+	{ "resources\\images\\1044_0.png", 1044, 0 },
+	{ "resources\\images\\1045_0.png", 1045, 0 },
+	{ "resources\\images\\1337_0.png", 1337, 0 },
+
 	/* Trading Cards */
 	{ "resources\\images\\1477_0.png", 1477, 0 },
 	{ "resources\\images\\1478_0.png", 1478, 0 },
