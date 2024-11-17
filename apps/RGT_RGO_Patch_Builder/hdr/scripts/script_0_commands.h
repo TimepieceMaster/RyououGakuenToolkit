@@ -1998,10 +1998,14 @@ static u16 s_commands_379_0_data[] =
 {
 	0xFFFB, 0xFFC2, 0xFFFF, 0x0010, 
 };
-static u16 s_commands_380_0_data[] =
+static u16 s_commands_new_0_0_data[] =
 {
 	0xFFFB, 0xFF67, 0x0016, 0xFF66, 0x001A, 0x0000, 0xFFC2, 0xFFFF, 
-	0x0010, 
+	0x0010
+};
+static u16 s_commands_380_0_data[] =
+{
+	0xFFFB, 0xFFC2, 0xFFFF, 0x0010, 
 };
 static u16 s_commands_381_0_data[] =
 {

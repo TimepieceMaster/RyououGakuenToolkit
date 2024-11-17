@@ -3,10 +3,10 @@
 
 #define UNION_PATH "assets\\union.cpk"
 #define PR_PATH "assets\\pr.bin"
-#define PNG_PATH "assets\\1045_0.png"
-#define IMAGE_ID 1045
+#define PNG_PATH "assets\\1073_0.png"
+#define IMAGE_ID 1073
 #define IMAGE_INDEX 0
-#define OUT_PATH "results\\1045_0.png"
+#define OUT_PATH "results\\1073_0.png"
 #define IS_UNION true
 
 int
