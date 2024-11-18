@@ -44,6 +44,8 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1072_0.png", 1072, 0 },
 	{ "resources\\images\\1073_0.png", 1073, 0 },
 	{ "resources\\images\\1074_0.png", 1074, 0 },
+	{ "resources\\images\\1075_0.png", 1075, 0 },
+	{ "resources\\images\\1135_0.png", 1135, 0 },
 	{ "resources\\images\\1337_0.png", 1337, 0 },
 
 	/* Trading Cards */
