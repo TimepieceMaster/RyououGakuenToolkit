@@ -21,6 +21,7 @@ typedef struct _script_replace_info
 const image_replace_info g_union_images_to_replace[] =
 {
 	/* Story CGs */
+	{ "resources\\images\\984_0.png", 984, 0 },
 	{ "resources\\images\\1028_0.png", 1028, 0 },
 	{ "resources\\images\\1029_0.png", 1029, 0 },
 	{ "resources\\images\\1044_0.png", 1044, 0 },
@@ -46,6 +47,9 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1074_0.png", 1074, 0 },
 	{ "resources\\images\\1075_0.png", 1075, 0 },
 	{ "resources\\images\\1135_0.png", 1135, 0 },
+	{ "resources\\images\\1138_0.png", 1138, 0 },
+	{ "resources\\images\\1143_0.png", 1143, 0 },
+	{ "resources\\images\\1145_0.png", 1145, 0 },
 	{ "resources\\images\\1337_0.png", 1337, 0 },
 
 	/* Trading Cards */
@@ -330,6 +334,23 @@ patch_union_image
 	(
 		rgt_build_rgo_image_file(&arena, rgo_images, &new_rgo_image_file)
 	);
+
+	/* quick fix because 1143 is a 64KB+ image in RGO JP
+	 * but the English version compresses below 64KB and
+	 * RGO doesn't like that for some reason despite the
+	 * fact it should be fine. */
+	if (replace_id == 1143)
+	{
+		rgt_u8_array temp = {0};
+		RGT_CREATE_ARRAY(&arena, RGT_KILOBYTE(80), &temp);
+		memcpy
+		(
+			temp.elems, new_rgo_image_file.elems, 
+			new_rgo_image_file.length - RGT_CHECKSUM_SIZE
+		);
+		rgt_add_checksum_whole_file(temp);
+		new_rgo_image_file = temp;
+	}
 	
 	RGT_CALL(rgt_remove_cpk_file(union_arena, union_cpk, replace_id));
 	RGT_CALL
