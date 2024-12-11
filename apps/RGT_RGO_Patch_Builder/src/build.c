@@ -20,7 +20,7 @@ typedef struct _script_replace_info
 
 const image_replace_info g_union_images_to_replace[] =
 {
-	/* Story CGs */
+	/* Episode 1 CGs */
 	{ "resources\\images\\984_0.png", 984, 0 },
 	{ "resources\\images\\1028_0.png", 1028, 0 },
 	{ "resources\\images\\1029_0.png", 1029, 0 },
@@ -46,6 +46,9 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1073_0.png", 1073, 0 },
 	{ "resources\\images\\1074_0.png", 1074, 0 },
 	{ "resources\\images\\1075_0.png", 1075, 0 },
+	{ "resources\\images\\1084_0.png", 1084, 0 },
+	{ "resources\\images\\1085_0.png", 1085, 0 },
+	{ "resources\\images\\1120_0.png", 1120, 0 },
 	{ "resources\\images\\1124_0.png", 1124, 0 },
 	{ "resources\\images\\1135_0.png", 1135, 0 },
 	{ "resources\\images\\1138_0.png", 1138, 0 },
@@ -68,9 +71,23 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1169_0.png", 1169, 0 },
 	{ "resources\\images\\1170_0.png", 1170, 0 },
 	{ "resources\\images\\1171_0.png", 1171, 0 },
+	{ "resources\\images\\1175_0.png", 1175, 0 },
+	{ "resources\\images\\1304_0.png", 1304, 0 },
+	{ "resources\\images\\1330_0.png", 1330, 0 },
 	{ "resources\\images\\1337_0.png", 1337, 0 },
 	{ "resources\\images\\1343_0.png", 1343, 0 },
 	{ "resources\\images\\1344_0.png", 1344, 0 },
+	{ "resources\\images\\1415_0.png", 1415, 0 },
+	{ "resources\\images\\1416_0.png", 1416, 0 },
+	{ "resources\\images\\1418_0.png", 1418, 0 },
+	{ "resources\\images\\1419_0.png", 1419, 0 },
+	{ "resources\\images\\1436_0.png", 1436, 0 },
+
+	/* PSP Prologues (before trading cards) */
+	{ "resources\\images\\1454_0.png", 1454, 0 },
+	{ "resources\\images\\1455_0.png", 1455, 0 },
+	{ "resources\\images\\1456_0.png", 1456, 0 },
+	{ "resources\\images\\1457_0.png", 1457, 0 },
 
 	/* Trading Cards */
 	{ "resources\\images\\1477_0.png", 1477, 0 },
@@ -132,6 +149,9 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1524_0.png", 1524, 0 },
 	{ "resources\\images\\1525_0.png", 1525, 0 },
 	{ "resources\\images\\1526_0.png", 1526, 0 },
+
+	/* PSP Prologues (after trading cards) */
+	{ "resources\\images\\1527_0.png", 1527, 0 },
 
 	/* Menus */
 
@@ -355,11 +375,16 @@ patch_union_image
 		rgt_build_rgo_image_file(&arena, rgo_images, &new_rgo_image_file)
 	);
 
-	/* quick fix because 1143 is a 64KB+ image in RGO JP
+	/* quick fix because these are 64KB+ images in RGO JP
 	 * but the English version compresses below 64KB and
 	 * RGO doesn't like that for some reason despite the
 	 * fact it should be fine. */
-	if (replace_id == 1143)
+	if 
+	(
+		replace_id == 1120 
+		|| replace_id == 1143
+		|| replace_id == 1436
+	)
 	{
 		rgt_u8_array temp = {0};
 		RGT_CREATE_ARRAY(&arena, RGT_KILOBYTE(80), &temp);
