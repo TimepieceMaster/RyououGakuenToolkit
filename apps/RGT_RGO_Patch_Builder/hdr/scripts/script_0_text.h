@@ -142115,8 +142115,8 @@ static char s_choices_24_1_data[] =
 
 static char s_choices_25_0_data[] = 
 	"Keep working";
-static char s_choices_25_1_data[] = 
-	"Call out to Kuroi Sensei";
+//static char s_choices_25_1_data[] = 
+//	"Call out to Kuroi Sensei";
 
 static char s_choices_26_0_data[] = 
 	"The festival is cancelled?";
