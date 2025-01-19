@@ -20,7 +20,7 @@ typedef struct _script_replace_info
 
 const image_replace_info g_union_images_to_replace[] =
 {
-	/* Episode 1 CGs */
+	/* Story CGs */
 	{ "resources\\images\\984_0.png", 984, 0 },
 	{ "resources\\images\\1028_0.png", 1028, 0 },
 	{ "resources\\images\\1029_0.png", 1029, 0 },
@@ -48,6 +48,7 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1075_0.png", 1075, 0 },
 	{ "resources\\images\\1084_0.png", 1084, 0 },
 	{ "resources\\images\\1085_0.png", 1085, 0 },
+	{ "resources\\images\\1106_0.png", 1106, 0 },
 	{ "resources\\images\\1120_0.png", 1120, 0 },
 	{ "resources\\images\\1124_0.png", 1124, 0 },
 	{ "resources\\images\\1135_0.png", 1135, 0 },
@@ -82,8 +83,6 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1418_0.png", 1418, 0 },
 	{ "resources\\images\\1419_0.png", 1419, 0 },
 	{ "resources\\images\\1436_0.png", 1436, 0 },
-
-	/* PSP Prologues (before trading cards) */
 	{ "resources\\images\\1454_0.png", 1454, 0 },
 	{ "resources\\images\\1455_0.png", 1455, 0 },
 	{ "resources\\images\\1456_0.png", 1456, 0 },
