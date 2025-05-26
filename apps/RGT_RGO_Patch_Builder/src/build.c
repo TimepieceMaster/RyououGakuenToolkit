@@ -21,6 +21,7 @@ typedef struct _script_replace_info
 const image_replace_info g_union_images_to_replace[] =
 {
 	/* Story CGs */
+	{ "resources\\images\\873_0.png", 873, 0 },
 	{ "resources\\images\\984_0.png", 984, 0 },
 	{ "resources\\images\\1028_0.png", 1028, 0 },
 	{ "resources\\images\\1029_0.png", 1029, 0 },
@@ -49,6 +50,11 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1084_0.png", 1084, 0 },
 	{ "resources\\images\\1085_0.png", 1085, 0 },
 	{ "resources\\images\\1106_0.png", 1106, 0 },
+	{ "resources\\images\\1108_0.png", 1108, 0 },
+	{ "resources\\images\\1111_0.png", 1111, 0 },
+	{ "resources\\images\\1115_0.png", 1115, 0 },
+	{ "resources\\images\\1118_0.png", 1118, 0 },
+	{ "resources\\images\\1119_0.png", 1119, 0 },
 	{ "resources\\images\\1120_0.png", 1120, 0 },
 	{ "resources\\images\\1124_0.png", 1124, 0 },
 	{ "resources\\images\\1135_0.png", 1135, 0 },
@@ -59,11 +65,14 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1147_0.png", 1147, 0 },
 	{ "resources\\images\\1149_0.png", 1149, 0 },
 	{ "resources\\images\\1150_0.png", 1150, 0 },
+	{ "resources\\images\\1155_0.png", 1155, 0 },
+	{ "resources\\images\\1156_0.png", 1156, 0 },
 	{ "resources\\images\\1157_0.png", 1157, 0 },
 	{ "resources\\images\\1158_0.png", 1158, 0 },
 	{ "resources\\images\\1159_0.png", 1159, 0 },
 	{ "resources\\images\\1160_0.png", 1160, 0 },
 	{ "resources\\images\\1161_0.png", 1161, 0 },
+	{ "resources\\images\\1162_0.png", 1162, 0 },
 	{ "resources\\images\\1163_0.png", 1163, 0 },
 	{ "resources\\images\\1165_0.png", 1165, 0 },
 	{ "resources\\images\\1166_0.png", 1166, 0 },
@@ -73,6 +82,20 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1170_0.png", 1170, 0 },
 	{ "resources\\images\\1171_0.png", 1171, 0 },
 	{ "resources\\images\\1175_0.png", 1175, 0 },
+	{ "resources\\images\\1176_0.png", 1176, 0 },
+	{ "resources\\images\\1180_0.png", 1180, 0 },
+	{ "resources\\images\\1193_0.png", 1193, 0 },
+	{ "resources\\images\\1199_0.png", 1199, 0 },
+	{ "resources\\images\\1200_0.png", 1200, 0 },
+	{ "resources\\images\\1201_0.png", 1201, 0 },
+	{ "resources\\images\\1206_0.png", 1206, 0 },
+	{ "resources\\images\\1226_0.png", 1226, 0 },
+	{ "resources\\images\\1292_0.png", 1292, 0 },
+	{ "resources\\images\\1296_0.png", 1296, 0 },
+	{ "resources\\images\\1298_0.png", 1298, 0 },
+	{ "resources\\images\\1299_0.png", 1299, 0 },
+	{ "resources\\images\\1300_0.png", 1300, 0 },
+	{ "resources\\images\\1301_0.png", 1301, 0 },
 	{ "resources\\images\\1304_0.png", 1304, 0 },
 	{ "resources\\images\\1330_0.png", 1330, 0 },
 	{ "resources\\images\\1337_0.png", 1337, 0 },
@@ -82,6 +105,11 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1416_0.png", 1416, 0 },
 	{ "resources\\images\\1418_0.png", 1418, 0 },
 	{ "resources\\images\\1419_0.png", 1419, 0 },
+	{ "resources\\images\\1424_0.png", 1424, 0 },
+	{ "resources\\images\\1425_0.png", 1425, 0 },
+	{ "resources\\images\\1426_0.png", 1426, 0 },
+	{ "resources\\images\\1427_0.png", 1427, 0 },
+	{ "resources\\images\\1428_0.png", 1428, 0 },
 	{ "resources\\images\\1436_0.png", 1436, 0 },
 	{ "resources\\images\\1454_0.png", 1454, 0 },
 	{ "resources\\images\\1455_0.png", 1455, 0 },
@@ -151,6 +179,25 @@ const image_replace_info g_union_images_to_replace[] =
 
 	/* PSP Prologues (after trading cards) */
 	{ "resources\\images\\1527_0.png", 1527, 0 },
+	{ "resources\\images\\1528_0.png", 1528, 0 },
+	{ "resources\\images\\1529_0.png", 1529, 0 },
+	{ "resources\\images\\1530_0.png", 1530, 0 },
+	{ "resources\\images\\1531_0.png", 1531, 0 },
+	{ "resources\\images\\1532_0.png", 1532, 0 },
+	{ "resources\\images\\1533_0.png", 1533, 0 },
+	{ "resources\\images\\1554_0.png", 1554, 0 },
+	{ "resources\\images\\1555_0.png", 1555, 0 },
+	{ "resources\\images\\1557_0.png", 1557, 0 },
+	{ "resources\\images\\1558_0.png", 1558, 0 },
+	{ "resources\\images\\1559_0.png", 1559, 0 },
+	{ "resources\\images\\1560_0.png", 1560, 0 },
+	{ "resources\\images\\1561_0.png", 1561, 0 },
+
+	/* Backgrounds */
+	{ "resources\\images\\1653_0.png", 1653, 0 },
+	{ "resources\\images\\1690_0.png", 1690, 0 },
+	{ "resources\\images\\1691_0.png", 1691, 0 },
+	{ "resources\\images\\1692_0.png", 1692, 0 },
 
 	/* Menus */
 
@@ -180,7 +227,9 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\2533_14.png", 2533, 14 },
 	{ "resources\\images\\2533_15.png", 2533, 15 },
 	{ "resources\\images\\2533_16.png", 2533, 16 },
-	{ "resources\\images\\2533_17.png", 2533, 17 }
+	{ "resources\\images\\2533_17.png", 2533, 17 },
+	{ "resources\\images\\2534_1.png", 2534, 1 },
+	{ "resources\\images\\2534_7.png", 2534, 7 }
 };
 
 const image_replace_info g_pr_images_to_replace[] =
@@ -380,8 +429,15 @@ patch_union_image
 	 * fact it should be fine. */
 	if 
 	(
-		replace_id == 1120 
+		replace_id == 1115
+		|| replace_id == 1120
 		|| replace_id == 1143
+		|| replace_id == 1155
+		|| replace_id == 1156
+		|| replace_id == 1200
+		|| replace_id == 1201
+		|| replace_id == 1298
+		|| replace_id == 1299
 		|| replace_id == 1436
 	)
 	{
