@@ -414,6 +414,10 @@ rgt_glyph_indices_to_utf8
 			break;
 		default:
 		{
+			if (glyph_indices.elems[i] >= 0xff00) /* TODO: Workaround for 0xFFF4 used as glyph, not sure what it does.*/
+			{
+				break;
+			}
 			RGT_ASSERT
 			(
 				glyph_indices.elems[i] < glyph_strings.length, RGT_OUT_OF_BOUNDS_ERROR

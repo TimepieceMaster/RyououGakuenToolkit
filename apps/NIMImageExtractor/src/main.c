@@ -122,6 +122,7 @@ u32 get_image_width(u64 file, u64 image)
 {
 	u32 width = 512;
 
+#if 0
 	switch(file)
 	{
 	case 2529:
@@ -151,6 +152,7 @@ u32 get_image_width(u64 file, u64 image)
 		width = (u32[]){ 256, 512 }[image];
 		break;
 	}
+#endif
 	return width;
 }
 
@@ -161,17 +163,17 @@ extract_image(rgt_arena *arena, u64 index)
 
 	char in_path[1024] = {0};
 	rgt_u8_array file = {0};
-	sprintf(in_path, "assets\\%llu", index);
+	sprintf(in_path, "assets\\NIM\\%llu.bin", index);
 	RGT_CALL(rgt_load_file(arena, in_path, &file));
 
 	rgt_rgo_image_array rgo_images = {0};
 	RGT_CALL(rgt_parse_rgo_image_file(arena, file, &rgo_images));
 
 	/* 2530's last image is empty and has 0 subimages (invalid) */
-	if (index == 2530)
-	{
-		--rgo_images.length;
-	}
+	//	if (index == 2530)
+	//	{
+	//		--rgo_images.length;
+	//	}
 
 	for (u64 i = 0; i < rgo_images.length; ++i)
 	{
@@ -186,7 +188,7 @@ extract_image(rgt_arena *arena, u64 index)
 		);
 
 		char out_path[1024] = {0};
-		sprintf(out_path, "results\\%llu_%llu.png", index, i);
+		sprintf(out_path, "results\\NIM\\%llu_%llu.png", index, i);
 		RGT_CALL(rgt_save_png(arena, image, 6, out_path));
 		printf("%s\n", out_path);
 	}
@@ -204,20 +206,20 @@ main(void)
 
 	rgt_create_arena(RGT_MEGABYTE(64), &arena);
 
-	for (u64 i = 824; i < 2540; ++i)
+	for (u64 i = 912; i < 3248; ++i)
 	{
-		if (i == 2535 || i == 2537)
-		{
-			continue;
-		}
+		//		if (i == 2535 || i == 2537)
+		//		{
+		//			continue;
+		//		}
 		RGT_CALL(extract_image(&arena, i));
 		rgt_reset_arena(&arena);
 	}
 
-	RGT_CALL(extract_2540(&arena));
+	//	RGT_CALL(extract_2540(&arena));
 	rgt_reset_arena(&arena);
 
-	RGT_CALL(extract_pr_bin(&arena));
+	//	RGT_CALL(extract_pr_bin(&arena));
 
 finish:
 

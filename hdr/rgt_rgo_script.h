@@ -2,6 +2,8 @@
 #define RGT_RGO_SCRIPT_H
 
 #define RGT_RGO_SCRIPT_MAX_CHOICES 7
+#define SCRIPT_JUMP_TABLE_OFFSET_RGO 0x1E080
+#define SCRIPT_JUMP_TABLE_OFFSET_NIM 0x800
 
 typedef struct _rgt_rgo_script_dialog
 {
@@ -115,13 +117,15 @@ RGT_DECLARE_ARRAY_TYPE(rgt_rgo_script_element, rgt_rgo_script_element_array)
 rgt_result
 rgt_parse_rgo_script
 (
-	rgt_arena *arena, rgt_u8_array in, rgt_rgo_script *create
+	rgt_arena *arena, rgt_u8_array in,
+	u64 jump_table_offset, rgt_rgo_script *create
 );
 
 rgt_result
 rgt_build_rgo_script
 (
-	rgt_arena *arena, rgt_rgo_script script, rgt_u8_array *create
+	rgt_arena *arena, rgt_rgo_script script,
+	u64 jump_table_offset, rgt_u8_array *create
 );
 
 rgt_result

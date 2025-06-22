@@ -1,0 +1,1 @@
+#include "scripts/script_580_structure.h"

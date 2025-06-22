@@ -385,7 +385,7 @@ header_to_script_test(void)
 		)
 	);
 
-	RGT_CALL(rgt_build_rgo_script(&arena, script, &script_file));
+	RGT_CALL(rgt_build_rgo_script(&arena, script, SCRIPT_JUMP_TABLE_OFFSET_RGO, &script_file));
 	RGT_CALL(rgt_save_file(script_file, "assets/script/script2.bin"));
 
 finish:

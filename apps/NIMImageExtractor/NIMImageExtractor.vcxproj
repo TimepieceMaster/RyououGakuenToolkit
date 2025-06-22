@@ -24,8 +24,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cc83a97e-196a-4a4c-892a-3a4fb26de6ea}</ProjectGuid>
-    <RootNamespace>RGOFontGenerator</RootNamespace>
+    <ProjectGuid>{36daebfd-3217-4bc7-b9f1-29b37de57d16}</ProjectGuid>
+    <RootNamespace>NIMImageExtractor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -84,8 +84,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);RyououGakuenToolkit.lib;libpng-d.lib;zlib-d.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)/x64/Debug;$(SolutionDir)/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);RyououGakuenToolkit.lib;libpng-d.lib;zlib-d.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -115,8 +115,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);RyououGakuenToolkit.lib;libpng-d.lib;zlib-d.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)/x64/Debug;$(SolutionDir)/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);RyououGakuenToolkit.lib;libpng-d.lib;zlib-d.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

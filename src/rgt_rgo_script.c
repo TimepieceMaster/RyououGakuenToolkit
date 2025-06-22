@@ -1,17 +1,18 @@
 #include "ryouou_gakuen_toolkit.h"
 
 #define DIALOG_CHOICE_GROUP_OFFSET_TABLE_HEADER_BEGIN 0x80
-#define JUMP_TABLE_OFFSET 0x1E080
 #define SPEAKER_END 0xFFFF
 #define MESSAGE_END_CLEAR 0xFFFB
 #define MESSAGE_END_KEEP 0xFFFD
+#define MESSAGE_END_ALT 0xFFFF
 #define CHOICE_END 0xFFFF
 #define DIALOG_START 0xFFF0
 
 rgt_result
 rgt_parse_rgo_script
 (
-	rgt_arena *arena, rgt_u8_array in, rgt_rgo_script *create
+	rgt_arena *arena, rgt_u8_array in,
+	u64 jump_table_offset, rgt_rgo_script *create
 )
 {
 	rgt_result result = RGT_SUCCESS;
@@ -72,7 +73,7 @@ rgt_parse_rgo_script
 		}
 	}
 
-	pos = JUMP_TABLE_OFFSET;
+	pos = jump_table_offset;
 	RGT_CALL(rgt_read_bytes(in, &pos, 4, &script.jumps.length));
 	pos -= 4;
 
@@ -87,7 +88,7 @@ rgt_parse_rgo_script
 	{
 		u16 cur = 0;
 
-		pos = script.dialogs.elems[i].offset + JUMP_TABLE_OFFSET + 2;
+		pos = script.dialogs.elems[i].offset + jump_table_offset + 2;
 		RGT_CALL(rgt_read_bytes(in, &pos, 2, &script.dialogs.elems[i].id));
 
 		RGT_CALL(rgt_read_bytes(in, &pos, 2, &cur));
@@ -101,7 +102,7 @@ rgt_parse_rgo_script
 		}
 
 		RGT_CALL(rgt_read_bytes(in, &pos, 2, &cur));
-		while (cur != MESSAGE_END_CLEAR && cur != MESSAGE_END_KEEP)
+		while (cur != MESSAGE_END_CLEAR && cur != MESSAGE_END_KEEP && cur != MESSAGE_END_ALT)
 		{
 			RGT_APPEND_ARRAY
 			(
@@ -121,7 +122,7 @@ rgt_parse_rgo_script
 			}
 
 			pos = script.choice_groups.elems[i].choices[j].offset 
-				+ JUMP_TABLE_OFFSET;
+				+ jump_table_offset;
 
 			u16 cur = 0;
 			RGT_CALL(rgt_read_bytes(in, &pos, 2, &cur));
@@ -137,11 +138,11 @@ rgt_parse_rgo_script
 		}
 	}
 
-	pos = JUMP_TABLE_OFFSET + (script.jumps.length * 4);
+	pos = jump_table_offset + (script.jumps.length * 4);
 	for (u64 i = 0; i < script.dialogs.length; ++i)
 	{
 		rgt_rgo_script_command_section cur = {0};
-		cur.offset = (u32)pos - JUMP_TABLE_OFFSET;
+		cur.offset = (u32)pos - (u32)jump_table_offset;
 		cur.commands.length =
 			((script.dialogs.elems[i].offset - cur.offset) / 2);
 		RGT_CREATE_ARRAY(arena, cur.commands.length, &cur.commands);
@@ -167,7 +168,7 @@ rgt_parse_rgo_script
 			}
 
 			rgt_rgo_script_command_section cur = {0};
-			cur.offset = (u32)pos - JUMP_TABLE_OFFSET;
+			cur.offset = (u32)pos - (u32)jump_table_offset;
 			cur.commands.length =
 			(
 				script.choice_groups.elems[i].choices[j].offset
@@ -188,7 +189,7 @@ rgt_parse_rgo_script
 	}
 
 	rgt_rgo_script_command_section last_commands = {0};
-	last_commands.offset = (u32)pos - JUMP_TABLE_OFFSET;
+	last_commands.offset = (u32)pos - (u32)jump_table_offset;
 
 	while (pos < in.length - RGT_CHECKSUM_SIZE)
 	{
@@ -227,7 +228,8 @@ finish:
 rgt_result
 rgt_build_rgo_script
 (
-	rgt_arena *arena, rgt_rgo_script script, rgt_u8_array *create
+	rgt_arena *arena, rgt_rgo_script script,
+	u64 jump_table_offset, rgt_u8_array *create
 )
 {
 	rgt_result result = RGT_SUCCESS;
@@ -237,7 +239,7 @@ rgt_build_rgo_script
 		rgt_rgo_script_command_section last =
 			script.command_sections.elems[script.command_sections.length - 1];
 		u64 size = last.offset + (last.commands.length * 2);
-		out.length = rgt_align(size + JUMP_TABLE_OFFSET, RGT_KILOBYTE(4));
+		out.length = rgt_align(size + jump_table_offset, RGT_KILOBYTE(4));
 	}
 	RGT_CREATE_ARRAY(arena, out.length, &out);
 
@@ -276,7 +278,7 @@ rgt_build_rgo_script
 		}
 	}
 
-	pos = JUMP_TABLE_OFFSET;
+	pos = jump_table_offset;
 	for (u64 i = 0; i < script.jumps.length; ++i)
 	{
 		RGT_CALL(rgt_write_u32(out, &pos, script.jumps.elems[i]));
@@ -286,7 +288,7 @@ rgt_build_rgo_script
 	{
 		rgt_rgo_script_dialog cur = script.dialogs.elems[i];
 
-		pos = cur.offset + JUMP_TABLE_OFFSET;
+		pos = cur.offset + jump_table_offset;
 		RGT_CALL(rgt_write_u16(out, &pos, DIALOG_START));
 		RGT_CALL(rgt_write_u16(out, &pos, cur.id));
 		for (u64 j = 0; j < cur.speaker_glyph_indices.length; ++j)
@@ -314,7 +316,7 @@ rgt_build_rgo_script
 			{
 				break;
 			}
-			pos = cur.choices[j].offset + JUMP_TABLE_OFFSET;
+			pos = cur.choices[j].offset + jump_table_offset;
 			for (u64 k = 0; k < cur.choices[j].glyph_indices.length; ++k)
 			{
 				RGT_CALL
@@ -331,7 +333,7 @@ rgt_build_rgo_script
 	{
 		rgt_rgo_script_command_section cur = script.command_sections.elems[i];
 
-		pos = cur.offset + JUMP_TABLE_OFFSET;
+		pos = cur.offset + jump_table_offset;
 		for (u64 j = 0; j < cur.commands.length; ++j)
 		{
 			RGT_CALL(rgt_write_u16(out, &pos, cur.commands.elems[j]));
@@ -888,6 +890,10 @@ rgt_rgo_script_to_headers
 	RGT_FPRINTF(out_structure, "#endif");
 	RGT_FPRINTF(out_commands, "#endif");
 	RGT_FPRINTF(out_text, "#endif");
+
+	RGT_FCLOSE(out_structure);
+	RGT_FCLOSE(out_commands);
+	RGT_FCLOSE(out_text);
 
 finish:
 

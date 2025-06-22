@@ -1,0 +1,4 @@
+#include "eboot_patch_structures.h"
+
+extern rgt_rgo_script_element_array g_script_580_elements;
+extern single_instruction_patch_array g_variable_width_font_patch;

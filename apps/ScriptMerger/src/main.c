@@ -40,8 +40,8 @@ main(void)
 	RGT_CALL(rgt_parse_cpk(&arena, cpk_to_file, &cpk_to));
 	RGT_CALL(rgt_get_cpk_file(cpk_from, SCRIPT_ID, &script_from_file));
 	RGT_CALL(rgt_get_cpk_file(cpk_to, SCRIPT_ID, &script_to_file));
-	RGT_CALL(rgt_parse_rgo_script(&arena, script_from_file, &script_from));
-	RGT_CALL(rgt_parse_rgo_script(&arena, script_to_file, &script_to));
+	RGT_CALL(rgt_parse_rgo_script(&arena, script_from_file, SCRIPT_JUMP_TABLE_OFFSET_RGO, &script_from));
+	RGT_CALL(rgt_parse_rgo_script(&arena, script_to_file, SCRIPT_JUMP_TABLE_OFFSET_RGO, &script_to));
 	RGT_CALL(rgt_load_file(&arena, GLYPH_STRINGS_FROM, &from_strings_file));
 	RGT_CALL(rgt_load_file(&arena, GLYPH_STRINGS_TO, &to_strings_file));
 	RGT_CALL(rgt_text_to_lines(&arena, from_strings_file, &from_strings));

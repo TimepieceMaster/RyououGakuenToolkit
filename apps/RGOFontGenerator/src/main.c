@@ -2,9 +2,9 @@
 
 #define BASE_GLYPHS_STRINGS_PATH "resources/english_base_glyphs_strings.txt"
 #define BASE_GLYPHS_IMAGE_PATH "resources/english_base_glyphs.png"
-#define MULTI_GLYPHS_STRINGS_PATH "resources/english_multi_glyph_strings.txt"
-#define OUT_PATH_FONT "results/english_lt.bin"
-#define OUT_PATH_COMPOSITE "results/english_lt.png"
+#define MULTI_GLYPHS_STRINGS_PATH "resources/english_multi_glyph_strings_nim.txt"
+#define OUT_PATH_FONT "results/english_lt_nim.bin"
+#define OUT_PATH_COMPOSITE "results/english_lt_nim.png"
 
 #define GLYPH_SIZE 92
 #define GLYPH_WIDTH_OFFSET 90
