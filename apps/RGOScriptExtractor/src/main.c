@@ -1,13 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "ryouou_gakuen_toolkit.h"
 
-#define JUMP_TABLE_OFFSET SCRIPT_JUMP_TABLE_OFFSET_NIM
-#define CPK_PATH "assets/sc_nim.cpk"
-#define FONT_STRINGS_PATH "resources/nim_font_strings.txt"
-#define SCRIPT_FIRST 1
-#define SCRIPT_LAST 594
-#define OUT_PATH "results/nim"
-#define NO_TEXT true
+#define JUMP_TABLE_OFFSET SCRIPT_JUMP_TABLE_OFFSET_RGO
+#define CPK_PATH "assets/sc.cpk"
+#define FONT_STRINGS_PATH "resources/rgo_font_strings.txt"
+#define SCRIPT_FIRST 0
+#define SCRIPT_LAST 1
+#define OUT_PATH "results/rgo"
+#define NO_TEXT false
 
 int 
 main(void)

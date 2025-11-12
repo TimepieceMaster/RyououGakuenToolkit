@@ -49,13 +49,17 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1075_0.png", 1075, 0 },
 	{ "resources\\images\\1084_0.png", 1084, 0 },
 	{ "resources\\images\\1085_0.png", 1085, 0 },
+	{ "resources\\images\\1092_0.png", 1092, 0 },
+	{ "resources\\images\\1094_0.png", 1094, 0 },
 	{ "resources\\images\\1106_0.png", 1106, 0 },
 	{ "resources\\images\\1108_0.png", 1108, 0 },
 	{ "resources\\images\\1111_0.png", 1111, 0 },
 	{ "resources\\images\\1115_0.png", 1115, 0 },
+	{ "resources\\images\\1117_0.png", 1117, 0 },
 	{ "resources\\images\\1118_0.png", 1118, 0 },
 	{ "resources\\images\\1119_0.png", 1119, 0 },
 	{ "resources\\images\\1120_0.png", 1120, 0 },
+	{ "resources\\images\\1121_0.png", 1121, 0 },
 	{ "resources\\images\\1124_0.png", 1124, 0 },
 	{ "resources\\images\\1135_0.png", 1135, 0 },
 	{ "resources\\images\\1138_0.png", 1138, 0 },
@@ -65,6 +69,8 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1147_0.png", 1147, 0 },
 	{ "resources\\images\\1149_0.png", 1149, 0 },
 	{ "resources\\images\\1150_0.png", 1150, 0 },
+	{ "resources\\images\\1151_0.png", 1151, 0 },
+	{ "resources\\images\\1152_0.png", 1152, 0 },
 	{ "resources\\images\\1155_0.png", 1155, 0 },
 	{ "resources\\images\\1156_0.png", 1156, 0 },
 	{ "resources\\images\\1157_0.png", 1157, 0 },
@@ -88,6 +94,7 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1199_0.png", 1199, 0 },
 	{ "resources\\images\\1200_0.png", 1200, 0 },
 	{ "resources\\images\\1201_0.png", 1201, 0 },
+	{ "resources\\images\\1204_0.png", 1204, 0 },
 	{ "resources\\images\\1206_0.png", 1206, 0 },
 	{ "resources\\images\\1226_0.png", 1226, 0 },
 	{ "resources\\images\\1292_0.png", 1292, 0 },
@@ -97,6 +104,7 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1300_0.png", 1300, 0 },
 	{ "resources\\images\\1301_0.png", 1301, 0 },
 	{ "resources\\images\\1304_0.png", 1304, 0 },
+	{ "resources\\images\\1316_0.png", 1316, 0 },
 	{ "resources\\images\\1330_0.png", 1330, 0 },
 	{ "resources\\images\\1337_0.png", 1337, 0 },
 	{ "resources\\images\\1343_0.png", 1343, 0 },
@@ -105,11 +113,14 @@ const image_replace_info g_union_images_to_replace[] =
 	{ "resources\\images\\1416_0.png", 1416, 0 },
 	{ "resources\\images\\1418_0.png", 1418, 0 },
 	{ "resources\\images\\1419_0.png", 1419, 0 },
+	{ "resources\\images\\1420_0.png", 1420, 0 },
+	{ "resources\\images\\1421_0.png", 1421, 0 },
 	{ "resources\\images\\1424_0.png", 1424, 0 },
 	{ "resources\\images\\1425_0.png", 1425, 0 },
 	{ "resources\\images\\1426_0.png", 1426, 0 },
 	{ "resources\\images\\1427_0.png", 1427, 0 },
 	{ "resources\\images\\1428_0.png", 1428, 0 },
+	{ "resources\\images\\1429_0.png", 1429, 0 },
 	{ "resources\\images\\1436_0.png", 1436, 0 },
 	{ "resources\\images\\1454_0.png", 1454, 0 },
 	{ "resources\\images\\1455_0.png", 1455, 0 },
@@ -195,6 +206,7 @@ const image_replace_info g_union_images_to_replace[] =
 
 	/* Backgrounds */
 	{ "resources\\images\\1653_0.png", 1653, 0 },
+	{ "resources\\images\\1682_0.png", 1682, 0 },
 	{ "resources\\images\\1690_0.png", 1690, 0 },
 	{ "resources\\images\\1691_0.png", 1691, 0 },
 	{ "resources\\images\\1692_0.png", 1692, 0 },
@@ -432,6 +444,8 @@ patch_union_image
 		replace_id == 1115
 		|| replace_id == 1120
 		|| replace_id == 1143
+		|| replace_id == 1151
+		|| replace_id == 1152
 		|| replace_id == 1155
 		|| replace_id == 1156
 		|| replace_id == 1200

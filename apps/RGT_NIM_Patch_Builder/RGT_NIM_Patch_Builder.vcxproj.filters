@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.c">
+    <ClCompile Include="src\build.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\script_580_implementation.c">

@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\header_data_implementation.c" />
-    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\build.c" />
     <ClCompile Include="src\script_580_implementation.c" />
   </ItemGroup>
   <ItemGroup>
