@@ -2,8 +2,8 @@
 
 #include "ryouou_gakuen_toolkit.h"
 
-#define CPK_PATH "assets/sc_nim.cpk"
-#define CPK_NAME "sc_nim"
+#define CPK_PATH "assets/union.cpk"
+#define CPK_NAME "union_eng"
 
 int
 main(void)
